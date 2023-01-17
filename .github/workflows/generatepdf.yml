@@ -1,0 +1,30 @@
+name: Genera PDF
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'slide/*.*'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: generate pdf
+      run: | 
+        cd slide
+        docker run --rm --init -v $PWD:/home/marp/app/ -e LANG="ja_JP.UTF-8" -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli Corso_AI.md --pdf --allow-local-files
+      
+    - name: commit & push
+      run: |
+        git add -A
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "update slides"
+        git push
+        
