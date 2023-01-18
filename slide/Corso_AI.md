@@ -45,7 +45,7 @@ L'Intelligenza Artificiale è stata una delle aree più innovative della scienza
 
 ---
 
-# 1948 - 1965
+# 1948-1965
 
 La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di gioco di scacchi di Alan Turing nel 1948 (Turochamp). Una serie di sviluppi di software di AI hanno seguito, come la programmazione della logica e l'apprendimento automatico.
 
@@ -77,15 +77,15 @@ Con l'aumento delle capacità di calcolo, la ricerca sull'AI ha iniziato a muove
 
 # Tipi di intelligenza artificiale
 
-## ANI (Artificial Narrow Intelligence):
+## ANI (Artificial Narrow Intelligence)
 
 AI limitata a uno specifico compito, come l'elaborazione del linguaggio naturale o la guida autonoma.
 
-## AGI (Artificial General Intelligence):
+## AGI (Artificial General Intelligence)
 
 AI in grado di affrontare tutti i tipi di problemi come un essere umano.
 
-## ASI (Artificial Super Intelligence):
+## ASI (Artificial Super Intelligence)
 
 AI che è più intelligente dei migliori esseri umani in termini di velocità di elaborazione, abilità di apprendimento e capacità di risolvere problemi.
 
@@ -162,7 +162,7 @@ Per quanto riguarda i software: Stockfish 11 ha un ELO di 3500, mentre lo Komodo
 
 - Riconoscimento della scrittura a mano - Google translate
 
-- Robot intelligenti - Robocup, robot automoni in grado di giocare a pallone
+- Robot intelligenti - Robocup, robot autonomi in grado di giocare a pallone
 
 ---
 
@@ -317,7 +317,7 @@ Al momento (gennaio 2023) non sostituisce Google ... __al momento__
 
 # Integrazioni
 
-- Plugin per browser 
+- Plugin per browser
 - Generatori di libri <https://github.com/mikavehns/BookGPT>
 - Tastiera IOS <https://auri.ai/>
 - Raccolte di prompt <https://flowgpt.com/>
