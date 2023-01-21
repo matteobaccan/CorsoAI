@@ -275,16 +275,14 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 # Scrivimi una cold letter sulla vendita del mio servizio di conteggio delle macchia dei panda?
 
-Lettera di vendita del servizio di conteggio delle macchie dei panda
-
     Gentile cliente,
 
     Siamo lieti di presentarvi il nostro servizio di conteggio delle macchie dei panda.
 
-    Il nostro servizio è unico nel suo genere ed è stato progettato appositamente per aiutarvi a monitorare i panda in modo 
-    accurato e efficiente. Utilizziamo una tecnologia avanzata di intelligenza artificiale che monitora costantemente i panda per
-    contare le macchie sulla loro pelliccia. Inoltre, offriamo una vasta gamma di funzionalità che vi permetteranno di ottenere
-     una migliore comprensione dei vostri panda.
+    Il nostro servizio è unico nel suo genere ed è stato progettato appositamente per aiutarvi a monitorare i panda
+    in modo accurato e efficiente. Utilizziamo una tecnologia avanzata di intelligenza artificiale che monitora
+    costantemente i panda per contare le macchie sulla loro pelliccia. Inoltre, offriamo una vasta gamma di
+    funzionalità che vi permetteranno di ottenere una migliore comprensione dei vostri panda.
 
     Con il nostro servizio, potrete:
 
@@ -293,8 +291,8 @@ Lettera di vendita del servizio di conteggio delle macchie dei panda
     Ottenere statistiche dettagliate sui vostri panda
     Ricevere notifiche quando ci sono cambiamenti significativi
     Accedere a risultati storici sui vostri panda
-    Siamo convinti che il nostro servizio vi aiuterà a monitorare meglio i vostri panda, rendendo più semplice la gestione delle
-    loro macchie. Se avete domande o desiderate saperne di più, non esitate a contattarci.
+    Siamo convinti che il nostro servizio vi aiuterà a monitorare meglio i vostri panda, rendendo più semplice
+    la gestione delle loro macchie. Se avete domande o desiderate saperne di più, non esitate a contattarci.
 
     Cordiali saluti,
     Il team di conteggio delle macchie dei panda
@@ -329,7 +327,21 @@ Per approfondimenti
 
 ---
 
-# DALL·E 2
+# AI e immagini digitali
+
+Una delle applicazioni più interessanti dell'AI è la capacità di trasformare le immagini.
+
+Le tecniche di AI possono essere utilizzate per aumentare le prestazioni delle immagini, ridurre il rumore, migliorare la nitidezza e l'accuratezza e persino modificare la struttura dell'immagine. Una delle applicazioni più comuni dell'AI nell'elaborazione delle immagini è il riconoscimento delle immagini, che consente di identificare determinati oggetti all'interno di un'immagine.
+
+Altre applicazioni in questo campo sono
+
+- la generazione di immagini
+- la classificazione delle immagini
+- la segmentazione delle immagini
+
+---
+
+# DALL·E 2 - AI Generativa
 
 DALL·E 2 può creare immagini e opere d'arte originali e realistiche a partire da una descrizione testuale. Può combinare concetti, attributi e stili.
 
@@ -344,6 +356,44 @@ DALL·E 2 può creare immagini e opere d'arte originali e realistiche a partire 
 # “High quality photo of a panda astronaut”
 
 ![width:500px](img/DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
+
+---
+
+# TikTok filtro AI Manga - AI Trasformativa
+
+Il filtro di TikTok di "Ai Manga" è un filtro creativo, basati sull'intelligenza artificiale, progettato per aiutare gli utenti a creare contenuti coinvolgenti.
+
+Questo filtro consentono agli utenti di trasformare le loro foto in stili manga, anime o persino fumetti.
+
+---
+
+# Huggy Wuggy - Originale
+
+![width:450px](img/huggywuggy-original.jpg)
+
+---
+
+# Huggy Wuggy - by mia figlia
+
+![width:400px](img/Huggy%20Wuggy%20-%20mia%20figlia.jpg)
+
+---
+
+# Huggy Wuggy - by AI Manga
+
+![width:400px](img/Huggy%20Wuggy%20-%20AI%20Manga.PNG)
+
+---
+
+# Proviamo il filtro con un'immagine migliore
+
+![width:700px](img/astronauta.jpg)
+
+---
+
+# Atronauta AI Manga
+
+![width:700px](img/astronauta%20ai%20manga.jpg)
 
 ---
 
