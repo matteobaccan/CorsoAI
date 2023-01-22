@@ -41,7 +41,7 @@ Esistono più discipline in grado di contribuire alla creazione di una AI: infor
 
 # Evoluzione dell'Intelligenza Artificiale
 
-L'Intelligenza Artificiale è stata una delle aree più innovative della scienza e della tecnologia negli ultimi decenni. La storia dell'AI può essere divisa in quattro periodi principali
+L'Intelligenza Artificiale è stata una delle aree più innovative della scienza e della tecnologia negli ultimi decenni. La storia dell'AI può essere divisa in quattro periodi principali.
 
 ---
 
