@@ -110,7 +110,7 @@ ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il
 
 # Alan Touring
 
-Alan Turing è stato un noto matematico, filosofo, cryptanalyst, e informatico inglese. Ha ideato diversi importanti concetti di informatica, tra cui l'algoritmo di decifrazione della macchina di Enigma durante la Seconda Guerra Mondiale. Inoltre, ha contribuito allo sviluppo del computer e del calcolatore moderno. Ha anche lavorato alla teoria della computabilità e ha sviluppato alcune delle prime teorie sull'intelligenza artificiale.
+Alan Turing è stato un noto matematico, filosofo, criptoanalista, e informatico inglese. Ha ideato diversi importanti concetti di informatica, tra cui l'algoritmo di decifrazione della macchina di Enigma durante la Seconda Guerra Mondiale. Inoltre, ha contribuito allo sviluppo del computer e del calcolatore moderno. Ha anche lavorato alla teoria della computabilità e ha sviluppato alcune delle prime teorie sull'intelligenza artificiale.
 
 ---
 
@@ -132,7 +132,7 @@ Al momento della scoperta, vicino al letto, accanto al suo orologio, fu trovata 
 
 ---
 
-# 1997 il primo riconoscimento eclatante
+# 1997 il mondo si rende conto che esistono le AI
 
 Il Deep Blue Chess Program batte l'allora campione del mondo di scacchi, Garry Kasparov.
 
@@ -243,10 +243,12 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 - Non è in grado di fare analisi di dati
 - Il codice prodotto deve essere analizzato e integrato
 - A volte inventa le risposte e lo dichiara su richiesta
+- Non ha accesso a internet per attingere a nuove informazioni
+- I testi che scrive al momento sono discreti, meglio estenderli ed adattarli
 
 ---
 
-# mi scrivi il testo di una canzone di Tiziano Ferro?
+# Scrivi il testo di una canzone di Tiziano Ferro?
 
     Non me lo so spiegare
 
@@ -273,7 +275,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# Scrivimi una cold letter sulla vendita del mio servizio di conteggio delle macchia dei panda?
+# Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchia dei panda?
 
     Gentile cliente,
 
@@ -303,7 +305,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 "È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT. Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità e le sue politiche sulla privacy. Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei termini di servizio del programma e di avere sufficienti conoscenze tecniche per configurarlo correttamente."
 
-ChatGPT
+Ho chiesto direttamente a __ChatGPT__
 
 ---
 
@@ -324,6 +326,83 @@ Al momento (gennaio 2023) non sostituisce Google ... __al momento__
 Per approfondimenti
 
 <https://discord.com/channels/974519864045756446/1037561385070112779/threads/1062015322699354173>
+
+---
+
+# SudoWrite - l'aiuto ai coptywriter
+
+SudoWrite : Sudowrite is the best AI tool for creative writers.
+
+<https://www.sudowrite.com>
+
+Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti dagli utenti. Utile al lavoro di copywriter: permette di espandere le proprie idee e superare i momenti di blocco.
+
+---
+
+# Era una notte buia e tempestosa
+
+    Era una notte buia e tempestosa e i nostri eroi si trovavano isolati in una
+    tranquilla villetta ai piedi di un promontorio inesplorato.
+    La mattina successiva Pippo avrebbe scalato per la prima volta il promontorio,
+    ma qualcosa non lo fece dormire la notte.
+
+---
+
+# Era una notte buia e tempestosa - riscritta ed ampliata
+
+    Era una notte buia e tempestosa, ed i nostri eroi si trovavano in un grazioso cottage alla base di un
+    promontorio inesplorato. Pippo avrebbe scalato il promontorio la mattina seguente, ma non riusciva a prendere
+    sonno. La tempesta ululava fuori come un lupo alla ricerca della preda e il vento soffiava sempre più forte
+    finché qualcosa penetrò nella finestra e cadde con un tonfo a terra.
+
+    "Pippo!" gridò Maria. "Credo che ci stiano derubando!"
+
+    Il vento urlava attraverso il cottage, aprendo porte, frantumando finestre, disperdendo fogli per terra. Uno
+    dei fogli galleggiò verso Pippo, soffiando nei suoi occhi. Lo spinse via e mentre lo faceva un volto apparve
+    dietro di esso.
+
+    "Saluti", disse il volto in un'antica lingua che nessuno di loro riconobbe. Si guardarono l'un l'altro per
+    qualche istante finché Pippo non tese la mano per stringere quella dell'altro.
+
+---
+
+# Synthesia
+
+Crea un video, partendo da un testo in pochi minuti.
+
+Synthesia è la piattaforma di creazione di video tramite AI. I video sono creabili in 120 lingue diverse, con avatar diversi.
+
+<https://www.synthesia.io/>
+
+---
+
+# Synthesia e il nostro corso
+
+<video src="img/Synthesia%20STUDIO%20Your%20AI%20video.mp4" controls width="900px"></video>
+
+---
+
+# Fra fantascienza e realtà
+
+Chi ha seguito la serie TV: Upload?
+
+Upload è una serie televisiva statunitense di fantascienza drammatica creata da Greg Daniels per Amazon Prime Video. La serie segue il protagonista Nathan Brown che, dopo aver avuto un incidente, viene caricato in un paradiso digitale. Una volta lì, gli viene dato l'accesso a una vita virtuale con l'aiuto di un'intelligenza artificiale chiamata Nora
+
+E Avatar 2?
+
+Il colonnello Miles Quaritch viene clonato in un corpo Na'vi e dotato degli stessi ricordi del suo sé originale, che aveva caricato su un hard drive prima di morire.
+
+---
+
+# DeepBrain
+
+Qualcuno ha pensato che l'idea era interessante e ha creato un servizio basato su AI. che cattura la vostra immagine, le espressioni del vostro volto, la vostra voce e dopo qualche ora di chiacchierata anche i vostri ricordi.
+
+A cosa server? A creare un vostro io virtuale col quale i vostri famigliari potranno parlare dopo la vostra morte.
+
+Quanto costa: i costi oscillano fra 12 e 20 mila dollari.
+
+<https://www.deepbrainai.io>
 
 ---
 
@@ -397,9 +476,58 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ---
 
+# DreamStudio
+
+Dream Studio è un'interfaccia facile da usare per la creazione di immagini usando l'ultima versione del modello di generazione di immagini Stable Diffusion. Stable Diffusion è un modello veloce ed efficiente per creare immagini da testo che comprende le relazioni tra parole e immagini. Può creare immagini di alta qualità di qualsiasi cosa si possa immaginare in pochi secondi - basta digitare un prompt di testo e premere Dream.
+
+<https://beta.dreamstudio.ai>
+
+---
+
+# Kandinsky
+
+Disegni l'immagine un gatto in stile Kandinsky
+
+![width:400px](img/1191483669_Disegni_l_immagine_un_gatto_in_stile_Kandinsky.png)
+
+---
+
+# Van Gogh
+
+Disegni l'immagine un gatto in stile Van Gogh
+
+![width:400px](img/2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.png)
+
+---
+
+# Andy Warhol
+
+Disegni l'immagine un gatto in stile Andy Warhol
+
+![width:400px](img/3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.png)
+
+---
+
+# Edvard Munch
+
+Disegni l'immagine un gatto in stile Edvard Munch
+
+![width:400px](img/2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.png)
+
+---
+
+# Valentino Rossi
+
+Realizzi  Valentino Rossi  che mangia un gelato
+
+![width:450px](img/3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
+
+---
+
 # Fonti
 
-<https://github.com/matteobaccan/awesome-ai> : Lista ragionata di AI
+<https://github.com/matteobaccan/awesome-ai> : La mia lista ragionata di AI
+<https://github.com/ai-collection/ai-collection> : una megalista di AI
 <https://chat.openai.com> : ChatGPT
 <https://it.wikipedia.org> : definizioni e argomenti
 <https://www.tutorialspoint.com/artificial_intelligence/> : Tutorial AI
