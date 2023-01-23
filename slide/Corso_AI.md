@@ -524,7 +524,33 @@ Realizzi  Valentino Rossi  che mangia un gelato
 
 ---
 
-# Fonti
+# Libri dove approfondire - 1
+
+Questa lista deriva da un post di [Matteo Flora](https://matteoflora.com/) come spunto di studio delle AI
+
+- Per imparare le basi dell'AI: "Artificial Intelligence: A Modern Approach" di Stuart Russell e Peter Norvig » https://amzn.to/3QIGib5
+
+- "GPT-3: Building Innovative NLP Products Using Large Language Models" https://amzn.to/3H6cuSn
+
+-  Per capire come l'IA sta cambiando il mondo attuale "The Fourth Industrial Revolution" di Klaus Schwab. » https://amzn.to/3GM1F6P
+
+- "The Future of Work: Robots, AI, and Automation" di Darrell M. West è un libro che esplora l'IA e la robotica https://amzn.to/3H8sMdN
+
+---
+
+# Libri dove approfondire - 2
+
+- "The Age of Spiritual Machines" di Ray Kurzweil è un libro che esplora come l'IA potrebbe influire sull'umanità in un futuro prossimo https://amzn.to/3ZALxNX
+
+- "The Singularity is Near", vecchi oma classico, di Ray Kurzweil https://amzn.to/3QJjyHK
+
+- "The Future of Humanity" di Michio Kaku è un libro che esplora come la scienza e la tecnologia stanno influenzando il futuro dell'umanità https://amzn.to/3QECQOF
+
+- "Superintelligence: Paths, Dangers, and Strategies" il libro scritto da Nick Bostrom - il "filosofo dell'Apocalisse" - nel 2014 che esplora i potenziali pericoli e benefici dell'intelligenza artificiale superintelligente. » https://amzn.to/3Xfd9GR
+
+---
+
+# Fonti usate per la creazione di queste slide
 
 <https://github.com/matteobaccan/awesome-ai> : La mia lista ragionata di AI
 <https://github.com/ai-collection/ai-collection> : una megalista di AI
