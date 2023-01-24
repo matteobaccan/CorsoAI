@@ -524,29 +524,74 @@ Realizzi  Valentino Rossi  che mangia un gelato
 
 ---
 
+# AI Legata all'audio
+
+---
+
+# Vocal Remover
+
+Vocal Remover: tramite una AI è possibile separare la musica dalla parte cantata.
+Si poteva fare anche prima, ma ora si puo' fare online, con una AI.
+
+<https://vocalremover.org/it/>
+
+---
+
+# FakeYou
+
+La tecnologia deep fake di FakeYou permette di far dire ai tuoi personaggi preferiti qualsiasi frase.
+
+Oltre a questo è possibile caricare un audio e farlo pronunciare ad una serie di personaggi: l'aspetto interessante è la sincronizzazione fra parole e movimenti delle labbra.
+
+---
+
+# FakeYou - esempio
+
+L'intelligenza artificiale è una disciplina informatica che include metodi di apprendimento automatico, visione artificiale, linguaggio naturale e robotica.
+
+Papa Francesco apprezza il corso di AI
+
+<img/PapaFrancescoAI.wav>
+
+---
+
 # Libri dove approfondire - 1
 
-Questa lista deriva da un post di [Matteo Flora](https://matteoflora.com/) come spunto di studio delle AI
+Questa lista deriva da un post di [Matteo Flora](https://matteoflora.com/) come spunto nello studio delle AI
 
-- Per imparare le basi dell'AI: "Artificial Intelligence: A Modern Approach" di Stuart Russell e Peter Norvig » https://amzn.to/3QIGib5
+- Per imparare le basi dell'AI: "Artificial Intelligence: A Modern Approach" di Stuart Russell e Peter Norvig. Copre tutti gli aspetti dell'intelligenza artificiale, dalle tecniche di base alle applicazioni più avanzate. Il libro discute in modo dettagliato le tecniche di apprendimento automatico, l'elaborazione del linguaggio naturale, l'ottimizzazione dei sistemi di ricerca, la visione artificiale, la robotica, l'intelligenza artificiale distribuita e le reti neurali.
 
-- "GPT-3: Building Innovative NLP Products Using Large Language Models" https://amzn.to/3H6cuSn
-
--  Per capire come l'IA sta cambiando il mondo attuale "The Fourth Industrial Revolution" di Klaus Schwab. » https://amzn.to/3GM1F6P
-
-- "The Future of Work: Robots, AI, and Automation" di Darrell M. West è un libro che esplora l'IA e la robotica https://amzn.to/3H8sMdN
+- "GPT-3: Building Innovative NLP Products Using Large Language Models".
+Questo libro offre una panoramica dei modelli di linguaggio di grandi dimensioni, come l'utilizzo di GPT-3, nonché esempi pratici di come tali modelli possano essere usati per lo sviluppo di prodotti di Natural Language Processing (NLP).
 
 ---
 
 # Libri dove approfondire - 2
 
-- "The Age of Spiritual Machines" di Ray Kurzweil è un libro che esplora come l'IA potrebbe influire sull'umanità in un futuro prossimo https://amzn.to/3ZALxNX
+- Per capire come l'IA sta cambiando il mondo attuale "The Fourth Industrial Revolution" di Klaus Schwab.
+Esplora come la tecnologia stia trasformando il mondo in cui viviamo. In particolare, Schwab si concentra su come la tecnologia sta cambiando la natura del lavoro, la società, la politica ed economica.
 
-- "The Singularity is Near", vecchi oma classico, di Ray Kurzweil https://amzn.to/3QJjyHK
+- "The Future of Work: Robots, AI, and Automation" di Darrell M. West è un libro che esplora l'IA e la robotica
+In questo libro vengono esaminate le questioni tecnologiche e le implicazioni sociali legate a lavori come l'intelligenza artificiale (AI), la robotica, l'automazione e l'Internet of Things (IoT).
 
-- "The Future of Humanity" di Michio Kaku è un libro che esplora come la scienza e la tecnologia stanno influenzando il futuro dell'umanità https://amzn.to/3QECQOF
+---
 
-- "Superintelligence: Paths, Dangers, and Strategies" il libro scritto da Nick Bostrom - il "filosofo dell'Apocalisse" - nel 2014 che esplora i potenziali pericoli e benefici dell'intelligenza artificiale superintelligente. » https://amzn.to/3Xfd9GR
+# Libri dove approfondire - 3
+
+- "The Age of Spiritual Machines" di Ray Kurzweil è un libro che esplora come l'IA potrebbe influire sull'umanità in un futuro prossimo.
+Un libro di riferimento per gli studenti, i ricercatori e gli sviluppatori di intelligenza artificiale. Copre tutti gli aspetti dell'intelligenza artificiale, dalle fondamenta teoriche ai sistemi di intelligenza artificiale più avanzati.
+
+- "The Singularity is Near", di Ray Kurzweil.
+Kurzweil affronta la possibilità di un "singularity" tecnologico, in cui la tecnologia supera l'intelligenza umana, diventando la forza dominante nella società.
+
+---
+
+# Libri dove approfondire - 4
+
+- "The Future of Humanity" di Michio Kaku è un libro che esplora come la scienza e la tecnologia stanno influenzando il futuro dell'umanità.
+Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica, l'ingegneria genetica e altre tecnologie futuristiche potrebbero cambiare il nostro futuro
+
+- "Superintelligence: Paths, Dangers, and Strategies" il libro scritto da Nick Bostrom - il "filosofo dell'Apocalisse" - nel 2014 che esplora i potenziali pericoli e benefici dell'intelligenza artificiale superintelligente.
 
 ---
 
@@ -561,3 +606,9 @@ Questa lista deriva da un post di [Matteo Flora](https://matteoflora.com/) come 
 <https://www.youtube.com/watch?v=sVvGZDoEEeQ> : 1100. Che cosa sono GPT, GPT-3 e ChatGPT e cosa possono fare? Introduzione semplice in italiano!
 
 Ogni immagine inserita riporta la fonte
+
+---
+
+# Disclaimer
+
+L'autore ha generato questo testo in parte con GPT-3, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità ultima del contenuto di questa pubblicazione.
