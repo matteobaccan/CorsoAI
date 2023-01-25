@@ -5,15 +5,27 @@ paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 marp: true
-footer: https://github.com/matteobaccan/CorsoCSS
+footer: https://github.com/matteobaccan/CorsoAI
 ---
+
+# Corso AI
+
+Entriamo nel mondo delle AI
+
+![bg right](img/matteo-baccan.jpg)
+
 <!-- _paginate: false -->
 <!-- _footer: "" -->
-![bg](img/Chapter_html0.png)
 
 ---
 
-# AI - di cosa si tratta?
+## Scopo del corso
+
+Queste slide nascono dalla mia curiosità verso l'intelligenza artificiale e dalla volontà di rendere note le molteplici applicazioni disponibili e alla portata di tutti.
+
+---
+
+## AI - di cosa si tratta?
 
 __Artificial Intelligence__ è una disciplina di informatica che include metodi di apprendimento automatico, intelligenza artificiale, visione artificiale, linguaggio naturale e robotica.
 
@@ -25,73 +37,73 @@ AI è spesso usata per migliorare la produttività e l'efficienza dei processi a
 
 ---
 
-# Filosofia dell'AI
+## Filosofia dell'AI
 
 La sviluppo della AI è nato per una esigenza ben precisa: creare in una macchina un'intelligenza simile a quella di un uomo.
 
-# Obiettivi dell'AI
+## Obiettivi dell'AI
 
 Una AI si prefigge di creare sistemi esperti: qualcosa in grado di mostrare un comportamento intelligente, in grado di imparare e consigliare  i propri utenti.
 
-# Cosa contribuisce all'AI?
+## Cosa contribuisce all'AI?
 
 Esistono più discipline in grado di contribuire alla creazione di una AI: informatica, biologia, psicologia, linguistica, matematica e ingegneria.
 
 ---
 
-# Evoluzione dell'Intelligenza Artificiale
+## Evoluzione dell'Intelligenza Artificiale
 
 L'Intelligenza Artificiale è stata una delle aree più innovative della scienza e della tecnologia negli ultimi decenni. La storia dell'AI può essere divisa in quattro periodi principali.
 
 ---
 
-# 1948-1965
+## 1948-1965
 
 La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di gioco di scacchi di Alan Turing nel 1948 (Turochamp). Una serie di sviluppi di software di AI hanno seguito, come la programmazione della logica e l'apprendimento automatico.
 
 ---
 
-# 1965-1980
+## 1965-1980
 
 Il periodo della simulazione (1965-1980): è stata la prima vera fase di ricerca sull'AI. I ricercatori hanno iniziato a esplorare temi come l'elaborazione del linguaggio naturale, la visione artificiale e l'intelligenza artificiale distribuita.
 
 ---
 
-# 1980-1990
+## 1980-1990
 
 La fase dell'intelligenza distribuita (1980-1990): è stato un periodo di enormi progressi nell'apprendimento automatico e nella ricerca sulla rete neurale artificiale.
 
 ---
 
-# 1990-oggi
+## 1990-oggi
 
 La fase moderna (1990-ad oggi): è stata una grande era di innovazioni nell'AI, con una profonda comprensione dei più importanti problemi computazionali. Le reti neurali artificiali e l'apprendimento automatico hanno portato ad alcuni dei più importanti risultati nell'AI.
 
 ---
 
-# Capacità di calcolo
+## Capacità di calcolo
 
 Con l'aumento delle capacità di calcolo, la ricerca sull'AI ha iniziato a muoversi verso la robotica, l'intelligenza artificiale generale e l'analisi dei dati. Sono stati fatti progressi significativi nei settori della visione artificiale, della produzione automatizzata e della guida autonoma. L'AI è diventata una parte importante della vita quotidiana, con applicazioni in tutti i campi, dal riconoscimento vocale alla diagnostica medica.
 
 ---
 
-# Tipi di intelligenza artificiale
+## Tipi di intelligenza artificiale
 
-## ANI (Artificial Narrow Intelligence)
+### ANI (Artificial Narrow Intelligence)
 
 AI limitata a uno specifico compito, come l'elaborazione del linguaggio naturale o la guida autonoma.
 
-## AGI (Artificial General Intelligence)
+### AGI (Artificial General Intelligence)
 
 AI in grado di affrontare tutti i tipi di problemi come un essere umano.
 
-## ASI (Artificial Super Intelligence)
+### ASI (Artificial Super Intelligence)
 
 AI che è più intelligente dei migliori esseri umani in termini di velocità di elaborazione, abilità di apprendimento e capacità di risolvere problemi.
 
 ---
 
-# Test di Touring
+## Test di Touring
 
 Il test di Turing è un modo per determinare se un computer è in grado di pensare in modo intelligente come un essere umano. Il test è stato sviluppato da Alan Turing, un matematico britannico, nel 1950 ed è considerato uno dei primi esempi di intelligenza artificiale.
 
@@ -99,7 +111,7 @@ Il test di Turing è una conversazione tra un giudice umano e due partecipanti, 
 
 ---
 
-# Qualche software ha passato il test di Turing?
+## Qualche software ha passato il test di Turing?
 
 Nel dicembre 2022, ChatGPT è diventato il secondo chatbot ad aver superato il Test di Turing, secondo Max Woolf, uno scienziato dei dati di BuzzFeed.
 ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il Test di Turing nell'estate del 2022.
@@ -108,13 +120,13 @@ ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il
 
 ---
 
-# Alan Touring
+## Alan Touring
 
 Alan Turing è stato un noto matematico, filosofo, criptoanalista, e informatico inglese. Ha ideato diversi importanti concetti di informatica, tra cui l'algoritmo di decifrazione della macchina di Enigma durante la Seconda Guerra Mondiale. Inoltre, ha contribuito allo sviluppo del computer e del calcolatore moderno. Ha anche lavorato alla teoria della computabilità e ha sviluppato alcune delle prime teorie sull'intelligenza artificiale.
 
 ---
 
-# La morte di Alan Touring
+## La morte di Alan Touring
 
 L'8 giugno 1954, la domestica di Turing, Eliza Clayton, lo trovò morto nel suo letto.
 
@@ -124,7 +136,7 @@ Al momento della scoperta, vicino al letto, accanto al suo orologio, fu trovata 
 
 ---
 
-# Leggenda urbana
+## Leggenda urbana
 
 ![width:380px](img/Apple_logo_black.svg)
 
@@ -132,13 +144,13 @@ Al momento della scoperta, vicino al letto, accanto al suo orologio, fu trovata 
 
 ---
 
-# 1997 il mondo si rende conto che esistono le AI
+## 1997 il mondo si rende conto che esistono le AI
 
 Il Deep Blue Chess Program batte l'allora campione del mondo di scacchi, Garry Kasparov.
 
 ---
 
-# Applicazioni dell'AI - 1
+## Applicazioni dell'AI - 1
 
 - Gioco - La macchina può pensare a un gran numero di possibili posizioni basate sulla conoscenza.
 Magnus Carlsen : Elo 2800-2900
@@ -152,7 +164,7 @@ Per quanto riguarda i software: Stockfish 11 ha un ELO di 3500, mentre lo Komodo
 
 ---
 
-# Applicazioni dell'AI - 2
+## Applicazioni dell'AI - 2
 
 - Diagnosi - I medici utilizzano il sistema esperto clinico per diagnosticare il paziente.
 
@@ -166,17 +178,17 @@ Per quanto riguarda i software: Stockfish 11 ha un ELO di 3500, mentre lo Komodo
 
 ---
 
-# Metodi fondamentali per un meccanismo di AI
+## Metodi fondamentali per un meccanismo di AI
 
 ---
 
-# Natural Language Processing (NLP)
+## Natural Language Processing (NLP)
 
 Si riferisce al metodo AI di comunicare con un sistema intelligente utilizzando un linguaggio naturale.
 
 ---
 
-# Natural Language Understanding (NLU)
+## Natural Language Understanding (NLU)
 
 La comprensione implica i seguenti compiti:
 
@@ -185,7 +197,7 @@ La comprensione implica i seguenti compiti:
 
 ---
 
-# Natural Language Generation (NLG)
+## Natural Language Generation (NLG)
 
 È il processo di produzione di frasi e frasi significative sotto forma di linguaggio naturale da una rappresentazione interna.
 
@@ -197,11 +209,11 @@ La comprensione implica i seguenti compiti:
 
 ---
 
-# Prodotti
+## Prodotti
 
 ---
 
-# ChatGPT
+## ChatGPT
 
 - ChatGPT : lo scopo è quello di creare un chatbot che risponde in modo fluido che risponda come se fosse una persona
 
@@ -209,7 +221,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# AI Parameters
+## AI Parameters
 
 ![width:600px](img/AI%20Parameters.png)
 
@@ -217,7 +229,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# e domani?
+## e domani?
 
 ![width:550px](img/Screenshot-2021-07-13T134124.960.png)
 
@@ -225,7 +237,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# ChatGPT - pro
+## ChatGPT - pro
 
 - Definizioni tecniche
 - Spiegazioni: è possibile modificare il target
@@ -237,7 +249,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# ChatGPT - contro
+## ChatGPT - contro
 
 - La sua conoscenza è ferma al 2021
 - Non è in grado di fare analisi di dati
@@ -248,7 +260,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# Scrivi il testo di una canzone di Tiziano Ferro?
+## Scrivi il testo di una canzone di Tiziano Ferro?
 
     Non me lo so spiegare
 
@@ -275,7 +287,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchia dei panda?
+## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchia dei panda?
 
     Gentile cliente,
 
@@ -301,7 +313,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-# Dobbiamo fidarci?
+## Dobbiamo fidarci?
 
 "È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT. Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità e le sue politiche sulla privacy. Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei termini di servizio del programma e di avere sufficienti conoscenze tecniche per configurarlo correttamente."
 
@@ -309,13 +321,13 @@ Ho chiesto direttamente a __ChatGPT__
 
 ---
 
-# ChatGPT sostituisce Google?
+## ChatGPT sostituisce Google?
 
 Al momento (gennaio 2023) non sostituisce Google ... __al momento__
 
 ---
 
-# Integrazioni
+## Integrazioni
 
 - Plugin per browser
 - Generatori di libri <https://github.com/mikavehns/BookGPT>
@@ -329,7 +341,7 @@ Per approfondimenti
 
 ---
 
-# SudoWrite - l'aiuto ai coptywriter
+## SudoWrite - l'aiuto ai coptywriter
 
 SudoWrite : Sudowrite is the best AI tool for creative writers.
 
@@ -339,7 +351,7 @@ Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti 
 
 ---
 
-# Era una notte buia e tempestosa
+## Era una notte buia e tempestosa
 
     Era una notte buia e tempestosa e i nostri eroi si trovavano isolati in una
     tranquilla villetta ai piedi di un promontorio inesplorato.
@@ -348,7 +360,7 @@ Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti 
 
 ---
 
-# Era una notte buia e tempestosa - riscritta ed ampliata
+## Era una notte buia e tempestosa - riscritta ed ampliata
 
     Era una notte buia e tempestosa, ed i nostri eroi si trovavano in un grazioso cottage alla base di un
     promontorio inesplorato. Pippo avrebbe scalato il promontorio la mattina seguente, ma non riusciva a prendere
@@ -366,7 +378,7 @@ Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti 
 
 ---
 
-# Synthesia
+## Synthesia
 
 Crea un video, partendo da un testo in pochi minuti.
 
@@ -376,13 +388,13 @@ Synthesia è la piattaforma di creazione di video tramite AI. I video sono creab
 
 ---
 
-# Synthesia e il nostro corso
+## Synthesia e il nostro corso
 
 <video src="img/Synthesia%20STUDIO%20Your%20AI%20video.mp4" controls width="900px"></video>
 
 ---
 
-# Fra fantascienza e realtà
+## Fra fantascienza e realtà
 
 Chi ha seguito la serie TV: Upload?
 
@@ -394,7 +406,7 @@ Il colonnello Miles Quaritch viene clonato in un corpo Na'vi e dotato degli stes
 
 ---
 
-# DeepBrain
+## DeepBrain
 
 Qualcuno ha pensato che l'idea era interessante e ha creato un servizio basato su AI. che cattura la vostra immagine, le espressioni del vostro volto, la vostra voce e dopo qualche ora di chiacchierata anche i vostri ricordi.
 
@@ -406,7 +418,7 @@ Quanto costa: i costi oscillano fra 12 e 20 mila dollari.
 
 ---
 
-# AI e immagini digitali
+## AI e immagini digitali
 
 Una delle applicazioni più interessanti dell'AI è la capacità di trasformare le immagini.
 
@@ -420,25 +432,25 @@ Altre applicazioni in questo campo sono
 
 ---
 
-# DALL·E 2 - AI Generativa
+## DALL·E 2 - AI Generativa
 
 DALL·E 2 può creare immagini e opere d'arte originali e realistiche a partire da una descrizione testuale. Può combinare concetti, attributi e stili.
 
 ---
 
-# “disegna giorgia meloni in stile simpson”
+## “disegna giorgia meloni in stile simpson”
 
 ![width:500px](img/DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
 
 ---
 
-# “High quality photo of a panda astronaut”
+## “High quality photo of a panda astronaut”
 
 ![width:500px](img/DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
 
 ---
 
-# TikTok filtro AI Manga - AI Trasformativa
+## TikTok filtro AI Manga - AI Trasformativa
 
 Il filtro di TikTok di "Ai Manga" è un filtro creativo, basati sull'intelligenza artificiale, progettato per aiutare gli utenti a creare contenuti coinvolgenti.
 
@@ -446,37 +458,37 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ---
 
-# Huggy Wuggy - Originale
+## Huggy Wuggy - Originale
 
 ![width:450px](img/huggywuggy-original.jpg)
 
 ---
 
-# Huggy Wuggy - by mia figlia
+## Huggy Wuggy - by mia figlia
 
 ![width:400px](img/Huggy%20Wuggy%20-%20mia%20figlia.jpg)
 
 ---
 
-# Huggy Wuggy - by AI Manga
+## Huggy Wuggy - by AI Manga
 
 ![width:400px](img/Huggy%20Wuggy%20-%20AI%20Manga.PNG)
 
 ---
 
-# Proviamo il filtro con un'immagine migliore
+## Proviamo il filtro con un'immagine migliore
 
 ![width:700px](img/astronauta.jpg)
 
 ---
 
-# Atronauta AI Manga
+## Atronauta AI Manga
 
 ![width:700px](img/astronauta%20ai%20manga.jpg)
 
 ---
 
-# DreamStudio
+## DreamStudio
 
 Dream Studio è un'interfaccia facile da usare per la creazione di immagini usando l'ultima versione del modello di generazione di immagini Stable Diffusion. Stable Diffusion è un modello veloce ed efficiente per creare immagini da testo che comprende le relazioni tra parole e immagini. Può creare immagini di alta qualità di qualsiasi cosa si possa immaginare in pochi secondi - basta digitare un prompt di testo e premere Dream.
 
@@ -484,7 +496,7 @@ Dream Studio è un'interfaccia facile da usare per la creazione di immagini usan
 
 ---
 
-# Kandinsky
+## Kandinsky
 
 Disegni l'immagine un gatto in stile Kandinsky
 
@@ -492,7 +504,7 @@ Disegni l'immagine un gatto in stile Kandinsky
 
 ---
 
-# Van Gogh
+## Van Gogh
 
 Disegni l'immagine un gatto in stile Van Gogh
 
@@ -500,7 +512,7 @@ Disegni l'immagine un gatto in stile Van Gogh
 
 ---
 
-# Andy Warhol
+## Andy Warhol
 
 Disegni l'immagine un gatto in stile Andy Warhol
 
@@ -508,7 +520,7 @@ Disegni l'immagine un gatto in stile Andy Warhol
 
 ---
 
-# Edvard Munch
+## Edvard Munch
 
 Disegni l'immagine un gatto in stile Edvard Munch
 
@@ -516,7 +528,7 @@ Disegni l'immagine un gatto in stile Edvard Munch
 
 ---
 
-# Valentino Rossi
+## Valentino Rossi
 
 Realizzi  Valentino Rossi  che mangia un gelato
 
@@ -524,11 +536,11 @@ Realizzi  Valentino Rossi  che mangia un gelato
 
 ---
 
-# AI Legata all'audio
+## AI Legata all'audio
 
 ---
 
-# Vocal Remover
+## Vocal Remover
 
 Vocal Remover: tramite una AI è possibile separare la musica dalla parte cantata.
 Si poteva fare anche prima, ma ora si puo' fare online, con una AI.
@@ -537,7 +549,7 @@ Si poteva fare anche prima, ma ora si puo' fare online, con una AI.
 
 ---
 
-# FakeYou
+## FakeYou
 
 La tecnologia deep fake di FakeYou permette di far dire ai tuoi personaggi preferiti qualsiasi frase.
 
@@ -545,7 +557,7 @@ Oltre a questo è possibile caricare un audio e farlo pronunciare ad una serie d
 
 ---
 
-# FakeYou - esempio
+## FakeYou - esempio
 
 L'intelligenza artificiale è una disciplina informatica che include metodi di apprendimento automatico, visione artificiale, linguaggio naturale e robotica.
 
@@ -555,7 +567,7 @@ Papa Francesco apprezza il corso di AI
 
 ---
 
-# Libri dove approfondire - 1
+## Libri dove approfondire - 1
 
 Questa lista deriva da un post di [Matteo Flora](https://matteoflora.com/) come spunto nello studio delle AI
 
@@ -566,7 +578,7 @@ Questo libro offre una panoramica dei modelli di linguaggio di grandi dimensioni
 
 ---
 
-# Libri dove approfondire - 2
+## Libri dove approfondire - 2
 
 - Per capire come l'IA sta cambiando il mondo attuale "The Fourth Industrial Revolution" di Klaus Schwab.
 Esplora come la tecnologia stia trasformando il mondo in cui viviamo. In particolare, Schwab si concentra su come la tecnologia sta cambiando la natura del lavoro, la società, la politica ed economica.
@@ -576,7 +588,7 @@ In questo libro vengono esaminate le questioni tecnologiche e le implicazioni so
 
 ---
 
-# Libri dove approfondire - 3
+## Libri dove approfondire - 3
 
 - "The Age of Spiritual Machines" di Ray Kurzweil è un libro che esplora come l'IA potrebbe influire sull'umanità in un futuro prossimo.
 Un libro di riferimento per gli studenti, i ricercatori e gli sviluppatori di intelligenza artificiale. Copre tutti gli aspetti dell'intelligenza artificiale, dalle fondamenta teoriche ai sistemi di intelligenza artificiale più avanzati.
@@ -586,7 +598,7 @@ Kurzweil affronta la possibilità di un "singularity" tecnologico, in cui la tec
 
 ---
 
-# Libri dove approfondire - 4
+## Libri dove approfondire - 4
 
 - "The Future of Humanity" di Michio Kaku è un libro che esplora come la scienza e la tecnologia stanno influenzando il futuro dell'umanità.
 Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica, l'ingegneria genetica e altre tecnologie futuristiche potrebbero cambiare il nostro futuro
@@ -595,7 +607,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 
 ---
 
-# Fonti usate per la creazione di queste slide
+## Fonti usate per la creazione di queste slide
 
 <https://github.com/matteobaccan/awesome-ai> : La mia lista ragionata di AI
 <https://github.com/ai-collection/ai-collection> : una megalista di AI
@@ -609,6 +621,6 @@ Ogni immagine inserita riporta la fonte
 
 ---
 
-# Disclaimer
+## Disclaimer
 
 L'autore ha generato questo testo in parte con GPT-3, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità ultima del contenuto di questa pubblicazione.
