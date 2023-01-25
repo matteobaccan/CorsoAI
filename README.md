@@ -16,3 +16,5 @@ Quali sono i migliori prodotti per ll'elaborazione di immagini
 Quali sono i migliori prodotti per la creazione di avatar
 
 Alla fine di questo corso, sarai in grado di valutare meglio le tecnologie AI e avrai capito come introdurre  nel tuo lavoro quotidiano dei prodotti basati su AI.
+
+[![Genera PDF](https://github.com/matteobaccan/CorsoAI/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAI/actions/workflows/generatepdf.yml)
