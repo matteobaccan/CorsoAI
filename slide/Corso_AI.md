@@ -103,7 +103,7 @@ AI che è più intelligente dei migliori esseri umani in termini di velocità di
 
 ---
 
-## Test di Touring
+## Test di Turing
 
 Il test di Turing è un modo per determinare se un computer è in grado di pensare in modo intelligente come un essere umano. Il test è stato sviluppato da Alan Turing, un matematico britannico, nel 1950 ed è considerato uno dei primi esempi di intelligenza artificiale.
 
@@ -120,13 +120,13 @@ ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il
 
 ---
 
-## Alan Touring
+## Alan Turing
 
 Alan Turing è stato un noto matematico, filosofo, criptoanalista, e informatico inglese. Ha ideato diversi importanti concetti di informatica, tra cui l'algoritmo di decifrazione della macchina di Enigma durante la Seconda Guerra Mondiale. Inoltre, ha contribuito allo sviluppo del computer e del calcolatore moderno. Ha anche lavorato alla teoria della computabilità e ha sviluppato alcune delle prime teorie sull'intelligenza artificiale.
 
 ---
 
-## La morte di Alan Touring
+## La morte di Alan Turing
 
 L'8 giugno 1954, la domestica di Turing, Eliza Clayton, lo trovò morto nel suo letto.
 
