@@ -12,9 +12,9 @@ In questo corso imparerai alcune nozioni sull'AI e scoprirai una serie di prodot
 In questo corso imparerai:
 
 - Come funziona l'AI
-- La teminologia di base e la classifazione delle AI
+- La terminologia di base e la classificazione delle AI
 - Quali sono i migliori prodotti per la scrittura di testi, elaborazione immagini, creazione video, musica e avatar
-- Quali letture usare per approfondide
+- Quali letture usare per approfondire
 
 Spero di aiutarti a comprendere meglio il mondo delle AI e di come introdurlo nel lavoro di tutti i giorni.
 
