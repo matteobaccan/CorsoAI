@@ -1,4 +1,6 @@
-# CorsoAI
+# CorsoAI 
+
+[![Genera PDF](https://github.com/matteobaccan/CorsoAI/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAI/actions/workflows/generatepdf.yml)
 
 Corso di introduzione alle AI (Artificial Intelligence)
 
@@ -9,11 +11,11 @@ In questo corso imparerai alcune nozioni sull'AI e scoprirai una serie di prodot
 
 In questo corso imparerai:
 
-Come funziona l'AI
-Quali sono i migliori prodotti per la scrittura di testi
-Quali sono i migliori prodotti per ll'elaborazione di immagini
-Quali sono i migliori prodotti per la creazione di avatar
+- Come funziona l'AI
+- La terminologia di base e la classificazione delle AI
+- Quali sono i migliori prodotti per la scrittura di testi, elaborazione immagini, creazione video, musica e avatar
+- Quali letture usare per approfondire
 
-Alla fine di questo corso, sarai in grado di valutare meglio le tecnologie AI e avrai capito come introdurre  nel tuo lavoro quotidiano dei prodotti basati su AI.
+Spero di aiutarti a comprendere meglio il mondo delle AI e di come introdurlo nel lavoro di tutti i giorni.
 
-[![Genera PDF](https://github.com/matteobaccan/CorsoAI/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAI/actions/workflows/generatepdf.yml)
+__[Scarica gratuitamente le slide](https://raw.githubusercontent.com/matteobaccan/CorsoAI/main/slide/Corso_AI.pdf)__
