@@ -16,6 +16,12 @@ Entriamo nel mondo delle AI
 
 <!-- _paginate: false -->
 <!-- _footer: "" -->
+<!-- style: "
+img[alt~='center'] {
+  display: block;
+  margin: 0 auto;
+}
+" -->
 
 ---
 
@@ -41,9 +47,13 @@ AI è spesso usata per migliorare la produttività e l'efficienza dei processi a
 
 La sviluppo della AI è nato per una esigenza ben precisa: creare in una macchina un'intelligenza simile a quella di un uomo.
 
+---
+
 ## Obiettivi dell'AI
 
 Una AI si prefigge di creare sistemi esperti: qualcosa in grado di mostrare un comportamento intelligente, in grado di imparare e consigliare  i propri utenti.
+
+---
 
 ## Cosa contribuisce all'AI?
 
@@ -89,17 +99,31 @@ Con l'aumento delle capacità di calcolo, la ricerca sull'AI ha iniziato a muove
 
 ## Tipi di intelligenza artificiale
 
+---
+
 ### ANI (Artificial Narrow Intelligence)
 
-AI limitata a uno specifico compito, come l'elaborazione del linguaggio naturale o la guida autonoma.
+L'intelligenza artificiale stretta è un tipo di IA in cui una tecnologia ha la capacità di superare gli esseri umani in un compito ben definito. Si concentra su un singolo sottoinsieme di abilità cognitive, come la guida autonoma o il riconoscimento facciale.
+
+---
 
 ### AGI (Artificial General Intelligence)
 
-AI in grado di affrontare tutti i tipi di problemi come un essere umano.
+L'intelligenza artificiale forte o intelligenza artificiale generale è la capacità di un agente intelligente di apprendere e capire un qualsiasi compito intellettuale che può imparare un essere umano.
+È l'obiettivo principale di alcune delle ricerche nell'intelligenza artificiale e un argomento comune nella fantascienza e nella futurologia.
+Alcune fonti accademiche riservano il termine "IA forte" (strong AI) a quei programmi informatici in grado di essere senziente e di avere una coscienza.
+
+<https://it.wikipedia.org/wiki/Intelligenza_artificiale_forte>
+
+---
 
 ### ASI (Artificial Super Intelligence)
 
 AI che è più intelligente dei migliori esseri umani in termini di velocità di elaborazione, abilità di apprendimento e capacità di risolvere problemi.
+
+---
+
+## Come valutiamo le AI?
 
 ---
 
@@ -122,7 +146,11 @@ ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il
 
 ## Alan Turing
 
-Alan Turing è stato un noto matematico, filosofo, criptoanalista, e informatico inglese. Ha ideato diversi importanti concetti di informatica, tra cui l'algoritmo di decifrazione della macchina di Enigma durante la Seconda Guerra Mondiale. Inoltre, ha contribuito allo sviluppo del computer e del calcolatore moderno. Ha anche lavorato alla teoria della computabilità e ha sviluppato alcune delle prime teorie sull'intelligenza artificiale.
+Alan Turing è stato un noto matematico, filosofo, criptoanalista, e informatico inglese.
+
+Ha ideato diversi importanti concetti di informatica, tra cui l'algoritmo di decifrazione della macchina di Enigma durante la Seconda Guerra Mondiale.
+
+Ha contribuito allo sviluppo del computer e del calcolatore moderno. Ha anche lavorato alla teoria della computabilità e ha sviluppato alcune delle prime teorie sull'intelligenza artificiale.
 
 ---
 
@@ -138,15 +166,13 @@ Al momento della scoperta, vicino al letto, accanto al suo orologio, fu trovata 
 
 ## Leggenda urbana
 
-![width:380px](img/Apple_logo_black.svg)
+![center w:380px](img/Apple_logo_black.svg)
 
 <https://it.wikipedia.org/wiki/Apple>
 
 ---
 
-## 1997 il mondo si rende conto che esistono le AI
-
-Il Deep Blue Chess Program batte l'allora campione del mondo di scacchi, Garry Kasparov.
+## Applicazioni della AI
 
 ---
 
@@ -209,7 +235,11 @@ La comprensione implica i seguenti compiti:
 
 ---
 
-## Prodotti
+## Servizi basati su AI
+
+---
+
+## Servizi di supporto ai testi
 
 ---
 
@@ -223,7 +253,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ## AI Parameters
 
-![width:600px](img/AI%20Parameters.png)
+![center width:600px](img/AI%20Parameters.png)
 
 <https://www.merkle.com/in/blog/ai-search-what-openais-gpt-3-means-google-and-seo-0>
 
@@ -231,13 +261,13 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ## e domani?
 
-![width:550px](img/Screenshot-2021-07-13T134124.960.png)
+![center width:550px](img/Screenshot-2021-07-13T134124.960.png)
 
 <https://spyro-soft.com/blog/tomasz-smolarczyk-the-future-of-ai>
 
 ---
 
-## ChatGPT - pro
+## ChatGPT - perché SI
 
 - Definizioni tecniche
 - Spiegazioni: è possibile modificare il target
@@ -249,7 +279,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-## ChatGPT - contro
+## ChatGPT - perché NO
 
 - La sua conoscenza è ferma al 2021
 - Non è in grado di fare analisi di dati
@@ -257,6 +287,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 - A volte inventa le risposte e lo dichiara su richiesta
 - Non ha accesso a internet per attingere a nuove informazioni
 - I testi che scrive al momento sono discreti, meglio estenderli ed adattarli
+- Troppo rispettoso del suo utilizzatore
 
 ---
 
@@ -341,13 +372,14 @@ Per approfondimenti
 
 ---
 
-## SudoWrite - l'aiuto ai coptywriter
+## SudoWrite - l'aiuto ai copywriter
 
-SudoWrite : Sudowrite is the best AI tool for creative writers.
+" Sudowrite is the best AI tool for creative writers"
 
 <https://www.sudowrite.com>
 
-Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti dagli utenti. Utile al lavoro di copywriter: permette di espandere le proprie idee e superare i momenti di blocco.
+Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti dagli utenti.
+Utile al lavoro di copywriter: permette di espandere le proprie idee e superare i momenti di blocco.
 
 ---
 
@@ -355,6 +387,7 @@ Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti 
 
     Era una notte buia e tempestosa e i nostri eroi si trovavano isolati in una
     tranquilla villetta ai piedi di un promontorio inesplorato.
+
     La mattina successiva Pippo avrebbe scalato per la prima volta il promontorio,
     ma qualcosa non lo fece dormire la notte.
 
@@ -375,6 +408,10 @@ Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti 
 
     "Saluti", disse il volto in un'antica lingua che nessuno di loro riconobbe. Si guardarono l'un l'altro per
     qualche istante finché Pippo non tese la mano per stringere quella dell'altro.
+
+---
+
+## Servizi di supporto alla creazione di video
 
 ---
 
@@ -418,6 +455,10 @@ Quanto costa: i costi oscillano fra 12 e 20 mila dollari.
 
 ---
 
+## Servizi di supporto alla creazione di immagini
+
+---
+
 ## AI e immagini digitali
 
 Una delle applicazioni più interessanti dell'AI è la capacità di trasformare le immagini.
@@ -440,13 +481,13 @@ DALL·E 2 può creare immagini e opere d'arte originali e realistiche a partire 
 
 ## “disegna giorgia meloni in stile simpson”
 
-![width:500px](img/DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
+![center width:500px](img/DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
 
 ---
 
 ## “High quality photo of a panda astronaut”
 
-![width:500px](img/DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
+![center width:500px](img/DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
 
 ---
 
@@ -460,31 +501,31 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ## Huggy Wuggy - Originale
 
-![width:450px](img/huggywuggy-original.jpg)
+![center width:450px](img/huggywuggy-original.jpg)
 
 ---
 
 ## Huggy Wuggy - by mia figlia
 
-![width:400px](img/Huggy%20Wuggy%20-%20mia%20figlia.jpg)
+![center width:400px](img/Huggy%20Wuggy%20-%20mia%20figlia.jpg)
 
 ---
 
 ## Huggy Wuggy - by AI Manga
 
-![width:400px](img/Huggy%20Wuggy%20-%20AI%20Manga.PNG)
+![center width:400px](img/Huggy%20Wuggy%20-%20AI%20Manga.PNG)
 
 ---
 
 ## Proviamo il filtro con un'immagine migliore
 
-![width:700px](img/astronauta.jpg)
+![center width:700px](img/astronauta.jpg)
 
 ---
 
-## Atronauta AI Manga
+## Astronauta AI Manga
 
-![width:700px](img/astronauta%20ai%20manga.jpg)
+![center width:700px](img/astronauta%20ai%20manga.jpg)
 
 ---
 
@@ -500,7 +541,7 @@ Dream Studio è un'interfaccia facile da usare per la creazione di immagini usan
 
 Disegni l'immagine un gatto in stile Kandinsky
 
-![width:400px](img/1191483669_Disegni_l_immagine_un_gatto_in_stile_Kandinsky.png)
+![center width:400px](img/1191483669_Disegni_l_immagine_un_gatto_in_stile_Kandinsky.png)
 
 ---
 
@@ -508,7 +549,7 @@ Disegni l'immagine un gatto in stile Kandinsky
 
 Disegni l'immagine un gatto in stile Van Gogh
 
-![width:400px](img/2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.png)
+![center width:400px](img/2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.png)
 
 ---
 
@@ -516,7 +557,7 @@ Disegni l'immagine un gatto in stile Van Gogh
 
 Disegni l'immagine un gatto in stile Andy Warhol
 
-![width:400px](img/3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.png)
+![center width:400px](img/3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.png)
 
 ---
 
@@ -524,19 +565,19 @@ Disegni l'immagine un gatto in stile Andy Warhol
 
 Disegni l'immagine un gatto in stile Edvard Munch
 
-![width:400px](img/2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.png)
+![center width:400px](img/2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.png)
 
 ---
 
 ## Valentino Rossi
 
-Realizzi  Valentino Rossi  che mangia un gelato
+Realizzi __Valentino Rossi__ che mangia un gelato
 
-![width:450px](img/3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
+![center width:450px](img/3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
 
 ---
 
-## AI Legata all'audio
+## Servizi di supporto alla creazione di audio
 
 ---
 
@@ -564,6 +605,22 @@ L'intelligenza artificiale è una disciplina informatica che include metodi di a
 Papa Francesco apprezza il corso di AI
 
 <img/PapaFrancescoAI.wav>
+
+---
+
+## MusicLM
+
+MusicLM, un modello che genera musica di alta fedeltà da descrizioni testuali come "un melodia rasserenante suonata al violino accompagnata da un riff distorto di chitarra".
+MusicLM considera il processo di generazione di musica condizionata come un compito di modellazione sequenza-sequenza gerarchico e genera musica a 24 kHz che rimane coerente per diversi minuti.
+MusicLM può essere condizionato sia al testo che alla melodia in quanto può trasformare le melodie fischiate e cantate secondo lo stile descritto in una didascalia.
+
+__Al momento__ il progetto non è ancora pubblico, se non per i risultati ottenuti.
+
+<https://google-research.github.io/seanet/musiclm/examples/>
+
+---
+
+## Dove studiare per approfondire l'argomento
 
 ---
 
@@ -610,7 +667,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 ## Fonti usate per la creazione di queste slide
 
 <https://github.com/matteobaccan/awesome-ai> : La mia lista ragionata di AI
-<https://github.com/ai-collection/ai-collection> : una megalista di AI
+<https://github.com/ai-collection/ai-collection> : una lista molto completa di AI
 <https://chat.openai.com> : ChatGPT
 <https://it.wikipedia.org> : definizioni e argomenti
 <https://www.tutorialspoint.com/artificial_intelligence/> : Tutorial AI
