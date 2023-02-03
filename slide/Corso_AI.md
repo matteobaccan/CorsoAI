@@ -577,6 +577,39 @@ Realizzi __Valentino Rossi__ che mangia un gelato
 
 ---
 
+## This *** does not exist
+
+Sono una serie di siti web in grado di generare persone, gatti, cavalli e strutture chimiche che non esistono, basandosi su una AI alimentata da StyleGAN, una rete neurale di Nvidia sviluppata in 2018.
+
+GAN consiste di 2 reti neurali concorrenti, una genera qualcosa e la seconda cerca di trovare se i risultati sono reali o generati dal primo.
+
+L'allenamento termina quando la prima rete neurale inizia a ingannare costantemente il secondo.
+
+---
+
+![center width:500px](img/thispersondoesnotexist.jpg)
+<https://thispersondoesnotexist.com/>
+
+---
+
+![center width:500px](img/thiscatdoesnotexist.jpg)
+
+<https://thiscatdoesnotexist.com/>
+
+---
+
+![center width:500px](img/thishorsedoesnotexist.jpg)
+
+<https://thishorsedoesnotexist.com/>
+
+---
+
+![center width:500px](img/thischemicaldoesnotexist.jpg)
+
+<https://thischemicaldoesnotexist.com/>
+
+---
+
 ## Servizi di supporto alla creazione di audio
 
 ---
