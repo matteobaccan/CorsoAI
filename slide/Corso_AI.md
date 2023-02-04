@@ -411,6 +411,15 @@ Utile al lavoro di copywriter: permette di espandere le proprie idee e superare 
 
 ---
 
+# SlidesAI.io
+
+Permette di risparmiare tempo per creare presentazioni professionali e coinvolgenti.
+Con pochi clic è possibile trasformare qualsiasi parte di testo in diapositive visivamente accattivanti, perfette per ogni occasione.
+
+Exempio: SlidesAI.io/Esempio.pdf
+
+---
+
 ## Servizi di supporto alla creazione di video
 
 ---
