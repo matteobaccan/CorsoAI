@@ -731,6 +731,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 <https://www.tutorialspoint.com/artificial_intelligence/> : Tutorial AI
 <https://flowgpt.com/> : Esempi di prompt per ChatGPT
 <https://www.youtube.com/watch?v=sVvGZDoEEeQ> : 1100. Che cosa sono GPT, GPT-3 e ChatGPT e cosa possono fare? Introduzione semplice in italiano!
+<https://aaronsim.notion.site/b4f5dd304d9a4683a70167b6cc4b94f1?v=6cc0bd8ce4f04f26ad088e44c910b167> : elenco di prodotti basati su AI
 
 Ogni immagine inserita riporta la fonte
 
