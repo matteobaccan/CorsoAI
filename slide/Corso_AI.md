@@ -662,6 +662,22 @@ __Al momento__ il progetto non è ancora pubblico, se non per i risultati ottenu
 
 ---
 
+## WebDesign e AI
+
+Esistono alcuni strumenti che possono rendere obsoleto il lavoro del WebDesign, almeno in alcuni contesti.
+
+---
+
+## Durable
+
+Durable è un site builder basato su AI. Può costruire un sito completo in 30 secondi utilizzando gli spunti generati da una AI.
+
+Verifica la provenienza della richiesta, il settore di appartenenza e genera un sito vetrina in pochi secondi inventando completamente i contenuti.
+
+<https://durable.co>
+
+---
+
 ## Dove studiare per approfondire l'argomento
 
 ---
