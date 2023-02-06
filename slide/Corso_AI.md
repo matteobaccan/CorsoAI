@@ -27,7 +27,7 @@ img[alt~='center'] {
 
 ## Scopo del corso
 
-Queste slide nascono dalla mia curiosità verso l'intelligenza artificiale e dalla volontà di rendere note le molteplici applicazioni disponibili e alla portata di tutti.
+La mia curiosità verso l'intelligenza artificiale e il mio desiderio di divulgare le varie applicazioni disponibili ed accessibili a tutti sono alla base di queste slide. Spero che possano introdurre le persone ai molti vantaggi che l'intelligenza artificiale può offrire.
 
 ---
 
