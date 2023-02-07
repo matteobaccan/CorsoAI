@@ -318,7 +318,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchia dei panda?
+## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda?
 
     Gentile cliente,
 
