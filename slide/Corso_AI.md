@@ -652,7 +652,7 @@ Papa Francesco apprezza il corso di AI
 
 ## MusicLM
 
-MusicLM, un modello che genera musica di alta fedeltà da descrizioni testuali come "un melodia rasserenante suonata al violino accompagnata da un riff distorto di chitarra".
+MusicLM, un modello che genera musica di alta fedeltà da descrizioni testuali come "una melodia rasserenante suonata al violino accompagnata da un riff distorto di chitarra".
 MusicLM considera il processo di generazione di musica condizionata come un compito di modellazione sequenza-sequenza gerarchico e genera musica a 24 kHz che rimane coerente per diversi minuti.
 MusicLM può essere condizionato sia al testo che alla melodia in quanto può trasformare le melodie fischiate e cantate secondo lo stile descritto in una didascalia.
 
