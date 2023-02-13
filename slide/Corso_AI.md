@@ -638,6 +638,8 @@ La tecnologia deep fake di FakeYou permette di far dire ai tuoi personaggi prefe
 
 Oltre a questo è possibile caricare un audio e farlo pronunciare ad una serie di personaggi: l'aspetto interessante è la sincronizzazione fra parole e movimenti delle labbra.
 
+<https://fakeyou.com/>
+
 ---
 
 ## FakeYou - esempio
