@@ -570,7 +570,7 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ## Huggy Wuggy - by mia figlia
 
-![center width:400px](img/Huggy%20Wuggy%20-%20mia%20figlia.jpg)
+![center width:380px](img/Huggy%20Wuggy%20-%20mia%20figlia.jpg)
 
 ---
 
