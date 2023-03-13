@@ -500,6 +500,52 @@ DALL·E 2 può creare immagini e opere d'arte originali e realistiche a partire 
 
 ---
 
+## Midjourney
+
+Midjourney è un laboratorio di ricerca indipendente che produce un programma di intelligenza artificiale con lo stesso nome che crea immagini da descrizioni testuali, simile a DALL-E e Stable Diffusion di OpenAI.
+
+Si ipotizza che la tecnologia sottostante sia basata sulla Stable Diffusion.
+
+---
+
+## Midjourney - come funziona?
+
+Midjourney è attualmente accessibile solo tramite un bot Discord sul loro Discord ufficiale, inviando messaggi diretti al bot o invitando il bot a un server di terze parti.
+
+Per generare immagini, gli utenti utilizzano il comando
+
+__/imagine__
+
+e digitano un prompt; il bot restituisce quindi un set di quattro immagini.
+
+Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscaling.
+
+---
+
+## Super realistic Italian Boy
+
+![center width:550px](img/midjourney-super-realistic-italian-boy.png)
+
+---
+
+## Super realistic Italian Boy - upscale
+
+![center width:550px](img/midjourney-super-realistic-italian-boy-upscale.png)
+
+---
+
+## Realistic image of a luxurious bedroom with a soft bed, gray comforter and white white pillows
+
+![center width:450px](img/midjourney-luxurious-bedroom.png)
+
+---
+
+## laughing dinasours
+
+![center width:450px](img/midjourney-laughing-dinasours.png)
+
+---
+
 ## TikTok filtro AI Manga - AI Trasformativa
 
 Il filtro di TikTok di "Ai Manga" è un filtro creativo, basati sull'intelligenza artificiale, progettato per aiutare gli utenti a creare contenuti coinvolgenti.
