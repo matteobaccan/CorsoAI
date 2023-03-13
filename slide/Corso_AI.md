@@ -436,7 +436,7 @@ Synthesia è la piattaforma di creazione di video tramite AI. I video sono creab
 
 ## Synthesia e il nostro corso
 
-<video src="img/Synthesia%20STUDIO%20Your%20AI%20video.mp4" controls width="900px"></video>
+<video src="img/Synthesia%20STUDIO%20Your%20AI%20video.mp4" controls width="900px"/></video>
 
 ---
 
@@ -514,7 +514,7 @@ Midjourney è attualmente accessibile solo tramite un bot Discord sul loro Disco
 
 Per generare immagini, gli utenti utilizzano il comando
 
-__/imagine__
+    /imagine
 
 e digitano un prompt; il bot restituisce quindi un set di quattro immagini.
 
