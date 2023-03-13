@@ -546,6 +546,14 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 
 ---
 
+## Midjourney Cheat Sheet
+
+Per migliorare la qualità dei vostri lavori, c'è chi ha iniziato a raccogliere dei prompt
+
+<https://arjenharris.notion.site/arjenharris/Midjourney-Cheat-Sheet-271922c6869549898ead33eaf79517fa>
+
+---
+
 ## TikTok filtro AI Manga - AI Trasformativa
 
 Il filtro di TikTok di "Ai Manga" è un filtro creativo, basati sull'intelligenza artificiale, progettato per aiutare gli utenti a creare contenuti coinvolgenti.
