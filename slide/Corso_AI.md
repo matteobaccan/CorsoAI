@@ -25,15 +25,21 @@ img[alt~='center'] {
 
 ---
 
-## Scopo del corso
+## Genesi di queste slide
 
-La mia curiosità verso l'intelligenza artificiale e il mio desiderio di divulgare le varie applicazioni disponibili ed accessibili a tutti sono alla base di queste slide. Spero che possano introdurre le persone ai molti vantaggi che l'intelligenza artificiale può offrire.
+Parallelamente all'esplosione dei prodotti dotati di AI, ho deciso di sintetizzare, all'interno di alcune slide, la storia di questi prodotti e parte della terminologia utilizzata nel descriverli.
+
+Ho anche iniziato a sperimentare, all'interno del mio lavoro giornaliero, una serie di soluzioni che mi permettessero di essere più efficace e di lavorare più in fretta e meglio.
+
+Ho quindi aggiunto altre slide che spiegassero quali prodotti utilizzare e con quale scopo.
+
+Spero che questo lavoro possa far comprendere ad altre persone i vantaggi che l'intelligenza artificiale può offrire e possa aiutare a capire quali prodotti utilizzare nel lavoro di tutti i giorni.
 
 ---
 
 ## AI - di cosa si tratta?
 
-__Artificial Intelligence__ è una disciplina di informatica che include metodi di apprendimento automatico, intelligenza artificiale, visione artificiale, linguaggio naturale e robotica.
+__Artificial Intelligence__ è una disciplina di informatica che include metodi di apprendimento automatico, visione artificiale, linguaggio naturale e robotica.
 
 L'obiettivo dell'AI è sviluppare algoritmi che consentano ai computer di eseguire compiti che, in precedenza, erano possibili solo per essere eseguiti da esseri umani.
 
@@ -51,7 +57,7 @@ La sviluppo della AI è nato per una esigenza ben precisa: creare in una macchin
 
 ## Obiettivi dell'AI
 
-Una AI si prefigge di creare sistemi esperti: qualcosa in grado di mostrare un comportamento intelligente, in grado di imparare e consigliare  i propri utenti.
+Una AI si prefigge quindi di creare sistemi esperti: qualcosa in grado di mostrare un comportamento intelligente, in grado di imparare e consigliare  i propri utenti.
 
 ---
 
@@ -93,7 +99,9 @@ La fase moderna (1990-ad oggi): è stata una grande era di innovazioni nell'AI, 
 
 ## Capacità di calcolo
 
-Con l'aumento delle capacità di calcolo, la ricerca sull'AI ha iniziato a muoversi verso la robotica, l'intelligenza artificiale generale e l'analisi dei dati. Sono stati fatti progressi significativi nei settori della visione artificiale, della produzione automatizzata e della guida autonoma. L'AI è diventata una parte importante della vita quotidiana, con applicazioni in tutti i campi, dal riconoscimento vocale alla diagnostica medica.
+Con l'aumento delle capacità di calcolo, la ricerca sull'AI ha iniziato a muoversi verso la robotica, l'intelligenza artificiale generale e l'analisi dei dati. Sono stati fatti progressi significativi nei settori della visione artificiale, della produzione automatizzata e della guida autonoma.
+
+L'AI è diventata una parte importante della vita quotidiana, con applicazioni in tutti i campi, dal riconoscimento vocale alla diagnostica medica.
 
 ---
 
