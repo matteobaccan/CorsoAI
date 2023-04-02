@@ -81,7 +81,7 @@ La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di 
 
 ## 1965-1980
 
-Il periodo della simulazione (1965-1980): è stata la prima vera fase di ricerca sull'AI. I ricercatori hanno iniziato a esplorare temi come l'elaborazione del linguaggio naturale, la visione artificiale e l'intelligenza artificiale distribuita.
+Il periodo della simulazione (1965-1980): è stata la prima vera fase di ricerca. I ricercatori hanno iniziato a esplorare temi come l'elaborazione del linguaggio naturale, la visione artificiale e l'intelligenza artificiale distribuita.
 
 ---
 
@@ -99,7 +99,7 @@ La fase moderna (1990-ad oggi): è stata una grande era di innovazioni nell'AI, 
 
 ## Capacità di calcolo
 
-Con l'aumento delle capacità di calcolo, la ricerca sull'AI ha iniziato a muoversi verso la robotica, l'intelligenza artificiale generale e l'analisi dei dati. Sono stati fatti progressi significativi nei settori della visione artificiale, della produzione automatizzata e della guida autonoma.
+Con l'aumento delle capacità di calcolo, la ricerca ha iniziato a muoversi verso la robotica, l'intelligenza artificiale generale e l'analisi dei dati. Sono stati fatti progressi significativi nei settori della visione artificiale, della produzione automatizzata e della guida autonoma.
 
 L'AI è diventata una parte importante della vita quotidiana, con applicazioni in tutti i campi, dal riconoscimento vocale alla diagnostica medica.
 
@@ -382,7 +382,7 @@ Per approfondimenti
 
 ## SudoWrite - l'aiuto ai copywriter
 
-" Sudowrite is the best AI tool for creative writers"
+" SudoWrite is the best AI tool for creative writers"
 
 <https://www.sudowrite.com>
 
@@ -424,7 +424,7 @@ Utile al lavoro di copywriter: permette di espandere le proprie idee e superare 
 Permette di risparmiare tempo per creare presentazioni professionali e coinvolgenti.
 Con pochi clic è possibile trasformare qualsiasi parte di testo in diapositive visivamente accattivanti, perfette per ogni occasione.
 
-Exempio: SlidesAI.io/Esempio.pdf
+Esempio: SlidesAI.io/Esempio.pdf
 
 ---
 
@@ -548,9 +548,15 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 
 ---
 
-## laughing dinasours
+## Laughing dinasours
 
 ![center width:450px](img/midjourney-laughing-dinasours.png)
+
+---
+
+## Un uomo di mezza età, intenso, con luci da cinema, visione a mezzo busto,  inquadra la telecamera e un volto molto dettagliato unreal engine --q 2
+
+![center width:450px](img/midjourney-mezza-eta.png)
 
 ---
 
