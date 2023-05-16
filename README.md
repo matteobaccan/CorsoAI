@@ -19,3 +19,16 @@ In questo corso imparerai:
 Spero di aiutarti a comprendere meglio il mondo delle AI e di come introdurlo nel lavoro di tutti i giorni.
 
 __[Scarica gratuitamente le slide](https://raw.githubusercontent.com/matteobaccan/CorsoAI/main/slide/Corso_AI.pdf)__
+
+## Argomenti
+
+- Introduzione
+- Come funziona l'AI
+- Terminologia di base
+- Classificazione delle AI
+- Prodotti per la scrittura di testi
+- Prodotti per l'elaborazione immagini
+- Prodotti per la creazione di video
+- Prodotti per la creazione di musica
+- Prodotti per la creazione di avatar
+- Letture consigliate

@@ -472,6 +472,22 @@ Quanto costa: i costi oscillano fra 12 e 20 mila dollari.
 
 ---
 
+## Neural Frames
+
+Grazie alle AI è possibile convertire del testo in un video.
+
+<video src="img/NeuralFrames.mp4" controls width="400px"/></video>
+
+<https://www.neuralframes.com/>
+
+---
+
+## Neural Frames2
+
+<video src="img/NeuralFrames2.mp4" controls width="500px"/></video>
+
+---
+
 ## Servizi di supporto alla creazione di immagini
 
 ---
