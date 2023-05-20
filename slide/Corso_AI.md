@@ -438,6 +438,16 @@ Esempio: SlidesAI.io/Esempio.pdf
 
 ---
 
+## Beautiful.ai
+
+Permette di creare delle slide, partendo da delle descrizioni
+
+![center width:1000px](img/beautiful.ai.png)
+
+<https://www.beautiful.ai/>
+
+---
+
 ## ChatPDF
 
 ChatPDF prende in input un documento PDF, lo analizza e permette successivamente di fare domande sul testo analizzato
@@ -445,6 +455,12 @@ ChatPDF prende in input un documento PDF, lo analizza e permette successivamente
 ![center width:600px](img/ChatPDF.png)
 
 <https://www.chatpdf.com/>
+
+---
+
+## Alternative a ChatPDF
+
+<https://lightpdf.com/chatdoc>
 
 ---
 
@@ -848,6 +864,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 <https://flowgpt.com/> : Esempi di prompt per ChatGPT
 <https://www.youtube.com/watch?v=sVvGZDoEEeQ> : 1100. Che cosa sono GPT, GPT-3 e ChatGPT e cosa possono fare? Introduzione semplice in italiano!
 <https://aaronsim.notion.site/b4f5dd304d9a4683a70167b6cc4b94f1?v=6cc0bd8ce4f04f26ad088e44c910b167> : elenco di prodotti basati su AI
+<https://letsview.com/ai-tools> : Directory di prodotti AI
 
 Ogni immagine inserita riporta la fonte
 
