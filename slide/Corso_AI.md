@@ -810,6 +810,16 @@ Verifica la provenienza della richiesta, il settore di appartenenza e genera un 
 
 ---
 
+## Uizard.io
+
+Uno strumento che permette di creare un sito web, partendo da un'immagine.
+
+Rappresenta un valido aiuto per chi vuole disegnare l'interfaccia ed utilizzare successivamente uno strumento in grado di trasformala in codice.
+
+<https://uizard.io/>
+
+---
+
 ## Dove studiare per approfondire l'argomento
 
 ---
