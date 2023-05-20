@@ -419,12 +419,32 @@ Utile al lavoro di copywriter: permette di espandere le proprie idee e superare 
 
 ---
 
+## Heypi.com
+
+Il funzionamento è simile a CharGTP, ma oltre a scrivere è in grado di parlare.
+
+Si puo' chattare con Heypi, ma non è in grado di scrivere codice o di dare informazioni in modo approfondito come ChatGPT
+
+<https://heypi.com/talk>
+
+---
+
 ## SlidesAI.io
 
 Permette di risparmiare tempo per creare presentazioni professionali e coinvolgenti.
 Con pochi clic è possibile trasformare qualsiasi parte di testo in diapositive visivamente accattivanti, perfette per ogni occasione.
 
 Esempio: SlidesAI.io/Esempio.pdf
+
+---
+
+## ChatPDF
+
+ChatPDF prende in input un documento PDF, lo analizza e permette successivamente di fare domande sul testo analizzato
+
+![center width:600px](img/ChatPDF.png)
+
+<https://www.chatpdf.com/>
 
 ---
 
@@ -745,6 +765,16 @@ MusicLM può essere condizionato sia al testo che alla melodia in quanto può tr
 __Al momento__ il progetto non è ancora pubblico, se non per i risultati ottenuti.
 
 <https://google-research.github.io/seanet/musiclm/examples/>
+
+---
+
+## Soundraw.io
+
+Si tratta di una intelligenza artificiale in grado di creare delle music partendo dal genere, ritmo e durata. Ogni pezzo creato può essere successivamente customizzato.
+
+I brani prodotti sono senza copyright e possono essere liberamente utilizzati.
+
+<https://soundraw.io/>
 
 ---
 
