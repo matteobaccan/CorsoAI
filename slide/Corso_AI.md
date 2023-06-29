@@ -157,6 +157,28 @@ Le reti neurali convoluzionali (ConvNets o CNN) sono un tipo di reti neurali pro
 
 ---
 
+## Cosa vuol dire convoluzionale
+
+La convoluzione è una tecnica di elaborazione del segnale che viene utilizzata per modificare un segnale in ingresso in un segnale di uscita. Si tratta di una tecnica di elaborazione del segnale che viene utilizzata per modificare un segnale in ingresso in un segnale di uscita. Una rete neurale convoluzionale (CNN) è un tipo di rete neurale artificiale che utilizza una struttura di convoluzione per analizzare e riconoscere le caratteristiche di un'immagine o di un segnale.
+
+---
+
+## UNET
+
+La Unet (Unità di Rete) è una rete neurale convoluzionale profonda usata comunemente in ambito di intelligenza artificiale. Si tratta di una rete neurale convoluzionale generica che può essere utilizzata per diverse applicazioni come il riconoscimento di immagini, la classificazione del testo e la segmentazione di immagini.
+
+La Unet è stata sviluppata da Olaf Ronneberger, Philipp Fischer e Thomas Brox nel 2015 ed è stata una delle prime reti neurali convoluzionali profonde ad essere sviluppate.
+
+---
+
+## Perchè è nata UNET?
+
+La Unet è stata progettata per migliorare la precisione e l'accuratezza nella segmentazione di immagini, una delle applicazioni più complesse in ambito di intelligenza artificiale. La rete è costituita da una serie di strati convoluzionali, pooling e upsampling che aiutano a individuare e identificare le parti di un'immagine.
+
+La Unet è una rete neurale molto potente e versatile che può essere utilizzata per una vasta gamma di applicazioni. Può essere utilizzata per migliorare la precisione e l'accuratezza dei sistemi di riconoscimento delle immagini, classificazione del testo e segmentazione delle immagini.
+
+---
+
 ## Utilizzo
 
 Le reti generative sono state utilizzate per creare nuovi contenuti in una varietà di settori, tra cui la produzione di film, la produzione di musica, la produzione di videogiochi e la produzione di arte.
