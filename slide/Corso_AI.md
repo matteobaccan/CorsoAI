@@ -131,6 +131,38 @@ AI che è più intelligente dei migliori esseri umani in termini di velocità di
 
 ---
 
+## AI Generativa
+
+L'AI generativa è un tipo di AI che utilizza algoritmi di apprendimento automatico per creare nuovi contenuti, come immagini, video, testi e suoni.
+
+Esempi di AI generative includono reti generative avversariali (GAN), reti neurali ricorrenti (RNN) e reti neurali convoluzionali (CNN).
+
+---
+
+## Reti Generative Avversariali
+
+Un generative adversarial network (GAN) è un tipo di AI generativa che utilizza due reti neurali per generare nuovi contenuti. Una rete genera nuovi contenuti e l'altra rete cerca di rilevare se il contenuto è stato generato o meno.
+
+---
+
+## Reti neurali ricorrenti
+
+Le reti neurali ricorrenti (RNN) sono una classe di algoritmi di apprendimento automatico che sono particolarmente adatte ai problemi di classificazione e previsione su dati sequenziali. Si basano su una tecnica di apprendimento automatico chiamata "Backpropagation Through Time" (BPTT) che consente alle reti di imparare le relazioni tra gli input e gli output nel tempo. Le RNN possono essere utilizzate per problemi di classificazione, previsione, riconoscimento delle parole e altro ancora.
+
+---
+
+## Reti neurali convoluzionali
+
+Le reti neurali convoluzionali (ConvNets o CNN) sono un tipo di reti neurali profonde che sono state progettate per elaborare dati strutturati come immagini, suoni ed altri tipi di dati. Sono costituite da una serie di strati di neuroni, ciascuno dei quali è responsabile della rilevazione di caratteristiche specifiche nei dati di input. Queste caratteristiche vengono poi elaborate dai successivi strati di neuroni in modo da ottenere una rappresentazione dei dati di input.
+
+---
+
+## Utilizzo
+
+Le reti generative sono state utilizzate per creare nuovi contenuti in una varietà di settori, tra cui la produzione di film, la produzione di musica, la produzione di videogiochi e la produzione di arte.
+
+---
+
 ## Come valutiamo le AI?
 
 ---
