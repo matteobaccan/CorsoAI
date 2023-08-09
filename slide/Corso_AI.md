@@ -171,7 +171,7 @@ La Unet è stata sviluppata da Olaf Ronneberger, Philipp Fischer e Thomas Brox n
 
 ---
 
-## Perchè è nata UNET?
+## Perché è nata UNET?
 
 La Unet è stata progettata per migliorare la precisione e l'accuratezza nella segmentazione di immagini, una delle applicazioni più complesse in ambito di intelligenza artificiale. La rete è costituita da una serie di strati convoluzionali, pooling e upsampling che aiutano a individuare e identificare le parti di un'immagine.
 
@@ -840,7 +840,7 @@ __Al momento__ il progetto non è ancora pubblico, se non per i risultati ottenu
 
 ## Soundraw.io
 
-Si tratta di una intelligenza artificiale in grado di creare delle music partendo dal genere, ritmo e durata. Ogni pezzo creato può essere successivamente customizzato.
+Si tratta di una intelligenza artificiale in grado di creare delle music partendo dal genere, ritmo e durata. Ogni pezzo creato può essere successivamente personalizzato.
 
 I brani prodotti sono senza copyright e possono essere liberamente utilizzati.
 
@@ -927,8 +927,14 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 <https://www.tutorialspoint.com/artificial_intelligence/> : Tutorial AI
 <https://flowgpt.com/> : Esempi di prompt per ChatGPT
 <https://www.youtube.com/watch?v=sVvGZDoEEeQ> : 1100. Che cosa sono GPT, GPT-3 e ChatGPT e cosa possono fare? Introduzione semplice in italiano!
+
+---
+
+## Fonti usate per la creazione di queste slide 2
+
 <https://aaronsim.notion.site/b4f5dd304d9a4683a70167b6cc4b94f1?v=6cc0bd8ce4f04f26ad088e44c910b167> : elenco di prodotti basati su AI
 <https://letsview.com/ai-tools> : Directory di prodotti AI
+<https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/> : come funzionano i large language model
 
 Ogni immagine inserita riporta la fonte
 
