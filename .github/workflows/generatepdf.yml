@@ -21,13 +21,9 @@ jobs:
         cp Corso_AI.md Corso_AI-backup.md
         sed -i "s/%date%/$(date +'%Y-%m-%d')/g" Corso_AI.md
         sed -i "s/%time%/$(date +'%H:%M')/g" Corso_AI.md
-        sed -i "s/%version%/$(git rev-parse --short HEAD)/g" Corso_AI.md
         npx @marp-team/marp-cli@latest Corso_AI.md --pdf --allow-local-files
         rm Corso_AI.md
         mv Corso_AI-backup.md Corso_AI.md
-
-        
-#        docker run --rm --init -v $PWD:/home/marp/app/ -e LANG="it_IT.UTF-8" -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli Corso_AI.md --pdf --allow-local-files --html
       
     - name: commit & push
       run: |
