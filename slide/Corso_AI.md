@@ -49,6 +49,56 @@ AI è spesso usata per migliorare la produttività e l'efficienza dei processi a
 
 ---
 
+## AI  - Da cosa è composta
+
+![center w:460px](img/AI_relation_to_Generative_Models_subset,_venn_diagram.png)
+
+<https://en.m.wikipedia.org/wiki/File:AI_relation_to_Generative_Models_subset,_venn_diagram.png>
+
+---
+
+## Cos'è il Machine Learning?
+
+Le prime metodologie come gli algoritmi hard-coded e le regole fisse si sono dimostrate inadeguate per compiti complessi come il riconoscimento di immagini e il trattamento del testo.
+La soluzione è stata quella di simulare il processo di apprendimento umano attraverso il machine learning, in cui gli algoritmi imparano da una vasta quantità di dati: vengono addestrati dei modelli in base a dei dati di input.
+Questo processo è analogo all'apprendimento umano, dove si inizia con conoscenze basilari e si progredisce verso livelli più avanzati. Inoltre, per affrontare compiti ancora più complessi, è stata introdotta l'idea di imitare il cervello umano attraverso reti neurali.
+Queste reti consentono alle macchine di apprendere in modo simile all'elaborazione dei dati da parte dell'essere umano, ampliando così le capacità dell'IA.
+
+---
+
+## Reti neurali
+
+L'uso di reti neurali simulati nel software era già noto da tempo e applicato a determinati problemi.
+Tuttavia, il machine learning aveva difficoltà con problemi di semplice comprensione, fino a quando si è capito che la limitazione non risiedeva nel concetto di machine learning o nell'imitare il cervello umano. Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
+Questo non dovrebbe sorprendere, dato che il cervello umano contiene circa 86 miliardi di neuroni e una rete di connessioni estremamente complessa.
+
+---
+
+## Cos'è il Deep Learning?
+
+Il deep learning consiste nell'utilizzo di reti neurali con una maggiore complessità, comprensive di più neuroni, livelli e interconnessioni.
+Sebbene non siamo ancora in grado di replicare completamente la complessità del cervello umano, stiamo facendo progressi in questa direzione.
+Il deep learning è fondamentale per numerosi sviluppi nell'informatica, come le auto a guida autonoma e il riconoscimento vocale, che sfruttano forme di intelligenza artificiale basate su questa tecnologia.
+
+---
+
+## Cosa sono gli algoritmi generativi?
+
+Gli algoritmi generativi sono una classe di algoritmi di apprendimento automatico che generano dati sintetici, come immagini, suoni o testo, che sono simili a quelli reali.
+Questi algoritmi utilizzano una rete neurale artificiale per apprendere i modelli di dati reali e quindi generare nuovi dati sintetici.
+Riceve dei contenuti non strutturati e il modello cerca dei pattern per organizzare questi contenuti e per produrre dei nuovi dati e contenuti.
+Gli algoritmi generativi sono utilizzati in diverse applicazioni, come la generazione di immagini per i videogiochi, la sintesi di voci per gli assistenti vocali e la generazione di testo per la scrittura assistita.
+
+---
+
+## Come funzionano gli algoritmi generativi?
+
+- Generano contenuti in maniera probabilistica
+- Non sono intelligenti e non comprendono: sono ben addestrati su come ci esprimiamo e su come scriviamo
+- Non sono dei motori di ricerca: possono produrre delle allucinazioni
+
+---
+
 ## Filosofia dell'AI
 
 La sviluppo della AI è nato per una esigenza ben precisa: creare in una macchina un'intelligenza simile a quella di un uomo.
@@ -197,12 +247,36 @@ Il test di Turing è una conversazione tra un giudice umano e due partecipanti, 
 
 ---
 
-## Qualche software ha passato il test di Turing?
+## Il test di Turing è ancora attuale? Prestazioni e usabilità
+
+Oggi ci sono diversi modi per valutare le AI, a seconda del loro scopo e delle loro funzionalità. Alcuni dei metodi più comuni includono:
+
+- Valutazione delle prestazioni: questo metodo valuta le prestazioni dell'AI in base a metriche specifiche, come l'accuratezza, la velocità di elaborazione e la capacità di apprendimento. Questo metodo è spesso utilizzato per valutare le AI utilizzate in applicazioni come la classificazione delle immagini, la traduzione automatica e la diagnosi medica.
+
+- Valutazione dell'usabilità: questo metodo valuta l'usabilità dell'AI, ovvero la facilità con cui gli utenti possono interagire con l'AI e utilizzarla per raggiungere i loro obiettivi. Questo metodo è spesso utilizzato per valutare le AI utilizzate in applicazioni come l'assistenza virtuale e l'interazione uomo-macchina.
+
+---
+
+## Il test di Turing è ancora attuale? Etica e interpretabilità
+
+- Valutazione dell'etica: questo metodo valuta l'impatto etico dell'AI, ovvero se l'AI rispetta i principi etici e i diritti umani. Questo metodo è spesso utilizzato per valutare le AI utilizzate in applicazioni come la sorveglianza, la selezione del personale e la decisione automatizzata. Da notare che le AI sono solo algoritmo, quindi "l'eticità" o meno di una AI rappresenta solo un modo col quale può essere corretto il suo algoritmo di valutazione.
+
+- Valutazione dell'interpretabilità: questo metodo valuta la capacità dell'AI di spiegare le sue decisioni e il suo funzionamento interno. Questo metodo è spesso utilizzato per valutare le AI utilizzate in applicazioni come la diagnosi medica e la decisione automatizzata.
+
+Ci sono anche altri metodi di valutazione delle AI, ma questi sono alcuni dei più comuni.
+
+---
+
+## Perché il test di Turing non basta più?
+
+Le attuali AI iniziano a superare i test di Turing, ma ci si è accorti che non è sufficiente superare il test di Turing per essere considerati intelligenti.
 
 Nel dicembre 2022, ChatGPT è diventato il secondo chatbot ad aver superato il Test di Turing, secondo Max Woolf, uno scienziato dei dati di BuzzFeed.
 ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il Test di Turing nell'estate del 2022.
 
 <https://mpost.io/chatgpt-passes-the-turing-test/>
+
+<https://www.agendadigitale.eu/cultura-digitale/con-chatgpt-siamo-gia-nellera-post-test-di-turing-ma-nessuno-piu-grida-allo-scandalo/>
 
 ---
 
@@ -343,7 +417,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ## ChatGPT - perché NO
 
-- La sua conoscenza è ferma al 2021
+- La sua conoscenza è ferma a gennaio 2022
 - Non è in grado di fare analisi di dati
 - Il codice prodotto deve essere analizzato e integrato
 - A volte inventa le risposte e lo dichiara su richiesta
@@ -353,7 +427,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-## Scrivi il testo di una canzone di Tiziano Ferro?
+## Scrivi il testo di una canzone di Tiziano Ferro? (gennaio 2023)
 
     Non me lo so spiegare
 
@@ -380,7 +454,32 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda?
+## Scrivi il testo di una canzone di Tiziano Ferro? (novembre 2023)
+
+Mi dispiace, ma non posso scrivere il testo completo di una canzone di Tiziano Ferro o di qualsiasi altra canzone protetta da copyright. Posso fornirti informazioni sulle canzoni di Tiziano Ferro o rispondere a domande su di lui. Se hai bisogno di altro tipo di informazione o di una sintesi di una canzone, sarò felice di aiutarti.
+
+---
+
+## Agisci come uno paroliere di canzoni italiane. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
+
+    Sotto il cielo stellato, io e te
+    Nel buio della notte, un segreto da svelare
+    I nostri sogni, come luci nel blu
+    Un'emozione che cresce, solo tu e io
+
+    Nel silenzio della notte, l'attesa di un bacio
+    Le parole non servono, basta solo un abbraccio
+    Il mondo scompare, quando sei qui con me
+    In questo momento, per sempre sarai
+
+    Puoi, puoi sentire il mio cuore
+    Battere forte, solo per te, amore
+    Nella melodia dei nostri giorni
+    Noi due insieme, in un sogno senza fine
+
+---
+
+## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda? (gennaio 2023)
 
     Gentile cliente,
 
@@ -406,11 +505,79 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-## Dobbiamo fidarci?
+## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda? (novembre 2023)
+
+    Gentile [Nome del Destinatario],
+    
+    Mi permetta di presentarmi: sono [Tuo Nome], [Tua Posizione] presso [Nome della Tua Azienda], una società
+    specializzata nell'ambito della conservazione della fauna selvatica e della biodiversità. Sono entusiasta di
+    scrivere per offrirle un servizio unico e di grande valore - il nostro Servizio di Conteggio delle Macchie dei
+    Panda.
+
+    I panda giganti sono un simbolo di conservazione della fauna selvatica a livello globale, e la loro sopravvivenza è
+    di vitale importanza per il nostro pianeta. Una delle caratteristiche più iconiche dei panda giganti sono le
+    macchie nere e bianche sul loro corpo, che li rendono immediatamente riconoscibili. Queste macchie sono un segno
+    distintivo di ciascun panda e possono essere utilizzate per identificarli in modo univoco.
+
+    Il nostro Servizio di Conteggio delle Macchie dei Panda è stato progettato per sostenere e facilitare gli sforzi di
+    conservazione di queste meravigliose creature. Utilizziamo tecnologie avanzate di analisi delle immagini e
+    algoritmi di riconoscimento per individuare e conteggiare con precisione le macchie dei panda nelle immagini
+    raccolte. Questo processo consente di monitorare la popolazione di panda giganti in modo non invasivo, evitando lo
+    stress che può essere causato dalle metodologie tradizionali di censimento.
+
+---
+
+## Parte 2
+
+    I vantaggi del nostro servizio includono:
+
+    Precisione: La nostra tecnologia offre risultati altamente precisi nel conteggio delle macchie dei panda.
+
+    Non invasivo: Il nostro approccio riduce al minimo il disturbo per i panda, contribuendo alla loro benessere.
+
+    Efficienza: Risparmia tempo ed energie rispetto ai metodi tradizionali di conteggio.
+
+    Monitoraggio a lungo termine: Consentiamo un monitoraggio continuo e a lungo termine delle popolazioni di panda.
+
+    Contributo alla conservazione: Il nostro servizio fornisce dati cruciali per la conservazione dei panda giganti.
+
+    Siamo convinti che il nostro Servizio di Conteggio delle Macchie dei Panda possa essere un valore aggiunto ai
+    vostri sforzi di conservazione e ricerca. Vorremmo discutere ulteriormente come possiamo personalizzare questa
+    soluzione per soddisfare le vostre esigenze specifiche e come potremmo collaborare per proteggere e preservare
+    questa specie minacciata.
+
+    Se desidera ulteriori informazioni o organizzare una presentazione personalizzata, non esiti a contattarci. Siamo
+    ansiosi di collaborare con lei per proteggere uno degli animali più iconici del nostro pianeta.
+
+    Grazie per l'attenzione, e rimaniamo a disposizione per qualsiasi chiarimento o richiesta.
+
+    Cordiali saluti,
+
+    [Tuo Nome]
+    [Tua Posizione]
+    [Nome della Tua Azienda]
+    [Contatti]
+
+---
+
+## Dobbiamo fidarci? (gennaio 2023)
 
 "È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT. Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità e le sue politiche sulla privacy. Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei termini di servizio del programma e di avere sufficienti conoscenze tecniche per configurarlo correttamente."
 
 Ho chiesto direttamente a __ChatGPT__
+
+---
+
+## Dobbiamo fidarci di te? (novembre 2023)
+
+    Sono solo un programma computerizzato creato da OpenAI chiamato ChatGPT. Non ho intenzioni né desideri e non sono
+    in grado di agire in modo indipendente. La mia funzione principale è rispondere alle domande e fornire informazioni
+    basate su ciò che ho appreso dal mio addestramento.
+
+    La tua fiducia dipende dall'uso che desideri fare di me. Sono progettato per fornire informazioni e assistenza
+    basate su dati noti fino alla mia data di taglio nel gennaio 2022. Tuttavia, la tua fiducia deve essere
+    accompagnata da una valutazione critica delle informazioni che fornisco e, quando necessario, confermare i dati con
+    fonti aggiornate e affidabili. Sono qui per aiutare, ma la responsabilità di prendere decisioni informate è tua.
 
 ---
 
@@ -596,9 +763,9 @@ Altre applicazioni in questo campo sono
 
 ---
 
-## DALL·E 2 - AI Generativa
+## DALL-E 2 - AI Generativa
 
-DALL·E 2 può creare immagini e opere d'arte originali e realistiche a partire da una descrizione testuale. Può combinare concetti, attributi e stili.
+DALL-E 2 può creare immagini e opere d'arte originali e realistiche a partire da una descrizione testuale. Può combinare concetti, attributi e stili.
 
 ---
 
@@ -927,6 +1094,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 <https://www.tutorialspoint.com/artificial_intelligence/> : Tutorial AI
 <https://flowgpt.com/> : Esempi di prompt per ChatGPT
 <https://www.youtube.com/watch?v=sVvGZDoEEeQ> : 1100. Che cosa sono GPT, GPT-3 e ChatGPT e cosa possono fare? Introduzione semplice in italiano!
+"Esempi di AI in azienda" di Alessio Pomaro
 
 ---
 

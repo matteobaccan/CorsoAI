@@ -7,6 +7,7 @@
         "BPTT",
         "Brox",
         "Carlsen",
+        "chattare",
         "Conv",
         "convoluzionale",
         "convoluzionali",
@@ -37,6 +38,8 @@
         "Turochamp",
         "Uizard",
         "UNET",
+        "upsampling",
         "Wuggy"
-    ]
+    ],
+    "cSpell.language": "it,it-IT,en"
 }
