@@ -49,56 +49,6 @@ AI è spesso usata per migliorare la produttività e l'efficienza dei processi a
 
 ---
 
-## AI  - Da cosa è composta
-
-![center w:460px](img/AI_relation_to_Generative_Models_subset,_venn_diagram.png)
-
-<https://en.m.wikipedia.org/wiki/File:AI_relation_to_Generative_Models_subset,_venn_diagram.png>
-
----
-
-## Cos'è il Machine Learning?
-
-Le prime metodologie come gli algoritmi hard-coded e le regole fisse si sono dimostrate inadeguate per compiti complessi come il riconoscimento di immagini e il trattamento del testo.
-La soluzione è stata quella di simulare il processo di apprendimento umano attraverso il machine learning, in cui gli algoritmi imparano da una vasta quantità di dati: vengono addestrati dei modelli in base a dei dati di input.
-Questo processo è analogo all'apprendimento umano, dove si inizia con conoscenze basilari e si progredisce verso livelli più avanzati. Inoltre, per affrontare compiti ancora più complessi, è stata introdotta l'idea di imitare il cervello umano attraverso reti neurali.
-Queste reti consentono alle macchine di apprendere in modo simile all'elaborazione dei dati da parte dell'essere umano, ampliando così le capacità dell'IA.
-
----
-
-## Reti neurali
-
-L'uso di reti neurali simulati nel software era già noto da tempo e applicato a determinati problemi.
-Tuttavia, il machine learning aveva difficoltà con problemi di semplice comprensione, fino a quando si è capito che la limitazione non risiedeva nel concetto di machine learning o nell'imitare il cervello umano. Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
-Questo non dovrebbe sorprendere, dato che il cervello umano contiene circa 86 miliardi di neuroni e una rete di connessioni estremamente complessa.
-
----
-
-## Cos'è il Deep Learning?
-
-Il deep learning consiste nell'utilizzo di reti neurali con una maggiore complessità, comprensive di più neuroni, livelli e interconnessioni.
-Sebbene non siamo ancora in grado di replicare completamente la complessità del cervello umano, stiamo facendo progressi in questa direzione.
-Il deep learning è fondamentale per numerosi sviluppi nell'informatica, come le auto a guida autonoma e il riconoscimento vocale, che sfruttano forme di intelligenza artificiale basate su questa tecnologia.
-
----
-
-## Cosa sono gli algoritmi generativi?
-
-Gli algoritmi generativi sono una classe di algoritmi di apprendimento automatico che generano dati sintetici, come immagini, suoni o testo, che sono simili a quelli reali.
-Questi algoritmi utilizzano una rete neurale artificiale per apprendere i modelli di dati reali e quindi generare nuovi dati sintetici.
-Riceve dei contenuti non strutturati e il modello cerca dei pattern per organizzare questi contenuti e per produrre dei nuovi dati e contenuti.
-Gli algoritmi generativi sono utilizzati in diverse applicazioni, come la generazione di immagini per i videogiochi, la sintesi di voci per gli assistenti vocali e la generazione di testo per la scrittura assistita.
-
----
-
-## Come funzionano gli algoritmi generativi?
-
-- Generano contenuti in maniera probabilistica
-- Non sono intelligenti e non comprendono: sono ben addestrati su come ci esprimiamo e su come scriviamo
-- Non sono dei motori di ricerca: possono produrre delle allucinazioni
-
----
-
 ## Filosofia dell'AI
 
 La sviluppo della AI è nato per una esigenza ben precisa: creare in una macchina un'intelligenza simile a quella di un uomo.
@@ -152,6 +102,71 @@ La fase moderna (1990-ad oggi): è stata una grande era di innovazioni nell'AI, 
 Con l'aumento delle capacità di calcolo, la ricerca ha iniziato a muoversi verso la robotica, l'intelligenza artificiale generale e l'analisi dei dati. Sono stati fatti progressi significativi nei settori della visione artificiale, della produzione automatizzata e della guida autonoma.
 
 L'AI è diventata una parte importante della vita quotidiana, con applicazioni in tutti i campi, dal riconoscimento vocale alla diagnostica medica.
+
+---
+
+## AI  - Da cosa è composta
+
+![center w:460px](img/AI_relation_to_Generative_Models_subset,_venn_diagram.png)
+
+<https://en.m.wikipedia.org/wiki/File:AI_relation_to_Generative_Models_subset,_venn_diagram.png>
+
+---
+
+## Cos'è il Machine Learning?
+
+Le prime metodologie come gli algoritmi hard-coded e le regole fisse si sono dimostrate inadeguate per compiti complessi come il riconoscimento di immagini e il trattamento del testo.
+La soluzione è stata quella di simulare il processo di apprendimento umano attraverso il machine learning, in cui gli algoritmi imparano da una vasta quantità di dati: vengono addestrati dei modelli in base a dei dati di input.
+Questo processo è analogo all'apprendimento umano, dove si inizia con conoscenze basilari e si progredisce verso livelli più avanzati. Inoltre, per affrontare compiti ancora più complessi, è stata introdotta l'idea di imitare il cervello umano attraverso reti neurali.
+Queste reti consentono alle macchine di apprendere in modo simile all'elaborazione dei dati da parte dell'essere umano, ampliando così le capacità dell'IA.
+
+---
+
+## Tipologie di Machine Learning
+
+- Unsupervised Learning
+    I dati non sono etichettati e il modello deve trovare da solo i pattern e relazioni.
+
+- Supervised Learning
+    I dati sono catalogati ed etichettati: ed esempio immagini e loro rappresentazione. Il modello acquisisce competenza in base a quanto ha appreso. Questo tipo di apprendimento è utilizzato per la classificazione e la regressione (predizione dei dati).
+
+- Reinforcement Learning
+    Un agente apprende a prende decisioni in un ambiente dinamico interagendo con esso. L'agente riceve feedback sotto forma di ricompense o punizioni in base alle azioni che compie. L'obiettivo è massimizzare la ricompensa totale nel lungo termine.
+
+---
+
+## Reti neurali
+
+L'uso di reti neurali simulati nel software era già noto da tempo e applicato a determinati problemi.
+
+Tuttavia, il machine learning aveva difficoltà con problemi di semplice comprensione, fino a quando si è capito che la limitazione non risiedeva nel concetto di machine learning o nell'imitare il cervello umano. Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
+
+Questo non dovrebbe sorprendere, dato che il cervello umano contiene circa 86 miliardi di neuroni e una rete di connessioni estremamente complessa.
+
+---
+
+## Cos'è il Deep Learning?
+
+Il deep learning consiste nell'utilizzo di reti neurali con una maggiore complessità, comprensive di più neuroni, livelli e interconnessioni.
+Sebbene non siamo ancora in grado di replicare completamente la complessità del cervello umano, stiamo facendo progressi in questa direzione.
+Il deep learning è fondamentale per numerosi sviluppi nell'informatica, come le auto a guida autonoma e il riconoscimento vocale, che sfruttano forme di intelligenza artificiale basate su questa tecnologia.
+
+---
+
+## Cosa sono gli algoritmi generativi?
+
+Gli algoritmi generativi sono una classe di algoritmi di apprendimento automatico che generano dati sintetici, come immagini, suoni o testo, che sono simili a quelli reali.
+Questi algoritmi utilizzano una rete neurale artificiale per apprendere i modelli di dati reali e quindi generare nuovi dati sintetici.
+Riceve dei contenuti non strutturati e il modello cerca dei pattern per organizzare questi contenuti e per produrre dei nuovi dati e contenuti.
+Gli algoritmi generativi sono utilizzati in diverse applicazioni, come la generazione di immagini per i videogiochi, la sintesi di voci per gli assistenti vocali e la generazione di testo per la scrittura assistita.
+
+---
+
+## Come funzionano gli algoritmi generativi?
+
+- Generano contenuti in maniera probabilistica
+- Non sono intelligenti e non comprendono: sono ben addestrati su come ci esprimiamo e su come scriviamo
+- Non sono dei motori di ricerca: possono produrre delle allucinazioni
 
 ---
 
@@ -562,7 +577,14 @@ Mi dispiace, ma non posso scrivere il testo completo di una canzone di Tiziano F
 
 ## Dobbiamo fidarci? (gennaio 2023)
 
-"È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT. Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità e le sue politiche sulla privacy. Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei termini di servizio del programma e di avere sufficienti conoscenze tecniche per configurarlo correttamente."
+    È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT.
+
+    Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità
+    e le sue politiche sulla privacy. 
+
+    Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei 
+    termini di servizio del programma e di avere sufficienti conoscenze tecniche
+    per configurarlo correttamente.
 
 Ho chiesto direttamente a __ChatGPT__
 
@@ -570,14 +592,19 @@ Ho chiesto direttamente a __ChatGPT__
 
 ## Dobbiamo fidarci di te? (novembre 2023)
 
-    Sono solo un programma computerizzato creato da OpenAI chiamato ChatGPT. Non ho intenzioni né desideri e non sono
-    in grado di agire in modo indipendente. La mia funzione principale è rispondere alle domande e fornire informazioni
-    basate su ciò che ho appreso dal mio addestramento.
+    Sono solo un programma computerizzato creato da OpenAI chiamato ChatGPT. Non ho intenzioni né desideri
+    e non sono in grado di agire in modo indipendente.
+    La mia funzione principale è rispondere alle domande e fornire informazioni basate su ciò
+    che ho appreso dal mio addestramento.
 
-    La tua fiducia dipende dall'uso che desideri fare di me. Sono progettato per fornire informazioni e assistenza
-    basate su dati noti fino alla mia data di taglio nel gennaio 2022. Tuttavia, la tua fiducia deve essere
-    accompagnata da una valutazione critica delle informazioni che fornisco e, quando necessario, confermare i dati con
-    fonti aggiornate e affidabili. Sono qui per aiutare, ma la responsabilità di prendere decisioni informate è tua.
+    La tua fiducia dipende dall'uso che desideri fare di me.
+    
+    Sono progettato per fornire informazioni e assistenza basate su dati noti fino
+    alla mia data di taglio nel gennaio 2022.
+    Tuttavia, la tua fiducia deve essere accompagnata da una valutazione critica
+    delle informazioni che fornisco e, quando necessario, confermare i dati con
+    fonti aggiornate e affidabili. Sono qui per aiutare, ma la responsabilità
+    di prendere decisioni informate è tua.
 
 ---
 
@@ -763,21 +790,29 @@ Altre applicazioni in questo campo sono
 
 ---
 
-## DALL-E 2 - AI Generativa
+## DALL-E 3 - AI Generativa
 
-DALL-E 2 può creare immagini e opere d'arte originali e realistiche a partire da una descrizione testuale. Può combinare concetti, attributi e stili.
-
----
-
-## “disegna giorgia meloni in stile simpson”
-
-![center width:500px](img/DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
+DALL-E 3 può creare immagini e opere d'arte originali e realistiche a partire da una descrizione testuale. Può combinare concetti, attributi e stili.
 
 ---
 
-## “High quality photo of a panda astronaut”
+## “disegna giorgia meloni in stile simpson” con dall-e 2
+
+![center width:350px](img/DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
+
+Usando dall-e 3 : questa richiesta è stata bloccata. Il nostro sistema ha segnalato automaticamente questa richiesta perché potrebbe essere in conflitto con la nostra content policy. Ulteriori violazioni della policy possono portare alla sospensione automatica dell'accesso.
+
+---
+
+## “High quality photo of a panda astronaut” dall-e 2
 
 ![center width:500px](img/DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
+
+---
+
+## “High quality photo of a panda astronaut” dall-e 3
+
+![center width:500px](img/panda%20astronaut%20dall-e%203.jpg)
 
 ---
 
