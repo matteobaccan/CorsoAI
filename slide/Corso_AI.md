@@ -49,18 +49,6 @@ AI è spesso usata per migliorare la produttività e l'efficienza dei processi a
 
 ---
 
-## Filosofia dell'AI
-
-La sviluppo della AI è nato per una esigenza ben precisa: creare in una macchina un'intelligenza simile a quella di un uomo.
-
----
-
-## Obiettivi dell'AI
-
-Una AI si prefigge quindi di creare sistemi esperti: qualcosa in grado di mostrare un comportamento intelligente, in grado di imparare e consigliare  i propri utenti.
-
----
-
 ## Cosa contribuisce all'AI?
 
 Esistono più discipline in grado di contribuire alla creazione di una AI: informatica, biologia, psicologia, linguistica, matematica e ingegneria.
@@ -75,7 +63,7 @@ L'Intelligenza Artificiale è stata una delle aree più innovative della scienza
 
 ## 1948-1965
 
-La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di gioco di scacchi di Alan Turing nel 1948 (Turochamp). Una serie di sviluppi di software di AI hanno seguito, come la programmazione della logica e l'apprendimento automatico.
+La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di gioco di scacchi di Alan Turing nel 1948 (Turochamp). Questo programma è stato il primo a utilizzare un algoritmo di ricerca per trovare la mossa migliore in una posizione di scacchi. Il programma di Turing è stato seguito da altri programmi di gioco di scacchi, come il programma di gioco di scacchi di Claude Shannon nel 1950 (Shannon's Chess Program) e il programma di gioco di scacchi di John McCarthy nel 1951 (McCarthy's Chess Program).
 
 ---
 
@@ -137,9 +125,7 @@ Queste reti consentono alle macchine di apprendere in modo simile all'elaborazio
 
 ## Reti neurali
 
-L'uso di reti neurali simulati nel software era già noto da tempo e applicato a determinati problemi.
-
-Tuttavia, il machine learning aveva difficoltà con problemi di semplice comprensione, fino a quando si è capito che la limitazione non risiedeva nel concetto di machine learning o nell'imitare il cervello umano. Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
+Il machine learning aveva difficoltà con problemi di semplice comprensione, fino a quando si è capito che la limitazione non risiedeva nel concetto di machine learning o nell'imitare il cervello umano. Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
 
 Questo non dovrebbe sorprendere, dato che il cervello umano contiene circa 86 miliardi di neuroni e una rete di connessioni estremamente complessa.
 
@@ -200,7 +186,11 @@ AI che è più intelligente dei migliori esseri umani in termini di velocità di
 
 L'AI generativa è un tipo di AI che utilizza algoritmi di apprendimento automatico per creare nuovi contenuti, come immagini, video, testi e suoni.
 
-Esempi di AI generative includono reti generative avversariali (GAN), reti neurali ricorrenti (RNN) e reti neurali convoluzionali (CNN).
+Esempi di AI generative includono:
+
+- reti generative avversariali (GAN)
+- reti neurali ricorrenti (RNN)
+- reti neurali convoluzionali (CNN)
 
 ---
 
@@ -219,28 +209,6 @@ Le reti neurali ricorrenti (RNN) sono una classe di algoritmi di apprendimento a
 ## Reti neurali convoluzionali
 
 Le reti neurali convoluzionali (ConvNets o CNN) sono un tipo di reti neurali profonde che sono state progettate per elaborare dati strutturati come immagini, suoni ed altri tipi di dati. Sono costituite da una serie di strati di neuroni, ciascuno dei quali è responsabile della rilevazione di caratteristiche specifiche nei dati di input. Queste caratteristiche vengono poi elaborate dai successivi strati di neuroni in modo da ottenere una rappresentazione dei dati di input.
-
----
-
-## Cosa vuol dire convoluzionale
-
-La convoluzione è una tecnica di elaborazione del segnale che viene utilizzata per modificare un segnale in ingresso in un segnale di uscita. Si tratta di una tecnica di elaborazione del segnale che viene utilizzata per modificare un segnale in ingresso in un segnale di uscita. Una rete neurale convoluzionale (CNN) è un tipo di rete neurale artificiale che utilizza una struttura di convoluzione per analizzare e riconoscere le caratteristiche di un'immagine o di un segnale.
-
----
-
-## UNET
-
-La Unet (Unità di Rete) è una rete neurale convoluzionale profonda usata comunemente in ambito di intelligenza artificiale. Si tratta di una rete neurale convoluzionale generica che può essere utilizzata per diverse applicazioni come il riconoscimento di immagini, la classificazione del testo e la segmentazione di immagini.
-
-La Unet è stata sviluppata da Olaf Ronneberger, Philipp Fischer e Thomas Brox nel 2015 ed è stata una delle prime reti neurali convoluzionali profonde ad essere sviluppate.
-
----
-
-## Perché è nata UNET?
-
-La Unet è stata progettata per migliorare la precisione e l'accuratezza nella segmentazione di immagini, una delle applicazioni più complesse in ambito di intelligenza artificiale. La rete è costituita da una serie di strati convoluzionali, pooling e upsampling che aiutano a individuare e identificare le parti di un'immagine.
-
-La Unet è una rete neurale molto potente e versatile che può essere utilizzata per una vasta gamma di applicazioni. Può essere utilizzata per migliorare la precisione e l'accuratezza dei sistemi di riconoscimento delle immagini, classificazione del testo e segmentazione delle immagini.
 
 ---
 
@@ -432,11 +400,11 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ## ChatGPT - perché NO
 
-- La sua conoscenza è ferma a gennaio 2022
+- La sua conoscenza è ferma a gennaio 2022 (GTP4turbo aprile 2023)
 - Non è in grado di fare analisi di dati
 - Il codice prodotto deve essere analizzato e integrato
 - A volte inventa le risposte e lo dichiara su richiesta
-- Non ha accesso a internet per attingere a nuove informazioni
+- Non ha accesso a internet per attingere a nuove informazioni (si la versione a pagamento con plugin)
 - I testi che scrive al momento sono discreti, meglio estenderli ed adattarli
 - Troppo rispettoso del suo utilizzatore
 
