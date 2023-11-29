@@ -156,6 +156,19 @@ Gli algoritmi generativi sono utilizzati in diverse applicazioni, come la genera
 
 ---
 
+## Dati di addestramento
+
+I dati di addestramento sono un insieme di dati utilizzati per addestrare un modello di machine learning. Questi dati sono utilizzati per insegnare al modello come eseguire un compito specifico, come la classificazione delle immagini o la traduzione automatica.
+
+In rete esistono vari dataset di dati di addestramento, sia a pagamento che gratuiti.
+Alcuni dei più famosi sono rappresentati da
+
+- Common Crawl <https://commoncrawl.org/> : più di 250 miliardi di pagine nell'arco di 16 anni
+- Laion <https://laion.ai/projects/> : contiene vari dataset, come LAION5B un dataset di 5.86 miliardi di coppie di immagini/testo
+- The Pile <https://pile.eleuther.ai/> : 825 GiB di dati di alta qualità, come ad esempio PubMed Central (PMC) un archivio di articoli accademici pubblicati su riviste biomediche
+
+---
+
 ## Tipi di intelligenza artificiale
 
 ---
@@ -930,6 +943,22 @@ Realizzi __Valentino Rossi__ che mangia un gelato
 
 ---
 
+## LensGo.ai
+
+Quando occorre invece andare sull'iperrealismo, si può utilizzare LensGo.
+
+![center width:450px](img/lensgo-un%20ragazzo%20su%20un%20triciclo%20verde-real.png)
+
+---
+
+## LensGo - pixar
+
+Oppure con uno stile Pixar
+
+![center width:450px](img/lensgo-un%20ragazzo%20su%20un%20triciclo%20verde-pixar.png)
+
+---
+
 ## This *** does not exist
 
 Sono una serie di siti web in grado di generare persone, gatti, cavalli e strutture chimiche che non esistono, basandosi su una AI alimentata da StyleGAN, una rete neurale di Nvidia sviluppata in 2018.
@@ -1015,6 +1044,18 @@ Si tratta di una intelligenza artificiale in grado di creare delle music partend
 I brani prodotti sono senza copyright e possono essere liberamente utilizzati.
 
 <https://soundraw.io/>
+
+---
+
+## Musicfy
+
+Musicfy è in grado di creare della musica partendo da un testo o da una melodia cantata o fischiettata.
+
+<https://musicfy.lol/>
+
+Una musica rock con un introduzione di chitarre elettriche
+
+DEMO
 
 ---
 
