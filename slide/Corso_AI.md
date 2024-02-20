@@ -3,7 +3,7 @@ theme: default
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('img/background.svg')
 marp: true
 footer: https://github.com/matteobaccan/CorsoAI versione del %date% %time%
 ---
@@ -20,6 +20,14 @@ Entriamo nel mondo delle AI
 img[alt~='center'] {
   display: block;
   margin: 0 auto;
+}
+h2 {
+    color: #e50000;
+    position: absolute;
+    top: 30px;
+}
+h3 {
+    color: #e50000;
 }
 " -->
 
@@ -104,9 +112,24 @@ L'AI è diventata una parte importante della vita quotidiana, con applicazioni i
 ## Cos'è il Machine Learning?
 
 Le prime metodologie come gli algoritmi hard-coded e le regole fisse si sono dimostrate inadeguate per compiti complessi come il riconoscimento di immagini e il trattamento del testo.
+
 La soluzione è stata quella di simulare il processo di apprendimento umano attraverso il machine learning, in cui gli algoritmi imparano da una vasta quantità di dati: vengono addestrati dei modelli in base a dei dati di input.
+
 Questo processo è analogo all'apprendimento umano, dove si inizia con conoscenze basilari e si progredisce verso livelli più avanzati. Inoltre, per affrontare compiti ancora più complessi, è stata introdotta l'idea di imitare il cervello umano attraverso reti neurali.
+
 Queste reti consentono alle macchine di apprendere in modo simile all'elaborazione dei dati da parte dell'essere umano, ampliando così le capacità dell'IA.
+
+---
+
+## Eliza
+
+ELIZA è un chatterbot scritto nel 1966 da Joseph Weizenbaum.[1] Il bot consiste in un analizzatore lessicale e un insieme di regole (script) che permettono al chatterbot di simulare una conversazione in inglese, gallese o tedesco.
+
+Lo script più noto, spesso erroneamente identificato con ELIZA, è DOCTOR, che imita un terapeuta rogersiano.
+
+ELIZA procedeva analizzando e sostituendo semplici parole chiave in frasi preconfezionate. A seconda delle parole che l'utente immetteva nel programma, l'illusione di un interlocutore umano veniva smascherata o poteva continuare per diverse battute. Talvolta risultava talmente convincente che esistono aneddoti su persone così convinte di comunicare con un essere umano, da insistere per parecchi minuti.
+
+<https://it.wikipedia.org/wiki/ELIZA_(chatterbot)>
 
 ---
 
@@ -134,7 +157,9 @@ Questo non dovrebbe sorprendere, dato che il cervello umano contiene circa 86 mi
 ## Cos'è il Deep Learning?
 
 Il deep learning consiste nell'utilizzo di reti neurali con una maggiore complessità, comprensive di più neuroni, livelli e interconnessioni.
+
 Sebbene non siamo ancora in grado di replicare completamente la complessità del cervello umano, stiamo facendo progressi in questa direzione.
+
 Il deep learning è fondamentale per numerosi sviluppi nell'informatica, come le auto a guida autonoma e il riconoscimento vocale, che sfruttano forme di intelligenza artificiale basate su questa tecnologia.
 
 ---
@@ -142,8 +167,11 @@ Il deep learning è fondamentale per numerosi sviluppi nell'informatica, come le
 ## Cosa sono gli algoritmi generativi?
 
 Gli algoritmi generativi sono una classe di algoritmi di apprendimento automatico che generano dati sintetici, come immagini, suoni o testo, che sono simili a quelli reali.
+
 Questi algoritmi utilizzano una rete neurale artificiale per apprendere i modelli di dati reali e quindi generare nuovi dati sintetici.
+
 Riceve dei contenuti non strutturati e il modello cerca dei pattern per organizzare questi contenuti e per produrre dei nuovi dati e contenuti.
+
 Gli algoritmi generativi sono utilizzati in diverse applicazioni, come la generazione di immagini per i videogiochi, la sintesi di voci per gli assistenti vocali e la generazione di testo per la scrittura assistita.
 
 ---
@@ -375,11 +403,57 @@ La comprensione implica i seguenti compiti:
 
 ---
 
-## ChatGPT
+## ChatGPT - di cosa si tratta?
 
-- ChatGPT : lo scopo è quello di creare un chatbot che risponde in modo fluido che risponda come se fosse una persona
+ChatGPT ha lo scopo di creare un chatbot che risponde in modo fluido che risponda come se fosse una persona.
+
+Si tratta di un software che interagisce con gli utenti attraverso un linguaggio naturale, come se fosse una persona.
 
 GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di modelli di linguaggio naturalmente sviluppati da OpenAI utilizzati per generare testo.
+
+---
+
+## 30 Novembre 2022 : Rilasciato ChatGPT
+
+Al momento della sua uscita non esisteva qualcosa di simile, ma ora è possibile trovare altri software simili, come Google Gemini e Perplexity.ai.
+
+Rispetto ad altri software è in grado di dialogare in maniera eccellente, ma non è in grado di rispondere a domande complesse.
+
+Non è facile da replicare, dato che richiede costi molto alti: non si conosce la cifra esatta ma si vocifera fra i 50 e i 100 milioni di dollari.
+
+Richiede mesi di calcolo su macchine molto potenti:si parla di 4 mesi su 10000 GPU, che equivalgono a secoli di elaborazione su un singolo computer.
+
+Non si conoscono i modelli che sono stati usati per creare ChatGPT e non si conoscono le risorse (documenti, foto, software etc) sui quali è stato addestrato.
+
+---
+
+## Quali sono le tre domande che mia nonna potrebbe avere su ChatGPT?
+
+Chiediamolo direttamente a ChatGPT
+
+```text
+Come funziona ChatGPT?
+Tua nonna potrebbe essere curiosa di sapere come questo assistente virtuale è in
+ grado di rispondere alle domande e generare testo in modo così naturale. 
+ Potresti spiegarle brevemente che si basa su un modello di intelligenza artificiale
+ chiamato GPT-3.5, che è stato addestrato su una vasta quantità di testo per imparare il linguaggio umano.
+
+
+Cosa può fare ChatGPT per me?
+Potresti illustrare a tua nonna le varie cose che ChatGPT può fare, come rispondere a domande,
+ generare testo creativo, fornire informazioni su una vasta gamma di argomenti e persino aiutare
+ nella scrittura di testi o messaggi.
+
+
+La mia privacy è al sicuro quando uso ChatGPT?
+Tua nonna potrebbe essere preoccupata per la privacy e chiedere se le conversazioni con ChatGPT
+ sono sicure. Puoi rassicurarla spiegando che di solito le interazioni con assistenti virtuali 
+ come ChatGPT sono anonime e che OpenAI si impegna a proteggere la privacy degli utenti.
+```
+
+---
+
+
 
 ---
 
@@ -456,7 +530,7 @@ Mi dispiace, ma non posso scrivere il testo completo di una canzone di Tiziano F
 
 ---
 
-## Agisci come uno paroliere di canzoni italiane. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
+## Agisci come uno paroliere. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
 
     Sotto il cielo stellato, io e te
     Nel buio della notte, un segreto da svelare
@@ -1139,6 +1213,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 <https://flowgpt.com/> : Esempi di prompt per ChatGPT
 <https://www.youtube.com/watch?v=sVvGZDoEEeQ> : 1100. Che cosa sono GPT, GPT-3 e ChatGPT e cosa possono fare? Introduzione semplice in italiano!
 "Esempi di AI in azienda" di Alessio Pomaro
+"Come funziona ChatGPT" <https://www.youtube.com/watch?v=D9hiuVmtyAU> di Cesare Furlanello
 
 ---
 
@@ -1155,3 +1230,5 @@ Ogni immagine inserita riporta la fonte
 ## Disclaimer
 
 L'autore ha generato questo testo in parte con GPT-3, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità ultima del contenuto di questa pubblicazione.
+
+L'immagine di sfondo è stata generata con <https://app.haikei.app>
