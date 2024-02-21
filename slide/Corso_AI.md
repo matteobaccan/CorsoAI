@@ -421,7 +421,7 @@ Rispetto ad altri software è in grado di dialogare in maniera eccellente, ma no
 
 Non è facile da replicare, dato che richiede costi molto alti: non si conosce la cifra esatta ma si vocifera fra i 50 e i 100 milioni di dollari.
 
-Richiede mesi di calcolo su macchine molto potenti:si parla di 4 mesi su 10000 GPU, che equivalgono a secoli di elaborazione su un singolo computer.
+Richiede mesi di calcolo su macchine molto potenti: si parla di 4 mesi su 10000 GPU, che equivalgono a secoli di elaborazione su un singolo computer.
 
 Non si conoscono i modelli che sono stati usati per creare ChatGPT e non si conoscono le risorse (documenti, foto, software etc) sui quali è stato addestrato.
 
@@ -453,23 +453,35 @@ Tua nonna potrebbe essere preoccupata per la privacy e chiedere se le conversazi
 
 ---
 
-
-
----
-
 ## AI Parameters
 
-![center width:600px](img/AI%20Parameters.png)
+![center width:850px](img/AI%20Parameters.png)
 
-<https://www.merkle.com/in/blog/ai-search-what-openais-gpt-3-means-google-and-seo-0>
+<https://www.techtarget.com/searchenterpriseai/tip/The-role-of-AI-parameters-in-the-enterprise>
 
 ---
 
-## e domani?
+## Quanto è istruito ChatGPT?
 
-![center width:550px](img/Screenshot-2021-07-13T134124.960.png)
+Qualcuno ha provato a sottoporre i test MBE a ChatGPT e nella versione 4 i risultati sono stati soprendenti.
 
-<https://spyro-soft.com/blog/tomasz-smolarczyk-the-future-of-ai>
+Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per valutare le conoscenze e le competenze legali di un candidato ed è un prerequisito per esercitare la professione forense negli Stati Uniti.
+
+---
+
+## MBE
+
+![center width:800px](img/mehra_deep_dive_gpt_models_3.webp)
+
+<https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
+
+---
+
+## Istruzione in ambito legale
+
+![center width:700px](img/mehra_deep_dive_gpt_models_2.webp)
+
+<https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
 
 ---
 
