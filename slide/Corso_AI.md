@@ -199,6 +199,12 @@ Alcuni dei più famosi sono rappresentati da
 
 ## Tipi di intelligenza artificiale
 
+Esistono varie tipologie di intelligenza artificiale, a seconda del loro scopo e delle loro funzionalità. Alcune delle tipologie più comuni includono:
+
+- ANI (Artificial Narrow Intelligence)
+- AGI (Artificial General Intelligence)
+- ASI (Artificial Super Intelligence)
+
 ---
 
 ### ANI (Artificial Narrow Intelligence)
@@ -261,11 +267,18 @@ Le reti generative sono state utilizzate per creare nuovi contenuti in una varie
 
 ## Come valutiamo le AI?
 
+Esistono diversi modi per valutare le AI, a seconda del loro scopo e delle loro funzionalità. Alcuni dei metodi più comuni includono:
+
+- Valutazione delle prestazioni
+- Valutazione dell'usabilità
+- Valutazione dell'etica
+- Valutazione dell'interpretabilità
+
 ---
 
 ## Test di Turing
 
-Il test di Turing è un modo per determinare se un computer è in grado di pensare in modo intelligente come un essere umano. Il test è stato sviluppato da Alan Turing, un matematico britannico, nel 1950 ed è considerato uno dei primi esempi di intelligenza artificiale.
+Il test di Turing è stata la prima formulazione di una tecnica usata per determinare se un computer è in grado di pensare in modo intelligente come un essere umano. Il test è stato sviluppato da Alan Turing, un matematico britannico, nel 1950 ed è considerato uno dei primi esempi di intelligenza artificiale.
 
 Il test di Turing è una conversazione tra un giudice umano e due partecipanti, un umano e un computer. Il giudice non sa quale delle due parti è l'umano e quale il computer. Se il giudice non è in grado di determinare la differenza, viene considerato che il computer è intelligente come un essere umano.
 
@@ -304,6 +317,16 @@ ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il
 
 ---
 
+## Ma il test è stato veramente superato?
+
+Secondo due ricercatori dell'Università della California a San Diego, che hanno condotto un esperimento per mettere alla prova il modello linguistico GPT-4, il modello non ha superato il test di Turing.
+
+<https://arxiv.org/abs/2310.20216>
+
+<https://www.hwupgrade.it/news/scienza-tecnologia/intelligenze-artificiali-alla-prova-del-test-di-turing-un-chatbot-anni-60-batte-gpt-35_122368.html>
+
+---
+
 ## Alan Turing
 
 Alan Turing è stato un noto matematico, filosofo, criptoanalista, e informatico inglese.
@@ -333,6 +356,18 @@ Al momento della scoperta, vicino al letto, accanto al suo orologio, fu trovata 
 ---
 
 ## Applicazioni della AI
+
+Le applicazioni dell'AI sono molteplici e in continuo sviluppo. Alcune delle applicazioni più comuni includono:
+
+- Gioco
+- Elaborazione del linguaggio naturale
+- Sistemi esperti
+- Sistemi di visione
+- Diagnosi
+- Riconoscimento facciale
+- Riconoscimento vocale
+- Riconoscimento della scrittura a mano
+- Robot intelligenti
 
 ---
 
@@ -364,7 +399,11 @@ Per quanto riguarda i software: Stockfish 11 ha un ELO di 3500, mentre lo Komodo
 
 ---
 
-## Metodi fondamentali per un meccanismo di AI
+## Tecnologie di linguaggio a corredo delle AI
+
+Le tecnologie di linguaggio sono un insieme di strumenti e tecniche che consentono alle macchine di comprendere e generare linguaggio naturale.
+
+Queste tecnologie sono utilizzate in una varietà di applicazioni, come i chatbot, i sistemi di traduzione automatica e i sistemi di analisi del testo.
 
 ---
 
@@ -397,9 +436,13 @@ La comprensione implica i seguenti compiti:
 
 ## Servizi basati su AI
 
+I servizi basati su AI sono applicazioni che utilizzano l'intelligenza artificiale per fornire funzionalità avanzate.
+
 ---
 
 ## Servizi di supporto ai testi
+
+I servizi di supporto ai testi sono applicazioni che utilizzano l'intelligenza artificiale per generare, analizzare e modificare testi.
 
 ---
 
@@ -427,7 +470,7 @@ Non si conoscono i modelli che sono stati usati per creare ChatGPT e non si cono
 
 ---
 
-## Quali sono le tre domande che mia nonna potrebbe avere su ChatGPT?
+## Quali sono le tre domande che mia nonna farebbe a ChatGPT?
 
 Chiediamolo direttamente a ChatGPT
 
@@ -463,7 +506,7 @@ Tua nonna potrebbe essere preoccupata per la privacy e chiedere se le conversazi
 
 ## Quanto è istruito ChatGPT?
 
-Qualcuno ha provato a sottoporre i test MBE a ChatGPT e nella versione 4 i risultati sono stati soprendenti.
+Qualcuno ha provato a sottoporre i test MBE a ChatGPT e nella versione 4 i risultati sono stati sorprendenti.
 
 Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per valutare le conoscenze e le competenze legali di un candidato ed è un prerequisito per esercitare la professione forense negli Stati Uniti.
 
@@ -511,28 +554,30 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## Scrivi il testo di una canzone di Tiziano Ferro? (gennaio 2023)
 
-    Non me lo so spiegare
+```text
+Non me lo so spiegare
 
-    Qualcosa dentro me che
-    Non riesco a spiegare
-    Sono le parole che
-    Non riesco a trovare
-    Sento dentro me
-    Che qualcosa non va
+Qualcosa dentro me che
+Non riesco a spiegare
+Sono le parole che
+Non riesco a trovare
+Sento dentro me
+Che qualcosa non va
 
-    Ma non me lo so spiegare
+Ma non me lo so spiegare
 
-    Sono parole che
-    Non riesco a dire
-    Sono sogni che
-    Non riesco a fare
-    Sento dentro me
-    Che qualcosa non va
+Sono parole che
+Non riesco a dire
+Sono sogni che
+Non riesco a fare
+Sento dentro me
+Che qualcosa non va
 
-    Ma non me lo so spiegare
+Ma non me lo so spiegare
 
-    Eppure mi sento come in cielo
-    Sento una voce dentro che mi dice
+Eppure mi sento come in cielo
+Sento una voce dentro che mi dice
+```
 
 ---
 
@@ -544,20 +589,22 @@ Mi dispiace, ma non posso scrivere il testo completo di una canzone di Tiziano F
 
 ## Agisci come uno paroliere. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
 
-    Sotto il cielo stellato, io e te
-    Nel buio della notte, un segreto da svelare
-    I nostri sogni, come luci nel blu
-    Un'emozione che cresce, solo tu e io
+```text
+Sotto il cielo stellato, io e te
+Nel buio della notte, un segreto da svelare
+I nostri sogni, come luci nel blu
+Un'emozione che cresce, solo tu e io
 
-    Nel silenzio della notte, l'attesa di un bacio
-    Le parole non servono, basta solo un abbraccio
-    Il mondo scompare, quando sei qui con me
-    In questo momento, per sempre sarai
+Nel silenzio della notte, l'attesa di un bacio
+Le parole non servono, basta solo un abbraccio
+Il mondo scompare, quando sei qui con me
+In questo momento, per sempre sarai
 
-    Puoi, puoi sentire il mio cuore
-    Battere forte, solo per te, amore
-    Nella melodia dei nostri giorni
-    Noi due insieme, in un sogno senza fine
+Puoi, puoi sentire il mio cuore
+Battere forte, solo per te, amore
+Nella melodia dei nostri giorni
+Noi due insieme, in un sogno senza fine
+```
 
 ---
 
@@ -1172,6 +1219,9 @@ Rappresenta un valido aiuto per chi vuole disegnare l'interfaccia ed utilizzare 
 ---
 
 ## Dove studiare per approfondire l'argomento
+
+Esistono molte fonti sulle quali approfondire il mondo delle AI.
+Di seguito riporto ne riporto alcune per poter approfondire quanto accennato in queste slide.
 
 ---
 
