@@ -456,7 +456,35 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 
 ---
 
-## 30 Novembre 2022 : Rilasciato ChatGPT
+## Evoluzione di OpenAI
+
+### GTP-1
+
+117 milioni di parametri per 4.5GB di dati
+
+### BERT
+
+340 milioni di parametri per 340GB di dati
+Modelli transformes basati su meccanismi di attenzione che usano importanza fra parole e frasi in un testo.
+
+---
+
+## Evoluzione di GPT
+
+### GTP-2
+
+1.5 miliardi di parametri per 40GB di dati
+
+### GTP-3
+
+175 miliardi di parametri per 570GB di dati
+Traduzioni, riassunti, generazione di testo, dialogo, codice, matematica, immagini, musica, poesie, canzoni, testi teatrali.
+
+Il cervello umano ha 170 milioni di neuroni e 150 trilioni di sinapsi.
+
+---
+
+## 30 Novembre 2022 : Rilasciato ChatGPT 3
 
 Al momento della sua uscita non esisteva qualcosa di simile, ma ora è possibile trovare altri software simili, come Google Gemini e Perplexity.ai.
 
@@ -467,6 +495,32 @@ Non è facile da replicare, dato che richiede costi molto alti: non si conosce l
 Richiede mesi di calcolo su macchine molto potenti: si parla di 4 mesi su 10000 GPU, che equivalgono a secoli di elaborazione su un singolo computer.
 
 Non si conoscono i modelli che sono stati usati per creare ChatGPT e non si conoscono le risorse (documenti, foto, software etc) sui quali è stato addestrato.
+
+---
+
+## Rilasciato ChatGPT 3.5
+
+ChatGPT 3.5 è una versione migliorata di ChatGPT 3, con una maggiore capacità di generare testo e rispondere a domande.
+
+---
+
+## Rilascio delle API di programmazione
+
+Le API di programmazione di ChatGPT 3.5 sono state rilasciate nel gennaio 2023, consentendo agli sviluppatori di integrare ChatGPT 3.5 nelle loro applicazioni.
+
+---
+
+## 14 marzo 2023 ChatGPT 4
+
+ChatGPT 4 è una versione migliorata di ChatGPT 3.5.
+
+Il numero di parametri è aumentato a 1 trilione, rendendolo il modello di linguaggio più grande mai creato.
+
+---
+
+## Memoria
+
+I modelli iniziano ad avere una memoria a breve: ricordano le informazioni che sono state fornite loro in precedenza e le utilizzano per generare testo.
 
 ---
 
@@ -725,6 +779,17 @@ Ho chiesto direttamente a __ChatGPT__
 ## ChatGPT sostituisce Google?
 
 Al momento (gennaio 2023) non sostituisce Google ... __al momento__
+
+---
+
+## ChatGPT è integrato in BING
+
+- **Fonti Attuali**: Bing utilizza fonti attuali, a differenza di ChatGpt che si basa su dati fino al 2021.
+- **Collaborazione tra Microsoft e OpenAI**: Bing utilizza la stessa tecnologia di base di ChatGpt, ma è una versione migliorata.
+- **Due Livelli di Conoscenza**: Bing ha due livelli di conoscenza: uno profondo e uno superficiale basato sui risultati di ricerca.
+- **Risoluzione di Limiti**: Bing risolve alcuni limiti di ChatGpt, come l'uso di dati obsoleti e l'invenzione di fatti.
+- **Risposte più accurate**: Bing fornisce risposte più precise grazie alle fonti attuali.
+- **Miglioramento delle Capacità di Risposta**: Questa integrazione rappresenta un passo avanti nell'evoluzione delle capacità di risposta dell'intelligenza artificiale.
 
 ---
 
