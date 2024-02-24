@@ -1106,9 +1106,7 @@ Disegni l'immagine un gatto in stile Kandinsky
 
 ## Kandinsky - gennaio 2024
 
-Disegni l'immagine un gatto in stile Kandinsky
-
-![center width:400px](img/923617_Disegni%20l'immagine%20un%20gatto%20in%20stile%20Kandinsky%20_xl-1024-v1-0.png)
+![center width:550px](img/923617_Disegni%20l'immagine%20un%20gatto%20in%20stile%20Kandinsky%20_xl-1024-v1-0.png)
 
 ---
 
@@ -1146,9 +1144,7 @@ Realizzi __Valentino Rossi__ che mangia un gelato
 
 ## Valentino Rossi - gennaio 2024
 
-Realizzi __Valentino Rossi__ che mangia un gelato
-
-![center width:450px](img/397630_Realizzi%20Valentino%20Rossi%20che%20mangia%20un%20gelato%20_xl-1024-v1-0.png)
+![center width:550px](img/397630_Realizzi%20Valentino%20Rossi%20che%20mangia%20un%20gelato%20_xl-1024-v1-0.png)
 
 ---
 
