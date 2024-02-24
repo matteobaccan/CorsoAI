@@ -793,17 +793,12 @@ Al momento (gennaio 2023) non sostituisce Google ... __al momento__
 
 ---
 
-## Integrazioni
+## Alternative
 
-- Plugin per browser
-- Generatori di libri <https://github.com/mikavehns/BookGPT>
-- Tastiera IOS <https://auri.ai/>
-- Raccolte di prompt <https://flowgpt.com/>
-- Text Editor
-
-Per approfondimenti
-
-<https://discord.com/channels/974519864045756446/1037561385070112779/threads/1062015322699354173>
+* Claude -> Anthropic.ai
+* Perplexity.ai
+* Amazon BedRock
+* Google BARD -> GEMINI
 
 ---
 
@@ -1097,11 +1092,11 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 Dream Studio è un'interfaccia facile da usare per la creazione di immagini usando l'ultima versione del modello di generazione di immagini Stable Diffusion. Stable Diffusion è un modello veloce ed efficiente per creare immagini da testo che comprende le relazioni tra parole e immagini. Può creare immagini di alta qualità di qualsiasi cosa si possa immaginare in pochi secondi - basta digitare un prompt di testo e premere Dream.
 
-<https://beta.dreamstudio.ai>
+<https://dreamstudio.ai>
 
 ---
 
-## Kandinsky
+## Kandinsky - gennaio 2023
 
 Disegni l'immagine un gatto in stile Kandinsky
 
@@ -1109,7 +1104,15 @@ Disegni l'immagine un gatto in stile Kandinsky
 
 ---
 
-## Van Gogh
+## Kandinsky - gennaio 2024
+
+Disegni l'immagine un gatto in stile Kandinsky
+
+![center width:400px](img/923617_Disegni%20l'immagine%20un%20gatto%20in%20stile%20Kandinsky%20_xl-1024-v1-0.png)
+
+---
+
+## Van Gogh - gennaio 2023
 
 Disegni l'immagine un gatto in stile Van Gogh
 
@@ -1117,7 +1120,7 @@ Disegni l'immagine un gatto in stile Van Gogh
 
 ---
 
-## Andy Warhol
+## Andy Warhol - gennaio 2023
 
 Disegni l'immagine un gatto in stile Andy Warhol
 
@@ -1125,7 +1128,7 @@ Disegni l'immagine un gatto in stile Andy Warhol
 
 ---
 
-## Edvard Munch
+## Edvard Munch - gennaio 2023
 
 Disegni l'immagine un gatto in stile Edvard Munch
 
@@ -1133,11 +1136,19 @@ Disegni l'immagine un gatto in stile Edvard Munch
 
 ---
 
-## Valentino Rossi
+## Valentino Rossi - gennaio 2023
 
 Realizzi __Valentino Rossi__ che mangia un gelato
 
 ![center width:450px](img/3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
+
+---
+
+## Valentino Rossi - gennaio 2024
+
+Realizzi __Valentino Rossi__ che mangia un gelato
+
+![center width:450px](img/397630_Realizzi%20Valentino%20Rossi%20che%20mangia%20un%20gelato%20_xl-1024-v1-0.png)
 
 ---
 
@@ -1161,7 +1172,9 @@ Oppure con uno stile Pixar
 
 Sono una serie di siti web in grado di generare persone, gatti, cavalli e strutture chimiche che non esistono, basandosi su una AI alimentata da StyleGAN, una rete neurale di Nvidia sviluppata in 2018.
 
-GAN consiste di 2 reti neurali concorrenti, una genera qualcosa e la seconda cerca di trovare se i risultati sono reali o generati dal primo.
+GAN è acronimo di Generative Adversarial Network.
+
+Una rete GAN consiste di 2 reti neurali concorrenti, una genera qualcosa e la seconda cerca di trovare se i risultati sono reali o generati dal primo.
 
 L'allenamento termina quando la prima rete neurale inizia a ingannare costantemente il secondo.
 
