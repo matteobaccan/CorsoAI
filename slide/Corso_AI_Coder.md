@@ -66,6 +66,7 @@ Huggingface è una piattaforma di sviluppo e distribuzione di modelli di intelli
 I Italia sono presenti alcuni progetti AI interessanti, tra cui:
 
 ### [Cheshirecat](https://cheshirecat.ai/)
+### [LLaMAntino 2](https://huggingface.co/swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA)
 
 ---
 
@@ -80,6 +81,14 @@ Pronto per la produzione: Il software è 100% dockerizzato ed è pronto per esse
 Estendibile tramite plugin: Seleziona e installa qualsiasi plugin disponibile nel nostro registro con un singolo click, o scrivi il tuo
 
 ---
+
+## LLaMAntino 2
+
+LLaMAntino-2-70b-hf-UltraChat-ITA è un Large Language Model (LLM) che è una versione istruita di LLaMAntino-2-70b (un LLaMA 2 - 70B adattato all'italiano). Questo modello mira a fornire ai ricercatori di NLP italiani un modello migliorato per i casi d'uso del dialogo in italiano.
+
+Il modello è stato addestrato utilizzando QLora e come dati di addestramento UltraChat tradotto in lingua italiana utilizzando Argos Translate. 
+
+[LLaMAntino 2](https://huggingface.co/swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA)
 
 ---
 
