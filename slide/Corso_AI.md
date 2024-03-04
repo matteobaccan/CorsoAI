@@ -1359,7 +1359,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 <https://letsview.com/ai-tools> : Directory di prodotti AI
 <https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/> : come funzionano i large language model
 
-Ogni immagine inserita riporta la fonte
+Ogni immagine inserita in queste slide riporta la fonte
 
 ---
 
