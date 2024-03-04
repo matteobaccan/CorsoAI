@@ -902,7 +902,7 @@ Synthesia è la piattaforma di creazione di video tramite AI. I video sono creab
 
 ## Synthesia e il nostro corso
 
-<video src="img/Synthesia%20STUDIO%20Your%20AI%20video.mp4" controls width="900px"/></video>
+DEMO: Synthesia STUDIO Your AI video.mp4
 
 ---
 
@@ -934,7 +934,7 @@ Quanto costa: i costi oscillano fra 12 e 20 mila dollari.
 
 Grazie alle AI è possibile convertire del testo in un video.
 
-<video src="img/NeuralFrames.mp4" controls width="400px"/></video>
+DEMO: img/NeuralFrames.mp4
 
 <https://www.neuralframes.com/>
 
@@ -942,7 +942,7 @@ Grazie alle AI è possibile convertire del testo in un video.
 
 ## Neural Frames2
 
-<video src="img/NeuralFrames2.mp4" controls width="500px"/></video>
+DEMO: img/NeuralFrames2.mp4
 
 ---
 
@@ -1228,7 +1228,7 @@ L'intelligenza artificiale è una disciplina informatica che include metodi di a
 
 Papa Francesco apprezza il corso di AI
 
-<img/PapaFrancescoAI.wav>
+DEMO: img/PapaFrancescoAI.wav
 
 ---
 
@@ -1262,7 +1262,7 @@ Musicfy è in grado di creare della musica partendo da un testo o da una melodia
 
 Una musica rock con un introduzione di chitarre elettriche
 
-<img/Musicfy.wav>
+DEMO: img/Musicfy.wav
 
 ---
 
