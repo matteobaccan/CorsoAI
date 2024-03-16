@@ -5,7 +5,7 @@ paginate: true
 backgroundColor: #fff
 backgroundImage: url('img/background.svg')
 marp: true
-footer: https://github.com/matteobaccan/CorsoAI versione del %date% %time%
+footer: https://github.com/matteobaccan/CorsoAI ultimo aggiornamento del %date% %time%
 ---
 
 # Corso AI
@@ -24,10 +24,23 @@ img[alt~='center'] {
 h2 {
     color: #e50000;
     position: absolute;
-    top: 30px;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 15px 0px 0px 75px;    
+    height: 70px;
+    border-bottom: 1px solid red;
+    margin: 0px;
 }
 h3 {
     color: #e50000;
+}
+footer {
+    width: 100%;
+    left: 5px;
+    bottom: 0;
+    padding: 0 0 10px 10px;
 }
 " -->
 
@@ -35,7 +48,7 @@ h3 {
 
 ## Genesi di queste slide
 
-Parallelamente all'esplosione dei prodotti dotati di AI, ho deciso di sintetizzare, all'interno di alcune slide, la storia di questi prodotti e parte della terminologia utilizzata nel descriverli.
+Parallelamente all'esplosione dei prodotti dotati di AI, ho deciso di sintetizzare, all'interno di alcune slide, la storia di questa tecnologia e parte della terminologia utilizzata nel descriverli.
 
 Ho anche iniziato a sperimentare, all'interno del mio lavoro giornaliero, una serie di soluzioni che mi permettessero di essere più efficace e di lavorare più in fretta e meglio.
 
@@ -71,7 +84,9 @@ L'Intelligenza Artificiale è stata una delle aree più innovative della scienza
 
 ## 1948-1965
 
-La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di gioco di scacchi di Alan Turing nel 1948 (Turochamp). Questo programma è stato il primo a utilizzare un algoritmo di ricerca per trovare la mossa migliore in una posizione di scacchi. Il programma di Turing è stato seguito da altri programmi di gioco di scacchi, come il programma di gioco di scacchi di Claude Shannon nel 1950 (Shannon's Chess Program) e il programma di gioco di scacchi di John McCarthy nel 1951 (McCarthy's Chess Program).
+La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di gioco di scacchi di Alan Turing nel 1948 (Turochamp).
+
+Questo programma è stato il primo a utilizzare un algoritmo di ricerca per trovare la mossa migliore in una posizione di scacchi. Il programma di Turing è stato seguito da altri programmi di gioco di scacchi, come il programma di gioco di scacchi di Claude Shannon nel 1950 (Shannon's Chess Program) e il programma di gioco di scacchi di John McCarthy nel 1951 (McCarthy's Chess Program).
 
 ---
 
@@ -103,7 +118,7 @@ L'AI è diventata una parte importante della vita quotidiana, con applicazioni i
 
 ## AI  - Da cosa è composta
 
-![center w:460px](img/AI_relation_to_Generative_Models_subset,_venn_diagram.png)
+![center w:450px](img/AI_relation_to_Generative_Models_subset,_venn_diagram.png)
 
 <https://en.m.wikipedia.org/wiki/File:AI_relation_to_Generative_Models_subset,_venn_diagram.png>
 
@@ -111,9 +126,9 @@ L'AI è diventata una parte importante della vita quotidiana, con applicazioni i
 
 ## Cos'è il Machine Learning?
 
-Le prime metodologie come gli algoritmi hard-coded e le regole fisse si sono dimostrate inadeguate per compiti complessi come il riconoscimento di immagini e il trattamento del testo.
+In principio esistevano algoritmi hard-coded e regole fisse che si sono dimostrate inadeguate per compiti come riconoscimento di immagini e trattamento del testo
 
-La soluzione è stata quella di simulare il processo di apprendimento umano attraverso il machine learning, in cui gli algoritmi imparano da una vasta quantità di dati: vengono addestrati dei modelli in base a dei dati di input.
+La soluzione è stata quella di simulare il processo di apprendimento umano attraverso il machine learning, in questo modo gli algoritmi imparano da una vasta quantità di dati: vengono addestrati dei modelli in base a dei dati di input.
 
 Questo processo è analogo all'apprendimento umano, dove si inizia con conoscenze basilari e si progredisce verso livelli più avanzati. Inoltre, per affrontare compiti ancora più complessi, è stata introdotta l'idea di imitare il cervello umano attraverso reti neurali.
 
@@ -123,11 +138,11 @@ Queste reti consentono alle macchine di apprendere in modo simile all'elaborazio
 
 ## Eliza
 
-ELIZA è un chatterbot scritto nel 1966 da Joseph Weizenbaum.[1] Il bot consiste in un analizzatore lessicale e un insieme di regole (script) che permettono al chatterbot di simulare una conversazione in inglese, gallese o tedesco.
+ELIZA è un chatbot scritto nel 1966 da Joseph Weizenbaum. Il bot consiste in un analizzatore lessicale e un insieme di regole che permettono di simulare una conversazione in inglese, gallese o tedesco.
 
 Lo script più noto, spesso erroneamente identificato con ELIZA, è DOCTOR, che imita un terapeuta rogersiano.
 
-ELIZA procedeva analizzando e sostituendo semplici parole chiave in frasi preconfezionate. A seconda delle parole che l'utente immetteva nel programma, l'illusione di un interlocutore umano veniva smascherata o poteva continuare per diverse battute. Talvolta risultava talmente convincente che esistono aneddoti su persone così convinte di comunicare con un essere umano, da insistere per parecchi minuti.
+ELIZA procedeva analizzando e sostituendo semplici parole chiave in frasi preconfezionate. A seconda delle parole che l'utente immetteva nel programma, l'illusione di un interlocutore umano veniva smascherata o poteva continuare per diverse battute. Talvolta risultava talmente convincente che alcune persone erano così convinte di comunicare con un essere umano, da insistere per parecchi minuti.
 
 <https://it.wikipedia.org/wiki/ELIZA_(chatterbot)>
 
@@ -142,13 +157,15 @@ ELIZA procedeva analizzando e sostituendo semplici parole chiave in frasi precon
     I dati sono catalogati ed etichettati: ed esempio immagini e loro rappresentazione. Il modello acquisisce competenza in base a quanto ha appreso. Questo tipo di apprendimento è utilizzato per la classificazione e la regressione (predizione dei dati).
 
 - Reinforcement Learning
-    Un agente apprende a prende decisioni in un ambiente dinamico interagendo con esso. L'agente riceve feedback sotto forma di ricompense o punizioni in base alle azioni che compie. L'obiettivo è massimizzare la ricompensa totale nel lungo termine.
+    Un agente apprende a prende decisioni in un ambiente dinamico interagendo con esso. L'agente riceve feedback sotto forma di ricompense o punizioni in base alle sua azioni. L'obiettivo è massimizzare la ricompensa totale nel lungo termine.
 
 ---
 
 ## Reti neurali
 
-Il machine learning aveva difficoltà con problemi di semplice comprensione, fino a quando si è capito che la limitazione non risiedeva nel concetto di machine learning o nell'imitare il cervello umano. Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
+Il machine learning aveva difficoltà con problemi di semplice comprensione, fino a quando si è capito che la limitazione non risiedeva nel concetto di machine learning o nell'imitare il cervello umano.
+
+Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
 
 Questo non dovrebbe sorprendere, dato che il cervello umano contiene circa 86 miliardi di neuroni e una rete di connessioni estremamente complessa.
 
@@ -179,7 +196,9 @@ Gli algoritmi generativi sono utilizzati in diverse applicazioni, come la genera
 ## Come funzionano gli algoritmi generativi?
 
 - Generano contenuti in maniera probabilistica
+
 - Non sono intelligenti e non comprendono: sono ben addestrati su come ci esprimiamo e su come scriviamo
+
 - Non sono dei motori di ricerca: possono produrre delle allucinazioni
 
 ---
@@ -189,10 +208,17 @@ Gli algoritmi generativi sono utilizzati in diverse applicazioni, come la genera
 I dati di addestramento sono un insieme di dati utilizzati per addestrare un modello di machine learning. Questi dati sono utilizzati per insegnare al modello come eseguire un compito specifico, come la classificazione delle immagini o la traduzione automatica.
 
 In rete esistono vari dataset di dati di addestramento, sia a pagamento che gratuiti.
+
+---
+
+## Da dove provengono i dati di addestramento
+
 Alcuni dei più famosi sono rappresentati da
 
 - Common Crawl <https://commoncrawl.org/> : più di 250 miliardi di pagine nell'arco di 16 anni
+
 - Laion <https://laion.ai/projects/> : contiene vari dataset, come LAION5B un dataset di 5.86 miliardi di coppie di immagini/testo
+
 - The Pile <https://pile.eleuther.ai/> : 825 GiB di dati di alta qualità, come ad esempio PubMed Central (PMC) un archivio di articoli accademici pubblicati su riviste biomediche
 
 ---
@@ -202,7 +228,9 @@ Alcuni dei più famosi sono rappresentati da
 Esistono varie tipologie di intelligenza artificiale, a seconda del loro scopo e delle loro funzionalità. Alcune delle tipologie più comuni includono:
 
 - ANI (Artificial Narrow Intelligence)
+
 - AGI (Artificial General Intelligence)
+
 - ASI (Artificial Super Intelligence)
 
 ---
@@ -216,7 +244,9 @@ L'intelligenza artificiale stretta è un tipo di IA in cui una tecnologia ha la 
 ### AGI (Artificial General Intelligence)
 
 L'intelligenza artificiale forte o intelligenza artificiale generale è la capacità di un agente intelligente di apprendere e capire un qualsiasi compito intellettuale che può imparare un essere umano.
+
 È l'obiettivo principale di alcune delle ricerche nell'intelligenza artificiale e un argomento comune nella fantascienza e nella futurologia.
+
 Alcune fonti accademiche riservano il termine "IA forte" (strong AI) a quei programmi informatici in grado di essere senziente e di avere una coscienza.
 
 <https://it.wikipedia.org/wiki/Intelligenza_artificiale_forte>
@@ -235,27 +265,37 @@ L'AI generativa è un tipo di AI che utilizza algoritmi di apprendimento automat
 
 Esempi di AI generative includono:
 
-- reti generative avversariali (GAN)
-- reti neurali ricorrenti (RNN)
-- reti neurali convoluzionali (CNN)
+- Reti generative avversariali (GAN)
+- Reti neurali ricorrenti (RNN)
+- Reti neurali convoluzionali (CNN)
 
 ---
 
 ## Reti Generative Avversariali
 
-Un generative adversarial network (GAN) è un tipo di AI generativa che utilizza due reti neurali per generare nuovi contenuti. Una rete genera nuovi contenuti e l'altra rete cerca di rilevare se il contenuto è stato generato o meno.
+Un generative adversarial network (GAN) è un tipo di AI generativa che utilizza due reti neurali per generare nuovi contenuti.
+
+Una rete genera nuovi contenuti e l'altra rete cerca di rilevare se il contenuto è stato generato o meno.
 
 ---
 
 ## Reti neurali ricorrenti
 
-Le reti neurali ricorrenti (RNN) sono una classe di algoritmi di apprendimento automatico che sono particolarmente adatte ai problemi di classificazione e previsione su dati sequenziali. Si basano su una tecnica di apprendimento automatico chiamata "Backpropagation Through Time" (BPTT) che consente alle reti di imparare le relazioni tra gli input e gli output nel tempo. Le RNN possono essere utilizzate per problemi di classificazione, previsione, riconoscimento delle parole e altro ancora.
+Le reti neurali ricorrenti (RNN) sono una classe di algoritmi di apprendimento automatico che sono particolarmente adatte ai problemi di classificazione e previsione su dati sequenziali.
+
+Si basano su una tecnica di apprendimento automatico chiamata "Backpropagation Through Time" (BPTT) che consente alle reti di imparare le relazioni tra gli input e gli output nel tempo.
+
+Le RNN possono essere utilizzate per problemi di classificazione, previsione, riconoscimento delle parole e altro ancora.
 
 ---
 
 ## Reti neurali convoluzionali
 
-Le reti neurali convoluzionali (ConvNets o CNN) sono un tipo di reti neurali profonde che sono state progettate per elaborare dati strutturati come immagini, suoni ed altri tipi di dati. Sono costituite da una serie di strati di neuroni, ciascuno dei quali è responsabile della rilevazione di caratteristiche specifiche nei dati di input. Queste caratteristiche vengono poi elaborate dai successivi strati di neuroni in modo da ottenere una rappresentazione dei dati di input.
+Le reti neurali convoluzionali (ConvNets o CNN) sono un tipo di reti neurali profonde che sono state progettate per elaborare dati strutturati come immagini, suoni ed altri tipi di dati.
+
+Sono costituite da una serie di strati di neuroni, ciascuno dei quali è responsabile della rilevazione di caratteristiche specifiche nei dati di input.
+
+Queste caratteristiche vengono poi elaborate dai successivi strati di neuroni in modo da ottenere una rappresentazione dei dati di input.
 
 ---
 
@@ -265,14 +305,9 @@ Le reti generative sono state utilizzate per creare nuovi contenuti in una varie
 
 ---
 
-## Come valutiamo le AI?
+## Come valutavamo le AI in passato?
 
-Esistono diversi modi per valutare le AI, a seconda del loro scopo e delle loro funzionalità. Alcuni dei metodi più comuni includono:
-
-- Valutazione delle prestazioni
-- Valutazione dell'usabilità
-- Valutazione dell'etica
-- Valutazione dell'interpretabilità
+- Test di Turing
 
 ---
 
@@ -284,9 +319,18 @@ Il test di Turing è una conversazione tra un giudice umano e due partecipanti, 
 
 ---
 
-## Il test di Turing è ancora attuale? Prestazioni e usabilità
+## Come valutiamo oggi le AI?
 
-Oggi ci sono diversi modi per valutare le AI, a seconda del loro scopo e delle loro funzionalità. Alcuni dei metodi più comuni includono:
+Esistono diversi modi per valutare le AI, a seconda del loro scopo e delle loro funzionalità. Alcuni dei metodi più comuni includono:
+
+- Valutazione delle prestazioni
+- Valutazione dell'usabilità
+- Valutazione dell'etica
+- Valutazione dell'interpretabilità
+
+---
+
+## Prestazioni e usabilità
 
 - Valutazione delle prestazioni: questo metodo valuta le prestazioni dell'AI in base a metriche specifiche, come l'accuratezza, la velocità di elaborazione e la capacità di apprendimento. Questo metodo è spesso utilizzato per valutare le AI utilizzate in applicazioni come la classificazione delle immagini, la traduzione automatica e la diagnosi medica.
 
@@ -294,7 +338,7 @@ Oggi ci sono diversi modi per valutare le AI, a seconda del loro scopo e delle l
 
 ---
 
-## Il test di Turing è ancora attuale? Etica e interpretabilità
+## Etica e interpretabilità
 
 - Valutazione dell'etica: questo metodo valuta l'impatto etico dell'AI, ovvero se l'AI rispetta i principi etici e i diritti umani. Questo metodo è spesso utilizzato per valutare le AI utilizzate in applicazioni come la sorveglianza, la selezione del personale e la decisione automatizzata. Da notare che le AI sono solo algoritmo, quindi "l'eticità" o meno di una AI rappresenta solo un modo col quale può essere corretto il suo algoritmo di valutazione.
 
@@ -304,7 +348,7 @@ Ci sono anche altri metodi di valutazione delle AI, ma questi sono alcuni dei pi
 
 ---
 
-## Perché il test di Turing non basta più?
+## Il test di Turing può considerarsi superato?
 
 Le attuali AI iniziano a superare i test di Turing, ma ci si è accorti che non è sufficiente superare il test di Turing per essere considerati intelligenti.
 
@@ -317,41 +361,13 @@ ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il
 
 ---
 
-## Ma il test è stato veramente superato?
+## Oppure no?
 
 Secondo due ricercatori dell'Università della California a San Diego, che hanno condotto un esperimento per mettere alla prova il modello linguistico GPT-4, il modello non ha superato il test di Turing.
 
 <https://arxiv.org/abs/2310.20216>
 
 <https://www.hwupgrade.it/news/scienza-tecnologia/intelligenze-artificiali-alla-prova-del-test-di-turing-un-chatbot-anni-60-batte-gpt-35_122368.html>
-
----
-
-## Alan Turing
-
-Alan Turing è stato un noto matematico, filosofo, criptoanalista, e informatico inglese.
-
-Ha ideato diversi importanti concetti di informatica, tra cui l'algoritmo di decifrazione della macchina di Enigma durante la Seconda Guerra Mondiale.
-
-Ha contribuito allo sviluppo del computer e del calcolatore moderno. Ha anche lavorato alla teoria della computabilità e ha sviluppato alcune delle prime teorie sull'intelligenza artificiale.
-
----
-
-## La morte di Alan Turing
-
-L'8 giugno 1954, la domestica di Turing, Eliza Clayton, lo trovò morto nel suo letto.
-
-Il medico legale stabilì che la morte era avvenuta il giorno prima. Un esame post mortem stabilì la causa del decesso nell'avvelenamento da cianuro di potassio.
-
-Al momento della scoperta, vicino al letto, accanto al suo orologio, fu trovata una mela, come era sua abitudine, non terminata.
-
----
-
-## Leggenda urbana
-
-![center w:380px](img/Apple_logo_black.svg)
-
-<https://it.wikipedia.org/wiki/Apple>
 
 ---
 
@@ -364,8 +380,7 @@ Le applicazioni dell'AI sono molteplici e in continuo sviluppo. Alcune delle app
 - Sistemi esperti
 - Sistemi di visione
 - Diagnosi
-- Riconoscimento facciale
-- Riconoscimento vocale
+- Riconoscimento facciale e vocale
 - Riconoscimento della scrittura a mano
 - Robot intelligenti
 
@@ -375,9 +390,9 @@ Le applicazioni dell'AI sono molteplici e in continuo sviluppo. Alcune delle app
 
 - Gioco - La macchina può pensare a un gran numero di possibili posizioni basate sulla conoscenza.
 Magnus Carlsen : Elo 2800-2900
-Per quanto riguarda i software: Stockfish 11 ha un ELO di 3500, mentre lo Komodo 13.1 ha un ELO di 3477.
+AI: Stockfish 11 ha un ELO di 3500, mentre lo Komodo 13.1 ha un ELO di 3477.
 
-- Elaborazione del linguaggio naturale - È possibile interagire con il computer che comprende il linguaggio naturale parlato dagli esseri umani.
+- Elaborazione del linguaggio naturale - È possibile interagire con il computer che comprende il linguaggio naturale parlato dagli esseri umani: ChatGPT app, la prossima Siri con AI Generativa.
 
 - Sistemi esperti - Forniscono spiegazioni e consigli agli utenti.
 
@@ -465,7 +480,7 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 ### BERT
 
 340 milioni di parametri per 340GB di dati
-Modelli transformes basati su meccanismi di attenzione che usano importanza fra parole e frasi in un testo.
+Modelli transformer basati su meccanismi di attenzione che usano importanza fra parole e frasi in un testo.
 
 ---
 
@@ -486,7 +501,7 @@ Il cervello umano ha 170 milioni di neuroni e 150 trilioni di sinapsi.
 
 ## 30 Novembre 2022 : Rilasciato ChatGPT 3
 
-Al momento della sua uscita non esisteva qualcosa di simile, ma ora è possibile trovare altri software simili, come Google Gemini e Perplexity.ai.
+Al momento della sua uscita non esisteva qualcosa di simile, ma ora è possibile trovare altri software simili, come Google Gemini, Perplexity.ai e Mistral AI.
 
 Rispetto ad altri software è in grado di dialogare in maniera eccellente, ma non è in grado di rispondere a domande complesse.
 
@@ -498,7 +513,7 @@ Non si conoscono i modelli che sono stati usati per creare ChatGPT e non si cono
 
 ---
 
-## Rilasciato ChatGPT 3.5
+## Rilascio di ChatGPT 3.5
 
 ChatGPT 3.5 è una versione migliorata di ChatGPT 3, con una maggiore capacità di generare testo e rispondere a domande.
 
@@ -520,37 +535,19 @@ Il numero di parametri è aumentato a 1 trilione, rendendolo il modello di lingu
 
 ## Memoria
 
-I modelli iniziano ad avere una memoria a breve: ricordano le informazioni che sono state fornite loro in precedenza e le utilizzano per generare testo.
+Una delle critiche fatte a questi tipi di modelli è che non hanno una memoria: non ricordano le informazioni che sono state fornite loro in precedenza e non le utilizzano per generare testo.
 
----
+Per questo motivo una delle direzioni nelle quali si sta lavorando è l'introduzione della memoria.
 
-## Quali sono le tre domande che mia nonna farebbe a ChatGPT?
+ChatGPT ora ha una memoria a breve termine: ricordano le informazioni che sono state fornite loro in precedenza e le utilizzano per generare testo.
 
-Chiediamolo direttamente a ChatGPT
-
-```text
-Come funziona ChatGPT?
-Tua nonna potrebbe essere curiosa di sapere come questo assistente virtuale è in
- grado di rispondere alle domande e generare testo in modo così naturale. 
- Potresti spiegarle brevemente che si basa su un modello di intelligenza artificiale
- chiamato GPT-3.5, che è stato addestrato su una vasta quantità di testo per imparare il linguaggio umano.
-
-
-Cosa può fare ChatGPT per me?
-Potresti illustrare a tua nonna le varie cose che ChatGPT può fare, come rispondere a domande,
- generare testo creativo, fornire informazioni su una vasta gamma di argomenti e persino aiutare
- nella scrittura di testi o messaggi.
-
-
-La mia privacy è al sicuro quando uso ChatGPT?
-Tua nonna potrebbe essere preoccupata per la privacy e chiedere se le conversazioni con ChatGPT
- sono sicure. Puoi rassicurarla spiegando che di solito le interazioni con assistenti virtuali 
- come ChatGPT sono anonime e che OpenAI si impegna a proteggere la privacy degli utenti.
+```plaintext
+Per i fan di Star Trek siamo ancora molto lontani dal cervello positronico di Data.
 ```
 
 ---
 
-## AI Parameters
+## Parametri inclusi in ChatGPT
 
 ![center width:850px](img/AI%20Parameters.png)
 
@@ -568,7 +565,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## MBE
 
-![center width:800px](img/mehra_deep_dive_gpt_models_3.webp)
+![center width:700px](img/mehra_deep_dive_gpt_models_3.webp)
 
 <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
 
@@ -576,7 +573,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## Istruzione in ambito legale
 
-![center width:700px](img/mehra_deep_dive_gpt_models_2.webp)
+![center width:650px](img/mehra_deep_dive_gpt_models_2.webp)
 
 <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
 
@@ -585,24 +582,24 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 ## ChatGPT - perché SI
 
 - Definizioni tecniche
-- Spiegazioni: è possibile modificare il target
-- Riduce la distanza fra domanda e risposta: meno click per la risposta
-- Riesce a produrre del codice in base a una richiesta: interpreta il testo e scrive il codice
-- Traduzioni: compresi i dialetti
-- Sintesi di un testo
+- Spiegazioni: è in grado di comprendere un testo o del codice e spiegarlo
+- Rispetto a un motore di ricerca riduce la distanza fra domanda e risposta
+- Riesce a produrre del codice in base a una richiesta
+- Traduzioni: conosce moltissime lingue compresi i dialetti
+- Può sintetizzare un testo
 - Supporto alla creazione di slide, documenti, esercizi, testi teatrali, poesie, canzoni.
 
 ---
 
 ## ChatGPT - perché NO
 
-- La sua conoscenza è ferma a gennaio 2022 (GTP4turbo aprile 2023)
-- Non è in grado di fare analisi di dati
-- Il codice prodotto deve essere analizzato e integrato
-- A volte inventa le risposte e lo dichiara su richiesta
-- Non ha accesso a internet per attingere a nuove informazioni (si la versione a pagamento con plugin)
-- I testi che scrive al momento sono discreti, meglio estenderli ed adattarli
-- Troppo rispettoso del suo utilizzatore
+- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a gennaio 2022 (GTP4turbo aprile 2023)
+- Non è in grado di fare analisi di dati: capisce quanto viene chiesto, ma non ragiona
+- Quando produce codice deve poi essere analizzato e integrato
+- Soffre di allucinazioni
+- Non ha accesso a internet se non tramite plugin nella versione a pagamento
+- I testi che scrive al momento sono discreti, occorre estenderli ed adattarli
+- La troppa attenzione ai bias a volte tende a creare risposte errate o a non darle
 
 ---
 
@@ -641,7 +638,9 @@ Mi dispiace, ma non posso scrivere il testo completo di una canzone di Tiziano F
 
 ---
 
-## Agisci come uno paroliere. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
+## Cambiamo il contesto
+
+Agisci come uno paroliere. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
 
 ```text
 Sotto il cielo stellato, io e te
@@ -662,10 +661,11 @@ Noi due insieme, in un sogno senza fine
 
 ---
 
-## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda? (gennaio 2023)
+## Cold letter
+
+Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda? (gennaio 2023)
 
     Gentile cliente,
-
     Siamo lieti di presentarvi il nostro servizio di conteggio delle macchie dei panda.
 
     Il nostro servizio è unico nel suo genere ed è stato progettato appositamente per aiutarvi a monitorare i panda
