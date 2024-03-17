@@ -640,7 +640,7 @@ Mi dispiace, ma non posso scrivere il testo completo di una canzone di Tiziano F
 
 ## Cambiamo il contesto
 
-Agisci come uno paroliere. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
+__Agisci come uno paroliere__. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
 
 ```text
 Sotto il cielo stellato, io e te
@@ -661,98 +661,108 @@ Noi due insieme, in un sogno senza fine
 
 ---
 
-## Cold letter
+## Cold letter (gennaio 2023)
 
-Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda? (gennaio 2023)
+Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda?
 
-    Gentile cliente,
-    Siamo lieti di presentarvi il nostro servizio di conteggio delle macchie dei panda.
+```plaintext
+Gentile cliente,
+Siamo lieti di presentarvi il nostro servizio di conteggio delle macchie dei panda.
 
-    Il nostro servizio è unico nel suo genere ed è stato progettato appositamente per aiutarvi a monitorare i panda
-    in modo accurato e efficiente. Utilizziamo una tecnologia avanzata di intelligenza artificiale che monitora
-    costantemente i panda per contare le macchie sulla loro pelliccia. Inoltre, offriamo una vasta gamma di
-    funzionalità che vi permetteranno di ottenere una migliore comprensione dei vostri panda.
+Il nostro servizio è unico nel suo genere ed è stato progettato appositamente per aiutarvi a monitorare i panda
+in modo accurato e efficiente. Utilizziamo una tecnologia avanzata di intelligenza artificiale che monitora
+costantemente i panda per contare le macchie sulla loro pelliccia. Inoltre, offriamo una vasta gamma di
+funzionalità che vi permetteranno di ottenere una migliore comprensione dei vostri panda.
 
-    Con il nostro servizio, potrete:
+Con il nostro servizio, potrete:
 
-    Monitorare i panda in tempo reale
-    Contare le macchie dei panda in modo preciso
-    Ottenere statistiche dettagliate sui vostri panda
-    Ricevere notifiche quando ci sono cambiamenti significativi
-    Accedere a risultati storici sui vostri panda
-    Siamo convinti che il nostro servizio vi aiuterà a monitorare meglio i vostri panda, rendendo più semplice
-    la gestione delle loro macchie. Se avete domande o desiderate saperne di più, non esitate a contattarci.
+Monitorare i panda in tempo reale
+Contare le macchie dei panda in modo preciso
+Ottenere statistiche dettagliate sui vostri panda
+Ricevere notifiche quando ci sono cambiamenti significativi
+Accedere a risultati storici sui vostri panda
+Siamo convinti che il nostro servizio vi aiuterà a monitorare meglio i vostri panda, rendendo più semplice
+la gestione delle loro macchie. Se avete domande o desiderate saperne di più, non esitate a contattarci.
 
-    Cordiali saluti,
-    Il team di conteggio delle macchie dei panda
+Cordiali saluti,
+Il team di conteggio delle macchie dei panda
+```
 
 ---
 
-## Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda? (novembre 2023)
+## Cold letter (novembre 2023)
 
-    Gentile [Nome del Destinatario],
+Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie dei panda?
+
+```plaintext
+Gentile [Nome del Destinatario],
     
-    Mi permetta di presentarmi: sono [Tuo Nome], [Tua Posizione] presso [Nome della Tua Azienda], una società
-    specializzata nell'ambito della conservazione della fauna selvatica e della biodiversità. Sono entusiasta di
-    scrivere per offrirle un servizio unico e di grande valore - il nostro Servizio di Conteggio delle Macchie dei
-    Panda.
+Mi permetta di presentarmi: sono [Tuo Nome], [Tua Posizione] presso [Nome della Tua Azienda], una società
+specializzata nell'ambito della conservazione della fauna selvatica e della biodiversità. Sono entusiasta di
+scrivere per offrirle un servizio unico e di grande valore - il nostro Servizio di Conteggio delle Macchie dei
+Panda.
 
-    I panda giganti sono un simbolo di conservazione della fauna selvatica a livello globale, e la loro sopravvivenza è
-    di vitale importanza per il nostro pianeta. Una delle caratteristiche più iconiche dei panda giganti sono le
-    macchie nere e bianche sul loro corpo, che li rendono immediatamente riconoscibili. Queste macchie sono un segno
-    distintivo di ciascun panda e possono essere utilizzate per identificarli in modo univoco.
+I panda giganti sono un simbolo di conservazione della fauna selvatica a livello globale, e la loro sopravvivenza è
+di vitale importanza per il nostro pianeta. Una delle caratteristiche più iconiche dei panda giganti sono le
+macchie nere e bianche sul loro corpo, che li rendono immediatamente riconoscibili. Queste macchie sono un segno
+distintivo di ciascun panda e possono essere utilizzate per identificarli in modo univoco.
 
-    Il nostro Servizio di Conteggio delle Macchie dei Panda è stato progettato per sostenere e facilitare gli sforzi di
-    conservazione di queste meravigliose creature. Utilizziamo tecnologie avanzate di analisi delle immagini e
-    algoritmi di riconoscimento per individuare e conteggiare con precisione le macchie dei panda nelle immagini
-    raccolte. Questo processo consente di monitorare la popolazione di panda giganti in modo non invasivo, evitando lo
-    stress che può essere causato dalle metodologie tradizionali di censimento.
+Il nostro Servizio di Conteggio delle Macchie dei Panda è stato progettato per sostenere e facilitare gli sforzi di
+conservazione di queste meravigliose creature. Utilizziamo tecnologie avanzate di analisi delle immagini e
+algoritmi di riconoscimento per individuare e conteggiare con precisione le macchie dei panda nelle immagini
+raccolte. Questo processo consente di monitorare la popolazione di panda giganti in modo non invasivo, evitando lo
+stress che può essere causato dalle metodologie tradizionali di censimento.
+```
 
 ---
 
 ## Parte 2
 
-    I vantaggi del nostro servizio includono:
+```plaintext
+I vantaggi del nostro servizio includono:
 
-    Precisione: La nostra tecnologia offre risultati altamente precisi nel conteggio delle macchie dei panda.
+Precisione: La nostra tecnologia offre risultati altamente precisi nel conteggio delle macchie dei panda.
 
-    Non invasivo: Il nostro approccio riduce al minimo il disturbo per i panda, contribuendo alla loro benessere.
+Non invasivo: Il nostro approccio riduce al minimo il disturbo per i panda, contribuendo alla loro benessere.
 
-    Efficienza: Risparmia tempo ed energie rispetto ai metodi tradizionali di conteggio.
+Efficienza: Risparmia tempo ed energie rispetto ai metodi tradizionali di conteggio.
 
-    Monitoraggio a lungo termine: Consentiamo un monitoraggio continuo e a lungo termine delle popolazioni di panda.
+Monitoraggio a lungo termine: Consentiamo un monitoraggio continuo e a lungo termine delle popolazioni di panda.
 
-    Contributo alla conservazione: Il nostro servizio fornisce dati cruciali per la conservazione dei panda giganti.
+Contributo alla conservazione: Il nostro servizio fornisce dati cruciali per la conservazione dei panda giganti.
 
-    Siamo convinti che il nostro Servizio di Conteggio delle Macchie dei Panda possa essere un valore aggiunto ai
-    vostri sforzi di conservazione e ricerca. Vorremmo discutere ulteriormente come possiamo personalizzare questa
-    soluzione per soddisfare le vostre esigenze specifiche e come potremmo collaborare per proteggere e preservare
-    questa specie minacciata.
+Siamo convinti che il nostro Servizio di Conteggio delle Macchie dei Panda possa essere un valore aggiunto ai
+vostri sforzi di conservazione e ricerca. Vorremmo discutere ulteriormente come possiamo personalizzare questa
+soluzione per soddisfare le vostre esigenze specifiche e come potremmo collaborare per proteggere e preservare
+questa specie minacciata.
 
-    Se desidera ulteriori informazioni o organizzare una presentazione personalizzata, non esiti a contattarci. Siamo
-    ansiosi di collaborare con lei per proteggere uno degli animali più iconici del nostro pianeta.
+Se desidera ulteriori informazioni o organizzare una presentazione personalizzata, non esiti a contattarci. Siamo
+ansiosi di collaborare con lei per proteggere uno degli animali più iconici del nostro pianeta.
 
-    Grazie per l'attenzione, e rimaniamo a disposizione per qualsiasi chiarimento o richiesta.
+Grazie per l'attenzione, e rimaniamo a disposizione per qualsiasi chiarimento o richiesta.
 
-    Cordiali saluti,
+Cordiali saluti,
 
-    [Tuo Nome]
-    [Tua Posizione]
-    [Nome della Tua Azienda]
-    [Contatti]
+[Tuo Nome]
+[Tua Posizione]
+[Nome della Tua Azienda]
+[Contatti]
+```
 
 ---
 
 ## Dobbiamo fidarci? (gennaio 2023)
 
-    È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT.
+```plaintext
+È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT.
 
-    Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità
-    e le sue politiche sulla privacy. 
+Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità
+e le sue politiche sulla privacy. 
 
-    Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei 
-    termini di servizio del programma e di avere sufficienti conoscenze tecniche
-    per configurarlo correttamente.
+Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei 
+termini di servizio del programma e di avere sufficienti conoscenze tecniche
+per configurarlo correttamente.
+```
 
 Ho chiesto direttamente a __ChatGPT__
 
@@ -760,19 +770,21 @@ Ho chiesto direttamente a __ChatGPT__
 
 ## Dobbiamo fidarci di te? (novembre 2023)
 
-    Sono solo un programma computerizzato creato da OpenAI chiamato ChatGPT. Non ho intenzioni né desideri
-    e non sono in grado di agire in modo indipendente.
-    La mia funzione principale è rispondere alle domande e fornire informazioni basate su ciò
-    che ho appreso dal mio addestramento.
+```plaintext
+Sono solo un programma computerizzato creato da OpenAI chiamato ChatGPT. Non ho intenzioni né desideri
+e non sono in grado di agire in modo indipendente.
+La mia funzione principale è rispondere alle domande e fornire informazioni basate su ciò
+che ho appreso dal mio addestramento.
 
-    La tua fiducia dipende dall'uso che desideri fare di me.
+La tua fiducia dipende dall'uso che desideri fare di me.
     
-    Sono progettato per fornire informazioni e assistenza basate su dati noti fino
-    alla mia data di taglio nel gennaio 2022.
-    Tuttavia, la tua fiducia deve essere accompagnata da una valutazione critica
-    delle informazioni che fornisco e, quando necessario, confermare i dati con
-    fonti aggiornate e affidabili. Sono qui per aiutare, ma la responsabilità
-    di prendere decisioni informate è tua.
+Sono progettato per fornire informazioni e assistenza basate su dati noti fino
+alla mia data di taglio nel gennaio 2022.
+Tuttavia, la tua fiducia deve essere accompagnata da una valutazione critica
+delle informazioni che fornisco e, quando necessario, confermare i dati con
+fonti aggiornate e affidabili. Sono qui per aiutare, ma la responsabilità
+di prendere decisioni informate è tua.
+```
 
 ---
 
@@ -784,21 +796,22 @@ Al momento (gennaio 2023) non sostituisce Google ... __al momento__
 
 ## ChatGPT è integrato in BING
 
-- **Fonti Attuali**: Bing utilizza fonti attuali, a differenza di ChatGpt che si basa su dati fino al 2021.
-- **Collaborazione tra Microsoft e OpenAI**: Bing utilizza la stessa tecnologia di base di ChatGpt, ma è una versione migliorata.
-- **Due Livelli di Conoscenza**: Bing ha due livelli di conoscenza: uno profondo e uno superficiale basato sui risultati di ricerca.
-- **Risoluzione di Limiti**: Bing risolve alcuni limiti di ChatGpt, come l'uso di dati obsoleti e l'invenzione di fatti.
-- **Risposte più accurate**: Bing fornisce risposte più precise grazie alle fonti attuali.
-- **Miglioramento delle Capacità di Risposta**: Questa integrazione rappresenta un passo avanti nell'evoluzione delle capacità di risposta dell'intelligenza artificiale.
+- __Fonti Attuali__: Bing utilizza fonti attuali, a differenza di ChatGpt che si basa su dati fino al 2021.
+- __Collaborazione tra Microsoft e OpenAI__: Bing utilizza la stessa tecnologia di base di ChatGpt, ma è una versione migliorata.
+- __Due Livelli di Conoscenza__: Bing ha due livelli di conoscenza: uno profondo e uno superficiale basato sui risultati di ricerca.
+- __Risoluzione di Limiti__: Bing risolve alcuni limiti di ChatGpt, come l'uso di dati obsoleti e l'invenzione di fatti.
+- __Risposte più accurate__: Bing fornisce risposte più precise grazie alle fonti attuali.
+- __Miglioramento delle Capacità di Risposta__: Questa integrazione rappresenta un passo avanti nell'evoluzione delle capacità di risposta dell'intelligenza artificiale.
 
 ---
 
 ## Alternative
 
-* Claude -> Anthropic.ai
-* Perplexity.ai
-* Amazon BedRock
-* Google BARD -> GEMINI
+. Claude -> Anthropic.ai
+. Perplexity.ai
+. Mistral AI
+. Amazon BedRock
+. Google BARD -> GEMINI
 
 ---
 
@@ -815,29 +828,33 @@ Utile al lavoro di copywriter: permette di espandere le proprie idee e superare 
 
 ## Era una notte buia e tempestosa
 
-    Era una notte buia e tempestosa e i nostri eroi si trovavano isolati in una
-    tranquilla villetta ai piedi di un promontorio inesplorato.
+```plaintext
+Era una notte buia e tempestosa e i nostri eroi si trovavano isolati in una
+tranquilla villetta ai piedi di un promontorio inesplorato.
 
-    La mattina successiva Pippo avrebbe scalato per la prima volta il promontorio,
-    ma qualcosa non lo fece dormire la notte.
+La mattina successiva Pippo avrebbe scalato per la prima volta il promontorio,
+ma qualcosa non lo fece dormire la notte.
+```
 
 ---
 
 ## Era una notte buia e tempestosa - riscritta ed ampliata
 
-    Era una notte buia e tempestosa, ed i nostri eroi si trovavano in un grazioso cottage alla base di un
-    promontorio inesplorato. Pippo avrebbe scalato il promontorio la mattina seguente, ma non riusciva a prendere
-    sonno. La tempesta ululava fuori come un lupo alla ricerca della preda e il vento soffiava sempre più forte
-    finché qualcosa penetrò nella finestra e cadde con un tonfo a terra.
+```plaintext
+Era una notte buia e tempestosa, ed i nostri eroi si trovavano in un grazioso cottage alla base di un
+promontorio inesplorato. Pippo avrebbe scalato il promontorio la mattina seguente, ma non riusciva a prendere
+sonno. La tempesta ululava fuori come un lupo alla ricerca della preda e il vento soffiava sempre più forte
+finché qualcosa penetrò nella finestra e cadde con un tonfo a terra.
 
-    "Pippo!" gridò Maria. "Credo che ci stiano derubando!"
+"Pippo!" gridò Maria. "Credo che ci stiano derubando!"
 
-    Il vento urlava attraverso il cottage, aprendo porte, frantumando finestre, disperdendo fogli per terra. Uno
-    dei fogli galleggiò verso Pippo, soffiando nei suoi occhi. Lo spinse via e mentre lo faceva un volto apparve
-    dietro di esso.
+Il vento urlava attraverso il cottage, aprendo porte, frantumando finestre, disperdendo fogli per terra. Uno
+dei fogli galleggiò verso Pippo, soffiando nei suoi occhi. Lo spinse via e mentre lo faceva un volto apparve
+dietro di esso.
 
-    "Saluti", disse il volto in un'antica lingua che nessuno di loro riconobbe. Si guardarono l'un l'altro per
-    qualche istante finché Pippo non tese la mano per stringere quella dell'altro.
+"Saluti", disse il volto in un'antica lingua che nessuno di loro riconobbe. Si guardarono l'un l'altro per
+qualche istante finché Pippo non tese la mano per stringere quella dell'altro.
+```
 
 ---
 
@@ -886,7 +903,34 @@ ChatPDF prende in input un documento PDF, lo analizza e permette successivamente
 
 ---
 
+## Jotbot
+
+Questo servizio è in grado di convertire in testo un video youtube e dal testo ricavarne degli appunti
+
+<https://www.jotbot.com>
+
+---
+
 ## Servizi di supporto alla creazione di video
+
+Questo tipo di AI sono in piena evoluzione, al momento il prodotto più avanzato sembra essere Sora, anche se ad ora (Marzo 2024) non è ancora disponibile al pubblico.
+
+---
+
+## OpenAI Sora
+
+Si tratta di un modello da testo a video. Sora può generare video della durata massima di un minuto mantenendo la qualità visiva e l'aderenza alla richiesta dell'utente.
+
+```plaintext
+A movie trailer featuring the adventures of the 30 year old space man wearing a red wool
+knitted motorcycle helmet, blue sky, salt desert, cinematic style, shot on 35mm film, vivid colors.
+```
+
+Questo prompt ha generato questo video in Full HD
+
+DEMO: img/Sora-mitten-astronaut.mp4
+
+<https://openai.com/sora>
 
 ---
 
@@ -948,10 +992,6 @@ DEMO: img/NeuralFrames2.mp4
 
 ## Servizi di supporto alla creazione di immagini
 
----
-
-## AI e immagini digitali
-
 Una delle applicazioni più interessanti dell'AI è la capacità di trasformare le immagini.
 
 Le tecniche di AI possono essere utilizzate per aumentare le prestazioni delle immagini, ridurre il rumore, migliorare la nitidezza e l'accuratezza e persino modificare la struttura dell'immagine. Una delle applicazioni più comuni dell'AI nell'elaborazione delle immagini è il riconoscimento delle immagini, che consente di identificare determinati oggetti all'interno di un'immagine.
@@ -1004,7 +1044,9 @@ Midjourney è attualmente accessibile solo tramite un bot Discord sul loro Disco
 
 Per generare immagini, gli utenti utilizzano il comando
 
-    /imagine
+```text
+/imagine
+```
 
 e digitano un prompt; il bot restituisce quindi un set di quattro immagini.
 
@@ -1024,7 +1066,11 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 
 ---
 
-## Realistic image of a luxurious bedroom with a soft bed, gray comforter and white white pillows
+## Foto di interni
+
+```text
+Realistic image of a luxurious bedroom with a soft bed, gray comforter and white white pillows
+```
 
 ![center width:450px](img/midjourney-luxurious-bedroom.png)
 
@@ -1036,7 +1082,11 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 
 ---
 
-## Un uomo di mezza età, intenso, con luci da cinema, visione a mezzo busto,  inquadra la telecamera e un volto molto dettagliato unreal engine --q 2
+## Disegni
+
+```text
+Un uomo di mezza età, intenso, con luci da cinema, visione a mezzo busto,  inquadra la telecamera e un volto molto dettagliato unreal engine --q 2
+```
 
 ![center width:450px](img/midjourney-mezza-eta.png)
 
@@ -1047,6 +1097,35 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 Per migliorare la qualità dei vostri lavori, c'è chi ha iniziato a raccogliere dei prompt
 
 <https://arjenharris.notion.site/arjenharris/Midjourney-Cheat-Sheet-271922c6869549898ead33eaf79517fa>
+
+---
+
+## Leonardo AI
+
+Leonardo è un modello di intelligenza artificiale che può generare immagini realistiche a partire da una descrizione testuale.
+
+Leonardo è stato addestrato su un ampio set di dati di immagini e testi, e può generare immagini in una varietà di stili e storie.
+
+---
+
+## Leonardo AI - esempio
+
+```text
+A young woman in a bikini, on a Cuban beach. High resolution photography, high quality, high detail, hyper realistic, studio photo, studio
+lighting, beauty dish, soft shadow details, intricate details, cinematic, volumetric lights, natural features in the style of studio photography.
+```
+
+![center width:600px](img/LeonardoAI-A_young_woman_in_a_bikini_on_a_Cuban_beach.jpg)
+
+---
+
+## Freepik Pikaso - Real-time AI art generator
+
+Trasforma in tempo reale i propri disegni in immagini con gradi variabili di qualità
+
+![center width:850px](img/pikaso.jpg)
+
+<https://www.freepik.com/ai/pikaso-ai-drawing>
 
 ---
 
@@ -1201,14 +1280,9 @@ L'allenamento termina quando la prima rete neurale inizia a ingannare costanteme
 
 ## Servizi di supporto alla creazione di audio
 
----
+Anche la creazione e manipolazione di file audio ha avuto un notevole sviluppo grazie all'AI.
 
-## Vocal Remover
-
-Vocal Remover: tramite una AI è possibile separare la musica dalla parte cantata.
-Si poteva fare anche prima, ma ora si puo' fare online, con una AI.
-
-<https://vocalremover.org/it/>
+Al momento l'aspetto più interessante di quello che si sta provando a fare è la creazione di canzoni partendo da prompt testuali o la clonazione di voci.
 
 ---
 
@@ -1224,11 +1298,19 @@ Oltre a questo è possibile caricare un audio e farlo pronunciare ad una serie d
 
 ## FakeYou - esempio
 
-L'intelligenza artificiale è una disciplina informatica che include metodi di apprendimento automatico, visione artificiale, linguaggio naturale e robotica.
-
 Papa Francesco apprezza il corso di AI
 
 DEMO: img/PapaFrancescoAI.wav
+
+---
+
+## Suno.ai
+
+Al momento l'AI migliore per quanto riguarda la creazione di canzoni.
+
+Partendo da un testo e da uno stile è in grado di creare nuove canzoni che possono coprire qualsiasi stile conosciuto.
+
+DEMO: img/Suno-Il Fuoco Dentro di Me.mp4
 
 ---
 
@@ -1266,6 +1348,15 @@ DEMO: img/Musicfy.wav
 
 ---
 
+## Vocal Remover
+
+Vocal Remover: tramite una AI è possibile separare la musica dalla parte cantata.
+Si poteva fare anche prima, ma ora si puo' fare online, con una AI.
+
+<https://vocalremover.org/it/>
+
+---
+
 ## WebDesign e AI
 
 Esistono alcuni strumenti che possono rendere obsoleto il lavoro del WebDesign, almeno in alcuni contesti.
@@ -1289,6 +1380,18 @@ Uno strumento che permette di creare un sito web, partendo da un'immagine.
 Rappresenta un valido aiuto per chi vuole disegnare l'interfaccia ed utilizzare successivamente uno strumento in grado di trasformala in codice.
 
 <https://uizard.io/>
+
+---
+
+## Robotica
+
+L'ultima frontiera di integrazione è rappresentata da Figure 01 <https://www.figure.ai/> e OpenAI.
+
+OpenAI Speech-to-Speech Reasoning
+
+Hanno integrato un sistema di robotica con un sistema di intelligenza artificiale in grado di rispondere a domande e di eseguire compiti complessi.
+
+<https://www.youtube.com/watch?v=Sq1QZB5baNw>
 
 ---
 
@@ -1365,6 +1468,6 @@ Ogni immagine inserita in queste slide riporta la fonte
 
 ## Disclaimer
 
-L'autore ha generato questo testo in parte con GPT-3, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità ultima del contenuto di questa pubblicazione.
+L'autore ha generato questo testo in parte con GPT, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità ultima del contenuto di questa pubblicazione.
 
 L'immagine di sfondo è stata generata con <https://app.haikei.app>
