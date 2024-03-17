@@ -907,7 +907,7 @@ ChatPDF prende in input un documento PDF, lo analizza e permette successivamente
 
 Questo servizio è in grado di convertire in testo un video youtube e dal testo ricavarne degli appunti
 
-<https://www.jotbot.com>
+<https://app.myjotbot.com/>
 
 ---
 
