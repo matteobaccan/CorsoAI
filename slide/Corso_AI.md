@@ -54,7 +54,7 @@ footer {
 
 ---
 
-## Genesi di queste slide
+## Come nascono queste slide
 
 Parallelamente all'esplosione dei prodotti dotati di AI, ho deciso di sintetizzare, all'interno di alcune slide, la storia di questa tecnologia e parte della terminologia utilizzata nel descriverli.
 
