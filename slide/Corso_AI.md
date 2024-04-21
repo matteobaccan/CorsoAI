@@ -1147,19 +1147,19 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ## Huggy Wuggy - Originale
 
-![center width:450px](img/huggywuggy-original.jpg)
+![center width:450px](img/HuggyWuggy%20-%20original.jpg)
 
 ---
 
 ## Huggy Wuggy - by mia figlia
 
-![center width:380px](img/Huggy%20Wuggy%20-%20mia%20figlia.jpg)
+![center width:380px](img/HuggyWuggy%20-%20mia%20figlia.jpg)
 
 ---
 
 ## Huggy Wuggy - by AI Manga
 
-![center width:400px](img/Huggy%20Wuggy%20-%20AI%20Manga.png)
+![center width:400px](img/HuggyWuggy%20-%20AI%20Manga.png)
 
 ---
 
@@ -1268,7 +1268,7 @@ L'allenamento termina quando la prima rete neurale inizia a ingannare costanteme
 
 ---
 
-## Alternative
+## Alternative a This person does not exist
 
 Oltre a volti di persone è possibile generare:
 
