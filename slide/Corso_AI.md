@@ -21,6 +21,14 @@ img[alt~='center'] {
   display: block;
   margin: 0 auto;
 }
+img[alt~='floatleft'] {
+  float: left;
+  margin: auto;
+}
+img[alt~='floatright'] {
+  float: right;
+  margin: auto;
+}
 h2 {
     color: #e50000;
     position: absolute;
@@ -1151,7 +1159,7 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ## Huggy Wuggy - by AI Manga
 
-![center width:400px](img/Huggy%20Wuggy%20-%20AI%20Manga.PNG)
+![center width:400px](img/Huggy%20Wuggy%20-%20AI%20Manga.png)
 
 ---
 
@@ -1260,21 +1268,61 @@ L'allenamento termina quando la prima rete neurale inizia a ingannare costanteme
 
 ---
 
-![center width:500px](img/thiscatdoesnotexist.jpg)
+## Alternative
 
-<https://thiscatdoesnotexist.com/>
+Oltre a volti di persone è possibile generare:
 
----
-
-![center width:500px](img/thishorsedoesnotexist.jpg)
-
-<https://thishorsedoesnotexist.com/>
+<https://thiscatdoesnotexist.com/> : Gatti
+<https://thishorsedoesnotexist.com/> : Cavalli
+<https://thischemicaldoesnotexist.com/> : Strutture chimiche
 
 ---
 
-![center width:500px](img/thischemicaldoesnotexist.jpg)
+## Caso studio sulle immagini generative
 
-<https://thischemicaldoesnotexist.com/>
+Prendiamo una immagine da Instagram e proviamo a replicarla con una AI
+
+![center width:400px](img/banner-enpal-instagram.png)
+
+---
+
+## Facciamoci descrivere l'immagine da Claude.ai
+
+```text
+L'immagine è un annuncio pubblicitario per Enpal, un'azienda che installa pannelli fotovoltaici.
+L'annuncio mostra una famiglia sorridente di quattro persone, rappresentate in uno stile animato
+cartone animato, davanti a una strada residenziale di case con tetti in tegole e pannelli solari installati.
+
+Il messaggio principale invita a "Guadagnare con i vicini" installando pannelli fotovoltaici Enpal,
+promettendo uno sconto fino al 20% sulla bolletta. In basso a sinistra, c'è un'immagine di una
+persona che installa pannelli solari.
+
+La pubblicità sembra rivolta a potenziali clienti residenziali, promuovendo l'installazione di pannelli
+solari come un modo per risparmiare sulle bollette energetiche e creare una "comunità energetica"
+di vicini che utilizzano l'energia solare.
+```
+
+---
+
+## Facciamo generare l'immagine a Leonardo.ai
+
+```text
+una famiglia sorridente in uno scenario residenziale con case e pannelli solari sui tetti, incoraggiando a
+"guadagnare con i vicini" installando i loro sistemi fotovoltaici e unendosi alla loro comunità energetica,
+tutto in stile Disney Pixar 
+```
+
+![floatleft width:500px](img/banner-enpal-instagram-leonardo-cartoni.jpg)
+![floatright width:500px](img/banner-enpal-instagram-leonardo-fotorealistico.jpg)
+
+---
+
+## Banner Edison
+
+L'esperienza può essere reiterata all'infinito
+
+![floatleft width:400px](img/banner-edison-instagram.jpg)
+![floatright width:500px](img/banner-edison-instagram-leonardo.jpg)
 
 ---
 
