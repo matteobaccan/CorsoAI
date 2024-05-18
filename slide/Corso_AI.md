@@ -1508,6 +1508,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 
 <https://aaronsim.notion.site/b4f5dd304d9a4683a70167b6cc4b94f1?v=6cc0bd8ce4f04f26ad088e44c910b167> : elenco di prodotti basati su AI
 <https://letsview.com/ai-tools> : Directory di prodotti AI
+<https://whataicando.com/> : Directory di prodotti AI
 <https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/> : come funzionano i large language model
 
 Ogni immagine inserita in queste slide riporta la fonte
