@@ -126,7 +126,7 @@ L'AI è diventata una parte importante della vita quotidiana, con applicazioni i
 
 ## AI  - Da cosa è composta
 
-![center w:450px](img/AI_relation_to_Generative_Models_subset,_venn_diagram.png)
+![center w:450px](img/corso-ai-AI_relation_to_Generative_Models_subset,_venn_diagram.png)
 
 <https://en.m.wikipedia.org/wiki/File:AI_relation_to_Generative_Models_subset,_venn_diagram.png>
 
@@ -557,7 +557,7 @@ Per i fan di Star Trek siamo ancora molto lontani dal cervello positronico di Da
 
 ## Parametri inclusi in ChatGPT
 
-![center width:850px](img/AI%20Parameters.png)
+![center width:850px](img/corso-ai-AI%20Parameters.png)
 
 <https://www.techtarget.com/searchenterpriseai/tip/The-role-of-AI-parameters-in-the-enterprise>
 
@@ -573,7 +573,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## MBE
 
-![center width:700px](img/mehra_deep_dive_gpt_models_3.webp)
+![center width:700px](img/corso-ai-mehra_deep_dive_gpt_models_3.webp)
 
 <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
 
@@ -581,7 +581,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## Istruzione in ambito legale
 
-![center width:650px](img/mehra_deep_dive_gpt_models_2.webp)
+![center width:650px](img/corso-ai-mehra_deep_dive_gpt_models_2.webp)
 
 <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
 
@@ -889,7 +889,7 @@ Esempio: SlidesAI.io/Esempio.pdf
 
 Permette di creare delle slide, partendo da delle descrizioni
 
-![center width:1000px](img/beautiful.ai.png)
+![center width:1000px](img/corso-ai-beautiful.ai.png)
 
 <https://www.beautiful.ai/>
 
@@ -899,7 +899,7 @@ Permette di creare delle slide, partendo da delle descrizioni
 
 ChatPDF prende in input un documento PDF, lo analizza e permette successivamente di fare domande sul testo analizzato
 
-![center width:600px](img/ChatPDF.png)
+![center width:600px](img/corso-ai-ChatPDF.png)
 
 <https://www.chatpdf.com/>
 
@@ -1020,7 +1020,7 @@ DALL-E 3 può creare immagini e opere d'arte originali e realistiche a partire d
 
 ## “disegna giorgia meloni in stile simpson” con dall-e 2
 
-![center width:350px](img/DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
+![center width:350px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
 
 Usando dall-e 3 : questa richiesta è stata bloccata. Il nostro sistema ha segnalato automaticamente questa richiesta perché potrebbe essere in conflitto con la nostra content policy. Ulteriori violazioni della policy possono portare alla sospensione automatica dell'accesso.
 
@@ -1028,13 +1028,13 @@ Usando dall-e 3 : questa richiesta è stata bloccata. Il nostro sistema ha segna
 
 ## “High quality photo of a panda astronaut” dall-e 2
 
-![center width:500px](img/DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
+![center width:500px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
 
 ---
 
 ## “High quality photo of a panda astronaut” dall-e 3
 
-![center width:500px](img/panda%20astronaut%20dall-e%203.jpg)
+![center width:500px](img/corso-ai-panda%20astronaut%20dall-e%203.jpg)
 
 ---
 
@@ -1064,13 +1064,13 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 
 ## Super realistic Italian Boy
 
-![center width:550px](img/midjourney-super-realistic-italian-boy.png)
+![center width:550px](img/corso-ai-midjourney-super-realistic-italian-boy.png)
 
 ---
 
 ## Super realistic Italian Boy - upscale
 
-![center width:550px](img/midjourney-super-realistic-italian-boy-upscale.png)
+![center width:550px](img/corso-ai-midjourney-super-realistic-italian-boy-upscale.png)
 
 ---
 
@@ -1080,13 +1080,13 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 Realistic image of a luxurious bedroom with a soft bed, gray comforter and white white pillows
 ```
 
-![center width:450px](img/midjourney-luxurious-bedroom.png)
+![center width:450px](img/corso-ai-midjourney-luxurious-bedroom.png)
 
 ---
 
 ## Laughing dinasours
 
-![center width:450px](img/midjourney-laughing-dinasours.png)
+![center width:450px](img/corso-ai-midjourney-laughing-dinasours.png)
 
 ---
 
@@ -1096,7 +1096,7 @@ Realistic image of a luxurious bedroom with a soft bed, gray comforter and white
 Un uomo di mezza età, intenso, con luci da cinema, visione a mezzo busto,  inquadra la telecamera e un volto molto dettagliato unreal engine --q 2
 ```
 
-![center width:450px](img/midjourney-mezza-eta.png)
+![center width:450px](img/corso-ai-midjourney-mezza-eta.png)
 
 ---
 
@@ -1123,7 +1123,7 @@ A young woman in a bikini, on a Cuban beach. High resolution photography, high q
 lighting, beauty dish, soft shadow details, intricate details, cinematic, volumetric lights, natural features in the style of studio photography.
 ```
 
-![center width:600px](img/LeonardoAI-A_young_woman_in_a_bikini_on_a_Cuban_beach.jpg)
+![center width:600px](img/corso-ai-LeonardoAI-A_young_woman_in_a_bikini_on_a_Cuban_beach.jpg)
 
 ---
 
@@ -1131,7 +1131,7 @@ lighting, beauty dish, soft shadow details, intricate details, cinematic, volume
 
 Trasforma in tempo reale i propri disegni in immagini con gradi variabili di qualità
 
-![center width:850px](img/pikaso.jpg)
+![center width:850px](img/corso-ai-pikaso.jpg)
 
 <https://www.freepik.com/ai/pikaso-ai-drawing>
 
@@ -1147,31 +1147,31 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ## Huggy Wuggy - Originale
 
-![center width:450px](img/HuggyWuggy%20-%20original.jpg)
+![center width:450px](img/corso-ai-HuggyWuggy%20-%20original.jpg)
 
 ---
 
 ## Huggy Wuggy - by mia figlia
 
-![center width:380px](img/HuggyWuggy%20-%20mia%20figlia.jpg)
+![center width:380px](img/corso-ai-HuggyWuggy%20-%20mia%20figlia.jpg)
 
 ---
 
 ## Huggy Wuggy - by AI Manga
 
-![center width:400px](img/HuggyWuggy%20-%20AI%20Manga.png)
+![center width:400px](img/corso-ai-HuggyWuggy%20-%20AI%20Manga.png)
 
 ---
 
 ## Proviamo il filtro con un'immagine migliore
 
-![center width:700px](img/astronauta.jpg)
+![center width:700px](img/corso-ai-astronauta.jpg)
 
 ---
 
 ## Astronauta AI Manga
 
-![center width:700px](img/astronauta%20ai%20manga.jpg)
+![center width:700px](img/corso-ai-astronauta%20ai%20manga.jpg)
 
 ---
 
@@ -1187,13 +1187,13 @@ Dream Studio è un'interfaccia facile da usare per la creazione di immagini usan
 
 Disegni l'immagine un gatto in stile Kandinsky
 
-![center width:400px](img/1191483669_Disegni_l_immagine_un_gatto_in_stile_Kandinsky.png)
+![center width:400px](img/corso-ai-1191483669_Disegni_l_immagine_un_gatto_in_stile_Kandinsky.png)
 
 ---
 
 ## Kandinsky - gennaio 2024
 
-![center width:550px](img/923617_Disegni%20l'immagine%20un%20gatto%20in%20stile%20Kandinsky%20_xl-1024-v1-0.png)
+![center width:550px](img/corso-ai-923617_Disegni%20l'immagine%20un%20gatto%20in%20stile%20Kandinsky%20_xl-1024-v1-0.png)
 
 ---
 
@@ -1201,7 +1201,7 @@ Disegni l'immagine un gatto in stile Kandinsky
 
 Disegni l'immagine un gatto in stile Van Gogh
 
-![center width:400px](img/2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.png)
+![center width:400px](img/corso-ai-2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.png)
 
 ---
 
@@ -1209,7 +1209,7 @@ Disegni l'immagine un gatto in stile Van Gogh
 
 Disegni l'immagine un gatto in stile Andy Warhol
 
-![center width:400px](img/3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.png)
+![center width:400px](img/corso-ai-3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.png)
 
 ---
 
@@ -1217,7 +1217,7 @@ Disegni l'immagine un gatto in stile Andy Warhol
 
 Disegni l'immagine un gatto in stile Edvard Munch
 
-![center width:400px](img/2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.png)
+![center width:400px](img/corso-ai-2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.png)
 
 ---
 
@@ -1225,13 +1225,13 @@ Disegni l'immagine un gatto in stile Edvard Munch
 
 Realizzi __Valentino Rossi__ che mangia un gelato
 
-![center width:450px](img/3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
+![center width:450px](img/corso-ai-3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
 
 ---
 
 ## Valentino Rossi - gennaio 2024
 
-![center width:550px](img/397630_Realizzi%20Valentino%20Rossi%20che%20mangia%20un%20gelato%20_xl-1024-v1-0.png)
+![center width:550px](img/corso-ai-397630_Realizzi%20Valentino%20Rossi%20che%20mangia%20un%20gelato%20_xl-1024-v1-0.png)
 
 ---
 
@@ -1239,7 +1239,7 @@ Realizzi __Valentino Rossi__ che mangia un gelato
 
 Quando occorre invece andare sull'iperrealismo, si può utilizzare LensGo.
 
-![center width:450px](img/lensgo-un%20ragazzo%20su%20un%20triciclo%20verde-real.png)
+![center width:450px](img/corso-ai-lensgo-un%20ragazzo%20su%20un%20triciclo%20verde-real.png)
 
 ---
 
@@ -1247,7 +1247,7 @@ Quando occorre invece andare sull'iperrealismo, si può utilizzare LensGo.
 
 Oppure con uno stile Pixar
 
-![center width:450px](img/lensgo-un%20ragazzo%20su%20un%20triciclo%20verde-pixar.png)
+![center width:450px](img/corso-ai-lensgo-un%20ragazzo%20su%20un%20triciclo%20verde-pixar.png)
 
 ---
 
@@ -1263,7 +1263,7 @@ L'allenamento termina quando la prima rete neurale inizia a ingannare costanteme
 
 ---
 
-![center width:500px](img/thispersondoesnotexist.jpg)
+![center width:500px](img/corso-ai-thispersondoesnotexist.jpg)
 <https://thispersondoesnotexist.com/>
 
 ---
@@ -1282,7 +1282,7 @@ Oltre a volti di persone è possibile generare:
 
 Prendiamo una immagine da Instagram e proviamo a replicarla con una AI
 
-![center width:400px](img/banner-enpal-instagram.png)
+![center width:400px](img/corso-ai-banner-enpal-instagram.png)
 
 ---
 
@@ -1312,8 +1312,8 @@ una famiglia sorridente in uno scenario residenziale con case e pannelli solari 
 tutto in stile Disney Pixar 
 ```
 
-![floatleft width:500px](img/banner-enpal-instagram-leonardo-cartoni.jpg)
-![floatright width:500px](img/banner-enpal-instagram-leonardo-fotorealistico.jpg)
+![floatleft width:500px](img/corso-ai-banner-enpal-instagram-leonardo-cartoni.jpg)
+![floatright width:500px](img/corso-ai-banner-enpal-instagram-leonardo-fotorealistico.jpg)
 
 ---
 
@@ -1321,8 +1321,8 @@ tutto in stile Disney Pixar
 
 L'esperienza può essere reiterata all'infinito
 
-![floatleft width:400px](img/banner-edison-instagram.jpg)
-![floatright width:500px](img/banner-edison-instagram-leonardo.jpg)
+![floatleft width:400px](img/corso-ai-banner-edison-instagram.jpg)
+![floatright width:500px](img/corso-ai-banner-edison-instagram-leonardo.jpg)
 
 ---
 
