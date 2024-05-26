@@ -48,7 +48,12 @@ footer {
     width: 100%;
     left: 5px;
     bottom: 0;
-    padding: 0 0 10px 10px;
+    padding: 10px 0 0px 10px;
+    background-color: white;
+    height: 50px;
+}
+section::after {
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
 " -->
 
@@ -86,8 +91,8 @@ Il motivo è che l'AI può analizzare enormi quantità di dati medici in modo mo
 
 - PubMed: una banca dati bibliografica online di ambito biomedico e delle scienze della vita, sviluppata e mantenuta dal National Center for Biotechnology Information (NCBI): comprende oltre 33 milioni di citazioni di letteratura biomedica proveniente da MEDLINE, riviste scientifiche e libri online
 - CancerLinQ: raccolte di dati oncologici
-- cartelle cliniche elettroniche (CCE)
-- IoT: Dati raccolte da sensori. Holter ECG 24 ore.
+- Cartelle cliniche elettroniche (CCE)
+- IoT: Dati raccolti da sensori e dispositivi indossabili
 
 ---
 
@@ -97,10 +102,10 @@ Il motivo è che l'AI può analizzare enormi quantità di dati medici in modo mo
 
 ---
 
-## Il medico sarà guidato dai dati
+## Il medico sarà guidato dai dati non sostituito
 
-- Diminuizione dei processi amministrativi: dedicare meno tempo alla burocrazia.
-- Assistenti virtuali per la gestione delle terapie e la comunicazione con i pazienti.
+- Diminuzione dei processi amministrativi: dedicare meno tempo alla burocrazia.
+- Assistenti virtuali per la gestione delle terapie e la comunicazione con i pazienti: Neuralink
 - Riduzione degli errori di dosaggio
 - Chirurgie meno invasive
 - Prevenzione delle frodi
@@ -116,13 +121,13 @@ Il motivo è che l'AI può analizzare enormi quantità di dati medici in modo mo
 
 ## La decisione rimane in mano al medico
 
-Quali AI gratuite si possono utilizzare per la diagnosi e la terapia?
+Le AI gratuite si possono già utilizzare adesso per la diagnosi e la terapia
 
 - OpenBioLLM-70B
 <https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B>
 Analizza e riassume in modo efficiente note cliniche complesse, dati EHR e riepiloghi di dimissione, estraendo informazioni chiave e generando riepiloghi concisi e strutturati.
 Può fornire risposte a un'ampia gamma di domande mediche.
-Può eseguire il riconoscimento avanzato di entità cliniche identificando ed estraendo concetti medici chiave, come malattie, sintomi, farmaci, procedure e strutture anatomiche, da testo clinico non strutturato. 
+Può eseguire il riconoscimento avanzato di entità cliniche identificando ed estraendo concetti medici chiave, come malattie, sintomi, farmaci, procedure e strutture anatomiche, da testo clinico non strutturato.
 
 - Med-PaLM - Google
 <https://sites.research.google/med-palm/>
@@ -131,45 +136,21 @@ Può eseguire il riconoscimento avanzato di entità cliniche identificando ed es
 
 ## Ma li posso provare?
 
-Certo, ma non sostituiscono il medico e non assicurano la correttezza delle diagnosi: c'è sempre il problema delle allucinazioni.
+Basta avere un computer abbastanza potente o collegarsi a un servizio online: **non sostituiscono** però il medico e **non assicurano** la correttezza delle diagnosi: c'è sempre il problema delle allucinazioni.
 
 ---
 
 ## Come si cura la drapetomania?
 
-Secondo __OpenBioLLM-70B__
+Secondo **OpenBioLLM-70B**
 
-Non esiste una cura conosciuta per la drapetomania in questo momento. È considerato un raro e complesso disturbo mentale caratterizzato da un'irresistibile voglia di strapparsi i capelli.
+Non esiste una cura conosciuta per la **drapetomania** in questo momento. È considerato un raro e complesso disturbo mentale caratterizzato da un'irresistibile voglia di strapparsi i capelli.
 
 ---
 
 ## In realtà
 
-La drapetomania è un termine storico che venne usato nel XIX secolo per descrivere un presunto disturbo mentale che si credeva causasse negli schiavi neri il desiderio di fuggire dalla schiavitù. 
-
----
-
-## Cosa abbiamo capito?
-
-Le AI, hype del momento, o meglio l'AI generativa è la moda del momento.
-
-Lo sviluppo di questi prodotti è in fortissima evoluzione, basta vedere cosa è cambiato negli ultimi mesi, da AI settoriali a modelli multimodali.
-
-Da modelli che necessitavano di un tempo di elaborazione, a modelli che in reame time sono in grado di rispondere a domande.
-
----
-
-## La formazione
-
-Le AI generative nascono per rispondere a delle domande, ora sono in grado di capire il contesto e di aiutarci in modo più puntuale: inquadro i compiti che devo fare e l'AI è in grado di capire di cosa si tratta ed aiutarmi a svolgere il mio compito. Questo è ora possibile con GPT4-o e Gemini.
-
----
-
-## L'uso nell'industria
-
-In ambito industriale le AI Generatva non sono una soluzione diretta. Nelle aziende i dati sono strutturati in formati che non sono direttamente utilizzabile, necessiano di una trasformazione per essere utilizzati da un LLM.
-
-Se l'AI nel 99% dei casi risolve un problema, nel restante 1% lo distrugge: per industrializzare i processi occorre maggior precisione.
+La **drapetomania** era un presunto disturbo mentale, descritto dal medico statunitense Samuel Cartwright nel 1851, caratterizzato dal desiderio di fuggire coltivato dagli schiavi afro-americani.
 
 ---
 
@@ -178,37 +159,6 @@ Se l'AI nel 99% dei casi risolve un problema, nel restante 1% lo distrugge: per 
 L'allucinazione è ancora un problema reale.
 
 L'AI non deve scegliere per noi, al momento la decisione è ancora umana. Deteniamo ancora il libero arbitrio, fino a quando la fiducia non sarà tale da toglierci anche questo aspetto.
-
----
-## Cosa buone dell'AI
-
-Può aiutarci a scrivere: migliorando sintassi, grammatica ed errori di battitura.
-Può aiutarci a pensare: quali argomenti dovrei trattare per questa ricerca?
-Può aiutarci a completare dei compiti: cosa posso cucinare con delle uova, del guanciale, del pecorino e della pasta?
-Può migliorare la pronuncia di una lingua straniera.
-Puoi prepararci delle minute meeting o dei riassunti.
-
----
-
-## Ma l'etica?
-
-Forse si chiede troppo alla tecnologia quando deve aggiustare problemi non tecnologici.
-
-Ora si chiede di essere etici, quando i dati dai quali si attinge non sono etici.
-
-Si sposta il problema dell'etica dalla società alla tecnologia: il problema non è quello di migliorare la società, ma quello di delegare il problema a singole aziende
-
-Regolamentare la tecnologia è difficile perché si evolve prima delle leggi, si rischia di introdurre dei vincoli che limitano l'innovazione e che possono essere aggirati.
-
-Il problema attuale non è Terminator, ma il fatto che la tecnologia è usata per fare soldi, non per migliorare la società.
-
-Era scorretto frodare una persona? Fare fake news? ora è molto più facile.
-
----
-
-## Demolition Man - 1993
-
-![center width:1200px](img/ai-positive-Demolition-Man.jpg)
 
 ---
 
@@ -220,62 +170,59 @@ Era scorretto frodare una persona? Fare fake news? ora è molto più facile.
 
 ## Spoiler
 
-__Beane__ incontra __Peter Brand__, un giovane laureato alla __Yale University__ con idee radicali sul come valutare i giocatori: non vengono più usati gli osservatori, ma la statiscia.
+**Beane** incontra **Peter Brand**, un giovane laureato alla **Yale University** con idee radicali sul come valutare i giocatori: non vengono più usati gli osservatori, ma la statistica.
 
-Inizialmente, gli osservatori della squadra sono sprezzanti e ostili verso il nuovo approccio sabermetrico di Beane nel valutare i giocatori: invece che affidarsi all'esperienza e all'intuizione, seleziona i giocatori basandosi quasi esclusivamente sulla OBP (percentuale che indica il numero delle volte in cui un giocatore conquista una base senza aiuto di penalità); ciònonostante, riesce comunque a mettere insieme una squadra con molto più potenziale rispetto a quanto le casse in difficoltà degli Athletics avrebbero permesso. 
-
+Inizialmente, gli osservatori della squadra sono sprezzanti e ostili verso il nuovo approccio sabermetrico di Beane nel valutare i giocatori: invece che affidarsi all'esperienza e all'intuizione, seleziona i giocatori basandosi quasi esclusivamente sulla OBP (percentuale che indica il numero delle volte in cui un giocatore conquista una base senza aiuto di penalità); ciò nonostante, riesce comunque a mettere insieme una squadra con molto più potenziale rispetto a quanto le casse in difficoltà degli Athletics avrebbero permesso.
 
 ---
 
 ## Sabermetrica
 
-La sabermetrica è l'analisi del baseball attraverso le statistiche. Il termine deriva dall'acronimo __SABR__, che sta per “Society for American Baseball Research” (Società americana per la ricerca sul baseball) e fu coniato da Bill James, che è stato tra i suoi primi proponenti e per lungo tempo il suo principale sostenitore.
+La sabermetrica è l'analisi del baseball attraverso le statistiche. Il termine deriva dall'acronimo **SABR**, che sta per “Society for American Baseball Research” (Società americana per la ricerca sul baseball) e fu coniato da Bill James, che è stato tra i suoi primi proponenti e per lungo tempo il suo principale sostenitore.
 
 ---
 
-
-allenatori: conoscono meglio le performance dei giocatori e possono aiutare a migliorare il rendimento della squadra
-   - Firm
-   L'arte di vincere (Moneyball) è un film del 2011 diretto da Bennett Miller e interpretato da Brad Pitt.
-
-
-L'arte di vincere – Moneyball” di Bennett Miller ci parla di Baseball ma è in realtà una metafora della vita. Il film che è tratto dalla storia vera degli Oakland Athletics e del loro general manager Billy Beane
-
-La sabermetrica è l'analisi del baseball attraverso le statistiche. Il termine deriva dall'acronimo SABR, che sta per “Society for American Baseball Research” (Società americana per la ricerca sul baseball) e fu coniato da Bill James, che è stato tra i suoi primi proponenti e per lungo tempo il suo principale sostenitore.
-
+## Dati
 
 Analizzando una vasta gamma di dati relativi alle performance dei calciatori
 Analizzando tutti i dati storici delle partite della propria squadra e della squadra avversaria
 Allenamenti personalizzati, alimentazione, prevenzione e riabilitazione infortuni
-   - Caso Baggio - Libro "UNA PORTA NEL CIELO" 
-```text
-Ho una gamba pi� piccola dell'altra, un ginocchio a orologeria, i menischi non so neanche pi� cosa siano. Con il male che ho io al ginocchio, avrebbero gi� smesso tutti da anni. Io ho male tutte le volte che gioco... 
-```
-   - Caso Pato
-Stagione giorni Infortuni Partite perse
-23/24	41 giorni	1	5
-22/23	320 giorni	1	0
-20/21	179 giorni	2	28
-16/17	26 giorni	2	3
-15/16	43 giorni	2	11
-14/15	43 giorni	2	15
-12/13	74 giorni	2	18
-11/12	166 giorni	6	41
-10/11	95 giorni	5	17
-07/08	14 giorni	1	4
-
-Arbitri virtuali
-
 
 ---
 
-## Crescita delle AI
+## A cosa portano questi dati?
 
-Crescita di capacità computazionale dedicata e "Accelerated Computing"
+**Paolo Maldini** è stato sostituito al Milan da un algoritmo che sfrutta l’intelligenza artificiale e la sabermetrica.
 
-Crescita dell'efficienza del software
+<https://www.fanpage.it/sport/calcio/cosa-e-moneyball-nel-calcio-lalgoritmo-sabermetrico-che-nel-milan-fara-il-lavoro-di-maldini/>
 
-Crescita della base dati
+---
+
+## Il futuro
+
+Secondo l’ultimo report del World Economic Forum: “Jobs of Tomorrow: Large Language Models and Jobs”, le attività lavorative maggiormente sostituibili saranno quelle che hanno lavori ripetitivi:
+
+Impiegati: per l’81% il loro lavoro è automatizzabile
+Analisti gestionali: 70%
+Operatori di telemarketing: 68%
+Assistenti statistici: 61%
+Cassieri: 60%
+
+I lavori con un alto potenziale di automazione sono i lavoro d'ufficio: tenuta dei registri e gestione delle informazioni.
+
+---
+
+## Atlas
+
+![center width:1200px](img/ai-positive-Atlas_(film_2024).png)
+
+---
+
+## Futuro
+
+```text
+Quelle di oggi sono le peggiori AI che vedremo
+```
 
 ---
 
