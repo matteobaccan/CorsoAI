@@ -102,7 +102,7 @@ Il motivo è che l'AI può analizzare enormi quantità di dati medici in modo mo
 
 ---
 
-## Il medico sarà guidato dai dati non sostituito
+## Il medico sarà guidato dai dati e non sostituito
 
 - Diminuzione dei processi amministrativi: dedicare meno tempo alla burocrazia.
 - Assistenti virtuali per la gestione delle terapie e la comunicazione con i pazienti: Neuralink
@@ -152,13 +152,15 @@ La **drapetomania** era un presunto disturbo mentale, descritto dal medico statu
 
 L'allucinazione è ancora un problema reale.
 
-L'AI non deve scegliere per noi, al momento la decisione è ancora umana. Deteniamo ancora il libero arbitrio, fino a quando la fiducia non sarà tale da toglierci anche questo aspetto.
+L'AI non deve scegliere per noi, al momento la decisione è ancora umana.
+
+Deteniamo ancora il libero arbitrio, fino a quando la fiducia non sarà tale da toglierci anche questo.
 
 ---
 
 ## Il futuro
 
-Secondo l’ultimo report del World Economic Forum: “Jobs of Tomorrow: Large Language Models and Jobs”, le attività lavorative maggiormente sostituibili saranno quelle che hanno lavori ripetitivi:
+Secondo l’ultimo report del World Economic Forum: **“Jobs of Tomorrow: Large Language Models and Jobs”**, le attività lavorative maggiormente sostituibili saranno quelle che hanno lavori ripetitivi:
 
 Impiegati: per l’81% il loro lavoro è automatizzabile
 Analisti gestionali: 70%
@@ -170,23 +172,9 @@ I lavori con un alto potenziale di automazione sono i lavoro d'ufficio: tenuta d
 
 ---
 
-## Dove oggi l'AI è più utilizzata
-
-- **Medicina**: diagnosi e terapie
-- **Finanza**: analisi dei mercati e delle transazioni
-- **Sport**: analisi delle prestazioni e delle strategie
-- **Industria**: controllo qualità e manutenzione
-- **Trasporti**: guida autonoma e logistica
-- **Energia**: controllo e manutenzione
-- **Agricoltura**: monitoraggio e gestione
-- **Educazione**: personalizzazione dell'apprendimento
-- **Giochi**: generazione di contenuti
-
----
-
 ## Quali applicazione del'AI aiutano adesso le persone
 
-- **Riconoscimento vocale**: Comprende il parlato e lo trasforma in testo
+- **Riconoscimento vocale**: Comprensione del parlato
 - **Traduzione automatica**: Traduce in tempo reale il parlato in altre lingue
 - **Riconoscimento immagini**: Comprende il contenuto delle immagini: cosa c'è nel mio frigo?
 - **Guida autonoma**: Mi porti a casa?
@@ -194,6 +182,7 @@ I lavori con un alto potenziale di automazione sono i lavoro d'ufficio: tenuta d
 - **Scrittura automatica**: Puoi correggere il mio testo?
 - **Generazione di testi**: Mi puoi aiutare a rispondere a questa email?
 - **Interpretazione**: Puoi riassumere e spiegarmi questo testo?
+- **RAG** (Retrieval Augmented Generation): Puoi aiutarmi a trovare informazioni su questo argomento?
 
 ---
 
