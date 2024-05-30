@@ -113,13 +113,7 @@ Il motivo è che l'AI può analizzare enormi quantità di dati medici in modo mo
 
 ---
 
-## Dottor Mick Riviera
-
-![center width:1200px](img/ai-positive-dr-mick-riviera.jpg)
-
----
-
-## La decisione rimane in mano al medico
+## La decisione rimane in mano alle persone
 
 Le AI gratuite si possono già utilizzare adesso per la diagnosi e la terapia
 
@@ -134,7 +128,7 @@ Può eseguire il riconoscimento avanzato di entità cliniche identificando ed es
 
 ---
 
-## Ma li posso provare?
+## Ma le posso provare?
 
 Basta avere un computer abbastanza potente o collegarsi a un servizio online: **non sostituiscono** però il medico e **non assicurano** la correttezza delle diagnosi: c'è sempre il problema delle allucinazioni.
 
@@ -162,42 +156,6 @@ L'AI non deve scegliere per noi, al momento la decisione è ancora umana. Deteni
 
 ---
 
-## L'arte di vincere (Moneyball) - 2011
-
-![center width:1200px](img/ai-positive-Moneyball.jpeg)
-
----
-
-## Spoiler
-
-**Beane** incontra **Peter Brand**, un giovane laureato alla **Yale University** con idee radicali sul come valutare i giocatori: non vengono più usati gli osservatori, ma la statistica.
-
-Inizialmente, gli osservatori della squadra sono sprezzanti e ostili verso il nuovo approccio sabermetrico di Beane nel valutare i giocatori: invece che affidarsi all'esperienza e all'intuizione, seleziona i giocatori basandosi quasi esclusivamente sulla OBP (percentuale che indica il numero delle volte in cui un giocatore conquista una base senza aiuto di penalità); ciò nonostante, riesce comunque a mettere insieme una squadra con molto più potenziale rispetto a quanto le casse in difficoltà degli Athletics avrebbero permesso.
-
----
-
-## Sabermetrica
-
-La sabermetrica è l'analisi del baseball attraverso le statistiche. Il termine deriva dall'acronimo **SABR**, che sta per “Society for American Baseball Research” (Società americana per la ricerca sul baseball) e fu coniato da Bill James, che è stato tra i suoi primi proponenti e per lungo tempo il suo principale sostenitore.
-
----
-
-## Dati
-
-Analizzando una vasta gamma di dati relativi alle performance dei calciatori
-Analizzando tutti i dati storici delle partite della propria squadra e della squadra avversaria
-Allenamenti personalizzati, alimentazione, prevenzione e riabilitazione infortuni
-
----
-
-## A cosa portano questi dati?
-
-**Paolo Maldini** è stato sostituito al Milan da un algoritmo che sfrutta l’intelligenza artificiale e la sabermetrica.
-
-<https://www.fanpage.it/sport/calcio/cosa-e-moneyball-nel-calcio-lalgoritmo-sabermetrico-che-nel-milan-fara-il-lavoro-di-maldini/>
-
----
-
 ## Il futuro
 
 Secondo l’ultimo report del World Economic Forum: “Jobs of Tomorrow: Large Language Models and Jobs”, le attività lavorative maggiormente sostituibili saranno quelle che hanno lavori ripetitivi:
@@ -209,6 +167,33 @@ Assistenti statistici: 61%
 Cassieri: 60%
 
 I lavori con un alto potenziale di automazione sono i lavoro d'ufficio: tenuta dei registri e gestione delle informazioni.
+
+---
+
+## Dove oggi l'AI è più utilizzata
+
+- **Medicina**: diagnosi e terapie
+- **Finanza**: analisi dei mercati e delle transazioni
+- **Sport**: analisi delle prestazioni e delle strategie
+- **Industria**: controllo qualità e manutenzione
+- **Trasporti**: guida autonoma e logistica
+- **Energia**: controllo e manutenzione
+- **Agricoltura**: monitoraggio e gestione
+- **Educazione**: personalizzazione dell'apprendimento
+- **Giochi**: generazione di contenuti
+
+---
+
+## Quali applicazione del'AI aiutano adesso le persone
+
+- **Riconoscimento vocale**: Comprende il parlato e lo trasforma in testo
+- **Traduzione automatica**: Traduce in tempo reale il parlato in altre lingue
+- **Riconoscimento immagini**: Comprende il contenuto delle immagini: cosa c'è nel mio frigo?
+- **Guida autonoma**: Mi porti a casa?
+- **Riconoscimento facciale**: Di che umore sono?
+- **Scrittura automatica**: Puoi correggere il mio testo?
+- **Generazione di testi**: Mi puoi aiutare a rispondere a questa email?
+- **Interpretazione**: Puoi riassumere e spiegarmi questo testo?
 
 ---
 
