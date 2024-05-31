@@ -158,6 +158,16 @@ Deteniamo ancora il libero arbitrio, fino a quando la fiducia non sarà tale da 
 
 ---
 
+## Vipiteno
+
+Interruzione fantasma dell'A22 al Brennero, invasa Vipiteno: Molti stanno lasciando l'autostrada che però è libera
+
+![center width:600px](img/ai-positive-vipiteno.jpeg)
+
+<https://www.ansa.it/sito/notizie/cronaca/2024/05/30/interruzione-fantasma-della22-al-brennero-invasa-vipiteno_10ecefdd-f50d-4ac5-84a8-5d7fc4f30b87.html>
+
+---
+
 ## Il futuro
 
 Secondo l’ultimo report del World Economic Forum: **“Jobs of Tomorrow: Large Language Models and Jobs”**, le attività lavorative maggiormente sostituibili saranno quelle che hanno lavori ripetitivi:
