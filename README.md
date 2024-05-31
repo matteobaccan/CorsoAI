@@ -36,3 +36,7 @@ __[Scarica gratuitamente le slide](https://raw.githubusercontent.com/matteobacca
 - Prodotti per la creazione di musica
 - Prodotti per la creazione di avatar
 - Letture consigliate
+
+## Approfondimenti
+
+- [AI Generation](https://github.com/matteobaccan/AIGeneration)
