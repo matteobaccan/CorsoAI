@@ -307,6 +307,18 @@ Queste caratteristiche vengono poi elaborate dai successivi strati di neuroni in
 
 ---
 
+## LLM
+
+I Large Language Models (LLM) sono un tipo di AI generativa che utilizza algoritmi di apprendimento automatico per creare nuovi contenuti, come testi, immagini e suoni.
+
+---
+
+## Prompt
+
+I prompt sono una serie di istruzioni che vengono fornite a un LLM per guidare la generazione di nuovi contenuti.
+
+---
+
 ## Utilizzo
 
 Le reti generative sono state utilizzate per creare nuovi contenuti in una varietà di settori, tra cui la produzione di film, la produzione di musica, la produzione di videogiochi e la produzione di arte.
@@ -454,6 +466,35 @@ La comprensione implica i seguenti compiti:
 - Pianificazione della frase - Include la scelta delle parole richieste, la formazione di frasi significative, l'impostazione del tono della frase.
 
 - Realizzazione del testo - È la mappatura del piano della frase nella struttura della frase.
+
+---
+
+## Aziende che investono in AI
+
+- Meta: La società madre di Facebook ha investito molto nel loro modello **Llama 3**.
+Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso oltre 30 miliardi di dollari nell'infrastruttura GPU e nella formazione necessaria per il modello Llama 3.
+
+- OpenAI: I creatori di ChatGPT guidati da Sam Altman, sembrano avere un vantaggio competitivo sugli altri con il loro nuovo modello GPT-4o. È un modello multimodale nativo che può parlare, vedere, leggere e scrivere sia come input che come output.
+
+- Microsoft: ha investito molto nell'AI: oltre 14 miliardi di dollari nell’ultimo trimestre. Microsoft è proprietaria del 49% in OpenAI e continua ad investire miliardi.
+
+---
+
+## Alternative che stanno crescendo
+
+- Anthropic: Il modello Claude 3 Opus, uno stretto concorrente di GPT-4o, è stato sviluppato da ricercatori guidati da Dario Amodei, che ha lasciato OpenAI a causa di preoccupazioni sulla sicurezza dell'AI.
+
+- Elon Musk: Ha fondato la sua azienda AI, xAI, a causa delle sue preoccupazioni riguardo all'approccio di OpenAI e Google alla sicurezza dell'AI. Il suo modello si chiama Grok.
+
+- Tesla AI: Dalle auto a guida autonoma al robot umanoide Optimus, Tesla sta spingendo i limiti del possibile nella robotica.
+
+---
+
+## Aziende da tenere d'occhio
+
+- NVIDIA: è il principale fornitore di GPU che alimentano i sistemi di AI, sta consentendo il rapido avanzamento dell'AI in tutti i settori. La sua capitalizzazione di mercato è passata da $145 miliardi nel gennaio 2020 a $2,300 miliardi a maggio 2024, rendendola la terza azienda più grande al mondo.
+
+- Google e DeepMind: Il modello all'avanguardia di Google, Gemini Ultra, inizia a recuperare terreno rispetto agli avversari.
 
 ---
 
