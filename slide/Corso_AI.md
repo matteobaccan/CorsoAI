@@ -471,7 +471,7 @@ La comprensione implica i seguenti compiti:
 
 ## Aziende che investono in AI
 
-- Meta: La società madre di Facebook ha investito molto nel loro modello **Llama 3**.
+- Meta: La società madre di Facebook ha investito molto nel loro modello __Llama 3__.
 Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso oltre 30 miliardi di dollari nell'infrastruttura GPU e nella formazione necessaria per il modello Llama 3.
 
 - OpenAI: I creatori di ChatGPT guidati da Sam Altman, sembrano avere un vantaggio competitivo sugli altri con il loro nuovo modello GPT-4o. È un modello multimodale nativo che può parlare, vedere, leggere e scrivere sia come input che come output.
