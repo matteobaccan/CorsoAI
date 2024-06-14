@@ -55,37 +55,37 @@ a) Un processo di programmazione manuale degli algoritmi
 b) La simulazione del processo di apprendimento umano attraverso algoritmi che imparano dai dati
 c) Una tecnica di intelligenza artificiale per la generazione di immagini
 
-22. Quale tipo di apprendimento automatico non prevede l'etichettatura dei dati?
+12. Quale tipo di apprendimento automatico non prevede l'etichettatura dei dati?
 a) Supervised Learning
 b) Unsupervised Learning
 c) Reinforcement Learning
 
-33. Quale disciplina ha contribuito allo sviluppo dell'AI?
+13. Quale disciplina ha contribuito allo sviluppo dell'AI?
 a) Economia
 b) Psicologia
 c) Sociologia
 
-44. Cosa rappresenta il Deep Learning?
+14. Cosa rappresenta il Deep Learning?
 a) L'utilizzo di reti neurali con maggiore complessità, più neuroni e interconnessioni
 b) Una tecnica di apprendimento automatico per la classificazione delle immagini
 c) Un tipo di rete neurale per l'elaborazione del linguaggio naturale
 
-55. Cosa sono gli algoritmi generativi?
+15. Cosa sono gli algoritmi generativi?
 a) Algoritmi che generano dati sintetici come immagini, suoni o testo simili a quelli reali
 b) Algoritmi che analizzano i dati per individuare pattern e correlazioni
 c) Algoritmi che prevedono il comportamento futuro di un sistema
 
-66. Da dove provengono i dati di addestramento per le AI?
+16. Da dove provengono i dati di addestramento per le AI?
 a) Esclusivamente da fonti proprietarie delle aziende
 b) Da dataset pubblici come Common Crawl, Laion e The Pile
 c) Da raccolte di dati personali degli utenti
 
-77. Quale libro esplora come l'AI sta cambiando il mondo del lavoro?
+17. Quale libro esplora come l'AI sta cambiando il mondo del lavoro?
 a) "The Fourth Industrial Revolution" di Klaus Schwab
 b) "The Future of Work: Robots, AI, and Automation" di Darrell M. West
 c) "The Singularity is Near" di Ray Kurzweil
 
-88. Cosa sono le reti neurali convoluzionali (CNN)?
+18. Cosa sono le reti neurali convoluzionali (CNN)?
 a) Un tipo di reti neurali progettate per elaborare dati strutturati come immagini e suoni
 b) Una tecnica di apprendimento automatico per la traduzione del linguaggio naturale
 c) Un algoritmo di intelligenza artificiale per la guida autonoma
