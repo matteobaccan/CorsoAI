@@ -32,6 +32,13 @@ jobs:
         rm Corso_AI_Coder.md
         mv Corso_AI_Coder-backup.md Corso_AI_Coder.md
 
+        cp AI_superpotere.md AI_superpotere-backup.md
+        sed -i "s/%date%/$(date +'%Y-%m-%d')/g" AI_superpotere.md
+        sed -i "s/%time%/$(date +'%H:%M')/g" AI_superpotere.md
+        npx @marp-team/marp-cli@latest AI_superpotere.md --pdf --allow-local-files
+        rm AI_superpotere.md
+        mv AI_superpotere-backup.md AI_superpotere.md
+
     - name: commit & push
       run: |
         git add -A

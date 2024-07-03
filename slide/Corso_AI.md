@@ -952,11 +952,19 @@ ChatPDF prende in input un documento PDF, lo analizza e permette successivamente
 
 ---
 
-## Jotbot
+## Da video ad appunti
+
+### Jotbot
 
 Questo servizio è in grado di convertire in testo un video youtube e dal testo ricavarne degli appunti
 
 <https://app.myjotbot.com/>
+
+### Coconote.app
+
+Simile a JotBot: basta aggiungere __summary.new__ davanti a qualsiasi video youtube, ad esempio
+
+<https://summary.new/https://www.youtube.com/watch?v=W_F33Jn-rkA>
 
 ---
 
