@@ -948,23 +948,45 @@ ChatPDF prende in input un documento PDF, lo analizza e permette successivamente
 
 ## Alternative a ChatPDF
 
+### LightPDF
+
 <https://lightpdf.com/chatdoc>
+
+### RAG
+
+Con i modelli open source di RAG è possibile fare domande su un testo e ottenere risposte anche con ambienti locali, instalando il software sul proprio computer.
 
 ---
 
-## Da video ad appunti
+## Da video ad appunti - 1
 
 ### Jotbot
 
-Questo servizio è in grado di convertire in testo un video youtube e dal testo ricavarne degli appunti
+Questo servizio è in grado di creare appunti da un video youtube:
 
 <https://app.myjotbot.com/>
 
 ### Coconote.app
 
-Simile a JotBot: basta aggiungere __summary.new__ davanti a qualsiasi video youtube, ad esempio
+Simile a JotBot: basta aggiungere __summary.new__ davanti a qualsiasi video youtube:
 
 <https://summary.new/https://www.youtube.com/watch?v=W_F33Jn-rkA>
+
+### NoteGPT
+
+Se invece la fonte fosse un video vimeo, potete usare NoteGTP
+
+<https://notegpt.io>
+
+---
+
+## Da video ad appunti - 2
+
+### Turbo Scribe
+
+Il vantaggio di turboscribe è quello di poter fare upload anche di video di grandi dimensioni
+
+<https://turboscribe.ai>
 
 ---
 
