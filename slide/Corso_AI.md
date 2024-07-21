@@ -968,19 +968,19 @@ Questo servizio è in grado di creare appunti da un video youtube:
 
 ### Coconote.app
 
-Simile a JotBot: basta aggiungere __summary.new__ davanti a qualsiasi video youtube:
+Simile a JotBot: basta aggiungere __https://summary.new/__ davanti a qualsiasi video youtube:
 
 <https://summary.new/https://www.youtube.com/watch?v=W_F33Jn-rkA>
+
+---
+
+## Da video ad appunti - 2
 
 ### NoteGPT
 
 Se invece la fonte fosse un video vimeo, potete usare NoteGTP
 
 <https://notegpt.io>
-
----
-
-## Da video ad appunti - 2
 
 ### Turbo Scribe
 
