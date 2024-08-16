@@ -325,7 +325,7 @@ Integrazione quotidiana dell'IA per migliorare efficienza e ottenere un vantaggi
 
 ---
 
-# Sommario del Video sull'Intelligenza Artificiale
+## Cosa fare
 
 1. Introduzione
    - Riflessione sul percorso fatto nei video precedenti
@@ -336,6 +336,10 @@ Integrazione quotidiana dell'IA per migliorare efficienza e ottenere un vantaggi
    - Strumenti pratici e loro applicazioni
    - Applicazioni pratiche per decisioni migliori
 
+---
+
+## Importanza dell'IA
+
 3. Importanza dell'IA
    - Non è una moda passeggera, ma una rivoluzione
    - Necessità di formazione, non solo informazione
@@ -344,6 +348,10 @@ Integrazione quotidiana dell'IA per migliorare efficienza e ottenere un vantaggi
 4. Approccio all'Apprendimento
    - Importanza della pratica vs. sola lettura di notizie
    - Opzioni: autodidatta o formazione guidata
+
+---
+
+## Proposta formativa
 
 5. Proposta di Corso
    - Video corso di 4 settimane

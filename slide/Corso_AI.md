@@ -1322,6 +1322,17 @@ Oppure con uno stile Pixar
 
 ---
 
+## Packify
+
+Quanti designer devono creare giornalmente il package di un prodotto?
+
+<https://www.packify.ai/> serve a questo
+
+
+![center width:500px](img/corso-ai-packify.png)
+
+---
+
 ## This *** does not exist
 
 Sono una serie di siti web in grado di generare persone, gatti, cavalli e strutture chimiche che non esistono, basandosi su una AI alimentata da StyleGAN, una rete neurale di Nvidia sviluppata in 2018.
