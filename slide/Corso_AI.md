@@ -1198,6 +1198,16 @@ lighting, beauty dish, soft shadow details, intricate details, cinematic, volume
 
 ---
 
+## Fal.ai
+
+Si tratta di un sito contenitore di modelli generativi di intelligenza artificiale, per la creazione di immagini e video
+
+Al momento dispone di oltre 70 modelli utilizzabili con un credito a scalare. Al momento dell'iscrizione viene regalato 1 dollaro di credito.
+
+<https://fal.ai/dashboard>
+
+---
+
 ## Freepik Pikaso - Real-time AI art generator
 
 Trasforma in tempo reale i propri disegni in immagini con gradi variabili di qualità
