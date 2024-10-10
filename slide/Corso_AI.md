@@ -36,7 +36,7 @@ h2 {
     background-color: white;
     width: 100%;
     left: 0;
-    padding: 15px 0px 0px 75px;    
+    padding: 15px 0px 0px 75px;
     height: 70px;
     border-bottom: 1px solid red;
     margin: 0px;
@@ -255,7 +255,7 @@ L'intelligenza artificiale forte o intelligenza artificiale generale è la capac
 
 È l'obiettivo principale di alcune delle ricerche nell'intelligenza artificiale e un argomento comune nella fantascienza e nella futurologia.
 
-Alcune fonti accademiche riservano il termine "IA forte" (strong AI) a quei programmi informatici in grado di essere senziente e di avere una coscienza.
+Alcune fonti accademiche riservano il termine "IA forte" (strong AI) a quei programmi informatici in grado di essere senzienti e di avere una coscienza.
 
 <https://it.wikipedia.org/wiki/Intelligenza_artificiale_forte>
 
@@ -333,7 +333,7 @@ Le reti generative sono state utilizzate per creare nuovi contenuti in una varie
 
 ## Test di Turing
 
-Il test di Turing è stata la prima formulazione di una tecnica usata per determinare se un computer è in grado di pensare in modo intelligente come un essere umano. Il test è stato sviluppato da Alan Turing, un matematico britannico, nel 1950 ed è considerato uno dei primi esempi di intelligenza artificiale.
+Il test di Turing è stata la prima formulazione di una tecnica usata per determinare se un computer è in grado di pensare in modo intelligente come un essere umano. Il test è stato sviluppato nel 1950 da Alan Turing, un matematico britannico, ed è considerato uno dei primi esempi di intelligenza artificiale.
 
 Il test di Turing è una conversazione tra un giudice umano e due partecipanti, un umano e un computer. Il giudice non sa quale delle due parti è l'umano e quale il computer. Se il giudice non è in grado di determinare la differenza, viene considerato che il computer è intelligente come un essere umano.
 
@@ -459,7 +459,7 @@ La comprensione implica i seguenti compiti:
 
 ## Natural Language Generation (NLG)
 
-È il processo di produzione di frasi e frasi significative sotto forma di linguaggio naturale da una rappresentazione interna.
+È il processo di produzione di frasi significative sotto forma di linguaggio naturale da una rappresentazione interna.
 
 - Pianificazione del testo: include il recupero del contenuto pertinente dalla knowledge base.
 
@@ -745,7 +745,7 @@ Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie
 
 ```plaintext
 Gentile [Nome del Destinatario],
-    
+
 Mi permetta di presentarmi: sono [Tuo Nome], [Tua Posizione] presso [Nome della Tua Azienda], una società
 specializzata nell'ambito della conservazione della fauna selvatica e della biodiversità. Sono entusiasta di
 scrivere per offrirle un servizio unico e di grande valore - il nostro Servizio di Conteggio delle Macchie dei
@@ -806,9 +806,9 @@ Cordiali saluti,
 È importante essere prudenti con qualsiasi software di terze parti, incluso ChatGPT.
 
 Prima di fidarsi di un programma, è consigliabile esaminare attentamente le sue funzionalità
-e le sue politiche sulla privacy. 
+e le sue politiche sulla privacy.
 
-Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei 
+Inoltre, è importante assicurarsi di disporre di una solida conoscenza dei
 termini di servizio del programma e di avere sufficienti conoscenze tecniche
 per configurarlo correttamente.
 ```
@@ -826,7 +826,7 @@ La mia funzione principale è rispondere alle domande e fornire informazioni bas
 che ho appreso dal mio addestramento.
 
 La tua fiducia dipende dall'uso che desideri fare di me.
-    
+
 Sono progettato per fornire informazioni e assistenza basate su dati noti fino
 alla mia data di taglio nel gennaio 2022.
 Tuttavia, la tua fiducia deve essere accompagnata da una valutazione critica
@@ -909,7 +909,7 @@ qualche istante finché Pippo non tese la mano per stringere quella dell'altro.
 
 ## Heypi.com
 
-Il funzionamento è simile a CharGTP, ma oltre a scrivere è in grado di parlare.
+Il funzionamento è simile a ChatGTP, ma oltre a scrivere è in grado di parlare.
 
 Si puo' chattare con Heypi, ma non è in grado di scrivere codice o di dare informazioni in modo approfondito come ChatGPT
 
@@ -933,6 +933,16 @@ Permette di creare delle slide, partendo da delle descrizioni
 ![center width:1000px](img/corso-ai-beautiful.ai.png)
 
 <https://www.beautiful.ai/>
+
+---
+
+## Gamma
+
+Si tratta di una AI specializzata nella generazione di presentazioni.
+
+Parte da un testo e genera delle slide comprensive sia del testo, adeguatamente diviso, che delle immagini che lo rappresentino.
+
+<https://gamma.app/>
 
 ---
 
@@ -990,6 +1000,38 @@ Il vantaggio di turboscribe è quello di poter fare upload anche di video di gra
 
 ---
 
+## Da video ad appunti - 3
+
+### Circleback
+
+Vi siete mai trovati in un meeting dove dovevate prendere appunti e fare una minuta?
+
+Con questa AI potete aggiungere un utente in modalita' ascoltatore.  Questo utente prendera' gli appunti per voi a per voi fara' una minuta a fine riunione
+
+<https://circleback.ai>
+
+---
+
+## Da video ad appunti - 4
+
+### Otter
+
+Anche Otter permette di trascrivere un meeting e offre 300 minuti gratuiti al mese
+
+<https://otter.ai/pricing>
+
+---
+
+## Esecuzioni in parallelo
+
+### ChatPlayground
+
+Prospettive multiple dell'intelligenza artificiale in un'unica interfaccia
+
+<https://www.chatplayground.ai/>
+
+---
+
 ## Servizi di supporto alla creazione di video
 
 Questo tipo di AI sono in piena evoluzione, al momento il prodotto più avanzato sembra essere Sora, anche se ad ora (Marzo 2024) non è ancora disponibile al pubblico.
@@ -1026,6 +1068,12 @@ Synthesia è la piattaforma di creazione di video tramite AI. I video sono creab
 ## Synthesia e il nostro corso
 
 DEMO: Synthesia STUDIO Your AI video.mp4
+
+---
+
+## HeyGen
+
+TODO: demo
 
 ---
 
@@ -1089,7 +1137,7 @@ DALL-E 3 può creare immagini e opere d'arte originali e realistiche a partire d
 
 ---
 
-## “disegna giorgia meloni in stile simpson” con dall-e 2
+## DALL-E - “disegna giorgia meloni in stile simpson”
 
 ![center width:350px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
 
@@ -1097,13 +1145,13 @@ Usando dall-e 3 : questa richiesta è stata bloccata. Il nostro sistema ha segna
 
 ---
 
-## “High quality photo of a panda astronaut” dall-e 2
+## DALL-E - “High quality photo of a panda astronaut” - 1
 
 ![center width:500px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
 
 ---
 
-## “High quality photo of a panda astronaut” dall-e 3
+## DALL-E - “High quality photo of a panda astronaut” - 2
 
 ![center width:500px](img/corso-ai-panda%20astronaut%20dall-e%203.jpg)
 
@@ -1133,19 +1181,19 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 
 ---
 
-## Super realistic Italian Boy
+## Midjourney -Super realistic Italian Boy
 
 ![center width:550px](img/corso-ai-midjourney-super-realistic-italian-boy.png)
 
 ---
 
-## Super realistic Italian Boy - upscale
+## Midjourney -Super realistic Italian Boy - upscale
 
 ![center width:550px](img/corso-ai-midjourney-super-realistic-italian-boy-upscale.png)
 
 ---
 
-## Foto di interni
+## Midjourney -Foto di interni
 
 ```text
 Realistic image of a luxurious bedroom with a soft bed, gray comforter and white white pillows
@@ -1155,13 +1203,13 @@ Realistic image of a luxurious bedroom with a soft bed, gray comforter and white
 
 ---
 
-## Laughing dinasours
+## Midjourney -Laughing dinasours
 
 ![center width:450px](img/corso-ai-midjourney-laughing-dinasours.png)
 
 ---
 
-## Disegni
+## Midjourney -Disegni
 
 ```text
 Un uomo di mezza età, intenso, con luci da cinema, visione a mezzo busto,  inquadra la telecamera e un volto molto dettagliato unreal engine --q 2
@@ -1171,7 +1219,7 @@ Un uomo di mezza età, intenso, con luci da cinema, visione a mezzo busto,  inqu
 
 ---
 
-## Midjourney Cheat Sheet
+## Midjourney - Cheat Sheet
 
 Per migliorare la qualità dei vostri lavori, c'è chi ha iniziato a raccogliere dei prompt
 
@@ -1187,6 +1235,14 @@ Leonardo è stato addestrato su un ampio set di dati di immagini e testi, e può
 
 ---
 
+## Ideogram AI
+
+Ideogram permette la generazione di immagini realistiche
+
+<https://ideogram.ai/t/explore>
+
+---
+
 ## Leonardo AI - esempio
 
 ```text
@@ -1195,16 +1251,6 @@ lighting, beauty dish, soft shadow details, intricate details, cinematic, volume
 ```
 
 ![center width:600px](img/corso-ai-LeonardoAI-A_young_woman_in_a_bikini_on_a_Cuban_beach.jpg)
-
----
-
-## Fal.ai
-
-Si tratta di un sito contenitore di modelli generativi di intelligenza artificiale, per la creazione di immagini e video
-
-Al momento dispone di oltre 70 modelli utilizzabili con un credito a scalare. Al momento dell'iscrizione viene regalato 1 dollaro di credito.
-
-<https://fal.ai/dashboard>
 
 ---
 
@@ -1218,9 +1264,25 @@ Trasforma in tempo reale i propri disegni in immagini con gradi variabili di qua
 
 ---
 
+## Flux
+
+TODO
+
+---
+
+## Fal.ai
+
+Si tratta di un sito contenitore di modelli generativi di intelligenza artificiale, per la creazione di immagini e video
+
+Al momento dispone di oltre 70 modelli utilizzabili con un credito a scalare. Al momento dell'iscrizione viene regalato 1 dollaro di credito.
+
+<https://fal.ai/dashboard>
+
+---
+
 ## TikTok filtro AI Manga - AI Trasformativa
 
-Il filtro di TikTok di "Ai Manga" è un filtro creativo, basati sull'intelligenza artificiale, progettato per aiutare gli utenti a creare contenuti coinvolgenti.
+Il filtro di TikTok di "Ai Manga" è un filtro creativo, basato sull'intelligenza artificiale, progettato per aiutare gli utenti a creare contenuti coinvolgenti.
 
 Questo filtro consentono agli utenti di trasformare le loro foto in stili manga, anime o persino fumetti.
 
@@ -1266,7 +1328,7 @@ Dream Studio è un'interfaccia facile da usare per la creazione di immagini usan
 
 ## Kandinsky - gennaio 2023
 
-Disegni l'immagine un gatto in stile Kandinsky
+Disegna l'immagine un gatto in stile Kandinsky
 
 ![center width:400px](img/corso-ai-1191483669_Disegni_l_immagine_un_gatto_in_stile_Kandinsky.png)
 
@@ -1280,7 +1342,7 @@ Disegni l'immagine un gatto in stile Kandinsky
 
 ## Van Gogh - gennaio 2023
 
-Disegni l'immagine un gatto in stile Van Gogh
+Disegna l'immagine un gatto in stile Van Gogh
 
 ![center width:400px](img/corso-ai-2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.png)
 
@@ -1288,7 +1350,7 @@ Disegni l'immagine un gatto in stile Van Gogh
 
 ## Andy Warhol - gennaio 2023
 
-Disegni l'immagine un gatto in stile Andy Warhol
+Disegna l'immagine un gatto in stile Andy Warhol
 
 ![center width:400px](img/corso-ai-3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.png)
 
@@ -1296,7 +1358,7 @@ Disegni l'immagine un gatto in stile Andy Warhol
 
 ## Edvard Munch - gennaio 2023
 
-Disegni l'immagine un gatto in stile Edvard Munch
+Disegna l'immagine un gatto in stile Edvard Munch
 
 ![center width:400px](img/corso-ai-2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.png)
 
@@ -1304,7 +1366,7 @@ Disegni l'immagine un gatto in stile Edvard Munch
 
 ## Valentino Rossi - gennaio 2023
 
-Realizzi __Valentino Rossi__ che mangia un gelato
+Realizza __Valentino Rossi__ che mangia un gelato
 
 ![center width:450px](img/corso-ai-3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
 
@@ -1338,7 +1400,6 @@ Quanti designer devono creare giornalmente il package di un prodotto?
 
 <https://www.packify.ai/> serve a questo
 
-
 ![center width:500px](img/corso-ai-packify.png)
 
 ---
@@ -1349,9 +1410,9 @@ Sono una serie di siti web in grado di generare persone, gatti, cavalli e strutt
 
 GAN è acronimo di Generative Adversarial Network.
 
-Una rete GAN consiste di 2 reti neurali concorrenti, una genera qualcosa e la seconda cerca di trovare se i risultati sono reali o generati dal primo.
+Una rete GAN consiste di 2 reti neurali concorrenti, una genera qualcosa e la seconda cerca di trovare se i risultati sono reali o generati dalla prima.
 
-L'allenamento termina quando la prima rete neurale inizia a ingannare costantemente il secondo.
+L'allenamento termina quando la prima rete neurale inizia a ingannare costantemente la seconda.
 
 ---
 
@@ -1401,7 +1462,7 @@ di vicini che utilizzano l'energia solare.
 ```text
 una famiglia sorridente in uno scenario residenziale con case e pannelli solari sui tetti, incoraggiando a
 "guadagnare con i vicini" installando i loro sistemi fotovoltaici e unendosi alla loro comunità energetica,
-tutto in stile Disney Pixar 
+tutto in stile Disney Pixar
 ```
 
 ![floatleft width:500px](img/corso-ai-banner-enpal-instagram-leonardo-cartoni.jpg)
@@ -1468,7 +1529,7 @@ __Al momento__ il progetto non è ancora pubblico, se non per i risultati ottenu
 
 ## Soundraw.io
 
-Si tratta di una intelligenza artificiale in grado di creare delle music partendo dal genere, ritmo e durata. Ogni pezzo creato può essere successivamente personalizzato.
+Si tratta di una intelligenza artificiale in grado di creare delle musiche partendo dal genere, ritmo e durata. Ogni pezzo creato può essere successivamente personalizzato.
 
 I brani prodotti sono senza copyright e possono essere liberamente utilizzati.
 
@@ -1538,7 +1599,7 @@ Hanno integrato un sistema di robotica con un sistema di intelligenza artificial
 ## Dove studiare per approfondire l'argomento
 
 Esistono molte fonti sulle quali approfondire il mondo delle AI.
-Di seguito riporto ne riporto alcune per poter approfondire quanto accennato in queste slide.
+Di seguito ne riporto alcune per poter approfondire quanto accennato in queste slide.
 
 ---
 
@@ -1609,6 +1670,8 @@ Ogni immagine inserita in queste slide riporta la fonte
 
 ## Disclaimer
 
-L'autore ha generato questo testo in parte con GPT, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità ultima del contenuto di questa pubblicazione.
+L'autore ha generato questo testo in parte con GPT, il modello di generazione del linguaggio su larga scala di OpenAI.
+
+Dopo aver generato la bozza del testo, l'autore ha modificato e rivisto il contenuto e si assume la responsabilità di questa pubblicazione.
 
 L'immagine di sfondo è stata generata con <https://app.haikei.app>
