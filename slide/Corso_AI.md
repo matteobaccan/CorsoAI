@@ -156,6 +156,12 @@ ELIZA procedeva analizzando e sostituendo semplici parole chiave in frasi precon
 
 ---
 
+## Eliza - foto
+
+![center w:850px](img/corso-ai-eliza.png)
+
+---
+
 ## Tipologie di Machine Learning
 
 - Unsupervised Learning
@@ -243,13 +249,13 @@ Esistono varie tipologie di intelligenza artificiale, a seconda del loro scopo e
 
 ---
 
-### ANI (Artificial Narrow Intelligence)
+## ANI (Artificial Narrow Intelligence)
 
 L'intelligenza artificiale stretta è un tipo di IA in cui una tecnologia ha la capacità di superare gli esseri umani in un compito ben definito. Si concentra su un singolo sottoinsieme di abilità cognitive, come la guida autonoma o il riconoscimento facciale.
 
 ---
 
-### AGI (Artificial General Intelligence)
+## AGI (Artificial General Intelligence)
 
 L'intelligenza artificiale forte o intelligenza artificiale generale è la capacità di un agente intelligente di apprendere e capire un qualsiasi compito intellettuale che può imparare un essere umano.
 
@@ -261,7 +267,7 @@ Alcune fonti accademiche riservano il termine "IA forte" (strong AI) a quei prog
 
 ---
 
-### ASI (Artificial Super Intelligence)
+## ASI (Artificial Super Intelligence)
 
 AI che è più intelligente dei migliori esseri umani in termini di velocità di elaborazione, abilità di apprendimento e capacità di risolvere problemi.
 
@@ -313,9 +319,106 @@ I Large Language Models (LLM) sono un tipo di AI generativa che utilizza algorit
 
 ---
 
+## Classificazione dei LLM
+
+Gli LLM (Large Language Models) possono essere classificati in diversi modi, in base a vari criteri.
+
+Ecco alcune delle principali categorie e criteri di classificazione:
+
+---
+
+## Classificazione dei LLM - architettura
+
+Architettura del modello:
+   - Transformer-based (es. GPT, BERT)
+   Usa self-attention per processare input in parallelo (GPT, BERT) ed è efficace su sequenze lunghe
+
+   - LSTM-based (Long Short-Term Memory)
+   Usa reti neurali ricorrenti, processa input sequenzialmente, buono per sequenze moderate
+
+   - Hybrid architectures
+   Combina elementi di diverse architetture (Transformer-XL)
+
+---
+
+## Classificazione dei LLM - paradigma
+
+Paradigma di training:
+   - Autoregressive (es. GPT)
+   Predice token successivo basandosi sui precedenti, unidirezionale, adatto per generazione
+   - Masked Language Models (es. BERT)
+   Predice token mascherati in una sequenza, bidirezionale, per comprensione del linguaggio
+   - Encoder-Decoder (es. T5)
+   Combina encoding dell'input e decoding dell'output, per trasformazioni di testo (es. traduzione)
+
+---
+
+## Classificazione dei LLM - dimensioni
+
+Dimensione del modello:
+   - Small (sotto 1 miliardo di parametri)
+   - Medium (1-10 miliardi di parametri)
+   - Large (10-100 miliardi di parametri)
+   - Very Large (oltre 100 miliardi di parametri)
+
+---
+
+## Classificazione dei LLM - dominio e lingua
+
+Dominio di specializzazione:
+   - General-purpose
+   - Domain-specific (es. modelli per il settore medico o legale)
+
+Multilingualità:
+   - Monolingue
+   - Multilingue
+
+---
+
+## Classificazione dei LLM - capacità
+
+Capacità di task:
+   - Single-task
+   Modelli addestrati per svolgere un singolo compito specifico
+
+   - Multi-task
+   Modelli capaci di eseguire molteplici compiti linguistici diversi
+
+---
+
+## Classificazione dei LLM - training
+
+Approccio di training:
+   - Supervised
+   - Unsupervised
+   - Semi-supervised
+   - Self-supervised
+
+Tipo di dati di training:
+   - Text-only
+   - Multimodal (testo + immagini, audio, ecc.)
+
+---
+
+## Classificazione dei LLM - accessibilità e efficienza
+
+Accessibilità:
+   - Open-source
+   - Proprietari
+
+Efficienza computazionale:
+    - Standard
+    - Ottimizzati (es. modelli distillati o pruned)
+
+---
+
 ## Prompt
 
-I prompt sono una serie di istruzioni che vengono fornite a un LLM per guidare la generazione di nuovi contenuti.
+Un prompt è un input testuale fornito a un LLM per guidare la sua risposta o generazione.
+
+### Chain of Prompts
+
+Una sequenza di prompt interconnessi usati per guidare un LLM attraverso un processo di ragionamento o un compito complesso. (o1-preview)
 
 ---
 
@@ -474,7 +577,7 @@ La comprensione implica i seguenti compiti:
 - Meta: La società madre di Facebook ha investito molto nel loro modello __Llama 3__.
 Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso oltre 30 miliardi di dollari nell'infrastruttura GPU e nella formazione necessaria per il modello Llama 3.
 
-- OpenAI: I creatori di ChatGPT guidati da Sam Altman, sembrano avere un vantaggio competitivo sugli altri con il loro nuovo modello GPT-4o. È un modello multimodale nativo che può parlare, vedere, leggere e scrivere sia come input che come output.
+- OpenAI: I creatori di ChatGPT guidati da Sam Altman, sembrano avere un vantaggio competitivo sugli altri con il loro nuovo modello o1-preview. È un modello multimodale nativo che può parlare, vedere, leggere e scrivere sia come input che come output e nella versione o1 aggiunge la capacità di "pensare".
 
 - Microsoft: ha investito molto nell'AI: oltre 14 miliardi di dollari nell’ultimo trimestre. Microsoft è proprietaria del 49% in OpenAI e continua ad investire miliardi.
 
@@ -482,11 +585,21 @@ Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso o
 
 ## Alternative che stanno crescendo
 
-- Anthropic: Il modello Claude 3 Opus, uno stretto concorrente di GPT-4o, è stato sviluppato da ricercatori guidati da Dario Amodei, che ha lasciato OpenAI a causa di preoccupazioni sulla sicurezza dell'AI.
+- Anthropic: Il modello Claude 3.5 Sonnet, uno stretto concorrente di GPT-4o, è stato sviluppato da ricercatori guidati da Dario Amodei, che ha lasciato OpenAI a causa di preoccupazioni sulla sicurezza dell'AI.
 
-- Elon Musk: Ha fondato la sua azienda AI, xAI, a causa delle sue preoccupazioni riguardo all'approccio di OpenAI e Google alla sicurezza dell'AI. Il suo modello si chiama Grok.
+- Elon Musk: Ha fondato xAI, la sua azienda AI, a causa delle preoccupazioni verso l'approccio di OpenAI e Google sulla sicurezza dell'AI. Il suo modello si chiama Grok.
 
 - Tesla AI: Dalle auto a guida autonoma al robot umanoide Optimus, Tesla sta spingendo i limiti del possibile nella robotica.
+
+---
+
+## Robotaxy
+
+Sempre Elon Musk ha fondato RoboTaxy 
+
+![center w:650px](img/corso-ai-robotaxy.jpg)
+
+Total Recall 1990 (Atto di forza)
 
 ---
 
@@ -512,11 +625,11 @@ I servizi di supporto ai testi sono applicazioni che utilizzano l'intelligenza a
 
 ## ChatGPT - di cosa si tratta?
 
-ChatGPT ha lo scopo di creare un chatbot che risponde in modo fluido che risponda come se fosse una persona.
+OpenAI ha lo scopo di creare un chatbot, ChatGPT, che risponde in modo fluido che risponda come se fosse una persona.
 
 Si tratta di un software che interagisce con gli utenti attraverso un linguaggio naturale, come se fosse una persona.
 
-GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di modelli di linguaggio naturalmente sviluppati da OpenAI utilizzati per generare testo.
+GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di modelli di linguaggio naturalmente sviluppati per generare testo.
 
 ---
 
@@ -529,7 +642,8 @@ GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di
 ### BERT
 
 340 milioni di parametri per 340GB di dati
-Modelli transformer basati su meccanismi di attenzione che usano importanza fra parole e frasi in un testo.
+
+Si tratta di modelli transformer basati su meccanismi di attenzione che usano importanza fra parole e frasi in un testo.
 
 ---
 
@@ -574,6 +688,28 @@ Le API di programmazione di ChatGPT 3.5 sono state rilasciate nel gennaio 2023, 
 
 ---
 
+## Uso da JavaScript
+
+```javascript
+import OpenAI from "openai";
+const openai = new OpenAI();
+
+const completion = await openai.chat.completions.create({
+    model: "gpt-4o",
+    messages: [
+        { role: "system", content: "Sei un insegnante di italiano" },
+        {
+            role: "user",
+            content: "Elencami i maggiori poeti italiani",
+        },
+    ],
+});
+
+console.log(completion.choices[0].message);
+```
+
+---
+
 ## 14 marzo 2023 ChatGPT 4
 
 ChatGPT 4 è una versione migliorata di ChatGPT 3.5.
@@ -598,9 +734,9 @@ Per i fan di Star Trek siamo ancora molto lontani dal cervello positronico di Da
 
 ## Parametri inclusi in ChatGPT
 
-![center width:850px](img/corso-ai-AI%20Parameters.png)
+![center width:850px](img/corso-ai-ai-parameters.webp)
 
-<https://www.techtarget.com/searchenterpriseai/tip/The-role-of-AI-parameters-in-the-enterprise>
+<https://explodingtopics.com/blog/gpt-parameters>
 
 ---
 
@@ -642,8 +778,8 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## ChatGPT - perché NO
 
-- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a gennaio 2022 (GTP4turbo aprile 2023)
-- Non è in grado di fare analisi di dati: capisce quanto viene chiesto, ma non ragiona
+- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a ottobre 2023 per gpt-4o e o1.
+- Non è in grado di fare analisi di dati: capisce quanto viene chiesto, inizia a ragionare con una chain of prompt.
 - Quando produce codice deve poi essere analizzato e integrato
 - Soffre di allucinazioni
 - Non ha accesso a internet se non tramite plugin nella versione a pagamento
@@ -839,7 +975,11 @@ di prendere decisioni informate è tua.
 
 ## ChatGPT sostituisce Google?
 
-Al momento (gennaio 2023) non sostituisce Google ... __al momento__
+Al momento (ottobre 2024) non sostituisce Google, anche grazie alle nuove evoluzioni di Google come l'introduzione di uno spazio dedicato alle AI nella ricerca
+
+![center width:600px](img/corso-ai-search-engine.png)
+
+<https://gs.statcounter.com/search-engine-market-share#monthly-202101-202409>
 
 ---
 
@@ -860,7 +1000,7 @@ Al momento (gennaio 2023) non sostituisce Google ... __al momento__
 . Perplexity.ai
 . Mistral AI
 . Amazon BedRock
-. Google BARD -> GEMINI
+. Google Gemini
 
 ---
 
@@ -943,6 +1083,14 @@ Si tratta di una AI specializzata nella generazione di presentazioni.
 Parte da un testo e genera delle slide comprensive sia del testo, adeguatamente diviso, che delle immagini che lo rappresentino.
 
 <https://gamma.app/>
+
+---
+
+## NotebookLM
+
+NotebookLM è un assistente per la ricerca e la scrittura basato sull'AI che funziona al meglio con le fonti che carichi
+
+<https://notebooklm.google.com/>
 
 ---
 
@@ -1035,6 +1183,21 @@ Prospettive multiple dell'intelligenza artificiale in un'unica interfaccia
 ## Servizi di supporto alla creazione di video
 
 Questo tipo di AI sono in piena evoluzione, al momento il prodotto più avanzato sembra essere Sora, anche se ad ora (Marzo 2024) non è ancora disponibile al pubblico.
+
+---
+
+## runway
+
+
+---
+
+## luma
+
+
+---
+
+## kling  
+
 
 ---
 
@@ -1142,6 +1305,7 @@ DALL-E 3 può creare immagini e opere d'arte originali e realistiche a partire d
 ![center width:350px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
 
 Usando dall-e 3 : questa richiesta è stata bloccata. Il nostro sistema ha segnalato automaticamente questa richiesta perché potrebbe essere in conflitto con la nostra content policy. Ulteriori violazioni della policy possono portare alla sospensione automatica dell'accesso.
+Dall-e 2 invece generava l'immagine.
 
 ---
 
@@ -1167,7 +1331,7 @@ Si ipotizza che la tecnologia sottostante sia basata sulla Stable Diffusion.
 
 ## Midjourney - come funziona?
 
-Midjourney è attualmente accessibile solo tramite un bot Discord sul loro Discord ufficiale, inviando messaggi diretti al bot o invitando il bot a un server di terze parti.
+Midjourney nasce come un bot Discord sul loro Discord ufficiale, inviando messaggi diretti al bot o invitando il bot a un server di terze parti.
 
 Per generare immagini, gli utenti utilizzano il comando
 
@@ -1179,11 +1343,9 @@ e digitano un prompt; il bot restituisce quindi un set di quattro immagini.
 
 Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscaling.
 
----
+Successivamente è nato il sito web in grado di fornire le stesse funzioanlità del bot Discord.
 
-## Midjourney -Super realistic Italian Boy
-
-![center width:550px](img/corso-ai-midjourney-super-realistic-italian-boy.png)
+<https://www.midjourney.com>
 
 ---
 
@@ -1193,7 +1355,7 @@ Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscali
 
 ---
 
-## Midjourney -Foto di interni
+## Midjourney - Foto di interni
 
 ```text
 Realistic image of a luxurious bedroom with a soft bed, gray comforter and white white pillows
@@ -1266,7 +1428,21 @@ Trasforma in tempo reale i propri disegni in immagini con gradi variabili di qua
 
 ## Flux
 
-TODO
+Flux permette di creare
+
+- Immagini da testo
+- Video da testo
+- Video da foto
+
+<https://flux-ai.io>
+
+---
+
+## Flux - esempio
+
+Disegna una foto di Clint Eastwood con la maglia del Milan
+
+![center width:850px](img/corso-ai-flux.webp)
 
 ---
 
