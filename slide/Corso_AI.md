@@ -36,8 +36,8 @@ h2 {
     background-color: white;
     width: 100%;
     left: 0;
-    padding: 15px 0px 0px 75px;
-    height: 70px;
+    padding: 0px 0px 5px 75px;
+    height: 50px;
     border-bottom: 1px solid red;
     margin: 0px;
 }
@@ -56,25 +56,23 @@ footer {
 
 ## Come nascono queste slide
 
-Parallelamente all'esplosione dei prodotti dotati di AI, ho deciso di sintetizzare, all'interno di alcune slide, la storia di questa tecnologia e parte della terminologia utilizzata nel descriverli.
+In risposta alla rapida diffusione di prodotti basati sull'Intelligenza Artificiale, ho elaborato una presentazione che ripercorre l'evoluzione di questa tecnologia e illustra i termini chiave utilizzati nel settore.
 
-Ho anche iniziato a sperimentare, all'interno del mio lavoro giornaliero, una serie di soluzioni che mi permettessero di essere più efficace e di lavorare più in fretta e meglio.
+Nel corso della mia attività professionale, ho inoltre sperimentato diverse soluzioni AI che mi hanno permesso di ottimizzare i processi lavorativi, aumentando sia l'efficienza che la qualità dei risultati.
 
-Ho quindi aggiunto altre slide che spiegassero quali prodotti utilizzare e con quale scopo.
+Ho quindi arricchito la presentazione con una sezione pratica dedicata ai vari strumenti AI, specificando per ciascuno il campo di applicazione ideale.
 
-Spero che questo lavoro possa far comprendere ad altre persone i vantaggi che l'intelligenza artificiale può offrire e possa aiutare a capire quali prodotti utilizzare nel lavoro di tutti i giorni.
+L'obiettivo di questo lavoro è duplice: da un lato, far conoscere i benefici concreti che l'Intelligenza Artificiale può apportare nella vita professionale, dall'altro, fornire una guida pratica per la scelta degli strumenti AI più adatti alle diverse esigenze lavorative quotidiane.
 
 ---
 
 ## AI - di cosa si tratta?
 
-__Artificial Intelligence__ è una disciplina di informatica che include metodi di apprendimento automatico, visione artificiale, linguaggio naturale e robotica.
+L'**Intelligenza Artificiale** (AI) è una branca dell'informatica che abbraccia diverse discipline, tra cui l'apprendimento automatico, la visione artificiale, l'elaborazione del linguaggio naturale e la robotica.
 
-L'obiettivo dell'AI è sviluppare algoritmi che consentano ai computer di eseguire compiti che, in precedenza, erano possibili solo per essere eseguiti da esseri umani.
+Il suo scopo principale è sviluppare algoritmi che permettano ai computer di svolgere attività tradizionalmente eseguibili solo dall'intelletto umano. Si tratta di una scienza interdisciplinare che integra teoria, metodologia, analisi del linguaggio e ingegneria per creare sistemi intelligenti capaci di prendere decisioni articolate in scenari complessi.
 
-AI è una disciplina interdisciplinare che coinvolge la teoria, la metodologia, la sintassi e l'ingegneria per creare sistemi intelligenti in grado di prendere decisioni complesse in ambienti complessi.
-
-AI è spesso usata per migliorare la produttività e l'efficienza dei processi aziendali.
+Nel contesto aziendale, l'Intelligenza Artificiale si rivela uno strumento prezioso per ottimizzare i processi lavorativi, incrementando sia la produttività che l'efficienza operativa.
 
 ---
 
@@ -718,6 +716,22 @@ Il numero di parametri è aumentato a 1 trilione, rendendolo il modello di lingu
 
 ---
 
+## 13 maggio 2024 ChatGPT 4o
+
+ChatGPT 4o (omni) è una versione migliorata di ChatGPT 4.
+
+Con questo modello si è andati nella direzione di poter velocizzare le risposte e poter avere un feedback immediato.
+Questo porta ad alcuni vantaggi come le traduzioni in tempo reale.
+Non siamo al livello del TARDIS del Doctor Who o del traduttore universale di Star Trek, ma stanno andando in quella direzione.
+
+---
+
+## TBD ChatGPT o1
+
+ChatGPT o1 è stato addestrato per "pensare" più a lungo prima di rispondere, emulando un processo di riflessione umano. Questo approccio lo rende particolarmente efficace nella risoluzione di problemi complessi in ambiti come la scienza, la programmazione e la matematica
+
+---
+
 ## Memoria
 
 Una delle critiche fatte a questi tipi di modelli è che non hanno una memoria: non ricordano le informazioni che sono state fornite loro in precedenza e non le utilizzano per generare testo.
@@ -983,14 +997,25 @@ Al momento (ottobre 2024) non sostituisce Google, anche grazie alle nuove evoluz
 
 ---
 
-## ChatGPT è integrato in BING
+## Luglio 2024 - SearchGPT
 
-- __Fonti Attuali__: Bing utilizza fonti attuali, a differenza di ChatGpt che si basa su dati fino al 2021.
-- __Collaborazione tra Microsoft e OpenAI__: Bing utilizza la stessa tecnologia di base di ChatGpt, ma è una versione migliorata.
-- __Due Livelli di Conoscenza__: Bing ha due livelli di conoscenza: uno profondo e uno superficiale basato sui risultati di ricerca.
-- __Risoluzione di Limiti__: Bing risolve alcuni limiti di ChatGpt, come l'uso di dati obsoleti e l'invenzione di fatti.
-- __Risposte più accurate__: Bing fornisce risposte più precise grazie alle fonti attuali.
-- __Miglioramento delle Capacità di Risposta__: Questa integrazione rappresenta un passo avanti nell'evoluzione delle capacità di risposta dell'intelligenza artificiale.
+SearchGPT è un motore di ricerca sviluppato da OpenAI che integra l'intelligenza artificiale per fornire risposte rapide e pertinenti, accompagnate da fonti chiare e affidabili.
+Lanciato nel luglio 2024, mira a competere con servizi come Google, offrendo un'esperienza di ricerca più interattiva e conversazionale.
+Da novembre 2024 è disponibile a tutti.
+
+---
+
+## ChatGPT e BING
+
+Bing, il motore di ricerca di Microsoft, integra l'intelligenza artificiale attraverso una collaborazione con OpenAI.
+
+**Risposte Conversazionali Avanzate**: L'adozione di modelli linguistici di grandi dimensioni consente a Bing di fornire risposte più naturali e contestualizzate.
+
+**Sintesi e Riassunti**: è in grado di sintetizzare informazioni da diverse fonti, offrendo riassunti completi e pertinenti, facilitando l'accesso rapido alle informazioni desiderate.
+
+**Generazione di Contenuti Creativi**: Bing può assistere nella creazione di contenuti, come immagini generate a partire da descrizioni testuali, ampliando le possibilità creative degli utenti.
+
+**Esperienza di Chat Integrata**: L'integrazione di Bing Chat in Microsoft Edge offre un assistente virtuale direttamente nel browser, migliorando l'esperienza di navigazione con suggerimenti e risposte immediate.
 
 ---
 
@@ -1006,7 +1031,7 @@ Al momento (ottobre 2024) non sostituisce Google, anche grazie alle nuove evoluz
 
 ## SudoWrite - l'aiuto ai copywriter
 
-" SudoWrite is the best AI tool for creative writers"
+"SudoWrite is the best AI tool for creative writers"
 
 <https://www.sudowrite.com>
 
@@ -1057,25 +1082,6 @@ Si puo' chattare con Heypi, ma non è in grado di scrivere codice o di dare info
 
 ---
 
-## SlidesAI.io
-
-Permette di risparmiare tempo per creare presentazioni professionali e coinvolgenti.
-Con pochi clic è possibile trasformare qualsiasi parte di testo in diapositive visivamente accattivanti, perfette per ogni occasione.
-
-Esempio: SlidesAI.io/Esempio.pdf
-
----
-
-## Beautiful.ai
-
-Permette di creare delle slide, partendo da delle descrizioni
-
-![center width:1000px](img/corso-ai-beautiful.ai.png)
-
-<https://www.beautiful.ai/>
-
----
-
 ## Gamma
 
 Si tratta di una AI specializzata nella generazione di presentazioni.
@@ -1083,6 +1089,20 @@ Si tratta di una AI specializzata nella generazione di presentazioni.
 Parte da un testo e genera delle slide comprensive sia del testo, adeguatamente diviso, che delle immagini che lo rappresentino.
 
 <https://gamma.app/>
+
+---
+
+## Alternative a Gamma
+
+### SlidesAI.io
+
+Esempio: SlidesAI.io/Esempio.pdf
+
+### Beautiful.ai
+
+![center width:600px](img/corso-ai-beautiful.ai.png)
+
+<https://www.beautiful.ai/>
 
 ---
 
