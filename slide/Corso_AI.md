@@ -338,13 +338,14 @@ Ecco alcune delle principali categorie e criteri di classificazione:
 ## Classificazione dei LLM - architettura
 
 Architettura del modello:
-   - Transformer-based (es. GPT, BERT)
+
+* Transformer-based (es. GPT, BERT)
    Usa self-attention per processare input in parallelo (GPT, BERT) ed è efficace su sequenze lunghe
 
-   - LSTM-based (Long Short-Term Memory)
+* LSTM-based (Long Short-Term Memory)
    Usa reti neurali ricorrenti, processa input sequenzialmente, buono per sequenze moderate
 
-   - Hybrid architectures
+* Hybrid architectures
    Combina elementi di diverse architetture (Transformer-XL)
 
 ---
@@ -352,11 +353,12 @@ Architettura del modello:
 ## Classificazione dei LLM - paradigma
 
 Paradigma di training:
-   - Autoregressive (es. GPT)
+
+* Autoregressive (es. GPT)
    Predice token successivo basandosi sui precedenti, unidirezionale, adatto per generazione
-   - Masked Language Models (es. BERT)
+* Masked Language Models (es. BERT)
    Predice token mascherati in una sequenza, bidirezionale, per comprensione del linguaggio
-   - Encoder-Decoder (es. T5)
+* Encoder-Decoder (es. T5)
    Combina encoding dell'input e decoding dell'output, per trasformazioni di testo (es. traduzione)
 
 ---
@@ -364,10 +366,11 @@ Paradigma di training:
 ## Classificazione dei LLM - dimensioni
 
 Dimensione del modello:
-   - Small (sotto 1 miliardo di parametri)
-   - Medium (1-10 miliardi di parametri)
-   - Large (10-100 miliardi di parametri)
-   - Very Large (oltre 100 miliardi di parametri)
+
+- Small (sotto 1 miliardo di parametri)
+- Medium (1-10 miliardi di parametri)
+- Large (10-100 miliardi di parametri)
+- Very Large (oltre 100 miliardi di parametri)
 
 ---
 
@@ -1329,7 +1332,7 @@ DALL-E 3 può creare immagini e opere d'arte originali e realistiche a partire d
 
 ## DALL-E - “disegna giorgia meloni in stile simpson”
 
-![center width:350px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.png)
+![center width:350px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.21.58%20-%20disegna%20giorgia%20meloni%20in%20stile%20simpson.jpg)
 
 Usando dall-e 3 : questa richiesta è stata bloccata. Il nostro sistema ha segnalato automaticamente questa richiesta perché potrebbe essere in conflitto con la nostra content policy. Ulteriori violazioni della policy possono portare alla sospensione automatica dell'accesso.
 Dall-e 2 invece generava l'immagine.
@@ -1499,7 +1502,7 @@ Questo filtro consentono agli utenti di trasformare le loro foto in stili manga,
 
 ## Huggy Wuggy - by AI Manga
 
-![center width:400px](img/corso-ai-HuggyWuggy%20-%20AI%20Manga.png)
+![center width:400px](img/corso-ai-HuggyWuggy%20-%20AI%20Manga.jpg)
 
 ---
 
@@ -1541,7 +1544,7 @@ Disegna l'immagine un gatto in stile Kandinsky
 
 Disegna l'immagine un gatto in stile Van Gogh
 
-![center width:400px](img/corso-ai-2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.png)
+![center width:400px](img/corso-ai-2885400697_Disegni_l_immagine_un_gatto_in_stile_van_gogh.jpg)
 
 ---
 
@@ -1549,7 +1552,7 @@ Disegna l'immagine un gatto in stile Van Gogh
 
 Disegna l'immagine un gatto in stile Andy Warhol
 
-![center width:400px](img/corso-ai-3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.png)
+![center width:400px](img/corso-ai-3759984314_Disegni_l_immagine_un_gatto_in_stile_Andy_Warhol.jpg)
 
 ---
 
@@ -1557,7 +1560,7 @@ Disegna l'immagine un gatto in stile Andy Warhol
 
 Disegna l'immagine un gatto in stile Edvard Munch
 
-![center width:400px](img/corso-ai-2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.png)
+![center width:400px](img/corso-ai-2914587335_Disegni_l_immagine_un_gatto_in_stile_Edvard_Munch.jpg)
 
 ---
 
@@ -1565,13 +1568,13 @@ Disegna l'immagine un gatto in stile Edvard Munch
 
 Realizza __Valentino Rossi__ che mangia un gelato
 
-![center width:450px](img/corso-ai-3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.png)
+![center width:450px](img/corso-ai-3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.jpg)
 
 ---
 
 ## Valentino Rossi - gennaio 2024
 
-![center width:550px](img/corso-ai-397630_Realizzi%20Valentino%20Rossi%20che%20mangia%20un%20gelato%20_xl-1024-v1-0.png)
+![center width:550px](img/corso-ai-397630_Realizzi%20Valentino%20Rossi%20che%20mangia%20un%20gelato%20_xl-1024-v1-0.jpg)
 
 ---
 
@@ -1632,7 +1635,7 @@ Oltre a volti di persone è possibile generare:
 
 Prendiamo una immagine da Instagram e proviamo a replicarla con una AI
 
-![center width:400px](img/corso-ai-banner-enpal-instagram.png)
+![center width:400px](img/corso-ai-banner-enpal-instagram.jpg)
 
 ---
 
@@ -1671,8 +1674,10 @@ tutto in stile Disney Pixar
 
 L'esperienza può essere reiterata all'infinito
 
-![floatleft width:400px](img/corso-ai-banner-edison-instagram.jpg)
-![floatright width:500px](img/corso-ai-banner-edison-instagram-leonardo.jpg)
+DEMO:
+
+* corso-ai-banner-edison-instagram.jpg
+* corso-ai-banner-edison-instagram-leonardo.jpg
 
 ---
 
