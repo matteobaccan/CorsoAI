@@ -66,6 +66,16 @@ L'obiettivo di questo lavoro è duplice: da un lato, far conoscere i benefici co
 
 ---
 
+## Chi sono ?
+
+Matteo Baccan è un ingegnere del software e formatore professionista con oltre 30 anni di esperienza nel settore IT.
+Ha lavorato per diverse aziende e organizzazioni, occupandosi di progettazione, sviluppo, testing e gestione di applicazioni web e desktop, utilizzando vari linguaggi e tecnologie. È anche un appassionato divulgatore e insegnante di informatica, autore di numerosi articoli, libri e corsi online rivolti a tutti i livelli di competenza.
+Gestisce un sito internet e un canale YouTube dove condivide video tutorial, interviste, recensioni e consigli sulla programmazione.
+Attivo nelle community open source, partecipa regolarmente a eventi e concorsi di programmazione.
+Si definisce un "sognatore realista" che ama sperimentare, innovare e condividere le sue conoscenze e passioni, seguendo il motto: "Non smettere mai di imparare, perché la vita non smette mai di insegnare".
+
+---
+
 ## AI - di cosa si tratta?
 
 L'**Intelligenza Artificiale** (AI) è una branca dell'informatica che abbraccia diverse discipline, tra cui l'apprendimento automatico, la visione artificiale, l'elaborazione del linguaggio naturale e la robotica.
@@ -991,7 +1001,7 @@ di prendere decisioni informate è tua.
 
 Al momento (ottobre 2024) non sostituisce Google, anche grazie alle nuove evoluzioni di Google come l'introduzione di uno spazio dedicato alle AI nella ricerca
 
-![center width:600px](img/corso-ai-search-engine.png)
+![center width:1100px](img/corso-ai-search-engine.png)
 
 <https://gs.statcounter.com/search-engine-market-share#monthly-202101-202409>
 
@@ -1100,8 +1110,6 @@ Esempio: SlidesAI.io/Esempio.pdf
 
 ### Beautiful.ai
 
-![center width:600px](img/corso-ai-beautiful.ai.png)
-
 <https://www.beautiful.ai/>
 
 ---
@@ -1114,17 +1122,13 @@ NotebookLM è un assistente per la ricerca e la scrittura basato sull'AI che fun
 
 ---
 
+## Alternative a NotebookLM
+
 ## ChatPDF
 
 ChatPDF prende in input un documento PDF, lo analizza e permette successivamente di fare domande sul testo analizzato
 
-![center width:600px](img/corso-ai-ChatPDF.png)
-
 <https://www.chatpdf.com/>
-
----
-
-## Alternative a ChatPDF
 
 ### LightPDF
 
@@ -1132,7 +1136,7 @@ ChatPDF prende in input un documento PDF, lo analizza e permette successivamente
 
 ### RAG
 
-Con i modelli open source di RAG è possibile fare domande su un testo e ottenere risposte anche con ambienti locali, instalando il software sul proprio computer.
+Con i modelli open source di RAG è possibile fare domande su un testo e ottenere risposte anche con ambienti locali, installando il software sul proprio computer.
 
 ---
 
@@ -1206,18 +1210,21 @@ Questo tipo di AI sono in piena evoluzione, al momento il prodotto più avanzato
 
 ---
 
-## runway
+## Runway
 
-
----
-
-## luma
-
+TDB
 
 ---
 
-## kling  
+## Luma
 
+TDB
+
+---
+
+## Kling  
+
+TDB
 
 ---
 
@@ -1329,13 +1336,7 @@ Dall-e 2 invece generava l'immagine.
 
 ---
 
-## DALL-E - “High quality photo of a panda astronaut” - 1
-
-![center width:500px](img/corso-ai-DALL%C2%B7E%202023-01-18%2003.26.51%20-%20High%20quality%20photo%20of%20a%20panda%20astronaut.png)
-
----
-
-## DALL-E - “High quality photo of a panda astronaut” - 2
+## DALL-E - “High quality photo of a panda astronaut”
 
 ![center width:500px](img/corso-ai-panda%20astronaut%20dall-e%203.jpg)
 
