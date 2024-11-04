@@ -237,7 +237,7 @@ In rete esistono vari dataset di dati di addestramento, sia a pagamento che grat
 
 Alcuni dei più famosi sono rappresentati da
 
-- Common Crawl <https://commoncrawl.org/> : più di 250 miliardi di pagine nell'arco di 16 anni
+- Common Crawl <https://commoncrawl.org/> : più di 250 miliardi di pagine internet nell'arco di 16 anni
 
 - Laion <https://laion.ai/projects/> : contiene vari dataset, come LAION5B un dataset di 5.86 miliardi di coppie di immagini/testo
 
@@ -295,29 +295,124 @@ Esempi di AI generative includono:
 
 ## Reti Generative Avversariali
 
-Un generative adversarial network (GAN) è un tipo di AI generativa che utilizza due reti neurali per generare nuovi contenuti.
+Le Reti Generative Avversariali (GAN - Generative Adversarial Networks) sono un'architettura di apprendimento automatico introdotta da Ian Goodfellow nel 2014.
 
-Una rete genera nuovi contenuti e l'altra rete cerca di rilevare se il contenuto è stato generato o meno.
+La loro struttura si basa su due reti neurali che competono tra loro in un "gioco" a somma zero:
+
+1. **Il Generatore (G)**: Produce dati sintetici cercando di imitare dei dati reali. Il suo obiettivo è creare esempi così convincenti da "ingannare" il Discriminatore.
+
+2. **Il Discriminatore (D)**: Agisce come un "giudice", cercando di distinguere tra dati reali e generati. Deve classificare correttamente i dati come autentici o falsi.
+
+Le due reti si allenano simultaneamente:
+
+- Il Generatore migliora progressivamente la qualità dei dati sintetici
+- Il Discriminatore affina la sua capacità di rilevare le falsificazioni
+
+---
+
+## Reti Generative Avversariali - esempi
+
+Alcuni esempi pratici di applicazione delle GAN:
+
+- Generazione di immagini fotorealistiche
+- Conversione di schizzi in fotografie
+- Invecchiamento/ringiovanimento di volti nelle foto
+- Creazione di opere d'arte
+- Sintesi di video
+- Generazione di dati per aumentare dataset esistenti
+
+Il processo di allenamento è spesso complesso e può presentare instabilità, ma le GAN hanno rivoluzionato il campo della generazione di contenuti artificiali.
 
 ---
 
 ## Reti neurali ricorrenti
 
-Le reti neurali ricorrenti (RNN) sono una classe di algoritmi di apprendimento automatico che sono particolarmente adatte ai problemi di classificazione e previsione su dati sequenziali.
+Le Reti Neurali Ricorrenti (RNN - Recurrent Neural Networks) sono un tipo di rete neurale artificiale progettata specificamente per elaborare sequenze di dati, dove l'ordine temporale delle informazioni è importante.
 
-Si basano su una tecnica di apprendimento automatico chiamata "Backpropagation Through Time" (BPTT) che consente alle reti di imparare le relazioni tra gli input e gli output nel tempo.
+Caratteristiche principali:
 
-Le RNN possono essere utilizzate per problemi di classificazione, previsione, riconoscimento delle parole e altro ancora.
+1. **Memoria interna**: A differenza delle reti neurali tradizionali, le RNN mantengono uno "stato interno" che funziona come una forma di memoria, permettendo di considerare le informazioni precedenti per elaborare l'input corrente.
+
+2. **Collegamenti ricorrenti**: I neuroni hanno connessioni che formano cicli, permettendo all'informazione di persistere da un passo temporale all'altro.
+
+---
+
+## Reti neurali ricorrenti - varianti
+
+Principali varianti:
+
+1. **LSTM** (Long Short-Term Memory):
+Una LSTM (Long Short-Term Memory) è una variante avanzata delle reti neurali ricorrenti che utilizza un sistema di "gate" (cancelli) per controllare il flusso delle informazioni, permettendo alla rete di memorizzare selettivamente informazioni importanti per lunghi periodi e risolvere il problema del vanishing gradient.
+
+2. **GRU** (Gated Recurrent Unit):
+La GRU (Gated Recurrent Unit) è una versione semplificata della LSTM che combina i gate di dimenticanza e di input in un unico "gate di aggiornamento", mantenendo prestazioni simili, ma con minor complessità computazionale.
+
+---
+
+## Reti neurali ricorrenti - applicazioni
+
+Applicazioni comuni:
+
+- Elaborazione del linguaggio naturale
+- Traduzione automatica
+- Riconoscimento vocale
+- Previsione di serie temporali
+- Generazione di testo
+- Analisi di sequenze biologiche (DNA, proteine)
+
+---
+
+## Reti neurali ricorrenti - pro e contro
+
+Vantaggi:
+
+- Capacità di gestire input di lunghezza variabile
+- Mantenimento del contesto temporale
+- Flessibilità nell'elaborazione sequenziale
+
+Limitazioni:
+
+- Difficoltà nell'apprendimento di dipendenze a lungo termine (parzialmente risolto con LSTM)
+- Costo computazionale elevato per sequenze lunghe
+- Possibili problemi di instabilità durante l'addestramento
 
 ---
 
 ## Reti neurali convoluzionali
 
-Le reti neurali convoluzionali (ConvNets o CNN) sono un tipo di reti neurali profonde che sono state progettate per elaborare dati strutturati come immagini, suoni ed altri tipi di dati.
+Le Reti Neurali Convoluzionali (CNN o ConvNet) sono un tipo di rete neurale artificiale specificamente progettata per processare dati strutturati a griglia, come le immagini, che utilizza operazioni di convoluzione per estrarre automaticamente caratteristiche rilevanti attraverso filtri che analizzano porzioni locali dell'input.
 
-Sono costituite da una serie di strati di neuroni, ciascuno dei quali è responsabile della rilevazione di caratteristiche specifiche nei dati di input.
+La convoluzione è un'operazione matematica che applica un filtro (o kernel) a una porzione di dati di input, facendolo scorrere sistematicamente su di essa per produrre una nuova rappresentazione dove ogni valore di output è una somma pesata dei valori di input vicini. Questa operazione permette di rilevare pattern locali come bordi, texture o forme nelle immagini.
 
-Queste caratteristiche vengono poi elaborate dai successivi strati di neuroni in modo da ottenere una rappresentazione dei dati di input.
+---
+
+## Reti neurali convoluzionali - componenti
+
+1. **Strati di convoluzione**:
+   - Applicano filtri (kernel) all'input
+   - Estraggono caratteristiche come bordi, texture, forme
+   - Condivisione dei parametri per ridurre la complessità
+
+2. **Strati di pooling**:
+   - Riducono le dimensioni (downsampling)
+   - Mantengono le caratteristiche più importanti
+   - Rendono la rete più robusta a piccole variazioni
+
+3. **Strati completamente connessi**:
+   - Combinano le caratteristiche estratte
+   - Effettuano la classificazione finale
+
+---
+
+## Reti neurali convoluzionali - applicazioni
+
+Applicazioni principali:
+
+- Riconoscimento di immagini
+- Visione artificiale
+- Elaborazione video
+- Analisi medica (raggi X, risonanze)
+- Sistemi di guida autonoma
 
 ---
 
@@ -339,13 +434,13 @@ Ecco alcune delle principali categorie e criteri di classificazione:
 
 Architettura del modello:
 
-* Transformer-based (es. GPT, BERT)
-   Usa self-attention per processare input in parallelo (GPT, BERT) ed è efficace su sequenze lunghe
+- Transformer-based (GPT (OpenAI), BERT (Google), Claude (Anthropic), LLaMA (Meta), PaLM (Google))
+   Usa self-attention per processare input in parallelo ed è efficace su sequenze lunghe
 
-* LSTM-based (Long Short-Term Memory)
+- LSTM-based (Long Short-Term Memory)
    Usa reti neurali ricorrenti, processa input sequenzialmente, buono per sequenze moderate
 
-* Hybrid architectures
+- Hybrid architectures
    Combina elementi di diverse architetture (Transformer-XL)
 
 ---
@@ -354,45 +449,83 @@ Architettura del modello:
 
 Paradigma di training:
 
-* Autoregressive (es. GPT)
+- Autoregressive (es. GPT)
    Predice token successivo basandosi sui precedenti, unidirezionale, adatto per generazione
-* Masked Language Models (es. BERT)
+- Masked Language Models (es. BERT)
    Predice token mascherati in una sequenza, bidirezionale, per comprensione del linguaggio
-* Encoder-Decoder (es. T5)
+- Encoder-Decoder (es. T5)
    Combina encoding dell'input e decoding dell'output, per trasformazioni di testo (es. traduzione)
 
 ---
 
 ## Classificazione dei LLM - dimensioni
 
-Dimensione del modello:
+Gli LLM possono essere catalogati in base al numero di parametri (che riflette la loro dimensione e capacità).
+Ecco una classificazione generale:
 
-- Small (sotto 1 miliardo di parametri)
-- Medium (1-10 miliardi di parametri)
-- Large (10-100 miliardi di parametri)
-- Very Large (oltre 100 miliardi di parametri)
+**Small LLM** (< 1B parametri):
+
+- BERT base (110M)
+- DistilBERT (66M)
+- GPT-2 small (117M)
+
+**Medium LLM** (1B - 10B parametri):
+
+- T5 (3B)
+- GPT-J (6B)
+- BLOOM-7B (7B)
+
+---
+
+## Classificazione dei LLM - dimensioni (cont.)
+
+**Large LLM** (10B - 100B parametri):
+
+- LLaMA-13B
+- GPT-3 (175B)
+- BLOOM (176B)
+- PaLM (540B)
+
+**Extra Large LLM** (> 100B parametri):
+
+- GPT-4 (dimensione non rivelata, stimata > 1T)
+- PaLM-2 (340B)
+- Claude (dimensione non rivelata)
+
+---
+
+## Classificazione dei LLM - dimensioni - nota
+
+Note importanti:
+
+- La dimensione non garantisce sempre prestazioni migliori
+- L'efficienza dell'architettura e la qualità dei dati di training sono cruciali
+- Alcuni produttori non rivelano le dimensioni esatte dei loro modelli
 
 ---
 
 ## Classificazione dei LLM - dominio e lingua
 
 Dominio di specializzazione:
-   - General-purpose
-   - Domain-specific (es. modelli per il settore medico o legale)
 
-Multilingualità:
-   - Monolingue
-   - Multilingue
+- General-purpose
+- Domain-specific (es. modelli per il settore medico o legale)
+
+Lingue supportate:
+
+- Monolingue
+- Multilingue
 
 ---
 
 ## Classificazione dei LLM - capacità
 
 Capacità di task:
-   - Single-task
+
+- Single-task
    Modelli addestrati per svolgere un singolo compito specifico
 
-   - Multi-task
+- Multi-task
    Modelli capaci di eseguire molteplici compiti linguistici diversi
 
 ---
@@ -400,26 +533,62 @@ Capacità di task:
 ## Classificazione dei LLM - training
 
 Approccio di training:
-   - Supervised
-   - Unsupervised
-   - Semi-supervised
-   - Self-supervised
+
+- Supervised
+- Unsupervised
+- Semi-supervised
+- Self-supervised
 
 Tipo di dati di training:
-   - Text-only
-   - Multimodal (testo + immagini, audio, ecc.)
+
+- Text-only
+- Multimodal (testo + immagini, audio, ecc.)
 
 ---
 
 ## Classificazione dei LLM - accessibilità e efficienza
 
 Accessibilità:
-   - Open-source
-   - Proprietari
+
+- Open-source
+- Proprietari
 
 Efficienza computazionale:
-    - Standard
-    - Ottimizzati (es. modelli distillati o pruned)
+
+- Standard
+- Ottimizzati (es. modelli distillati o pruned)
+
+---
+
+## AI OpenSource - definizione
+
+La **Open Source AI Definition** stabilisce i criteri per considerare un sistema di intelligenza artificiale (IA) come open source, garantendo le seguenti libertà:
+
+1. **Utilizzo**: Libertà di usare il sistema per qualsiasi scopo senza necessità di permessi.
+2. **Studio**: Possibilità di analizzare il funzionamento del sistema e ispezionarne i componenti.
+3. **Modifica**: Facoltà di modificare il sistema per qualsiasi scopo, inclusa la modifica dei suoi output.
+4. **Condivisione**: Capacità di distribuire il sistema, con o senza modifiche, per qualsiasi scopo.
+
+---
+
+## AI OpenSource - applicazione
+
+Queste libertà si applicano sia al sistema completo che ai suoi singoli componenti.
+Per esercitarle, è necessario avere accesso alla forma preferita per apportare modifiche, che include:
+
+- **Informazioni sui Dati**: Descrizione dettagliata dei dati utilizzati per l'addestramento, comprendente provenienza, caratteristiche, metodi di ottenimento e selezione, procedure di etichettatura e metodologie di elaborazione.
+- **Codice**: Codice sorgente completo utilizzato per addestrare ed eseguire il sistema, inclusi processi di elaborazione dei dati, configurazioni di addestramento e architettura del modello.
+- **Parametri**: Parametri del modello, come pesi o altre impostazioni, necessari per replicare o modificare il sistema.
+
+---
+
+## AI OpenSource - elementi
+
+Questi elementi devono essere resi disponibili sotto termini approvati dall'Open Source Initiative (OSI), assicurando trasparenza e possibilità di modifica.
+
+La definizione mira a promuovere l'autonomia, la trasparenza e la collaborazione nel campo dell'IA, allineandosi ai principi del software open source.
+
+<https://opensource.org/ai/open-source-ai-definition>
 
 ---
 
@@ -558,35 +727,29 @@ Queste tecnologie sono utilizzate in una varietà di applicazioni, come i chatbo
 
 ## Natural Language Processing (NLP)
 
-Si riferisce al metodo AI di comunicare con un sistema intelligente utilizzando un linguaggio naturale.
+Ll termine NLP si riferisce alla disciplina che studia e sviluppa tecniche per la comprensione, la generazione e l'elaborazione del linguaggio naturale, ossia il linguaggio usato dagli esseri umani.
 
 ---
 
 ## Natural Language Understanding (NLU)
 
-La comprensione implica i seguenti compiti:
+L'NLU è una componente specifica del più ampio dominio dell'NLP, focalizzata sulla comprensione del significato e delle intenzioni presenti nel linguaggio naturale.
 
-- Mappare l'input dato in linguaggio naturale in rappresentazioni utili.
-- Analizzare diversi aspetti della lingua.
+Negli LLM, l'NLU permette al modello non solo di processare testo, ma di interpretare, riconoscere intenzioni, risolvere ambiguità e generare risposte rilevanti
 
 ---
 
 ## Natural Language Generation (NLG)
 
-È il processo di produzione di frasi significative sotto forma di linguaggio naturale da una rappresentazione interna.
+L'NLG rappresenta la capacità del modello di generare testo comprensibile e coerente, basandosi su input come testo, dati strutturati o persino contesti predefiniti.
 
-- Pianificazione del testo: include il recupero del contenuto pertinente dalla knowledge base.
-
-- Pianificazione della frase - Include la scelta delle parole richieste, la formazione di frasi significative, l'impostazione del tono della frase.
-
-- Realizzazione del testo - È la mappatura del piano della frase nella struttura della frase.
+L’NLG è essenziale per trasformare informazioni grezze in linguaggio naturale, applicabile in casi come la produzione di contenuti, risposte conversazionali e reportistica automatizzata.
 
 ---
 
 ## Aziende che investono in AI
 
-- Meta: La società madre di Facebook ha investito molto nel loro modello __Llama 3__.
-Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso oltre 30 miliardi di dollari nell'infrastruttura GPU e nella formazione necessaria per il modello Llama 3.
+- Meta: La società madre di Facebook ha investito molto nel loro modello **Llama 3**. Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso oltre 30 miliardi di dollari nell'infrastruttura GPU e nella formazione necessaria per il modello Llama 3.
 
 - OpenAI: I creatori di ChatGPT guidati da Sam Altman, sembrano avere un vantaggio competitivo sugli altri con il loro nuovo modello o1-preview. È un modello multimodale nativo che può parlare, vedere, leggere e scrivere sia come input che come output e nella versione o1 aggiunge la capacità di "pensare".
 
@@ -606,7 +769,7 @@ Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso o
 
 ## Robotaxy
 
-Sempre Elon Musk ha fondato RoboTaxy 
+Sempre Elon Musk ha fondato RoboTaxy, un servizio di taxi robotico che utilizza la tecnologia di guida autonoma di Tesla per fornire un servizio di trasporto autonomo.
 
 ![center w:650px](img/corso-ai-robotaxy.jpg)
 
@@ -640,7 +803,7 @@ OpenAI ha lo scopo di creare un chatbot, ChatGPT, che risponde in modo fluido ch
 
 Si tratta di un software che interagisce con gli utenti attraverso un linguaggio naturale, come se fosse una persona.
 
-GPT è l'acronimo di __Generative Pre-trained Transformer__, una nuova classe di modelli di linguaggio naturalmente sviluppati per generare testo.
+GPT è l'acronimo di **Generative Pre-trained Transformer**, una nuova classe di modelli di linguaggio naturalmente sviluppati per generare testo.
 
 ---
 
@@ -739,9 +902,11 @@ Non siamo al livello del TARDIS del Doctor Who o del traduttore universale di St
 
 ---
 
-## TBD ChatGPT o1
+## ChatGPT o1 - beta
 
-ChatGPT o1 è stato addestrato per "pensare" più a lungo prima di rispondere, emulando un processo di riflessione umano. Questo approccio lo rende particolarmente efficace nella risoluzione di problemi complessi in ambiti come la scienza, la programmazione e la matematica
+ChatGPT o1 è stato addestrato per "pensare" più a lungo prima di rispondere, emulando un processo di riflessione umano.
+
+Questo approccio lo rende particolarmente efficace nella risoluzione di problemi complessi in ambiti come la scienza, la programmazione e la matematica
 
 ---
 
@@ -777,7 +942,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## MBE
 
-![center width:700px](img/corso-ai-mehra_deep_dive_gpt_models_3.webp)
+![center width:800px](img/corso-ai-mehra_deep_dive_gpt_models_3.webp)
 
 <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
 
@@ -785,7 +950,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## Istruzione in ambito legale
 
-![center width:650px](img/corso-ai-mehra_deep_dive_gpt_models_2.webp)
+![center width:800px](img/corso-ai-mehra_deep_dive_gpt_models_2.webp)
 
 <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
 
@@ -809,7 +974,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 - Non è in grado di fare analisi di dati: capisce quanto viene chiesto, inizia a ragionare con una chain of prompt.
 - Quando produce codice deve poi essere analizzato e integrato
 - Soffre di allucinazioni
-- Non ha accesso a internet se non tramite plugin nella versione a pagamento
+- Non ha accesso a internet se non tramite plugin nella versione a pagamento (a breve SearchGPT)
 - I testi che scrive al momento sono discreti, occorre estenderli ed adattarli
 - La troppa attenzione ai bias a volte tende a creare risposte errate o a non darle
 
@@ -850,9 +1015,15 @@ Mi dispiace, ma non posso scrivere il testo completo di una canzone di Tiziano F
 
 ---
 
+## Scrivi il testo di una canzone di Tiziano Ferro? (novembre 2024)
+
+Non posso fornirti il testo di una canzone di Tiziano Ferro perché è protetto da copyright. Tuttavia, se vuoi, posso riassumere il tema di una delle sue canzoni o spiegare lo stile lirico e i temi tipici delle sue opere. Fammi sapere se ti interessa una descrizione!
+
+---
+
 ## Cambiamo il contesto
 
-__Agisci come uno paroliere__. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
+**Agisci come uno paroliere**. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello. (novembre 2023)
 
 ```text
 Sotto il cielo stellato, io e te
@@ -869,6 +1040,90 @@ Puoi, puoi sentire il mio cuore
 Battere forte, solo per te, amore
 Nella melodia dei nostri giorni
 Noi due insieme, in un sogno senza fine
+```
+
+---
+
+## Cambiamo il contesto Novembre 2024
+
+**Agisci come uno paroliere**. Il tuo stile deve ricalcare quello di Tiziano Ferro. Scrivi una canzone di 2 strofe e ritornello: **"L'equilibrio di un respiro"**
+
+```text
+Strofa
+Sai, ci sono giorni in cui mi perdo,  
+negli spazi vuoti che ho lasciato,  
+tra le parole che non ho detto,  
+e i passi falsi di un passato stanco.  
+
+Ho inseguito il suono di un silenzio,  
+e mi sono nascosto nei ricordi,  
+ma ogni volta torno al punto stesso,  
+dove il cuore batte ma non risponde.
+
+Ritornello
+E mi chiedo se è giusto o sbagliato,  
+l'equilibrio di un respiro trattenuto,  
+mi manca l’aria ma rimango in piedi,  
+mentre cado dentro questo cielo muto.  
+```
+
+---
+
+## Cambiamo il contesto Novembre 2024 - 883
+
+Ecco una canzone in stile 883, con quel mix di nostalgia e realismo quotidiano che caratterizza spesso i loro testi. La canzone parla di momenti di vita ordinaria e di quel senso di "incompiuto" tipico di chi si trova tra il voler restare e il voler cambiare.
+
+---
+
+## Ancora qua: Pezzali, Repetto, ChatpGPT
+
+### Ancora qua
+
+```text
+Strofa 1
+Ancora qua, stesso bar, stessa gente,  
+il solito che parla di tutto e di niente,  
+e noi seduti a contare gli anni,  
+i sogni a metà che abbiamo lasciato ai panni.  
+
+C'è chi giura che un giorno va via,  
+che questa città non è casa sua,  
+poi lo vedi che resta inchiodato,  
+ancora una volta fermo al passato.  
+```
+
+---
+
+## Ancora qua: Pezzali, Repetto, ChatpGPT - ritornello
+
+```text
+Ritornello
+E noi che sogniamo sempre un po' più in là,  
+ma poi restiamo ancora qua,  
+con i progetti lasciati a metà,  
+e un domani che forse arriverà.  
+
+Ma intanto si ride e si beve un po’,  
+si fa il tifo per chi ce la fa,  
+e anche se sappiamo come va,  
+restiamo qui… ancora qua.  
+```
+
+---
+
+## Ancora qua: Pezzali, Repetto, ChatpGPT - strofa 2
+
+```text
+Strofa 2
+Passano i giorni, le sere, gli amici,  
+qualcuno ha fatto i soldi, qualcuno ha già i figli,  
+noi qui fermi come al primo round,  
+a dirci "stavolta cambio", ma tanto poi quando?  
+
+Resta il solito bar, la strada di casa,  
+l’autostrada là fuori che chiama e che passa,  
+e noi ancora a rincorrere un treno,  
+che ogni volta è sempre più lontano.
 ```
 
 ---
