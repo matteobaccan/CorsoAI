@@ -1231,7 +1231,7 @@ termini di servizio del programma e di avere sufficienti conoscenze tecniche
 per configurarlo correttamente.
 ```
 
-Ho chiesto direttamente a __ChatGPT__
+Ho chiesto direttamente a **ChatGPT**
 
 ---
 
@@ -1287,17 +1287,31 @@ Bing, il motore di ricerca di Microsoft, integra l'intelligenza artificiale attr
 
 ---
 
-## Alternative
+## Perplexity
 
-. Claude -> Anthropic.ai
-. Perplexity.ai
-. Mistral AI
-. Amazon BedRock
-. Google Gemini
+Perplexity AI è un innovativo motore di ricerca basato su intelligenza artificiale, progettato per fornire risposte dirette e pertinenti alle domande degli utenti attraverso un'interfaccia conversazionale. Fondato nel 2022 da Aravind Srinivas e supportato da investitori di rilievo come Jeff Bezos e Nvidia, Perplexity ha rapidamente guadagnato popolarità, attirando oltre 10 milioni di utenti attivi mensili.
+
+**Aggiornamenti in Tempo Reale**: La piattaforma è progettata per operare in tempo reale, permettendo agli utenti di ottenere informazioni aggiornate su vari argomenti, dalle notizie alle tendenze del mercato
+
+**Integrazione delle Fonti**: Perplexity aggrega informazioni da fonti affidabili come Wikipedia, articoli accademici e forum online, presentando anche le fonti utilizzate per garantire la trasparenza delle informazioni
+
+<https://www.perplexity.ai>
 
 ---
 
-## SudoWrite - l'aiuto ai copywriter
+## Claude.ai
+
+Claude AI è un modello di intelligenza artificiale sviluppato da Anthropic, progettato per facilitare conversazioni naturali e svolgere una varietà di compiti complessi, come la scrittura di codice, la sintesi di testi e la risposta a domande. Claude si distingue per la sua capacità di gestire input testuali lunghi, fino a 100.000 token, e per il suo approccio etico e responsabile allo sviluppo dell'IA.
+
+**Artifacts**: Una delle innovazioni più interessanti è la funzione Artifacts, che consente agli utenti di visualizzare e modificare in tempo reale i risultati generati da Claude. Questa funzionalità è utile per sviluppatori e designer, permettendo di creare prototipi interattivi e visualizzazioni direttamente all'interno dell'interfaccia
+
+<https://claude.ai/>
+
+---
+
+## Alternative minori
+
+### SudoWrite - l'aiuto ai copywriter
 
 "SudoWrite is the best AI tool for creative writers"
 
@@ -1305,6 +1319,8 @@ Bing, il motore di ricerca di Microsoft, integra l'intelligenza artificiale attr
 
 Il suo compito è quello di: riscrivere, ampliare, continuare dei testi scritti dagli utenti.
 Utile al lavoro di copywriter: permette di espandere le proprie idee e superare i momenti di blocco.
+
+Basato su ChatGPT e Claude
 
 ---
 
@@ -1408,7 +1424,7 @@ Questo servizio è in grado di creare appunti da un video youtube:
 
 ### Coconote.app
 
-Simile a JotBot: basta aggiungere __https://summary.new/__ davanti a qualsiasi video youtube:
+Simile a JotBot: basta aggiungere **<https://summary.new/>** davanti a qualsiasi video youtube:
 
 <https://summary.new/https://www.youtube.com/watch?v=W_F33Jn-rkA>
 
@@ -1483,6 +1499,19 @@ TDB
 ## Kling  
 
 TDB
+
+---
+
+https://ideogram.ai/
+https://midjourney.com/
+https://flux1.org/
+https://www.tella.tv/
+https://www.capcut.com/
+https://minvo.pro/
+https://notebooklm.google.com/
+https://learning.google.com/experimen...
+https://www.canva.com/
+https://zoom.us/
 
 ---
 
