@@ -1273,6 +1273,22 @@ Da novembre 2024 è disponibile a tutti.
 
 ---
 
+## SearchGPT
+
+Non hanno sviluppato un motore di ricerca, ma integrano dei risultati di motori di ricerca con fonti affidabili:
+
+```plaintext
+OpenAI usa principalmente Microsoft Bing per i risultati delle sue ricerche web integrate in ChatGPT,
+grazie a una partnership strategica che permette l’accesso ai dati di Bing.
+Questa collaborazione è stata una parte fondamentale delle nuove funzionalità di ricerca e consente
+a ChatGPT di fornire risposte aggiornate e accurate, migliorando così l'utilità dell'AI
+per domande basate su eventi e informazioni recenti.
+```
+
+Ho chiesto direttamente a SearchGPT
+
+---
+
 ## ChatGPT e BING
 
 Bing, il motore di ricerca di Microsoft, integra l'intelligenza artificiale attraverso una collaborazione con OpenAI.
@@ -1287,6 +1303,27 @@ Bing, il motore di ricerca di Microsoft, integra l'intelligenza artificiale attr
 
 ---
 
+## Microsoft copilot - 10/9/2024
+
+"mi dici le ultime notizie di Novara?"
+
+```plaintext
+Ecco alcune delle ultime notizie da Novara:
+
+Due arresti eccellenti in provincia di Novara: I Carabinieri hanno arrestato due persone legate
+   alla 'Ndrangheta, tra cui il figlio di un boss della cosca Cracolici e un ex carabiniere
+
+Principio di incendio in un negozio del centro: I Vigili del Fuoco sono intervenuti in centro 
+   città per un principio di incendio in un negozio, fortunatamente senza gravi danni
+
+Novara capitale dello sport piemontese: Sabato scorso si è tenuta al Teatro Coccia la cerimonia
+   di apertura dell'anno sportivo piemontese, con la presenza del presidente nazionale del CONI      
+```
+
+Fonti: RaiNews, NovaraToday e LaVoceDiNovara
+
+---
+
 ## Perplexity
 
 Perplexity AI è un innovativo motore di ricerca basato su intelligenza artificiale, progettato per fornire risposte dirette e pertinenti alle domande degli utenti attraverso un'interfaccia conversazionale. Fondato nel 2022 da Aravind Srinivas e supportato da investitori di rilievo come Jeff Bezos e Nvidia, Perplexity ha rapidamente guadagnato popolarità, attirando oltre 10 milioni di utenti attivi mensili.
@@ -1296,6 +1333,31 @@ Perplexity AI è un innovativo motore di ricerca basato su intelligenza artifici
 **Integrazione delle Fonti**: Perplexity aggrega informazioni da fonti affidabili come Wikipedia, articoli accademici e forum online, presentando anche le fonti utilizzate per garantire la trasparenza delle informazioni
 
 <https://www.perplexity.ai>
+
+---
+
+## Perplexity - ultime notizie di Novara
+
+```plaintext
+Incidente stradale: Due pedoni sono stati investiti da un'auto in corso Vercelli. Le condizioni delle
+   vittime non sono state rese note, ma l'incidente ha sollevato preoccupazioni sulla sicurezza stradale nella zona
+
+Rete di spaccio smantellata: È stata condotta una maxi operazione contro il traffico di droga nel Novarese,
+   portando all'arresto di diversi individui e alla chiusura di una rete di spaccio attiva in diverse aree
+
+Situazione sanitaria: L'ASL e l'ospedale Maggiore di Novara stanno affrontando carenze di personale, utilizzando
+   lavoratori "a chiamata" per garantire i servizi essenziali
+
+Cultura e eventi: Si segnala la riapertura della biblioteca a Romagnano, grazie all'impegno dei volontari,
+   dopo sette anni di chiusura. Inoltre, il progetto "Coperte Solidali" sta colorando la città per sensibilizzare
+   contro la violenza sulle donne
+
+Sport: La squadra di volley femminile Igor Novara ha ottenuto un'importante vittoria contro Firenze,
+   consolidando la sua posizione nei campionati
+
+Problemi infrastrutturali: A Galliate, il sindaco ha risposto a critiche riguardo alla maggioranza consiliare,
+   mentre a Oleggio ci sono tensioni legate alla sicurezza del teatro civico
+```
 
 ---
 
@@ -1372,7 +1434,7 @@ Si tratta di una AI specializzata nella generazione di presentazioni.
 
 Parte da un testo e genera delle slide comprensive sia del testo, adeguatamente diviso, che delle immagini che lo rappresentino.
 
-<https://gamma.app/>
+<https://gamma.app>
 
 ---
 
