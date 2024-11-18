@@ -1637,9 +1637,23 @@ DEMO: Synthesia STUDIO Your AI video.mp4
 
 ---
 
+## HeyGen
+
+Permette di tradurre in più lingue un video e di creare il proprio Avatar virtuale.
+
+Nella versione gratuita permette di create
+
+- 3 video al mese
+- Fino a 3 minuti
+- Fino a 720p
+- 1 Avatar
+
+DEMO: HeyGen.mp4
+
+---
+
 ## Alternative
 
-- HeyGen
 - Runway
 - Luma
 - Kling
