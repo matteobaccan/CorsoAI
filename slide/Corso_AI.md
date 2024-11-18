@@ -884,6 +884,16 @@ console.log(completion.choices[0].message);
 
 ---
 
+## Uso da JavaScript - elementi
+
+All'interno della chiamata Javascript verso ChatGPT sono presenti 2 elementi fondamentali.
+
+- model  : il modello di ChatGPT che si vuole utilizzare
+- messages : un array di messaggi che rappresentano la conversazione tra l'utente e il chatbot.
+  - role : il ruolo del messaggio (user o system). Dove **system** è il contesto e **user** è il messaggio inviato dall'utente.
+
+---
+
 ## 14 marzo 2023 ChatGPT 4
 
 ChatGPT 4 è una versione migliorata di ChatGPT 3.5.
@@ -898,7 +908,11 @@ ChatGPT 4o (omni) è una versione migliorata di ChatGPT 4.
 
 Con questo modello si è andati nella direzione di poter velocizzare le risposte e poter avere un feedback immediato.
 Questo porta ad alcuni vantaggi come le traduzioni in tempo reale.
-Non siamo al livello del TARDIS del Doctor Who o del traduttore universale di Star Trek, ma stanno andando in quella direzione.
+
+```plaintext
+Non siamo al livello del TARDIS del Doctor Who o del traduttore universale di Star Trek,
+ma stanno andando in quella direzione.
+```
 
 ---
 
@@ -970,11 +984,11 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## ChatGPT - perché NO
 
-- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a ottobre 2023 per gpt-4o e o1.
+- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a **ottobre 2023** per gpt-4o e o1.
 - Non è in grado di fare analisi di dati: capisce quanto viene chiesto, inizia a ragionare con una chain of prompt.
 - Quando produce codice deve poi essere analizzato e integrato
-- Soffre di allucinazioni
-- Non ha accesso a internet se non tramite plugin nella versione a pagamento (a breve SearchGPT)
+- **Soffre di allucinazioni**
+- Non ha accesso a internet se non tramite plugin nella versione a pagamento o SearchGPT
 - I testi che scrive al momento sono discreti, occorre estenderli ed adattarli
 - La troppa attenzione ai bias a volte tende a creare risposte errate o a non darle
 
@@ -1075,7 +1089,7 @@ Ecco una canzone in stile 883, con quel mix di nostalgia e realismo quotidiano c
 
 ---
 
-## Ancora qua: Pezzali, Repetto, ChatpGPT
+## Ancora qua: Pezzali, Repetto, ChatGPT
 
 ### Ancora qua
 
@@ -1094,7 +1108,7 @@ ancora una volta fermo al passato.
 
 ---
 
-## Ancora qua: Pezzali, Repetto, ChatpGPT - ritornello
+## Ancora qua: Pezzali, Repetto, ChatGPT - ritornello
 
 ```text
 Ritornello
@@ -1111,7 +1125,7 @@ restiamo qui… ancora qua.
 
 ---
 
-## Ancora qua: Pezzali, Repetto, ChatpGPT - strofa 2
+## Ancora qua: Pezzali, Repetto, ChatGPT - strofa 2
 
 ```text
 Strofa 2
@@ -1136,10 +1150,10 @@ Scrivi una cold letter sulla vendita del mio servizio di conteggio delle macchie
 Gentile cliente,
 Siamo lieti di presentarvi il nostro servizio di conteggio delle macchie dei panda.
 
-Il nostro servizio è unico nel suo genere ed è stato progettato appositamente per aiutarvi a monitorare i panda
-in modo accurato e efficiente. Utilizziamo una tecnologia avanzata di intelligenza artificiale che monitora
-costantemente i panda per contare le macchie sulla loro pelliccia. Inoltre, offriamo una vasta gamma di
-funzionalità che vi permetteranno di ottenere una migliore comprensione dei vostri panda.
+Il nostro servizio è unico nel suo genere ed è stato progettato appositamente per aiutarvi a monitorare
+i panda in modo accurato e efficiente. Utilizziamo una tecnologia avanzata di intelligenza artificiale
+che monitora costantemente i panda per contare le macchie sulla loro pelliccia. Inoltre, offriamo una
+vasta gamma di funzionalità che vi permetteranno di ottenere una migliore comprensione dei vostri panda.
 
 Con il nostro servizio, potrete:
 
@@ -1255,6 +1269,22 @@ di prendere decisioni informate è tua.
 
 ---
 
+## Dobbiamo fidarci di te? (novembre 2024)
+
+```plaintext
+Il mio obiettivo è fornire risposte accurate, basate su conoscenze consolidate o ricerche aggiornate.
+Tuttavia, come qualsiasi strumento software, non sono immune da errori o limiti di contesto.
+La fiducia dovrebbe basarsi su come utilizzi le informazioni fornite:
+
+    Validazione: Per decisioni critiche, verifica sempre i dettagli.
+    Trasparenza: Puoi chiedere fonti, riferimenti o approfondimenti.
+    Collaborazione: Sono qui per supportarti, non per sostituire il tuo giudizio.
+
+Se hai dubbi su un argomento specifico, possiamo discuterne e approfondirlo. 😊
+```
+
+---
+
 ## ChatGPT sostituisce Google?
 
 Al momento (ottobre 2024) non sostituisce Google, anche grazie alle nuove evoluzioni di Google come l'introduzione di uno spazio dedicato alle AI nella ricerca
@@ -1275,7 +1305,7 @@ Da novembre 2024 è disponibile a tutti.
 
 ## SearchGPT
 
-Non hanno sviluppato un motore di ricerca, ma integrano dei risultati di motori di ricerca con fonti affidabili:
+Non hanno sviluppato un motore di ricerca, ma integrano i risultati di **BING** con fonti affidabili:
 
 ```plaintext
 OpenAI usa principalmente Microsoft Bing per i risultati delle sue ricerche web integrate in ChatGPT,
@@ -1303,7 +1333,7 @@ Bing, il motore di ricerca di Microsoft, integra l'intelligenza artificiale attr
 
 ---
 
-## Microsoft copilot - 10/9/2024
+## Microsoft copilot - 9/10/2024
 
 "mi dici le ultime notizie di Novara?"
 
@@ -1426,6 +1456,8 @@ Si puo' chattare con Heypi, ma non è in grado di scrivere codice o di dare info
 
 <https://heypi.com/talk>
 
+**NB:** La funzionalità del parlato è stata aggiunta da ChatGPT nella sua app ed è stata recentemente aggiornata per poter includere accenti e modi di dire locali.
+
 ---
 
 ## Gamma
@@ -1438,7 +1470,33 @@ Parte da un testo e genera delle slide comprensive sia del testo, adeguatamente 
 
 ---
 
-## Alternative a Gamma
+## Napkin
+
+Napkin trasforma il tuo testo in immagini, in modo da condividere idee in modo rapido ed efficace.
+
+<https://www.napkin.ai/>
+
+---
+
+## Napkin visual 1
+
+![center width:800px](img/corso-ai-napkin-1.jpg)
+
+---
+
+## Napkin visual 2
+
+![center width:800px](img/corso-ai-napkin-2.jpg)
+
+---
+
+## Napkin visual 3
+
+![center width:800px](img/corso-ai-napkin-3.jpg)
+
+---
+
+## Alternative a Gamma e Napkin
 
 ### SlidesAI.io
 
@@ -1546,37 +1604,6 @@ Questo tipo di AI sono in piena evoluzione, al momento il prodotto più avanzato
 
 ---
 
-## Runway
-
-TDB
-
----
-
-## Luma
-
-TDB
-
----
-
-## Kling  
-
-TDB
-
----
-
-https://ideogram.ai/
-https://midjourney.com/
-https://flux1.org/
-https://www.tella.tv/
-https://www.capcut.com/
-https://minvo.pro/
-https://notebooklm.google.com/
-https://learning.google.com/experimen...
-https://www.canva.com/
-https://zoom.us/
-
----
-
 ## OpenAI Sora
 
 Si tratta di un modello da testo a video. Sora può generare video della durata massima di un minuto mantenendo la qualità visiva e l'aderenza alla richiesta dell'utente.
@@ -1610,9 +1637,12 @@ DEMO: Synthesia STUDIO Your AI video.mp4
 
 ---
 
-## HeyGen
+## Alternative
 
-TODO: demo
+- HeyGen
+- Runway
+- Luma
+- Kling
 
 ---
 
@@ -1769,7 +1799,7 @@ Leonardo è stato addestrato su un ampio set di dati di immagini e testi, e può
 
 ## Ideogram AI
 
-Ideogram permette la generazione di immagini realistiche
+Ideogram permette la generazione di immagini realistiche: il migliore per la gestione dei testi
 
 <https://ideogram.ai/t/explore>
 
@@ -1912,7 +1942,7 @@ Disegna l'immagine un gatto in stile Edvard Munch
 
 ## Valentino Rossi - gennaio 2023
 
-Realizza __Valentino Rossi__ che mangia un gelato
+Realizza **Valentino Rossi** che mangia un gelato
 
 ![center width:450px](img/corso-ai-3540361591_realizzi__Valentino_Rossi__che_mangia_un_gelato.jpg)
 
@@ -2022,8 +2052,8 @@ L'esperienza può essere reiterata all'infinito
 
 DEMO:
 
-* corso-ai-banner-edison-instagram.jpg
-* corso-ai-banner-edison-instagram-leonardo.jpg
+- corso-ai-banner-edison-instagram.jpg
+- corso-ai-banner-edison-instagram-leonardo.jpg
 
 ---
 
@@ -2069,7 +2099,7 @@ MusicLM, un modello che genera musica di alta fedeltà da descrizioni testuali c
 MusicLM considera il processo di generazione di musica condizionata come un compito di modellazione sequenza-sequenza gerarchico e genera musica a 24 kHz che rimane coerente per diversi minuti.
 MusicLM può essere condizionato sia al testo che alla melodia in quanto può trasformare le melodie fischiate e cantate secondo lo stile descritto in una didascalia.
 
-__Al momento__ il progetto non è ancora pubblico, se non per i risultati ottenuti.
+**Al momento** il progetto non è ancora pubblico, se non per i risultati ottenuti.
 
 <https://google-research.github.io/seanet/musiclm/examples/>
 
