@@ -1684,6 +1684,34 @@ Quanto costa: i costi oscillano fra 12 e 20 mila dollari.
 
 ---
 
+## Kōnosuke Matsushita
+
+È stato il fondatore dell'azienda Matsushita Electric Devices Manufactoring Works, diventata poi la multinazionale Panasonic.
+
+L'azienda giapponese Panasonic ha riportato in vita il "Dio del management" sotto forma di avatar AI, pronto a rispondere a tutte le tue domande aziendali. Panasonic ha affermato di aver creato l’avatar AI “basato sulla grande quantità di discorsi e dati audio registrati dagli scritti, dai discorsi e dai dialoghi di Matsushita”.
+
+Lo scopo è quello di __“esplorare e illuminare la sua filosofia e trasmetterla alla generazione successiva”__, ha affermato mercoledì la società di elettronica in un comunicato stampa. Rispondendo a una domanda dimostrativa su se vivere una buona vita significasse vivere a lungo, AI Matsushita ha detto: __“Il segreto per una buona vita è ricordare lo spirito della giovinezza, essere vivaci e pieni di speranza”__.
+
+<https://fortune.com/2024/11/29/konosuke-matsushita-japan-god-of-management-ai/>
+
+---
+
+## Non solo Matsushita
+
+### Buddha AI
+
+Nel 2022, i ricercatori giapponesi hanno lanciato un Buddha AI, programmato con circa 1.000 insegnamenti tratti da testi buddisti per rispondere a tutti i tipi di domande profonde e significative.
+
+<https://askbuddha.ai/>
+
+### Gesù AI - "Deus in machina"
+
+Secondo quanto riportato dai media, una chiesa svizzera ha installato quest'anno una versione AI simile di Gesù in grado di rispondere alle domande dei curiosi in 100 lingue.
+
+<https://www.kathluzern.ch/mein-engagement/deus-in-machina>
+
+---
+
 ## Neural Frames
 
 Grazie alle AI è possibile convertire del testo in un video.
