@@ -1708,7 +1708,9 @@ Nel 2022, i ricercatori giapponesi hanno lanciato un Buddha AI, programmato con 
 
 Secondo quanto riportato dai media, una chiesa svizzera ha installato quest'anno una versione AI simile di Gesù in grado di rispondere alle domande dei curiosi in 100 lingue.
 
-<https://www.kathluzern.ch/mein-engagement/deus-in-machina>
+Se vi trovate a Lucerna passate alla "Chapel of St. Peter"
+
+<https://www.ilpost.it/flashes/gesu-intelligenza-artificiale-chiesa-ai/>
 
 ---
 
