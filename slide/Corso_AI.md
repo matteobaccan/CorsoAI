@@ -1457,6 +1457,16 @@ Claude AI è un modello di intelligenza artificiale sviluppato da Anthropic, pro
 
 ---
 
+## DeepSeek
+
+DeepSeek (深度求索) è un'azienda cinese fondata nel 2023, focalizzata sullo sviluppo di tecnologie avanzate nel campo dell'intelligenza artificiale, con l'obiettivo di raggiungere l'AGI (Artificial General Intelligence).
+
+Il suo motore di AI implementa sia la Chat testuale, che la ricerca Web che il DeepThink in modo simile a ChatGPT.
+
+<https://chat.deepseek.com>
+
+---
+
 ## Alternative minori
 
 ### SudoWrite - l'aiuto ai copywriter
