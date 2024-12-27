@@ -2331,7 +2331,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 
 ---
 
-## Fonti usate per la creazione di queste slide
+## Fonti usate per la creazione di queste slide - 1
 
 <https://github.com/matteobaccan/awesome-ai> : La mia lista ragionata di AI
 <https://github.com/ai-collection/ai-collection> : una lista molto completa di AI
@@ -2345,7 +2345,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 
 ---
 
-## Fonti usate per la creazione di queste slide 2
+## Fonti usate per la creazione di queste slide - 2
 
 <https://aaronsim.notion.site/b4f5dd304d9a4683a70167b6cc4b94f1?v=6cc0bd8ce4f04f26ad088e44c910b167> : elenco di prodotti basati su AI
 <https://letsview.com/ai-tools> : Directory di prodotti AI
