@@ -541,8 +541,8 @@ Approccio di training:
 
 Tipo di dati di training:
 
-- Text-only
-- Multimodal (testo + immagini, audio, ecc.)
+- Testuali
+- Multimodali (testo + immagini, audio, ecc.)
 
 ---
 
@@ -596,9 +596,11 @@ La definizione mira a promuovere l'autonomia, la trasparenza e la collaborazione
 
 Un prompt è un input testuale fornito a un LLM per guidare la sua risposta o generazione.
 
-### Chain of Prompts
+### Chain of Thought
 
-Una sequenza di prompt interconnessi usati per guidare un LLM attraverso un processo di ragionamento o un compito complesso. (o1-preview)
+Il CoT (Chain of Thought) nell'intelligenza artificiale è una tecnica di ragionamento che significa letteralmente "Catena di Pensiero". (o1 e o3)
+
+È un metodo in cui l'IA spiega il suo processo di ragionamento passo dopo passo, proprio come farebbe una persona quando pensa ad alta voce per risolvere un problema. Invece di dare solo la risposta finale, mostra tutto il percorso logico.
 
 ---
 
@@ -619,6 +621,29 @@ Le reti generative sono state utilizzate per creare nuovi contenuti in una varie
 Il test di Turing è stata la prima formulazione di una tecnica usata per determinare se un computer è in grado di pensare in modo intelligente come un essere umano. Il test è stato sviluppato nel 1950 da Alan Turing, un matematico britannico, ed è considerato uno dei primi esempi di intelligenza artificiale.
 
 Il test di Turing è una conversazione tra un giudice umano e due partecipanti, un umano e un computer. Il giudice non sa quale delle due parti è l'umano e quale il computer. Se il giudice non è in grado di determinare la differenza, viene considerato che il computer è intelligente come un essere umano.
+
+---
+
+## Il test di Turing può considerarsi superato?
+
+Le attuali AI iniziano a superare i test di Turing, ma ci si è accorti che non è sufficiente superare il test di Turing per essere considerati intelligenti.
+
+Nel dicembre 2022, ChatGPT è diventato il secondo chatbot ad aver superato il Test di Turing, secondo Max Woolf, uno scienziato dei dati di BuzzFeed.
+ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il Test di Turing nell'estate del 2022.
+
+<https://mpost.io/chatgpt-passes-the-turing-test/>
+
+<https://www.agendadigitale.eu/cultura-digitale/con-chatgpt-siamo-gia-nellera-post-test-di-turing-ma-nessuno-piu-grida-allo-scandalo/>
+
+---
+
+## Oppure no?
+
+Secondo due ricercatori dell'Università della California a San Diego, che hanno condotto un esperimento per mettere alla prova il modello linguistico GPT-4, il modello non ha superato il test di Turing.
+
+<https://arxiv.org/abs/2310.20216>
+
+<https://www.hwupgrade.it/news/scienza-tecnologia/intelligenze-artificiali-alla-prova-del-test-di-turing-un-chatbot-anni-60-batte-gpt-35_122368.html>
 
 ---
 
@@ -651,26 +676,47 @@ Ci sono anche altri metodi di valutazione delle AI, ma questi sono alcuni dei pi
 
 ---
 
-## Il test di Turing può considerarsi superato?
+## Nuovi test - FrontierMath
 
-Le attuali AI iniziano a superare i test di Turing, ma ci si è accorti che non è sufficiente superare il test di Turing per essere considerati intelligenti.
-
-Nel dicembre 2022, ChatGPT è diventato il secondo chatbot ad aver superato il Test di Turing, secondo Max Woolf, uno scienziato dei dati di BuzzFeed.
-ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il Test di Turing nell'estate del 2022.
-
-<https://mpost.io/chatgpt-passes-the-turing-test/>
-
-<https://www.agendadigitale.eu/cultura-digitale/con-chatgpt-siamo-gia-nellera-post-test-di-turing-ma-nessuno-piu-grida-allo-scandalo/>
+Questo benchmark è stato sviluppato in collaborazione con oltre 60 matematici di istituzioni di prestigio e comprende centinaia di problemi matematici originali e particolarmente impegnativi, coprendo la maggior parte dei principali rami della matematica moderna.
 
 ---
 
-## Oppure no?
+## Caratteristiche di FrontierMath
 
-Secondo due ricercatori dell'Università della California a San Diego, che hanno condotto un esperimento per mettere alla prova il modello linguistico GPT-4, il modello non ha superato il test di Turing.
+- Difficoltà: I problemi presentati in FrontierMath sono progettati per essere estremamente difficili, richiedendo ore o addirittura giorni di lavoro a esperti matematici per essere risolti. Questo contrasta con altri benchmark, dove i modelli AI hanno raggiunto punteggi superiori al 90%
 
-<https://arxiv.org/abs/2310.20216>
+- Problemi Originali: Tutti i problemi sono nuovi e non pubblicati, il che elimina le preoccupazioni riguardo alla contaminazione dei dati che affliggono i benchmark esistenti
 
-<https://www.hwupgrade.it/news/scienza-tecnologia/intelligenze-artificiali-alla-prova-del-test-di-turing-un-chatbot-anni-60-batte-gpt-35_122368.html>
+- Valutazione Automatizzata: FrontierMath utilizza sistemi di verifica automatizzati per valutare in modo efficiente e riproducibile le performance degli AI, sia open che closed-source
+
+---
+
+## Risultati di FrontierMath
+
+Recentemente, i principali modelli AI, inclusi GPT-4o e Gemini 1.5 Pro, hanno mostrato prestazioni deludenti su FrontierMath, risolvendo meno del 2% dei problemi
+
+Il modello o3 di OpenAI ha ottenuto un punteggio notevolmente migliore, risolvendo circa il 25% dei problemi, evidenziando un significativo progresso rispetto ai modelli precedenti
+
+---
+
+## ARC Benchmark
+
+L'ARC Benchmark è un importante strumento di valutazione progettato per testare le capacità di ragionamento dei modelli di linguaggio di grandi dimensioni (LLM). È stato sviluppato nel 2018 da Clark et al. come parte dell'AI2 Reasoning Challenge, con l'obiettivo di superare i limiti di altri benchmark di question-answering,
+
+### Obiettivi e Importanza
+
+L'ARC Benchmark mira a spingere i modelli AI verso una comprensione più umana del linguaggio e del ragionamento. Con l'evoluzione dei LLM, l'ARC continua a rappresentare una sfida significativa per gli ingegneri del machine learning, incentivando lo sviluppo di modelli che possano affrontare domande più complesse e articolate, riflettendo meglio le capacità umane nel comprendere e risolvere problemi.
+
+---
+
+## Caratteristiche dell'ARC Benchmark
+
+- Domande Complesse: L'ARC Benchmark include 7.787 domande a scelta multipla, suddivise in due categorie: "Easy Set" e "Challenge Set". Queste domande sono progettate per essere più impegnative rispetto ai benchmark precedenti, richiedendo non solo la capacità di recuperare fatti, ma anche competenze di ragionamento e comprensione profonda
+
+- Integrazione delle Informazioni: A differenza di altri benchmark che si concentrano sulla semplice estrazione di informazioni, l'ARC valuta come i modelli integrano informazioni sparse in diversi passaggi per rispondere a domande complesse
+
+- Scoring: Ogni risposta corretta guadagna un punto, e in caso di pareggio con altre risposte corrette, il punteggio viene distribuito equamente tra le opzioni1
 
 ---
 
@@ -916,11 +962,21 @@ ma stanno andando in quella direzione.
 
 ---
 
-## ChatGPT o1 - beta
+## 12 settembre 2024 ChatGPT o1
 
 ChatGPT o1 è stato addestrato per "pensare" più a lungo prima di rispondere, emulando un processo di riflessione umano.
 
-Questo approccio lo rende particolarmente efficace nella risoluzione di problemi complessi in ambiti come la scienza, la programmazione e la matematica
+Questo approccio lo rende particolarmente efficace nella risoluzione di problemi complessi in ambiti come la scienza, la programmazione e la matematica.
+
+Il modello si basa su una CoT e un verifier per garantire la qualità delle risposte.
+
+---
+
+## 21 dicembre 2024 ChatGPT o3
+
+ChatGPT o3 è una versione avanzata di ChatGPT o1, con una maggiore capacità di generare testo e rispondere a domande.
+
+Introduce un approccio ancora più avanzato al ragionamento, permettendo agli utenti di regolare il tempo dedicato al ragionamento. Questo significa che aumentando il tempo di elaborazione, il modello può fornire risposte più precise, affrontando problemi complessi con maggiore affidabilità. o3 ha dimostrato prestazioni superiori nei test matematici e scientifici rispetto a o1.
 
 ---
 
@@ -1690,7 +1746,7 @@ Quanto costa: i costi oscillano fra 12 e 20 mila dollari.
 
 L'azienda giapponese Panasonic ha riportato in vita il "Dio del management" sotto forma di avatar AI, pronto a rispondere a tutte le tue domande aziendali. Panasonic ha affermato di aver creato l’avatar AI “basato sulla grande quantità di discorsi e dati audio registrati dagli scritti, dai discorsi e dai dialoghi di Matsushita”.
 
-Lo scopo è quello di __“esplorare e illuminare la sua filosofia e trasmetterla alla generazione successiva”__, ha affermato mercoledì la società di elettronica in un comunicato stampa. Rispondendo a una domanda dimostrativa su se vivere una buona vita significasse vivere a lungo, AI Matsushita ha detto: __“Il segreto per una buona vita è ricordare lo spirito della giovinezza, essere vivaci e pieni di speranza”__.
+Lo scopo è quello di **“esplorare e illuminare la sua filosofia e trasmetterla alla generazione successiva”**, ha affermato mercoledì la società di elettronica in un comunicato stampa. Rispondendo a una domanda dimostrativa su se vivere una buona vita significasse vivere a lungo, AI Matsushita ha detto: **“Il segreto per una buona vita è ricordare lo spirito della giovinezza, essere vivaci e pieni di speranza”**.
 
 <https://fortune.com/2024/11/29/konosuke-matsushita-japan-god-of-management-ai/>
 
@@ -1787,7 +1843,7 @@ e digitano un prompt; il bot restituisce quindi un set di quattro immagini.
 
 Gli utenti possono quindi scegliere quali immagini desiderano eseguire l'upscaling.
 
-Successivamente è nato il sito web in grado di fornire le stesse funzioanlità del bot Discord.
+Successivamente è nato il sito web in grado di fornire le stesse funzionalità del bot Discord.
 
 <https://www.midjourney.com>
 
