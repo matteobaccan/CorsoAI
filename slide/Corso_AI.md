@@ -2090,6 +2090,14 @@ Quanti designer devono creare giornalmente il package di un prodotto?
 
 ---
 
+## Whisk
+
+Whisk è uno strumento sperimentale di Google che genera nuove immagini basandosi su immagini di riferimento fornite dall'utente, senza richiedere competenze specifiche di prompting.
+
+<https://labs.google/fx/tools/whisk/faq>
+
+---
+
 ## This *** does not exist
 
 Sono una serie di siti web in grado di generare persone, gatti, cavalli e strutture chimiche che non esistono, basandosi su una AI alimentata da StyleGAN, una rete neurale di Nvidia sviluppata in 2018.
