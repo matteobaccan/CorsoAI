@@ -40,3 +40,4 @@ __[Scarica gratuitamente le slide](https://raw.githubusercontent.com/matteobacca
 ## Approfondimenti
 
 - [AI Generation](https://github.com/matteobaccan/AIGeneration)
+- [Guida pratica all'uso delle AI](https://github.com/matteobaccan/CorsoAIBook)
