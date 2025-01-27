@@ -1467,6 +1467,22 @@ Il suo motore di AI implementa sia la Chat testuale, che la ricerca Web che il D
 
 ---
 
+## Minerva
+
+Anche se poco conosciuto anche in Italia esiste un LLM OpenSource: Minerva.
+
+Minerva nasce dal gruppo di ricerca NLP della Sapienza ha creato Minerva.
+
+Il modello è stato addestrato su un dataset di oltre 2 trilioni di token, che corrispondono a circa 1,5 trilioni di parole.
+
+Le fonti principali includono dati aperti come Wikipedia, il Progetto Gutenberg e altre risorse pubblicamente accessibili.
+
+Questo approccio non solo garantisce trasparenza, ma rende anche Minerva 7B altamente adattabile al contesto culturale e linguistico italiano.
+
+<https://minerva-llm.org/>
+
+---
+
 ## Alternative minori
 
 ### SudoWrite - l'aiuto ai copywriter
