@@ -853,6 +853,18 @@ GPT è l'acronimo di **Generative Pre-trained Transformer**, una nuova classe di
 
 ---
 
+## Perché si parla di ChatGPT quando di parla di AI?
+
+Sono molti anni che vengono prodotti software in grado di dialogare con gli utenti, ma ChatGPT è stato il primo utilizzabile gratuitamente ed in grado di dare dei risultati che si avvicinano a quelli umani.
+
+Quando si parla di LLM spesso si parla di un prima e dopo ChatGPT: di un momento in cui l'AI era considerata un esperimento di laboratorio ad un momento in cui diventa strumento di massa in grado di essere usato da una persona comune.
+
+A seguire sono stati sviluppati molti altri software ed è nata una sana competizione fra modelli, ma ChatGPT verrà riceordato come il prodotto che ha dato la scossa al mercato.
+
+Per questo motivo è interessante seguirne la genesi.
+
+---
+
 ## Evoluzione di OpenAI
 
 ### GTP-1
