@@ -76,13 +76,27 @@ Si definisce un "sognatore realista" che ama sperimentare, innovare e condivider
 
 ---
 
-## AI - di cosa si tratta?
+## Cosa è l'Intelligenza Artificiale?
 
 L'**Intelligenza Artificiale** (AI) è una branca dell'informatica che abbraccia diverse discipline, tra cui l'apprendimento automatico, la visione artificiale, l'elaborazione del linguaggio naturale e la robotica.
 
 Il suo scopo principale è sviluppare algoritmi che permettano ai computer di svolgere attività tradizionalmente eseguibili solo dall'intelletto umano. Si tratta di una scienza interdisciplinare che integra teoria, metodologia, analisi del linguaggio e ingegneria per creare sistemi intelligenti capaci di prendere decisioni articolate in scenari complessi.
 
 Nel contesto aziendale, l'Intelligenza Artificiale si rivela uno strumento prezioso per ottimizzare i processi lavorativi, incrementando sia la produttività che l'efficienza operativa.
+
+---
+
+## Come si sviluppa l'Intelligenza Artificiale?
+
+Task e Algoritmo
+
+- **Task**: Problema da risolvere.
+- **Algoritmo**: Serie di passi per risolvere un task.
+
+Esempi di Task
+
+- **Object Recognition**: Riconoscere oggetti in immagini.
+- **Sentiment Analysis**: Analizzare sentimenti nei testi.
 
 ---
 
@@ -152,6 +166,13 @@ Queste reti consentono alle macchine di apprendere in modo simile all'elaborazio
 
 ---
 
+## Le fasi del Machine Learning
+
+**Training**: Il sistema apprende regole dai dati.
+**Utilizzo**: Il sistema applica ciò che ha imparato.
+
+---
+
 ## Eliza
 
 ELIZA è un chatbot scritto nel 1966 da Joseph Weizenbaum. Il bot consiste in un analizzatore lessicale e un insieme di regole che permettono di simulare una conversazione in inglese, gallese o tedesco.
@@ -190,6 +211,17 @@ Il machine learning aveva difficoltà con problemi di semplice comprensione, fin
 Il problema era che le reti neurali semplici, con un numero limitato di neuroni collegati in modo basilare, non potevano replicare le capacità del cervello umano.
 
 Questo non dovrebbe sorprendere, dato che il cervello umano contiene circa 86 miliardi di neuroni e una rete di connessioni estremamente complessa.
+
+---
+
+## Come si misurano le Reti Neurali?
+
+Per capire la grandezza di una rete neurale possiamo valutare il numero di parametri, ovvero i pesi che vengono adattati durante il processo di apprendimento.
+
+Esempio
+
+- GPT-3: 175 miliardi di parametri.
+- GPT-4: 1.76 trilioni di parametri.
 
 ---
 
@@ -416,9 +448,22 @@ Applicazioni principali:
 
 ---
 
-## LLM
+## Large Language Models (LLM)
 
 I Large Language Models (LLM) sono un tipo di AI generativa che utilizza algoritmi di apprendimento automatico per creare nuovi contenuti, come testi, immagini e suoni.
+
+Si tratta di
+
+- Modelli di AI basati su reti neurali transformer addestrati sul testo.
+- Task principale: **Next Token Prediction** (Predizione della prossima parola).
+- Capacità emergenti: Generazione di codice, risposte conversazionali, riscrittura di testi.
+
+---
+
+## Meccanismo dell'Attenzione
+
+- Assegna pesi differenziati alle parole in input per migliorare la comprensione del contesto.
+- **Esempio**: "The animal didn't cross the street because it..." → "it" è legato a "the animal".
 
 ---
 
@@ -596,7 +641,50 @@ La definizione mira a promuovere l'autonomia, la trasparenza e la collaborazione
 
 Un prompt è un input testuale fornito a un LLM per guidare la sua risposta o generazione.
 
-### Chain of Thought
+---
+
+## Anatomia di un prompt o1
+
+Greg Brockman, cofondatore e presidente di OpenAI, ha ripostato su X un esempio di prompt ben fatto:
+
+<https://x.com/gdb/status/1878489681702310392>
+
+- Obiettivo
+- Formato della risposta
+- Avvertenze
+- Contesto
+
+---
+
+## Prompt: **Obiettivo**
+
+Voglio una lista delle migliori escursioni di media lunghezza raggiungibili entro due ore da San Francisco.
+
+Ogni escursione dovrebbe offrire un'avventura interessante e unica, ed essere meno conosciuta.
+
+---
+
+## Prompt: **Formato della Risposta**
+
+Per ogni escursione, indica il nome del sentiero come lo troverei su AllTrails, poi fornisci l'indirizzo di partenza dell'escursione, l'indirizzo di arrivo, la distanza, il tempo di guida, la durata dell'escursione e cosa la rende un'avventura interessante e unica.
+
+Elenca le migliori 3.
+
+---
+
+## Prompt: **Avvertenze**
+
+Fai attenzione a verificare che il nome del sentiero sia corretto, che esista effettivamente e che il tempo sia corretto.
+
+---
+
+## Prompt: **Contesto**
+
+Per contesto: io e la mia ragazza facciamo un sacco di escursioni! Abbiamo fatto praticamente tutte le escursioni locali di SF, che siano nel presidio o nel golden gate park. Vogliamo decisamente uscire dalla città -- abbiamo fatto il monte tam recentemente, tutto il percorso dall'inizio delle scale fino a stinson -- è stato davvero lungo e siamo decisamente in vena di qualcosa di diverso questo weekend! Le viste sull'oceano sarebbero ancora belle. Amiamo il buon cibo. Una cosa che mi è piaciuta dell'escursione sul monte tam è che finisce con una celebrazione (Arrivare in città per la colazione!). I vecchi silos missilistici e altre strutture vicino a Discovery point sono interessanti ma ho fatto quell'escursione probabilmente 20 volte a questo punto. Non ci vedremo per alcune settimane (lei deve stare a LA per lavoro) quindi l'unicità qui conta davvero.
+
+---
+
+## Chain of Thought (CoT)
 
 Il CoT (Chain of Thought) nell'intelligenza artificiale è una tecnica di ragionamento che significa letteralmente "Catena di Pensiero". (o1 e o3)
 
@@ -604,9 +692,33 @@ Il CoT (Chain of Thought) nell'intelligenza artificiale è una tecnica di ragion
 
 ---
 
-## Utilizzo
+## Come funziona CoT?
+
+- **Input**: L'utente fornisce un problema o una domanda complessa al modello.
+- **Decomposizione**: Il modello scompone il problema in una serie di sotto-problemi più semplici.
+- **Ragionamento**: Per ogni sotto-problema, il modello applica le sue conoscenze e capacità di ragionamento per trovare una soluzione parziale.
+- **Concatenazione**: Le soluzioni parziali vengono concatenate insieme per formare una "catena di pensiero" che porta alla soluzione finale del problema originale.
+- **Output**: Il modello fornisce la soluzione finale, insieme alla catena di pensiero che ha portato a tale soluzione.
+
+---
+
+## Vantaggi di CoT
+
+- **Migliore comprensione**: CoT permette al modello di comprendere meglio il problema, analizzandolo in dettaglio.
+- **Maggiore accuratezza**: La scomposizione del problema in parti più piccole aumenta l'accuratezza della soluzione finale.
+- **Spiegabilità**: La catena di pensiero rende il processo di risoluzione più trasparente e comprensibile, sia per gli sviluppatori che per gli utenti.
+
+---
+
+## TODO: deep thinking - deep research - reasoning
+
+---
+
+## A cosa servono le reti generative?
 
 Le reti generative sono state utilizzate per creare nuovi contenuti in una varietà di settori, tra cui la produzione di film, la produzione di musica, la produzione di videogiochi e la produzione di arte.
+
+Ricordiamoci che lo scopo delle AI attuali è quella di produrre un risultato, non esiste un'intelligenza artificiale che possa pensare come un essere umano.
 
 ---
 
@@ -1642,6 +1754,10 @@ Simile a JotBot: basta aggiungere **<https://summary.new/>** davanti a qualsiasi
 
 <https://summary.new/https://www.youtube.com/watch?v=W_F33Jn-rkA>
 
+Questo link vi manderà poi a Coconote
+
+<https://coconote.app/generate/https://www.youtube.com/watch?v=W_F33Jn-rkA>
+
 ---
 
 ## Da video ad appunti - 2
@@ -2399,3 +2515,77 @@ L'autore ha generato questo testo in parte con GPT, il modello di generazione de
 Dopo aver generato la bozza del testo, l'autore ha modificato e rivisto il contenuto e si assume la responsabilità di questa pubblicazione.
 
 L'immagine di sfondo è stata generata con <https://app.haikei.app>
+
+---
+
+<!-- _class: title-and-content -->
+# Allenamento di LLM
+
+1. **Pre-training**: Imparare a predire il prossimo token.
+2. **Supervised Fine-Tuning**: Migliorare le prestazioni su task specifici.
+3. **Alignment**: Allineamento comportamentale tramite reinforcement learning.
+
+---
+
+<!-- _class: title-and-content -->
+# Compressione e Efficienza
+
+- **Distillation**: Un modello piccolo impara da un modello grande.
+- **Quantization**: Riduzione della precisione dei parametri per rendere i modelli più leggeri.
+
+---
+
+<!-- _class: title-and-content -->
+# Prompting e Sistemi
+
+- **Modello**: Architettura, dati e parametri.
+- **Interfaccia**: Wrapper tra l'utente e il modello.
+- **Server**: Dove il modello è ospitato (privacy e localizzazione).
+
+---
+
+<!-- _class: title-and-content -->
+# Open vs Closed Source
+
+- **Open Source**: Parametri e paper pubblicati.
+- **Closed Source**: Usabile solo tramite i sistemi forniti dal creatore.
+- Trade-off: Privacy, manutenzione e scalabilità.
+
+---
+
+<!-- _class: title-and-content -->
+# In-Context Learning
+
+- Utilizzo del prompt per dare istruzioni o esempi al modello.
+- **Few-Shot Learning**: Apprendimento da pochi esempi nel prompt.
+- **Chain of Thought (COT)**: Costruzione di ragionamenti passo-passo.
+
+---
+
+<!-- _class: title-and-content -->
+# Estensioni degli LLM
+
+- **RAG**: Retrieval-Augmented Generation, integrazione di knowledge base.
+- **Modelli Agentici**: Interazione con il mondo esterno (es. cliccare su web, chiamate API).
+
+---
+
+<!-- _class: title-and-content -->
+# Valutazione dei Modelli
+
+- **Benchmarking**: Confronto delle performance su task specifici.
+- **Chatbot Arena**: Valutazione diretta dagli utenti tramite confronti anonimi.
+- **Valutazione Umanistica**: Feedback esperti.
+
+---
+
+<!-- _class: title-and-content -->
+# Safety
+
+- Framework di sicurezza per valutare i rischi associati ai modelli.
+- Categorie:
+  - Cybersecurity
+  - CBRN (Chemical, Biological, Radiological, Nuclear)
+  - Persuasione
+  - Autonomia
+- Mitigazione dei rischi per consentire il rilascio dei modelli.
