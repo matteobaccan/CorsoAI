@@ -467,6 +467,29 @@ Si tratta di
 
 ---
 
+## Allenamento di LLM
+
+- **Pre-training**: Imparare a predire il prossimo token.
+- **Supervised Fine-Tuning**: Migliorare le prestazioni su task specifici.
+- **Alignment**: Utilizzo del reinforcement learning per affinare le risposte.
+
+---
+
+## Compressione e Efficienza
+
+- **Distillation**: modello più piccolo (student) impara da un modello più grande (teacher).
+- **Quantization**: riduzione della precisione dei numeri per rendere i modelli più leggeri.
+
+---
+
+## Prompting e Sistemi
+
+- **Modello**: Architettura, dati e parametri.
+- **Interfaccia**: Wrapper tra l'utente e il modello.
+- **Server**: Dove il modello è ospitato (privacy e localizzazione).
+
+---
+
 ## Classificazione dei LLM
 
 Gli LLM (Large Language Models) possono essere classificati in diversi modi, in base a vari criteri.
@@ -587,7 +610,7 @@ Approccio di training:
 Tipo di dati di training:
 
 - Testuali
-- Multimodali (testo + immagini, audio, ecc.)
+- Multimodali (testo + immagini, audio, video, ecc.)
 
 ---
 
@@ -595,8 +618,8 @@ Tipo di dati di training:
 
 Accessibilità:
 
-- Open-source
-- Proprietari
+- **Open Source**: Parametri e paper pubblicati.
+- **Closed Source**: Usabile solo tramite i sistemi forniti dal creatore.
 
 Efficienza computazionale:
 
@@ -645,7 +668,7 @@ Un prompt è un input testuale fornito a un LLM per guidare la sua risposta o ge
 
 ## Anatomia di un prompt o1
 
-Greg Brockman, cofondatore e presidente di OpenAI, ha ripostato su X un esempio di prompt ben fatto:
+Greg Brockman, cofondatore e presidente di OpenAI, ha condiviso su X un esempio di prompt ben fatto:
 
 <https://x.com/gdb/status/1878489681702310392>
 
@@ -684,9 +707,34 @@ Per contesto: io e la mia ragazza facciamo un sacco di escursioni! Abbiamo fatto
 
 ---
 
-## Chain of Thought (CoT)
+## In-Context Learning
 
-Il CoT (Chain of Thought) nell'intelligenza artificiale è una tecnica di ragionamento che significa letteralmente "Catena di Pensiero". (o1 e o3)
+La capacità degli LLM di adattarsi e apprendere direttamente dal contesto fornito nel prompt:
+
+- **Few-Shot Learning**: Il modello apprende pattern e comportamenti da un numero limitato di esempi dimostrativi, migliorando drasticamente le performance su task specifici senza necessità di fine-tuning.
+
+- **Chain of Thought (COT)**: Tecnica che guida il modello attraverso un ragionamento esplicito e strutturato, permettendogli di:
+
+Questa metodologia consente di "programmare" il comportamento del modello attraverso il linguaggio naturale, senza modificarne i parametri.
+
+---
+
+## Reasoning negli LLM
+
+Il **reasoning** negli LLM è la capacità di elaborare informazioni in modo logico e strutturato per risolvere problemi. Include:
+
+- Analisi logica e pensiero critico
+- Ragionamento causale e correlazioni
+- Deduzione (da generale a specifico) e induzione (da specifico a generale)
+- Problem solving strutturato con scomposizione in passi
+
+Implementato attraverso tecniche come chain-of-thought e modalità di pensiero esteso, è essenziale per compiti complessi come matematica, programmazione e comprensione testuale avanzata.
+
+---
+
+## Chain of Thought (CoT) - Deep Thinking
+
+Il CoT (Chain of Thought) nell'intelligenza artificiale è una tecnica di ragionamento che significa letteralmente "Catena di Pensiero". Spinto da o1 e o3 e ora largamente diffuso dai maggiori modelli.
 
 È un metodo in cui l'IA spiega il suo processo di ragionamento passo dopo passo, proprio come farebbe una persona quando pensa ad alta voce per risolvere un problema. Invece di dare solo la risposta finale, mostra tutto il percorso logico.
 
@@ -710,7 +758,23 @@ Il CoT (Chain of Thought) nell'intelligenza artificiale è una tecnica di ragion
 
 ---
 
-## TODO: deep thinking - deep research - reasoning
+## Deep research
+
+Il "deep research" negli LLM è un processo avanzato che consente ai modelli di linguaggio di effettuare ricerche approfondite su argomenti specifici, andando oltre le informazioni contenute nei dati di addestramento. Questo processo tipicamente include:
+
+- L'integrazione con fonti di informazioni esterne e aggiornate
+- La capacità di navigare, recuperare e sintetizzare informazioni da database, motori di ricerca o knowledge base
+- L'abilità di valutare criticamente le fonti per rilevanza e affidabilità
+- La contestualizzazione delle informazioni trovate rispetto alla query originale
+- La sintesi di informazioni provenienti da fonti diverse in risposte coerenti
+
+---
+
+## Deep research - strumenti
+
+Nei sistemi più avanzati, il deep research permette agli LLM di superare il limite del knowledge cutoff, accedendo a informazioni aggiornate e specifiche. Questo è particolarmente utile per query che richiedono dati recenti o molto specializzati.
+
+Questa funzionalità è implementata attraverso l'integrazione degli LLM con strumenti esterni (tool use) e architetture RAG (Retrieval-Augmented Generation) che permettono di combinare il ragionamento del modello con informazioni recuperate dinamicamente.
 
 ---
 
@@ -759,7 +823,15 @@ Secondo due ricercatori dell'Università della California a San Diego, che hanno
 
 ---
 
-## Come valutiamo oggi le AI?
+## Valutazione dei Modelli
+
+- **Benchmarking**: Confronto delle performance su task specifici.
+- **Chatbot Arena**: Valutazione diretta dagli utenti tramite confronti anonimi.
+- **Valutazione Umanistica**: Feedback esperti.
+
+---
+
+## Benchmarking
 
 Esistono diversi modi per valutare le AI, a seconda del loro scopo e delle loro funzionalità. Alcuni dei metodi più comuni includono:
 
@@ -1714,6 +1786,13 @@ Esempio: SlidesAI.io/Esempio.pdf
 
 ---
 
+## Estensioni degli LLM
+
+- **RAG**: Retrieval-Augmented Generation, integrazione di knowledge base.
+- **Modelli Agentici**: Interazione con il mondo esterno (es. cliccare su web, chiamate API).
+
+---
+
 ## NotebookLM
 
 NotebookLM è un assistente per la ricerca e la scrittura basato sull'AI che funziona al meglio con le fonti che carichi
@@ -1733,10 +1812,6 @@ ChatPDF prende in input un documento PDF, lo analizza e permette successivamente
 ### LightPDF
 
 <https://lightpdf.com/chatdoc>
-
-### RAG
-
-Con i modelli open source di RAG è possibile fare domande su un testo e ottenere risposte anche con ambienti locali, installando il software sul proprio computer.
 
 ---
 
@@ -2515,77 +2590,3 @@ L'autore ha generato questo testo in parte con GPT, il modello di generazione de
 Dopo aver generato la bozza del testo, l'autore ha modificato e rivisto il contenuto e si assume la responsabilità di questa pubblicazione.
 
 L'immagine di sfondo è stata generata con <https://app.haikei.app>
-
----
-
-<!-- _class: title-and-content -->
-# Allenamento di LLM
-
-1. **Pre-training**: Imparare a predire il prossimo token.
-2. **Supervised Fine-Tuning**: Migliorare le prestazioni su task specifici.
-3. **Alignment**: Allineamento comportamentale tramite reinforcement learning.
-
----
-
-<!-- _class: title-and-content -->
-# Compressione e Efficienza
-
-- **Distillation**: Un modello piccolo impara da un modello grande.
-- **Quantization**: Riduzione della precisione dei parametri per rendere i modelli più leggeri.
-
----
-
-<!-- _class: title-and-content -->
-# Prompting e Sistemi
-
-- **Modello**: Architettura, dati e parametri.
-- **Interfaccia**: Wrapper tra l'utente e il modello.
-- **Server**: Dove il modello è ospitato (privacy e localizzazione).
-
----
-
-<!-- _class: title-and-content -->
-# Open vs Closed Source
-
-- **Open Source**: Parametri e paper pubblicati.
-- **Closed Source**: Usabile solo tramite i sistemi forniti dal creatore.
-- Trade-off: Privacy, manutenzione e scalabilità.
-
----
-
-<!-- _class: title-and-content -->
-# In-Context Learning
-
-- Utilizzo del prompt per dare istruzioni o esempi al modello.
-- **Few-Shot Learning**: Apprendimento da pochi esempi nel prompt.
-- **Chain of Thought (COT)**: Costruzione di ragionamenti passo-passo.
-
----
-
-<!-- _class: title-and-content -->
-# Estensioni degli LLM
-
-- **RAG**: Retrieval-Augmented Generation, integrazione di knowledge base.
-- **Modelli Agentici**: Interazione con il mondo esterno (es. cliccare su web, chiamate API).
-
----
-
-<!-- _class: title-and-content -->
-# Valutazione dei Modelli
-
-- **Benchmarking**: Confronto delle performance su task specifici.
-- **Chatbot Arena**: Valutazione diretta dagli utenti tramite confronti anonimi.
-- **Valutazione Umanistica**: Feedback esperti.
-
----
-
-<!-- _class: title-and-content -->
-# Safety
-
-- Framework di sicurezza per valutare i rischi associati ai modelli.
-- Categorie:
-  - Cybersecurity
-  - CBRN (Chemical, Biological, Radiological, Nuclear)
-  - Persuasione
-  - Autonomia
-- Mitigazione dei rischi per consentire il rilascio dei modelli.
