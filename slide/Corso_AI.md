@@ -732,6 +732,16 @@ Implementato attraverso tecniche come chain-of-thought e modalità di pensiero e
 
 ---
 
+## Hybrid Reasoning
+
+Anthropic ha introdotto, con Claude 3.7, un modello ibrido di reasoning.
+
+Questo approccio combina molteplici approcci di ragionamento per risolvere problemi complessi in modo più efficace.
+
+Se il problema non necessita reasoning, la risposta viene data subito, se ne necessita ha un tempo incrementale di reasoning in base alla complessità del problema.
+
+---
+
 ## Chain of Thought (CoT) - Deep Thinking
 
 Il CoT (Chain of Thought) nell'intelligenza artificiale è una tecnica di ragionamento che significa letteralmente "Catena di Pensiero". Spinto da o1 e o3 e ora largamente diffuso dai maggiori modelli.
