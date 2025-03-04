@@ -1895,7 +1895,9 @@ Prospettive multiple dell'intelligenza artificiale in un'unica interfaccia
 
 ## Servizi di supporto alla creazione di video
 
-Questo tipo di AI sono in piena evoluzione, al momento il prodotto più avanzato sembra essere Sora, anche se ad ora (Marzo 2024) non è ancora disponibile al pubblico.
+Il 2024 è stato l'anno in cui sono state messe a disposizione del grande pubblico le prime AI in grado di generare dei video ad una qualità tale da essere confuse con un video cinematografico.
+
+Il primo prodotto che ha spaccato rispetto al passato è stato Sora di OpenAI (Marzo 2024) a seguire sono nate tutta una serie di alternative di qualità pari o superiore.
 
 ---
 
