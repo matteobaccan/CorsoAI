@@ -6,7 +6,7 @@ Corso di introduzione alle AI (Artificial Intelligence)
 
 ## Introduzione al corso di AI
 
-L'AI è una disciplina che si concentra sulla creazione di prodotti che dovrebbero avere una intelligenza pari o superiore a quella dell'uomo.
+L'AI è una disciplina che si concentra sulla creazione di prodotti che dovrebbero avere un'intelligenza pari o superiore a quella dell'uomo.
 
 Non si tratta di un corso estensivo, ma di un'introduzione al mondo dell'AI e di alcuni prodotti che possono essere utili per il tuo lavoro.
 
@@ -27,17 +27,25 @@ __[Scarica gratuitamente le slide](https://raw.githubusercontent.com/matteobacca
 - Come funziona l'AI
 - Terminologia di base
 - Classificazione delle AI
-- AI generative
+- Evoluzione dell'Intelligenza Artificiale
+- Capacità di calcolo
+- Machine Learning e Deep Learning
+- Algoritmi generativi
 - Reti generative avversariali
-- UNET
-- Prodotti per la scrittura di testi
-- Prodotti per l'elaborazione immagini
-- Prodotti per la creazione di video
-- Prodotti per la creazione di musica
-- Prodotti per la creazione di avatar
-- Letture consigliate
+- Reti neurali ricorrenti e convoluzionali
+- Large Language Models (LLM)
+- AI OpenSource
+- Prompting e In-Context Learning
+- Reasoning negli LLM
+- Applicazioni della AI
+- Tecnologie di linguaggio a corredo delle AI
+- Natural Language Processing (NLP)
+- Natural Language Understanding (NLU)
+- Natural Language Generation (NLG)
+- Aziende che investono in AI
+- Alternative che stanno crescendo
 
 ## Approfondimenti
 
-- [AI Generation](https://github.com/matteobaccan/AIGeneration)
-- [Guida pratica all'uso delle AI](https://github.com/matteobaccan/CorsoAIBook)
+- [AI Generation](https://github.com/matteobaccan/AIGeneration) : Slide su un mio intervento in ambito AI
+- [Guida pratica all'uso delle AI](https://github.com/matteobaccan/CorsoAIBook) : Il libro di approfondimento sul mondo delle AI
