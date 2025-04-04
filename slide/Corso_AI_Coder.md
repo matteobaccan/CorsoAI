@@ -92,6 +92,25 @@ Il modello è stato addestrato utilizzando QLora e come dati di addestramento Ul
 
 ---
 
+## IDE
+
+VS Code
+- GitHub Copilot  : https://github.com/features/copilot
+- Cline - https://github.com/cline/cline
+
+Cursor
+- https://cursor.so/ai-coding-assistant
+- https://www.cursor.com/
+
+Windsurf
+- https://codeium.com/windsurf
+
+Trae
+- https://trae.ai/
+
+
+
+
 ---
 
 ## Fonti usate per la creazione di queste slide
