@@ -914,6 +914,20 @@ L'ARC Benchmark mira a spingere i modelli AI verso una comprensione più umana d
 
 ---
 
+## Chatbot Arena
+
+A volte i test non bastano, per questa ragione esiste un portale: <https://lmarena.ai/> dove gli utenti possono testare i vari modelli di AI e votare per il migliore.
+
+### Come funziona?
+
+Gli utenti possono fare una domanda qualsiasi a due Chatbot anonimi.
+
+In base alla risposta è possibile premiare una AI al posto di un'altra.
+
+Su questa valutazione "umana", viene creata una classifica dei modelli di AI.
+
+---
+
 ## Applicazioni della AI
 
 Le applicazioni dell'AI sono molteplici e in continuo sviluppo. Alcune delle applicazioni più comuni includono:
