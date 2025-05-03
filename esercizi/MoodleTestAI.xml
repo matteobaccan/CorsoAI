@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- 1 -->
+  <question type="multichoice">
+    <name><text>Definizione di Intelligenza Artificiale</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cos’è l’Intelligenza Artificiale, secondo il corso?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Un insieme di algoritmi che permettono ai computer di svolgere attività simili all’intelletto umano.</text></answer>
+    <answer fraction="0"><text>Un linguaggio di programmazione per sistemi embedded.</text></answer>
+    <answer fraction="0"><text>Un tipo di database relazionale.</text></answer>
+    <answer fraction="0"><text>Un’interfaccia grafica per applicazioni desktop.</text></answer>
+  </question>
+
+  <!-- 2 -->
+  <question type="multichoice">
+    <name><text>Task vs Algoritmo</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Nel contesto dell’AI, cosa si intende per “Task”?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Il problema specifico da risolvere.</text></answer>
+    <answer fraction="0"><text>Il modello di rete neurale utilizzato.</text></answer>
+    <answer fraction="0"><text>Il formato dei dati di input.</text></answer>
+    <answer fraction="0"><text>Il linguaggio di scripting scelto.</text></answer>
+  </question>
+
+  <!-- 3 -->
+  <question type="multichoice">
+    <name><text>Esempio di Task</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale dei seguenti è un esempio di task citato nel corso?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Object Recognition</text></answer>
+    <answer fraction="0"><text>Gradient Descent</text></answer>
+    <answer fraction="0"><text>Git Commit</text></answer>
+    <answer fraction="0"><text>CSS Styling</text></answer>
+  </question>
+
+  <!-- 4 -->
+  <question type="multichoice">
+    <name><text>Discipline dell’AI</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale disciplina NON è elencata come contributo all’AI?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Chimica</text></answer>
+    <answer fraction="0"><text>Biologia</text></answer>
+    <answer fraction="0"><text>Psicologia</text></answer>
+    <answer fraction="0"><text>Matematica</text></answer>
+  </question>
+
+  <!-- 5 -->
+  <question type="multichoice">
+    <name><text>Fasi storiche dell’AI</text></name>
+    <questiontext format="html">
+      <text><![CDATA[In quale periodo viene collocata la “fase iniziale” dell’AI?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>1948–1965</text></answer>
+    <answer fraction="0"><text>1965–1980</text></answer>
+    <answer fraction="0"><text>1980–1990</text></answer>
+    <answer fraction="0"><text>1990–oggi</text></answer>
+  </question>
+
+  <!-- 6 -->
+  <question type="multichoice">
+    <name><text>Programma di Turing</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Chi ha pubblicato il primo programma di gioco degli scacchi nel 1948?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Alan Turing</text></answer>
+    <answer fraction="0"><text>Claude Shannon</text></answer>
+    <answer fraction="0"><text>John McCarthy</text></answer>
+    <answer fraction="0"><text>Brendan Eich</text></answer>
+  </question>
+
+  <!-- 7 -->
+  <question type="multichoice">
+    <name><text>Fase della simulazione</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale area di ricerca si è sviluppata nella fase 1965–1980?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Elaborazione del linguaggio naturale</text></answer>
+    <answer fraction="0"><text>Reti neurali profonde</text></answer>
+    <answer fraction="0"><text>Quantum computing</text></answer>
+    <answer fraction="0"><text>Blockchain</text></answer>
+  </question>
+
+  <!-- 8 -->
+  <question type="multichoice">
+    <name><text>Fase moderna</text></name>
+    <questiontext format="html">
+      <text><![CDATA[In che anno inizia la “fase moderna” dell’AI?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>1990</text></answer>
+    <answer fraction="0"><text>1965</text></answer>
+    <answer fraction="0"><text>1948</text></answer>
+    <answer fraction="0"><text>2000</text></answer>
+  </question>
+
+  <!-- 9 -->
+  <question type="multichoice">
+    <name><text>Capacità di calcolo</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Con l’aumento delle capacità di calcolo, l’AI ha iniziato a muoversi verso quale campo?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Robotica e guida autonoma</text></answer>
+    <answer fraction="0"><text>Sviluppo di siti web</text></answer>
+    <answer fraction="0"><text>Applicazioni desktop</text></answer>
+    <answer fraction="0"><text>Database NoSQL</text></answer>
+  </question>
+
+  <!-- 10 -->
+  <question type="multichoice">
+    <name><text>Cos’è il Machine Learning?</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Secondo il corso, cos’è il machine learning?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Un processo in cui gli algoritmi imparano da dati di input per svolgere un compito.</text></answer>
+    <answer fraction="0"><text>Un framework per applicazioni web.</text></answer>
+    <answer fraction="0"><text>Un database per grandi volumi di dati.</text></answer>
+    <answer fraction="0"><text>Un tool di grafica vettoriale.</text></answer>
+  </question>
+
+  <!-- 11 -->
+  <question type="multichoice">
+    <name><text>Fasi del ML</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quali sono le due fasi principali del machine learning?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Training e Utilizzo</text></answer>
+    <answer fraction="0"><text>Design e Deploy</text></answer>
+    <answer fraction="0"><text>Scrittura e Compilazione</text></answer>
+    <answer fraction="0"><text>Testing e Debug</text></answer>
+  </question>
+
+  <!-- 12 -->
+  <question type="multichoice">
+    <name><text>ELIZA</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Chi ha scritto ELIZA, il chatbot del 1966?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Joseph Weizenbaum</text></answer>
+    <answer fraction="0"><text>Alan Turing</text></answer>
+    <answer fraction="0"><text>John McCarthy</text></answer>
+    <answer fraction="0"><text>Claude Shannon</text></answer>
+  </question>
+
+  <!-- 13 -->
+  <question type="multichoice">
+    <name><text>Tipologie di ML</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale delle seguenti è una tipologia di apprendimento automatico menzionata?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Reinforcement Learning</text></answer>
+    <answer fraction="0"><text>Supervised Scripting</text></answer>
+    <answer fraction="0"><text>Dynamic Programming</text></answer>
+    <answer fraction="0"><text>Static Typing</text></answer>
+  </question>
+
+  <!-- 14 -->
+  <question type="multichoice">
+    <name><text>Parametri di GPT-3</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quanti parametri contiene GPT-3, secondo il corso?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>175 miliardi</text></answer>
+    <answer fraction="0"><text>1.3 milioni</text></answer>
+    <answer fraction="0"><text>66 milioni</text></answer>
+    <answer fraction="0"><text>10 trilioni</text></answer>
+  </question>
+
+  <!-- 15 -->
+  <question type="multichoice">
+    <name><text>Deep Learning</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cos’è il deep learning?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>L’uso di reti neurali con più livelli e connessioni per compiti complessi.</text></answer>
+    <answer fraction="0"><text>Un database di immagini ad alta risoluzione.</text></answer>
+    <answer fraction="0"><text>Un editor di testo potenziato da AI.</text></answer>
+    <answer fraction="0"><text>Un protocollo di rete neurale.</text></answer>
+  </question>
+
+  <!-- 16 -->
+  <question type="multichoice">
+    <name><text>Algoritmi generativi</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale di questi è un esempio di algoritmo generativo citato?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>GAN</text></answer>
+    <answer fraction="0"><text>Decision Tree</text></answer>
+    <answer fraction="0"><text>k-means</text></answer>
+    <answer fraction="0"><text>Linear Regression</text></answer>
+  </question>
+
+  <!-- 17 -->
+  <question type="multichoice">
+    <name><text>Architettura delle GAN</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quali sono i due componenti principali di una GAN?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Generatore e Discriminatore</text></answer>
+    <answer fraction="0"><text>Encoder e Decoder</text></answer>
+    <answer fraction="0"><text>Actor e Critic</text></answer>
+    <answer fraction="0"><text>Server e Client</text></answer>
+  </question>
+
+  <!-- 18 -->
+  <question type="multichoice">
+    <name><text>Caratteristica delle RNN</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cosa contraddistingue le Reti Neurali Ricorrenti (RNN)?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Memoria interna grazie a collegamenti ricorrenti.</text></answer>
+    <answer fraction="0"><text>Uso di convoluzioni 2D.</text></answer>
+    <answer fraction="0"><text>Assenza di pesi aggiornabili.</text></answer>
+    <answer fraction="0"><text>Solo uno strato di input.</text></answer>
+  </question>
+
+  <!-- 19 -->
+  <question type="multichoice">
+    <name><text>Varianti di RNN</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale variante di RNN utilizza gate di aggiornamento e dimenticanza?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>LSTM</text></answer>
+    <answer fraction="0"><text>Perceptron</text></answer>
+    <answer fraction="0"><text>GAN</text></answer>
+    <answer fraction="0"><text>CNN</text></answer>
+  </question>
+
+  <!-- 20 -->
+  <question type="multichoice">
+    <name><text>Componenti CNN</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cosa fa uno strato di pooling in una CNN?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Riduce le dimensioni mantenendo le caratteristiche principali.</text></answer>
+    <answer fraction="0"><text>Aumenta il numero di neuroni.</text></answer>
+    <answer fraction="0"><text>Normalizza i pesi della rete.</text></answer>
+    <answer fraction="0"><text>Genera dati sintetici.</text></answer>
+  </question>
+
+  <!-- 21 -->
+  <question type="multichoice">
+    <name><text>Definizione di LLM</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cosa sono i Large Language Models (LLM)?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Modelli basati su transformer per la predizione del token successivo.</text></answer>
+    <answer fraction="0"><text>Framework per applicazioni mobile.</text></answer>
+    <answer fraction="0"><text>Librerie CSS per styling.</text></answer>
+    <answer fraction="0"><text>Database NoSQL distribuiti.</text></answer>
+  </question>
+
+  <!-- 22 -->
+  <question type="multichoice">
+    <name><text>Meccanismo di Attenzione</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Qual è lo scopo del meccanismo di attenzione nei transformer?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Assegnare pesi differenti alle parole in input per contestualizzarle.</text></answer>
+    <answer fraction="0"><text>Ridurre il numero di parametri.</text></answer>
+    <answer fraction="0"><text>Aumentare la velocità di rete.</text></answer>
+    <answer fraction="0"><text>Eliminare rumore nei dati.</text></answer>
+  </question>
+
+  <!-- 23 -->
+  <question type="multichoice">
+    <name><text>Compressione dei Modelli</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale tecnica consiste nel far apprendere a un modello più piccolo da uno più grande?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Distillation</text></answer>
+    <answer fraction="0"><text>Quantization</text></answer>
+    <answer fraction="0"><text>Augmentation</text></answer>
+    <answer fraction="0"><text>Overfitting</text></answer>
+  </question>
+
+  <!-- 24 -->
+  <question type="multichoice">
+    <name><text>Definizione di Prompt</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cos’è un “prompt” per un LLM?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Un input testuale fornito al modello per guidarne la risposta.</text></answer>
+    <answer fraction="0"><text>Un tipo di dataset per addestramento.</text></answer>
+    <answer fraction="0"><text>Un layer di rete neurale.</text></answer>
+    <answer fraction="0"><text>Un tool di visualizzazione grafica.</text></answer>
+  </question>
+
+  <!-- 25 -->
+  <question type="multichoice">
+    <name><text>Chain of Thought</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Qual è uno degli obiettivi della tecnica Chain of Thought?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Mostrare il ragionamento passo dopo passo del modello.</text></answer>
+    <answer fraction="0"><text>Ridurre il numero di layer</text></answer>
+    <answer fraction="0"><text>Eliminare i parametri inutili</text></answer>
+    <answer fraction="0"><text>Aumentare il batch size</text></answer>
+  </question>
+
+  <!-- 26 -->
+  <question type="multichoice">
+    <name><text>Test di Turing</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Nel Test di Turing, quante “parti” partecipano alla conversazione?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Tre (un giudice, un umano e un computer)</text></answer>
+    <answer fraction="0"><text>Due (un umano e un computer)</text></answer>
+    <answer fraction="0"><text>Quattro (due giudici, un umano e un computer)</text></answer>
+    <answer fraction="0"><text>Uno (il computer solo)</text></answer>
+  </question>
+
+  <!-- 27 -->
+  <question type="multichoice">
+    <name><text>FrontierMath</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Qual è la difficoltà dei problemi in FrontierMath?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Molto alta, richiedono ore o giorni a matematici esperti.</text></answer>
+    <answer fraction="0"><text>Molto bassa, adatti ai principianti.</text></answer>
+    <answer fraction="0"><text>Media, simili a quiz a risposta multipla standard.</text></answer>
+    <answer fraction="0"><text>Solo logica di base.</text></answer>
+  </question>
+
+  <!-- 28 -->
+  <question type="multichoice">
+    <name><text>ARC Benchmark</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quante domande contiene l’ARC Benchmark?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>7.787</text></answer>
+    <answer fraction="0"><text>1.000</text></answer>
+    <answer fraction="0"><text>10.000</text></answer>
+    <answer fraction="0"><text>5.000</text></answer>
+  </question>
+
+  <!-- 29 -->
+  <question type="multichoice">
+    <name><text>Applicazioni dell’AI</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale applicazione NON è menzionata tra quelle comuni dell’AI?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Sviluppo di videogiochi client-server</text></answer>
+    <answer fraction="0"><text>Riconoscimento vocale</text></answer>
+    <answer fraction="0"><text>Diagnosi medica</text></answer>
+    <answer fraction="0"><text>Visione artificiale</text></answer>
+  </question>
+
+  <!-- 30 -->
+  <question type="multichoice">
+    <name><text>Aziende che investono in AI</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale azienda ha speso oltre 30 miliardi di dollari in infrastruttura GPU per il modello Llama 3?]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Meta</text></answer>
+    <answer fraction="0"><text>OpenAI</text></answer>
+    <answer fraction="0"><text>Microsoft</text></answer>
+    <answer fraction="0"><text>Anthropic</text></answer>
+  </question>
+
+</quiz>
