@@ -666,6 +666,59 @@ Un prompt è un input testuale fornito a un LLM per guidare la sua risposta o ge
 
 ---
 
+## JSON Prompting
+
+Il JSON Prompting è una tecnica che sfrutta la struttura JSON (JavaScript Object Notation) per inviare richieste più precise e strutturate ai Large Language Models (LLM) e per ricevere risposte formattate in modo prevedibile.
+
+**Perché è utile?**
+
+- **Precisione**: Definire chiaramente i campi richiesti riduce l'ambiguità.
+- **Prevedibilità**: Le risposte JSON sono facili da parsare e integrare in applicazioni.
+- **Complessità gestita**: Permette di inviare richieste complesse con dati strutturati.
+- **Controllo del formato**: Assicura che l'output del modello sia esattamente nel formato desiderato.
+
+---
+
+## JSON Prompting - Come funziona
+
+Si fornisce al LLM un prompt che include un esempio o una descrizione della struttura JSON desiderata sia per l'input (opzionale) che per l'output.
+
+**Esempio di Prompt per l'estrazione di informazioni:**
+
+```text
+Estrai le seguenti informazioni dal testo e forniscile in formato JSON: nome, età, città.
+
+Testo: "Mario Rossi ha 30 anni e vive a Roma."
+
+Formato JSON desiderato:
+{
+  "nome": "string",
+  "eta": "number",
+  "citta": "string"
+}
+```
+
+---
+
+## JSON Prompting - Esempio di Risposta
+
+```json
+{
+  "nome": "Mario Rossi",
+  "eta": 30,
+  "citta": "Roma"
+}
+```
+
+**Suggerimenti per un JSON Prompting efficace:**
+
+- **Sii specifico**: Definisci chiaramente i nomi dei campi e i tipi di dato attesi.
+- **Fornisci esempi**: Mostra al modello un esempio di input e/o output JSON.
+- **Utilizza istruzioni chiare**: Indica esplicitamente al modello di rispondere in JSON.
+- **Gestisci gli errori**: Prevedi la possibilità che il modello non restituisca un JSON valido e implementa logiche di fallback o validazione.
+
+---
+
 ## Anatomia di un prompt o1
 
 Greg Brockman, cofondatore e presidente di OpenAI, ha condiviso su X un esempio di prompt ben fatto:
