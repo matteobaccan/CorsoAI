@@ -971,6 +971,23 @@ AI: Stockfish 11 ha un ELO di 3500, mentre lo Komodo 13.1 ha un ELO di 3477.
 
 ---
 
+## AI per la Medicina: AlphaFold di Google DeepMind
+
+**AlphaFold** è un sistema di intelligenza artificiale sviluppato da DeepMind (una società di Google) che ha rivoluzionato il campo della biologia e della medicina.
+
+**Cosa fa?**
+Prevede la struttura tridimensionale delle proteine partendo dalla loro sequenza aminoacidica. Comprendere la forma di una proteina è cruciale perché la sua struttura determina la sua funzione.
+
+**Importanza:**
+- **Ricerca Biologica:** Accelera la comprensione dei meccanismi biologici fondamentali.
+- **Sviluppo di Farmaci:** Conoscere la struttura delle proteine aiuta a progettare nuovi farmaci in modo più rapido ed efficiente, ad esempio per combattere malattie come il cancro o l'Alzheimer.
+- **Biotecnologie:** Facilita la progettazione di enzimi per usi industriali o per la degradazione della plastica.
+- **Accesso Aperto:** DeepMind ha reso disponibili gratuitamente le previsioni di struttura per milioni di proteine, democratizzando l'accesso a queste informazioni cruciali per la comunità scientifica globale.
+
+AlphaFold rappresenta un enorme passo avanti, dimostrando come l'AI possa risolvere problemi scientifici complessi che per decenni hanno rappresentato una sfida.
+
+---
+
 ## Tecnologie di linguaggio a corredo delle AI
 
 Le tecnologie di linguaggio sono un insieme di strumenti e tecniche che consentono alle macchine di comprendere e generare linguaggio naturale.
