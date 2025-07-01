@@ -482,6 +482,73 @@ Si tratta di
 
 ---
 
+## Mixture of Experts (MoE)
+
+Una tecnica per migliorare l'efficienza e le capacità dei modelli di machine learning, specialmente i Large Language Models (LLM).
+
+L'idea centrale è di dividere il problema di apprendimento tra diversi "esperti" (sotto-modelli), ognuno specializzato in un diverso aspetto dei dati.
+
+---
+
+## Mixture of Experts - Come funziona
+
+1.  **Esperti (Experts)**:
+    *   Sono tipicamente reti neurali più piccole (ad esempio, feed-forward networks).
+    *   Ogni esperto impara a gestire specifici tipi di input o task.
+
+2.  **Rete Gating (Gating Network)**:
+    *   È un componente cruciale che determina quale esperto (o combinazione di esperti) attivare per un dato input.
+    *   Impara a instradare dinamicamente l'input all'esperto più appropriato.
+    *   Solitamente, per ogni input vengono selezionati solo pochi esperti (es. i top-2), mantenendo basso il costo computazionale.
+
+![center w:700px](img/corso-ai-moe-diagram.png)
+<!-- Immagine illustrativa di un diagramma MoE. Potremmo aver bisogno di creare/trovare un'immagine adatta -->
+
+---
+
+## Mixture of Experts - Vantaggi
+
+-   **Efficienza Computazionale**:
+    *   Attivando solo una piccola frazione degli esperti per ogni input, i modelli MoE possono avere un numero enorme di parametri totali pur mantenendo bassi i costi di inferenza e training per singolo token.
+    *   Questo permette di scalare i modelli a dimensioni molto più grandi rispetto ai modelli densi tradizionali con lo stesso budget computazionale.
+
+-   **Migliori Performance**:
+    *   La specializzazione degli esperti permette al modello di apprendere rappresentazioni più ricche e complesse.
+    *   Può portare a una maggiore qualità e accuratezza, specialmente su dataset vasti e diversificati.
+
+-   **Scalabilità**:
+    *   È più facile aumentare la capacità del modello aggiungendo più esperti.
+
+---
+
+## Mixture of Experts - Sfide
+
+-   **Complessità di Training**:
+    *   L'allenamento può essere più complesso e richiedere un tuning attento degli iperparametri.
+    *   Bilanciare il carico tra gli esperti (load balancing) è cruciale per evitare che alcuni esperti vengano sovrautilizzati e altri sottoutilizzati.
+
+-   **Overhead di Comunicazione**:
+    *   La necessità di instradare gli input e aggregare gli output degli esperti può introdurre latenza, specialmente in sistemi distribuiti.
+
+-   **Requisiti di Memoria**:
+    *   Anche se solo pochi esperti sono attivi per ogni token, tutti i parametri del modello devono essere caricati in memoria durante l'inferenza.
+
+---
+
+## AI che utilizzano Mixture of Experts
+
+Molti dei più recenti e performanti Large Language Models utilizzano architetture MoE:
+
+-   **GLaM (Google)**: Generalist Language Model, uno dei primi modelli su larga scala a dimostrare l'efficacia di MoE.
+-   **Switch Transformers (Google)**: Hanno spinto ulteriormente i limiti della scalabilità con MoE.
+-   **Mixtral 8x7B (Mistral AI)**: Un popolare modello open-source che utilizza 8 esperti, selezionandone 2 per ogni token. Ha dimostrato prestazioni paragonabili a modelli molto più grandi.
+-   **GPT-4 (OpenAI)**: Anche se i dettagli non sono completamente pubblici, si ritiene ampiamente che GPT-4 utilizzi un'architettura MoE per raggiungere le sue elevate prestazioni e dimensioni.
+-   **Modelli Claude (Anthropic)**: Alcune versioni dei modelli Claude potrebbero impiegare tecniche MoE.
+
+L'uso di MoE è una tendenza chiave nello sviluppo di LLM sempre più potenti ed efficienti.
+
+---
+
 ## Prompting e Sistemi
 
 - **Modello**: Architettura, dati e parametri.
