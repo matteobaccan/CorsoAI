@@ -1971,6 +1971,24 @@ DEMO: HeyGen\Matteo Baccan.mp4
 
 ---
 
+## Wan 2.1
+
+Wan 2.1 è un modello di intelligenza artificiale sviluppato da Alibaba Cloud, focalizzato sulla generazione di video di alta qualità a partire da descrizioni testuali. Fa parte della famiglia di modelli Tongyi Wanxiang e si distingue per la sua capacità di produrre video con movimenti fluidi, dettagli realistici e coerenza temporale. Wan 2.1 è particolarmente abile nel generare video in stili diversi, inclusi quelli fotorealistici e animati, e supporta la creazione di contenuti in varie risoluzioni.
+
+---
+
+## Tencent Hunyuan
+
+Tencent Hunyuan è un modello di intelligenza artificiale multimodale sviluppato da Tencent. Questo modello è in grado di comprendere e generare contenuti in diversi formati, tra cui testo, immagini e video. Per quanto riguarda la generazione video, Hunyuan si concentra sulla creazione di brevi clip animate o realistiche basate su input testuali. Una delle sue caratteristiche distintive è la capacità di integrare elementi culturali specifici nei video generati, grazie al vasto dataset su cui è stato addestrato.
+
+---
+
+## CogVideoX
+
+CogVideoX è un modello avanzato per la generazione di video da testo, sviluppato come evoluzione di CogVideo. Questo modello si basa su architetture transformer e GAN (Generative Adversarial Networks) per produrre video di alta qualità con una forte coerenza tra il testo di input e il contenuto visivo generato. CogVideoX è in grado di creare scene complesse con più oggetti e interazioni, mantenendo una buona fedeltà visiva e temporale. È particolarmente noto per la sua capacità di generare video con personaggi umani e animali in vari contesti.
+
+---
+
 ## Fra fantascienza e realtà
 
 Chi ha seguito la serie TV: Upload?
