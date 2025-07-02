@@ -553,6 +553,7 @@ Ecco una classificazione generale:
 - GPT-3 (175B)
 - BLOOM (176B)
 - PaLM (540B)
+- LongWriter-Zero-32B (THU-KEG, 33B, specializzato nella generazione di testo lungo e coerente)
 
 **Extra Large LLM** (> 100B parametri):
 
