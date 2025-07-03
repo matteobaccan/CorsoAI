@@ -978,13 +978,55 @@ AI: Stockfish 11 ha un ELO di 3500, mentre lo Komodo 13.1 ha un ELO di 3477.
 **Cosa fa?**
 Prevede la struttura tridimensionale delle proteine partendo dalla loro sequenza aminoacidica. Comprendere la forma di una proteina è cruciale perché la sua struttura determina la sua funzione.
 
+---
+
+## AI per la Medicina: AlphaFold - importanza
+
 **Importanza:**
-- **Ricerca Biologica:** Accelera la comprensione dei meccanismi biologici fondamentali.
+
+- **Ricerca Biologica:** Accelera la comprensione dei meccanismi biologici.
 - **Sviluppo di Farmaci:** Conoscere la struttura delle proteine aiuta a progettare nuovi farmaci in modo più rapido ed efficiente, ad esempio per combattere malattie come il cancro o l'Alzheimer.
 - **Biotecnologie:** Facilita la progettazione di enzimi per usi industriali o per la degradazione della plastica.
 - **Accesso Aperto:** DeepMind ha reso disponibili gratuitamente le previsioni di struttura per milioni di proteine, democratizzando l'accesso a queste informazioni cruciali per la comunità scientifica globale.
 
 AlphaFold rappresenta un enorme passo avanti, dimostrando come l'AI possa risolvere problemi scientifici complessi che per decenni hanno rappresentato una sfida.
+
+---
+
+## AI per la Medicina: AlphaGenome di Google DeepMind
+
+**AlphaGenome** è un innovativo modello di intelligenza artificiale (IA) sviluppato da Google DeepMind, progettato per rivoluzionare la ricerca genetica. Il suo scopo principale è quello di analizzare e prevedere gli effetti delle mutazioni nel DNA umano, in particolare nelle regioni finora poco comprese.
+
+**Cosa fa?**
+Questo strumento rappresenta un significativo passo avanti nella genomica, poiché è in grado di decifrare il "linguaggio" di vaste sezioni del nostro genoma che non codificano direttamente per le proteine, spesso definite in passato "DNA spazzatura". Queste aree, che costituiscono circa il 98% del nostro DNA, svolgono in realtà un ruolo cruciale nella regolazione dell'attività genica.
+
+---
+
+## AI per la Medicina: AlphaGenome - importanza
+
+AlphaGenome analizza sequenze di DNA per prevedere come specifiche variazioni genetiche, anche di una singola "lettera" del codice, possano influenzare il comportamento delle cellule. Questo permette agli scienziati di:
+
+```text
+Comprendere le cause delle malattie: Molte malattie, incluse quelle rare e complesse
+come alcuni tipi di cancro e patologie cardiache, sono legate a mutazioni in queste
+regioni non codificanti.
+AlphaGenome aiuta a identificare quali specifiche mutazioni sono potenzialmente dannose.
+
+Accelerare la ricerca: Il modello può testare virtualmente milioni di varianti genetiche
+in pochi istanti, un processo che richiederebbe mesi o anni di esperimenti in laboratorio.
+Questo accelera enormemente la generazione di ipotesi scientifiche.
+
+Sviluppare la medicina personalizzata: Comprendendo l'impatto preciso di una mutazione
+genetica su un individuo, in futuro si potranno sviluppare terapie e farmaci "su misura".
+```
+
+---
+
+## AI per la Medicina: AlphaGenome - sintesi
+
+In sostanza, AlphaGenome agisce come un potentissimo "traduttore" del codice genetico.
+
+Fornendo ai ricercatori una scorciatoia digitale, consente di concentrare gli sforzi sperimentali solo sulle varianti genetiche più promettenti o rischiose, aprendo nuove frontiere per la diagnosi precoce e il trattamento delle malattie.
 
 ---
 
