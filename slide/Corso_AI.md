@@ -666,6 +666,47 @@ Un prompt è un input testuale fornito a un LLM per guidare la sua risposta o ge
 
 ---
 
+## Anatomia di un prompt o1
+
+Greg Brockman, cofondatore e presidente di OpenAI, ha condiviso su X un esempio di prompt ben fatto:
+
+<https://x.com/gdb/status/1878489681702310392>
+
+- Obiettivo
+- Formato della risposta
+- Avvertenze
+- Contesto
+
+---
+
+## Prompt: **Obiettivo**
+
+Voglio una lista delle migliori escursioni di media lunghezza raggiungibili entro due ore da San Francisco.
+
+Ogni escursione dovrebbe offrire un'avventura interessante e unica, ed essere meno conosciuta.
+
+---
+
+## Prompt: **Formato della Risposta**
+
+Per ogni escursione, indica il nome del sentiero come lo troverei su AllTrails, poi fornisci l'indirizzo di partenza dell'escursione, l'indirizzo di arrivo, la distanza, il tempo di guida, la durata dell'escursione e cosa la rende un'avventura interessante e unica.
+
+Elenca le migliori 3.
+
+---
+
+## Prompt: **Avvertenze**
+
+Fai attenzione a verificare che il nome del sentiero sia corretto, che esista effettivamente e che il tempo sia corretto.
+
+---
+
+## Prompt: **Contesto**
+
+Per contesto: io e la mia ragazza facciamo un sacco di escursioni! Abbiamo fatto praticamente tutte le escursioni locali di SF, che siano nel presidio o nel golden gate park. Vogliamo decisamente uscire dalla città -- abbiamo fatto il monte tam recentemente, tutto il percorso dall'inizio delle scale fino a stinson -- è stato davvero lungo e siamo decisamente in vena di qualcosa di diverso questo weekend! Le viste sull'oceano sarebbero ancora belle. Amiamo il buon cibo. Una cosa che mi è piaciuta dell'escursione sul monte tam è che finisce con una celebrazione (Arrivare in città per la colazione!). I vecchi silos missilistici e altre strutture vicino a Discovery point sono interessanti ma ho fatto quell'escursione probabilmente 20 volte a questo punto. Non ci vedremo per alcune settimane (lei deve stare a LA per lavoro) quindi l'unicità qui conta davvero.
+
+---
+
 ## JSON Prompting
 
 Il JSON Prompting è una tecnica che sfrutta la struttura JSON (JavaScript Object Notation) per inviare richieste più precise e strutturate ai Large Language Models (LLM) e per ricevere risposte formattate in modo prevedibile.
@@ -695,11 +736,11 @@ Riduzione degli Errori: La struttura rigida del JSON riduce la probabilità di e
 
 ## Linguaggio Naturale
 
-### Prompt
+### Prompt naturale
 
 "Scrivi un tweet per promuovere un nuovo smartphone chiamato 'CyberPro X' che ha una fotocamera da 108MP e una batteria a lunga durata. Usa un tono entusiasta e includi degli hashtag."
 
-### Risposta
+### Risposta naturale
 
 "🚀 Scopri il nuovo CyberPro X! Con una fotocamera da 108MP e una batteria che non ti abbandona mai, è lo smartphone che hai sempre sognato! #CyberProX #NuovoSmartphone #Tecnologia"
 
@@ -707,7 +748,7 @@ Riduzione degli Errori: La struttura rigida del JSON riduce la probabilità di e
 
 ## Formato JSON
 
-### Prompt
+### Prompt JSON
 
 ```json
 { "task": "scrivi_tweet_promozionale", 
@@ -720,7 +761,7 @@ Riduzione degli Errori: La struttura rigida del JSON riduce la probabilità di e
    "istruzioni_aggiuntive": { "includi_hashtag": true, "lunghezza_massima": 280 } } 
 ```
 
-### Risposta
+### Risposta JSON
 
 ```json
 { "testo_tweet": "Preparati a scattare foto incredibili con la fotocamera da 108MP del 
@@ -771,44 +812,21 @@ Formato JSON desiderato:
 
 ---
 
-## Anatomia di un prompt o1
+## Come Strutturare un Prompt in JSON
 
-Greg Brockman, cofondatore e presidente di OpenAI, ha condiviso su X un esempio di prompt ben fatto:
+La creazione di un prompt in JSON si basa sulla definizione di coppie chiave-valore. Le "chiavi" sono etichette descrittive (come "task" o "tono"), mentre i "valori" contengono le informazioni specifiche. È possibile nidificare gli oggetti per creare strutture più complesse, come visto nell'esempio precedente con l'oggetto "prodotto".
 
-<https://x.com/gdb/status/1878489681702310392>
+Le chiavi più comuni in un JSON prompt includono:
 
-- Obiettivo
-- Formato della risposta
-- Avvertenze
-- Contesto
-
----
-
-## Prompt: **Obiettivo**
-
-Voglio una lista delle migliori escursioni di media lunghezza raggiungibili entro due ore da San Francisco.
-
-Ogni escursione dovrebbe offrire un'avventura interessante e unica, ed essere meno conosciuta.
-
----
-
-## Prompt: **Formato della Risposta**
-
-Per ogni escursione, indica il nome del sentiero come lo troverei su AllTrails, poi fornisci l'indirizzo di partenza dell'escursione, l'indirizzo di arrivo, la distanza, il tempo di guida, la durata dell'escursione e cosa la rende un'avventura interessante e unica.
-
-Elenca le migliori 3.
-
----
-
-## Prompt: **Avvertenze**
-
-Fai attenzione a verificare che il nome del sentiero sia corretto, che esista effettivamente e che il tempo sia corretto.
-
----
-
-## Prompt: **Contesto**
-
-Per contesto: io e la mia ragazza facciamo un sacco di escursioni! Abbiamo fatto praticamente tutte le escursioni locali di SF, che siano nel presidio o nel golden gate park. Vogliamo decisamente uscire dalla città -- abbiamo fatto il monte tam recentemente, tutto il percorso dall'inizio delle scale fino a stinson -- è stato davvero lungo e siamo decisamente in vena di qualcosa di diverso questo weekend! Le viste sull'oceano sarebbero ancora belle. Amiamo il buon cibo. Una cosa che mi è piaciuta dell'escursione sul monte tam è che finisce con una celebrazione (Arrivare in città per la colazione!). I vecchi silos missilistici e altre strutture vicino a Discovery point sono interessanti ma ho fatto quell'escursione probabilmente 20 volte a questo punto. Non ci vedremo per alcune settimane (lei deve stare a LA per lavoro) quindi l'unicità qui conta davvero.
+```text
+task: Una descrizione sintetica del compito da eseguire.
+input_data: I dati su cui l'IA deve lavorare (ad esempio, un testo da riassumere).
+parameters: Un oggetto contenente vari parametri per guidare l'output, come:
+   tone: (es. "formale", "amichevole", "umoristico")
+   format: (es. "paragrafo", "elenco puntato", "email")
+   length: (es. "breve", "dettagliato", "200 parole")
+   output_schema: Un esempio della struttura JSON desiderata in output.
+```
 
 ---
 
