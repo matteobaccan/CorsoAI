@@ -679,6 +679,58 @@ Il JSON Prompting è una tecnica che sfrutta la struttura JSON (JavaScript Objec
 
 ---
 
+## Vantaggi del JSON Prompting
+
+L'adozione del JSON prompting offre numerosi vantaggi rispetto all'uso del solo linguaggio naturale:
+
+Maggiore Precisione e Controllo: Elimina le ambiguità del linguaggio naturale. Specificando parametri come "tono", "lunghezza" e "formato di output", si guida l'IA a generare esattamente il risultato desiderato.
+
+Coerenza dell'Output: Assicura che l'IA risponda sempre nel formato desiderato. Questo è fondamentale quando l'output dell'IA deve essere elaborato da altri software.
+
+Efficienza nell'Integrazione: L'output in formato JSON è facilmente interpretabile da qualsiasi linguaggio di programmazione.
+
+Riduzione degli Errori: La struttura rigida del JSON riduce la probabilità di errori di interpretazione da parte del modello, diminuendo le cosiddette "allucinazioni".
+
+---
+
+## Linguaggio Naturale
+
+### Prompt
+
+"Scrivi un tweet per promuovere un nuovo smartphone chiamato 'CyberPro X' che ha una fotocamera da 108MP e una batteria a lunga durata. Usa un tono entusiasta e includi degli hashtag."
+
+### Risposta
+
+"🚀 Scopri il nuovo CyberPro X! Con una fotocamera da 108MP e una batteria che non ti abbandona mai, è lo smartphone che hai sempre sognato! #CyberProX #NuovoSmartphone #Tecnologia"
+
+---
+
+## Formato JSON
+
+### Prompt
+
+```json
+{ "task": "scrivi_tweet_promozionale", 
+   "prodotto": {
+      "nome": "CyberPro X", 
+      "caratteristiche_principali": [ "fotocamera 108MP", "batteria a lunga durata"] 
+      },
+   "piattaforma": "Twitter",
+   "tono": "entusiasta", 
+   "istruzioni_aggiuntive": { "includi_hashtag": true, "lunghezza_massima": 280 } } 
+```
+
+### Risposta
+
+```json
+{ "testo_tweet": "Preparati a scattare foto incredibili con la fotocamera da 108MP del 
+   nuovo CyberPro X! 📸 E con la sua batteria a lunga durata, non dovrai più
+   preoccuparti di rimanere a secco! 🔋 #CyberProX #Innovazione #Smartphone", 
+   "hashtag": [ "CyberProX", "Innovazione", "Smartphone" ] } 
+```
+
+---
+
 ## JSON Prompting - Come funziona
 
 Si fornisce al LLM un prompt che include un esempio o una descrizione della struttura JSON desiderata sia per l'input (opzionale) che per l'output.
