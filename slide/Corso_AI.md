@@ -1125,6 +1125,22 @@ Su questa valutazione "umana", viene creata una classifica dei modelli di AI.
 
 ---
 
+## Leaderboard
+
+Un altro modo per capire il valore di una AI è quello di guardare le classifiche dei modelli di AI.
+Le classifiche sono aggiornate in tempo reale e mostrano le performance dei modelli su vari benchmark e task.
+
+Il processo di valutazione si basa su umani che testano i modelli e votano per il migliore, creando una classifica dinamica e rappresentativa delle capacità dei modelli.
+
+I principali portali che offrono classifiche aggiornate sono:
+
+<https://yupp.ai/leaderboard>
+<https://www.designarena.ai/leaderboard>
+<https://lmarena.ai/leaderboard>
+<https://www.vellum.ai/llm-leaderboard>
+
+---
+
 ## Applicazioni della AI
 
 Le applicazioni dell'AI sono molteplici e in continuo sviluppo. Alcune delle applicazioni più comuni includono:
