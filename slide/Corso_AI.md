@@ -2261,6 +2261,30 @@ CogVideoX è un modello avanzato per la generazione di video da testo, sviluppat
 
 ---
 
+## VEO 3
+
+VEO 3 è un modello di intelligenza artificiale sviluppato da Google, progettato per la generazione di video a partire da descrizioni testuali.
+
+VEO 3 è particolarmente efficace nella generazione di video in stili diversi, inclusi quelli fotorealistici e animati, e supporta la creazione di contenuti in varie risoluzioni.
+
+VEO introduce per la prima volta la possiblità di aggiungere il parlato sincronizzato alle labbra ai video, tutto partendo da un prompt.
+
+---
+
+## Genie 3
+
+Genie 3 è un modello di intelligenza artificial in grado di creare mondi virtuali in tempo reale, generando ambienti 3D dettagliati e interattivi a partire da semplici descrizioni testuali.
+
+---
+
+## Mirage 2
+
+Mirage è simile a Genie 3, e parte da un proprio disegno, inventando completamente le scene.
+
+<https://demo.dynamicslab.ai/chaos>
+
+---
+
 ## Fra fantascienza e realtà
 
 Chi ha seguito la serie TV: Upload?
