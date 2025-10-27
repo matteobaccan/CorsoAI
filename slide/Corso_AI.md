@@ -1009,14 +1009,11 @@ Il test di Turing è una conversazione tra un giudice umano e due partecipanti, 
 
 ## Il test di Turing può considerarsi superato?
 
-Le attuali AI iniziano a superare i test di Turing, ma ci si è accorti che non è sufficiente superare il test di Turing per essere considerati intelligenti.
+Recenti studi indicano che i modelli di AI più avanzati, come GPT-4, hanno superato il test di Turing.
 
-Nel dicembre 2022, ChatGPT è diventato il secondo chatbot ad aver superato il Test di Turing, secondo Max Woolf, uno scienziato dei dati di BuzzFeed.
-ChatGPT ha vinto il test di Turing, mentre l'IA di Google, LaMDA, ha superato il Test di Turing nell'estate del 2022.
+In uno studio del maggio 2024, GPT-4 è stato percepito come umano nel 54% delle conversazioni.
 
-<https://mpost.io/chatgpt-passes-the-turing-test/>
-
-<https://www.agendadigitale.eu/cultura-digitale/con-chatgpt-siamo-gia-nellera-post-test-di-turing-ma-nessuno-piu-grida-allo-scandalo/>
+Questo risultato segna un traguardo importante, anche se il dibattito sul vero significato di "intelligenza" artificiale rimane aperto.
 
 ---
 
@@ -1532,7 +1529,7 @@ Il Multistate Bar Exam (MBE) è una serie impegnativa di test progettati per val
 
 ## ChatGPT - perché NO
 
-- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a **ottobre 2023** per gpt-4o e o1.
+- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a **giugno 2024** per gpt-4o e **ottobre 2023** per o1.
 - Non è in grado di fare analisi di dati: capisce quanto viene chiesto, inizia a ragionare con una chain of prompt.
 - Quando produce codice deve poi essere analizzato e integrato
 - **Soffre di allucinazioni**
