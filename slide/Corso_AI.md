@@ -1272,11 +1272,11 @@ L’NLG è essenziale per trasformare informazioni grezze in linguaggio naturale
 
 ## Aziende che investono in AI
 
-- Meta: La società madre di Facebook ha investito molto nel loro modello **Llama 3**. Yann LeCun, Chief AI Scientist di Meta, ha confermato che l’azienda ha speso oltre 30 miliardi di dollari nell'infrastruttura GPU e nella formazione necessaria per il modello Llama 3.
+- **Meta**: Investimenti massicci per decine di miliardi per raggiungere la "superintelligenza". Prevede di spendere 60-65 miliardi di dollari in infrastrutture nel 2025.
 
-- OpenAI: I creatori di ChatGPT guidati da Sam Altman, sembrano avere un vantaggio competitivo sugli altri con il loro nuovo modello o1-preview. È un modello multimodale nativo che può parlare, vedere, leggere e scrivere sia come input che come output e nella versione o1 aggiunge la capacità di "pensare".
+- **OpenAI**: Supportata da SoftBank con 30 miliardi e Microsoft con oltre 13 miliardi. Valutata 500 miliardi di dollari, punta a un'offerta pubblica.
 
-- Microsoft: ha investito molto nell'AI: oltre 14 miliardi di dollari nell’ultimo trimestre. Microsoft è proprietaria del 49% in OpenAI e continua ad investire miliardi.
+- **Microsoft**: Oltre 40 miliardi investiti in AI, con piani per altri 80 miliardi nel 2025 per data center. Ha acquisito Nuance e Inflection AI.
 
 ---
 
