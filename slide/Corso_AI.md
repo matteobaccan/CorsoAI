@@ -2763,7 +2763,27 @@ Al momento l'AI migliore per quanto riguarda la creazione di canzoni.
 
 Partendo da un testo e da uno stile è in grado di creare nuove canzoni che possono coprire qualsiasi stile conosciuto.
 
-DEMO: img/Suno-Il Fuoco Dentro di Me.mp4
+[https://suno.com]
+
+DEMO: img/Suno-Occhi-spaccanti.mp3
+
+---
+
+## Mozart.ai
+
+Mozart.ai è un'intelligenza artificiale specializzata nella composizione musicale. Utilizza algoritmi avanzati per analizzare e generare melodie complesse, ispirandosi ai grandi maestri della musica classica.
+
+[https://getmozart.ai]
+
+DEMO: img/mozart-cammino-per-le-strade.mp3
+
+---
+
+## Alternative alla creazione di canzoni
+
+Udio è una piattaforma di musica generativa basata su intelligenza artificiale che consente agli utenti di creare tracce musicali personalizzate in vari generi e stili.
+
+[https://www.udio.com]
 
 ---
 
