@@ -223,6 +223,8 @@ Esempio
 - GPT-3: 175 miliardi di parametri.
 - GPT-4: 1.76 trilioni di parametri.
 
+I modelli più recenti, da GTP-5 in poi, non dichiarano espressamente il numero di parametri, anche se questo dato sta progressivamente diventando meno rilevante rispetto all'architettura e ai dati di addestramento.
+
 ---
 
 ## Cos'è il Deep Learning?
@@ -540,13 +542,16 @@ L'idea centrale è di dividere il problema di apprendimento tra diversi "esperti
 
 Molti dei più recenti e performanti Large Language Models utilizzano architetture MoE:
 
--   **GLaM (Google)**: Generalist Language Model, uno dei primi modelli su larga scala a dimostrare l'efficacia di MoE.
--   **Switch Transformers (Google)**: Hanno spinto ulteriormente i limiti della scalabilità con MoE.
 -   **Mixtral 8x7B (Mistral AI)**: Un popolare modello open-source che utilizza 8 esperti, selezionandone 2 per ogni token. Ha dimostrato prestazioni paragonabili a modelli molto più grandi.
+-  **Llama 4** (Scout, Maverick, Behemoth) di Meta: primi della serie con MoE multimodale, fino a 288 miliardi di parametri attivi.
+-  **DeepSeek R1**: 671 miliardi di parametri totali, ma solo 37 miliardi attivi via MoE, eccellente in programmazione.
+-  **Grok** di xAI
+-  **Qwen** di Alibaba
+-  **Gemini** (da 1.5) di Google
 
 ---
 
-## AI che utilizzano Mixture of Experts : altri esempi
+## AI che potrebbero utilizzare Mixture of Experts
 
 - **GPT-4 (OpenAI)**: Anche se i dettagli non sono completamente pubblici, si ritiene ampiamente che GPT-4 utilizzi un'architettura MoE per raggiungere le sue elevate prestazioni e dimensioni.
 - **Modelli Claude (Anthropic)**: Alcune versioni dei modelli Claude potrebbero impiegare tecniche MoE.
@@ -630,7 +635,7 @@ Ecco una classificazione generale:
 
 **Extra Large LLM** (> 100B parametri):
 
-- GPT-4 (dimensione non rivelata, stimata > 1T)
+- ChatGPT dalla 4 (dimensione non rivelata, stimata > 1T)
 - PaLM-2 (340B)
 - Claude (dimensione non rivelata)
 
@@ -688,17 +693,19 @@ Tipo di dati di training:
 
 ---
 
-## Classificazione dei LLM - accessibilità e efficienza
+## Ecosistema LLM: Modelli, Accessibilità ed Efficienza
 
-Accessibilità:
+Proprietary (Closed Source):
 
-- **Open Source**: Parametri e paper pubblicati.
-- **Closed Source**: Usabile solo tramite i sistemi forniti dal creatore.
+- Definizione: "Black box". Accessibile solo via API o interfaccia web. Codice e pesi non accessibili.
+- Vantaggi: Massime prestazioni (Frontier Models), facilità d'uso, manutenzione gestita.
+- Esempi: GPT-4o (OpenAI), Gemini 1.5 Pro (Google), Claude 3.5 Sonnet (Anthropic).
 
-Efficienza computazionale:
+Open Weights / Open Models:
 
-- Standard
-- Ottimizzati (es. modelli distillati o pruned)
+- Definizione: I "pesi" del modello sono pubblici e scaricabili. Possono essere eseguiti in locale (on-premise) o su cloud privato.
+- Vantaggi: Privacy dei dati totale, nessuna dipendenza dal vendor, personalizzazione (Fine-tuning).
+- Esempi: Llama 3.1 (Meta), Mistral Large (Mistral AI), Qwen 2.5 (Alibaba).
 
 ---
 
@@ -731,6 +738,81 @@ Questi elementi devono essere resi disponibili sotto termini approvati dall'Open
 La definizione mira a promuovere l'autonomia, la trasparenza e la collaborazione nel campo dell'IA, allineandosi ai principi del software open source.
 
 <https://opensource.org/ai/open-source-ai-definition>
+
+---
+
+## Open Weights vs Open Models
+
+Vista la libertà totale del modello Open Models, le aziende hanno ben presto mirato verso il modello Open Weights.
+
+La differenza tra Open Weights e Open Models (spesso chiamati "True Open Source") è sottile, ma cruciale: riguarda il livello di trasparenza e libertà che ti viene concesso "sotto il cofano".
+
+Spesso nel marketing (come fa Meta con Llama) si usa il termine "Open Source" in modo improprio. Ecco cosa devi sapere per distinguere le due categorie.
+
+---
+
+## Open Weights (Pesi Aperti)
+
+È la categoria più comune oggi. L'azienda ti fornisce il "motore" finito, pronto per essere acceso, ma non ti dà i progetti per costruirlo né ti dice esattamente quali materiali ha usato.
+
+- Cosa ottieni: I parametri del modello (i pesi neurali) scaricabili. Puoi eseguirlo sul tuo PC o server e spesso puoi farne il fine-tuning (addestrarlo ulteriormente sui tuoi dati).
+
+- Cosa manca: Non hai accesso al dataset originale di addestramento (quali libri/siti ha letto?) né al codice completo della pipeline di training.
+
+- Licenze: Spesso hanno restrizioni (es. "non uso militare", "non per aziende con >700M utenti").
+
+- Esempi: Llama 3.1 (Meta), Mistral (Mistral AI), Gemma (Google).
+
+---
+
+## Open Models / Open Source AI
+
+Questa è la vera filosofia open source applicata all'AI. L'obiettivo è la riproducibilità scientifica totale.
+
+- Cosa ottieni: Tutto ciò che serve per ricostruire il modello da zero: i pesi, il dataset completo (o la lista dettagliata delle fonti), il codice di addestramento, i log di training e le note di sviluppo.
+
+- Vantaggio chiave: Puoi verificare se ci sono bias nei dati alla fonte e hai la certezza matematica di come è stato costruito il "cervello" dell'AI.
+
+- Esempi: OLMo (Allen Institute for AI), Pythia (EleutherAI), Bloom.
+
+---
+
+## Tabella di confronto rapido
+
+| Caratteristica | Open Weights | Open Models |
+| :--- | :--- | :--- |
+| **Pesi scaricabili** | ✅ Sì | ✅ Sì |
+| **Eseguibile in locale** | ✅ Sì | ✅ Sì |
+| **Dataset di Training** | ❌ Segreto / Non divulgato | ✅ Pubblico / Documentato |
+| **Codice di Training** | ❌ Spesso assente | ✅ Completamente disponibile |
+| **Licenza d'uso** | Spesso restrittiva (Custom License) | Permissiva (es. Apache 2.0, MIT) |
+| **Riproducibilità** | Bassa (Black box parziale) | Alta (Trasparenza scientifica) |
+
+---
+
+## Quale scegliere?
+
+Se sei un'azienda, gli Open Weights vanno benissimo: ottieni un modello potente (come Llama 3) gratis da usare sui tuoi server. 
+
+Se lavori in ambiti regolamentati (sanità, finanza) o accademici, potresti preferire Open Models per avere la garanzia assoluta di sapere su quali dati è stato addestrato il modello (evitando problemi di copyright o bias nascosti).
+
+---
+
+## Efficienza e Architettura
+
+Il concetto di efficienza si è evoluto verso modelli più piccoli ma estremamente capaci (SLM) e architetture intelligenti.
+
+- Frontier Models (Dense & MoE):
+
+   Modelli massivi (>100B parametri) progettati per ragionamento complesso, coding e creatività. Spesso utilizzano architetture Mixture of Experts (MoE) per attivare solo una parte del cervello del modello per ogni richiesta, risparmiando energia.
+
+- Small Language Models (SLM) & Edge AI:
+
+   Modelli compatti (<10B parametri) ottimizzati per girare su laptop o smartphone.
+
+   Non sono solo "modelli grandi tagliati" (pruned), ma addestrati specificamente su dati di altissima qualità per massimizzare l'efficienza.
+
+   Esempi: Microsoft Phi-3.5, Google Gemma 2, Llama 3.2 (versione edge)
 
 ---
 
