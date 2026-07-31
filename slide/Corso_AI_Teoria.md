@@ -296,41 +296,71 @@ Esistono più discipline in grado di contribuire alla creazione di una AI: infor
 
 ## Evoluzione dell'Intelligenza Artificiale
 
-L'Intelligenza Artificiale è stata una delle aree più innovative della scienza e della tecnologia negli ultimi decenni. La storia dell'AI può essere divisa in quattro periodi principali.
+La storia dell'AI non è una crescita lineare, ma un susseguirsi di **entusiasmi e "inverni"**: fasi di grandi promesse seguite da brusche frenate quando la tecnologia non riusciva a mantenerle, fino alla svolta degli ultimi 15 anni.
 
 ---
 
-## 1948-1965
+## 1948-1958: I Primi Passi
 
-La fase iniziale (1948-1965): è iniziata con la pubblicazione del programma di gioco di scacchi di Alan Turing nel 1948 (Turochamp).
+Tutto comincia con il programma di scacchi di Alan Turing (1948, Turochamp), il primo a usare un algoritmo di ricerca per scegliere la mossa migliore. Seguono i programmi di scacchi di Claude Shannon (1950) e John McCarthy (1951).
 
-Questo programma è stato il primo a utilizzare un algoritmo di ricerca per trovare la mossa migliore in una posizione di scacchi. Il programma di Turing è stato seguito da altri programmi di gioco di scacchi, come il programma di gioco di scacchi di Claude Shannon nel 1950 (Shannon's Chess Program) e il programma di gioco di scacchi di John McCarthy nel 1951 (McCarthy's Chess Program).
-
----
-
-## 1965-1980
-
-Il periodo della simulazione (1965-1980): è stata la prima vera fase di ricerca. I ricercatori hanno iniziato a esplorare temi come l'elaborazione del linguaggio naturale, la visione artificiale e l'intelligenza artificiale distribuita.
+Nel 1958 Frank Rosenblatt presenta il **Perceptron**, il primo modello matematico ispirato al neurone biologico: le premesse per le reti neurali sono gettate.
 
 ---
 
-## 1980-1990
+## 1969-1980: Il Primo Inverno dell'AI
 
-La fase dell'intelligenza distribuita (1980-1990): è stato un periodo di enormi progressi nell'apprendimento automatico e nella ricerca sulla rete neurale artificiale.
+Nel 1969 Minsky e Papert dimostrano matematicamente i limiti del Perceptron (non riesce a risolvere problemi semplici come lo XOR). L'entusiasmo crolla, i finanziamenti si prosciugano: è il **primo AI Winter**.
+
+La ricerca non si ferma, ma rallenta e si sposta su approcci simbolici e sistemi a regole.
 
 ---
 
-## 1990-oggi
+## 1980-1990: Sistemi Esperti e Secondo Inverno
 
-La fase moderna (1990-ad oggi): è stata una grande era di innovazioni nell'AI, con una profonda comprensione dei più importanti problemi computazionali. Le reti neurali artificiali e l'apprendimento automatico hanno portato ad alcuni dei più importanti risultati nell'AI.
+Gli anni '80 vedono il boom dei **Sistemi Esperti** (regole scritte a mano da specialisti di dominio), adottati in massa dalle aziende.
+
+Nel 1986 Rumelhart, Hinton e Williams rilanciano le reti neurali con l'algoritmo di **Backpropagation**, che risolve il problema dell'addestramento su più livelli. Ma i Sistemi Esperti si rivelano troppo rigidi e costosi da mantenere: fine anni '80, **secondo AI Winter**.
+
+---
+
+## 1990-2012: La Lunga Preparazione
+
+Con più dati e più potenza di calcolo disponibile, l'apprendimento automatico statistico prende piede silenziosamente: riconoscimento vocale, motori di raccomandazione, primi sistemi di visione artificiale.
+
+Sono le fondamenta su cui poggerà l'esplosione successiva.
+
+---
+
+## 2012: AlexNet e la Rivoluzione Deep Learning
+
+Nel 2012 la rete neurale **AlexNet** vince nettamente la competizione ImageNet di riconoscimento immagini, staccando ogni altro approccio. È il momento in cui il mondo accademico e industriale si convince che le reti neurali profonde (Deep Learning), allenate su GPU, sono la strada giusta.
+
+Da qui parte la corsa che porterà ai modelli di oggi.
+
+---
+
+## 2017: Il Transformer
+
+Nel paper **"Attention Is All You Need"** (Google, 2017) viene introdotta l'architettura **Transformer**, che elabora intere sequenze in parallelo invece che parola per parola come le RNN (ne parleremo più avanti).
+
+È l'architettura su cui si basano tutti i moderni Large Language Models: GPT, Claude, Gemini, Llama.
+
+---
+
+## 2022: ChatGPT e l'Adozione di Massa
+
+Il 30 novembre 2022 OpenAI rilascia **ChatGPT**: la tecnologia LLM esisteva già da anni, ma un'interfaccia conversazionale semplice la rende accessibile a centinaia di milioni di persone in pochi mesi.
+
+È il momento che ha innescato la rapida diffusione di prodotti AI a cui accenniamo in apertura di questo corso.
 
 ---
 
 ## Capacità di calcolo
 
-Con l'aumento delle capacità di calcolo, la ricerca ha iniziato a muoversi verso la robotica, l'intelligenza artificiale generale e l'analisi dei dati. Sono stati fatti progressi significativi nei settori della visione artificiale, della produzione automatizzata e della guida autonoma.
+Con l'aumento delle capacità di calcolo, la ricerca si è mossa verso la robotica, il ragionamento avanzato e l'analisi dei dati su larga scala. Progressi significativi in visione artificiale, produzione automatizzata e guida autonoma.
 
-L'AI è diventata una parte importante della vita quotidiana, con applicazioni in tutti i campi, dal riconoscimento vocale alla diagnostica medica.
+L'AI è oggi parte della vita quotidiana, con applicazioni che vanno dal riconoscimento vocale alla diagnostica medica, fino agli agenti che eseguono compiti in autonomia.
 
 ---
 
@@ -425,10 +455,22 @@ Per capire la grandezza di una rete neurale possiamo valutare il numero di param
 
 Esempio
 
-- GPT-3: 175 miliardi di parametri.
-- GPT-4: 1.76 trilioni di parametri.
+- GPT-3: 175 miliardi di parametri (dato ufficiale).
+- GPT-4: stimato attorno a 1.76 trilioni di parametri (cifra trapelata via leak, mai confermata ufficialmente da OpenAI).
 
-I modelli più recenti, da GTP-5 in poi, non dichiarano espressamente il numero di parametri, anche se questo dato sta progressivamente diventando meno rilevante rispetto all'architettura e ai dati di addestramento.
+Dai modelli GPT-5 in poi, così come per la maggior parte dei laboratori (Anthropic, Google, xAI), il numero di parametri non viene più dichiarato ufficialmente. Questo dato sta diventando sempre meno rilevante rispetto all'architettura, alla qualità dei dati di addestramento e alle tecniche di post-training (reasoning, RLHF, agentic tuning).
+
+---
+
+## Le Scaling Laws
+
+Perché le aziende hanno continuato ad aumentare parametri e dati? Le **scaling laws** (leggi di scala) osservate empiricamente mostrano che le prestazioni di un modello migliorano in modo prevedibile aumentando insieme tre fattori:
+
+1. **Numero di parametri** del modello
+2. **Quantità di dati** di addestramento
+3. **Potenza di calcolo** (compute) impiegata nel training
+
+Per anni la ricetta è stata "più grande è, meglio è". Dal 2024 in poi si è aggiunto un quarto asse, indipendente dal training: il **calcolo impiegato durante l'inferenza** (vedi slide sui Reasoning Model).
 
 ---
 
@@ -537,11 +579,13 @@ AI che è più intelligente dei migliori esseri umani in termini di velocità di
 
 L'AI generativa è un tipo di AI che utilizza algoritmi di apprendimento automatico per creare nuovi contenuti, come immagini, video, testi e suoni.
 
-Esempi di AI generative includono:
+Esempi di architetture alla base dell'AI generativa:
 
 - Reti generative avversariali (GAN)
+- Diffusion Model
 - Reti neurali ricorrenti (RNN)
 - Reti neurali convoluzionali (CNN)
+- Transformer (alla base dei moderni LLM)
 
 ---
 
@@ -574,6 +618,29 @@ Alcuni esempi pratici di applicazione delle GAN:
 - Generazione di dati per aumentare dataset esistenti
 
 Il processo di allenamento è spesso complesso e può presentare instabilità, ma le GAN hanno rivoluzionato il campo della generazione di contenuti artificiali.
+
+Oggi le GAN sono in gran parte storiche: la generazione di immagini e video è dominata dai **Diffusion Model** (vedi slide successiva).
+
+---
+
+## Diffusion Model
+
+I Diffusion Model sono l'architettura alla base della generazione moderna di immagini e video (Stable Diffusion, Midjourney, DALL-E, Sora).
+
+Il principio è opposto e complementare a quello delle GAN:
+
+1. **Forward process**: si parte da un'immagine reale e le si aggiunge gradualmente rumore, fino a ridurla a puro rumore casuale.
+2. **Reverse process**: la rete neurale impara a invertire il processo, "ripulendo" il rumore un passo alla volta fino a ricostruire un'immagine coerente.
+
+Una volta addestrata, la rete genera immagini nuove partendo da rumore casuale, guidata da un prompt testuale.
+
+---
+
+## Diffusion Model - perché hanno soppiantato le GAN
+
+- **Stabilità di training**: niente "gioco a somma zero" tra due reti, l'addestramento è più prevedibile.
+- **Qualità e controllo**: risultati più dettagliati e più facili da guidare tramite testo (prompt).
+- **Contro**: generazione più lenta (richiede più passaggi di denoising) rispetto a una singola inferenza di una GAN.
 
 ---
 
@@ -668,6 +735,16 @@ Applicazioni principali:
 
 ---
 
+## Il Transformer: Superare il Collo di Bottiglia delle RNN
+
+Le RNN, appena viste, elaborano il testo **parola per parola in sequenza**: lento e con difficoltà a mantenere il contesto su testi lunghi.
+
+Nel 2017 il paper **"Attention Is All You Need"** introduce il **Transformer**: un'architettura che elabora **l'intera sequenza in parallelo**, usando il meccanismo di **self-attention** per capire quali parole del testo sono rilevanti tra loro, indipendentemente dalla distanza.
+
+È l'architettura su cui si basano tutti i moderni Large Language Models (GPT, Claude, Gemini, Llama).
+
+---
+
 ## LLM: Architetti della Probabilità
 
 I Large Language Models non sono oracoli che attingono a una conoscenza cosciente, ma **sofisticati predittori statistici**. Il loro unico compito è la **predizione del token successivo**: data una sequenza di parole, calcolano qual è la parola più verosimile.
@@ -687,6 +764,17 @@ Si tratta di
 - Modelli di AI basati su reti neurali transformer addestrati sul testo.
 - Task principale: **Next Token Prediction** (Predizione della prossima parola).
 - Capacità emergenti: Generazione di codice, risposte conversazionali, riscrittura di testi.
+
+---
+
+## In-Context Learning: Imparare al Volo
+
+Una delle capacità più sorprendenti degli LLM: possono imparare a svolgere un nuovo compito **solo leggendo alcuni esempi nel prompt**, senza alcun riaddestramento (i pesi restano congelati).
+
+- **Zero-shot**: nessun esempio, solo l'istruzione ("Traduci questa frase in francese").
+- **Few-shot**: alcuni esempi nel prompt mostrano il pattern desiderato prima di chiedere il compito vero.
+
+Questa capacità emerge dalla scala del modello e dei dati di addestramento, ed è il motivo per cui il "prompt engineering" è diventato un'abilità pratica rilevante.
 
 ---
 
@@ -742,6 +830,28 @@ Si ottimizza il modello secondo le preferenze umane. Previene risposte pericolos
 
 **4. Verifica Automatica**
 Nel coding si usano dati sintetici e problemi verificabili matematicamente: il codice funziona o no (feedback binario). Ecco perché l'IA è progredita molto più velocemente nel coding che in ambiti soggettivi.
+
+---
+
+## Oltre il Training: RAG
+
+Il pre-training "congela" la conoscenza del modello a una data precisa. Come si fa a rispondere su eventi recenti o su documenti aziendali privati, senza riaddestrare il modello?
+
+La tecnica standard è la **RAG (Retrieval-Augmented Generation)**:
+
+1. La domanda dell'utente viene usata per **cercare** i documenti più pertinenti in una base di conoscenza esterna (spesso un database vettoriale, basato sugli embedding già visti).
+2. I documenti trovati vengono **inseriti nel prompt** insieme alla domanda.
+3. Il modello genera la risposta basandosi sul contesto fornito, riducendo (ma non azzerando) il rischio di allucinazioni.
+
+---
+
+## Reasoning Models: Pensare Prima di Rispondere
+
+Dal 2024 i principali laboratori (OpenAI, Anthropic, Google, DeepSeek) hanno introdotto modelli che, prima di rispondere, generano una **catena di ragionamento interna** (chain-of-thought), esplorando più strade e correggendosi.
+
+- Il modello "pensa di più" su problemi difficili (matematica, codice, logica), impiegando più tempo/calcolo a runtime.
+- Questo calcolo aggiuntivo speso **a inferenza** (test-time compute) è oggi un asse di miglioramento importante quanto la scala del training.
+- Contropartita: risposte più lente e più costose rispetto a un modello "diretto", da riservare ai compiti che ne beneficiano davvero.
 
 ---
 
@@ -810,21 +920,23 @@ L'idea centrale è di dividere il problema di apprendimento tra diversi "esperti
 
 Molti dei più recenti e performanti Large Language Models utilizzano architetture MoE:
 
--   **Mixtral 8x7B (Mistral AI)**: Un popolare modello open-source che utilizza 8 esperti, selezionandone 2 per ogni token. Ha dimostrato prestazioni paragonabili a modelli molto più grandi.
--  **Llama 4** (Scout, Maverick, Behemoth) di Meta: primi della serie con MoE multimodale, fino a 288 miliardi di parametri attivi.
--  **DeepSeek R1**: 671 miliardi di parametri totali, ma solo 37 miliardi attivi via MoE, eccellente in programmazione.
--  **Grok** di xAI
--  **Qwen** di Alibaba
--  **Gemini** (da 1.5) di Google
+-   **Mixtral 8x7B (Mistral AI)**: Il modello open-source che ha reso popolare l'approccio, 8 esperti con 2 selezionati per token. È rimasto un riferimento storico per capire il concetto.
+-  **Llama 4** (Meta): Scout e Maverick (MoE multimodale) sono stati effettivamente rilasciati; la variante più grande annunciata, Behemoth, non è mai stata pubblicata (progetto accantonato dopo ritardi ripetuti). Da qui Meta ha spostato parte della ricerca frontier su modelli proprietari a pesi chiusi.
+-  **DeepSeek**: la serie **R1** (671 miliardi di parametri totali, 37 miliardi attivi) ha rappresentato una svolta nel 2025 per rapporto costo/prestazioni nel coding; l'azienda ha poi continuato a evolvere la propria linea MoE con versioni successive più recenti.
+-  **Grok** di xAI: le generazioni più recenti restano MoE su scala di trilioni di parametri totali.
+-  **Qwen** di Alibaba: la famiglia open-weight più recente offre sia varianti MoE (con notazione "A" per i parametri attivi, es. 30B-A3B) sia varianti dense.
+-  **Gemini** di Google: MoE fin dalla serie 1.5, confermato anche nelle generazioni successive.
 
 ---
 
-## AI che potrebbero utilizzare Mixture of Experts
+## MoE nei modelli proprietari
 
-- **GPT-4 (OpenAI)**: Anche se i dettagli non sono completamente pubblici, si ritiene ampiamente che GPT-4 utilizzi un'architettura MoE per raggiungere le sue elevate prestazioni e dimensioni.
-- **Modelli Claude (Anthropic)**: Alcune versioni dei modelli Claude potrebbero impiegare tecniche MoE.
+Nel 2026 l'uso di MoE è ormai lo standard de facto per (quasi) tutti i frontier model, sia open weight che proprietari:
 
-L'uso di MoE è una tendenza chiave nello sviluppo di LLM sempre più potenti ed efficienti.
+- **GPT (OpenAI)**: i dettagli architetturali non sono pubblici, ma è opinione diffusa nella comunità tecnica che le versioni più recenti (dalla famiglia GPT-4 in poi) utilizzino MoE per bilanciare scala e costi di inferenza.
+- **Claude (Anthropic)**: l'architettura esatta non è dichiarata pubblicamente; come per gli altri laboratori proprietari, i dettagli su parametri e architettura restano riservati.
+
+La tendenza generale è chiara: più un modello cresce, più conviene attivare solo una parte della rete per ogni richiesta, risparmiando calcolo ed energia.
 
 ---
 
@@ -833,6 +945,30 @@ L'uso di MoE è una tendenza chiave nello sviluppo di LLM sempre più potenti ed
 - **Modello**: Architettura, dati e parametri.
 - **Interfaccia**: Wrapper tra l'utente e il modello.
 - **Server**: Dove il modello è ospitato (privacy e localizzazione).
+
+---
+
+## Cosa sono gli Agenti AI?
+
+Un chatbot risponde a una domanda con del testo. Un **agente AI** va oltre: riceve un obiettivo, pianifica dei passi ed **esegue azioni concrete** nel mondo digitale, valutando i risultati e correggendo la rotta.
+
+Il ciclo tipico di un agente:
+
+1. **Ragiona** su come raggiungere l'obiettivo
+2. **Agisce** usando uno strumento (Tool Use)
+3. **Osserva** il risultato
+4. Ripete il ciclo finché l'obiettivo non è raggiunto
+
+---
+
+## Tool Use e Function Calling
+
+Gli LLM di per sé non possono navigare sul web, eseguire codice o leggere un database: sono predittori di testo. Il **Tool Use** (o Function Calling) permette al modello di:
+
+- Richiedere l'esecuzione di una funzione esterna (es. "cerca sul web", "esegui questo codice Python", "leggi questo file")
+- Ricevere il risultato e usarlo per proseguire il ragionamento o formulare la risposta finale
+
+È il meccanismo alla base degli agenti AI e di standard recenti come il **MCP (Model Context Protocol)**, che standardizza il modo in cui i modelli si collegano a strumenti e fonti dati esterne.
 
 ---
 
@@ -896,16 +1032,14 @@ Ecco una classificazione generale:
 **Large LLM** (10B - 100B parametri):
 
 - LLaMA-13B
-- GPT-3 (175B)
-- BLOOM (176B)
-- PaLM (540B)
+- Mixtral 8x7B (Mistral AI, 46.7B totali, architettura MoE)
 - LongWriter-Zero-32B (THU-KEG, 33B, specializzato nella generazione di testo lungo e coerente)
 
 **Extra Large LLM** (> 100B parametri):
 
-- ChatGPT dalla 4 (dimensione non rivelata, stimata > 1T)
-- PaLM-2 (340B)
-- Claude (dimensione non rivelata)
+- GPT-3 (175B) e BLOOM (176B): storicamente i primi a raggiungere questa scala
+- PaLM (540B) / PaLM-2 (340B)
+- Modelli frontier attuali (2026): i produttori proprietari (GPT, Claude, Gemini, Grok) non dichiarano più la dimensione esatta; tra i modelli open weight più recenti si superano ormai i **trilione di parametri totali** grazie ad architetture MoE (es. famiglie DeepSeek, Qwen, Llama), pur attivandone solo una piccola frazione per ogni richiesta
 
 ---
 
@@ -967,13 +1101,13 @@ Proprietary (Closed Source):
 
 - Definizione: "Black box". Accessibile solo via API o interfaccia web. Codice e pesi non accessibili.
 - Vantaggi: Massime prestazioni (Frontier Models), facilità d'uso, manutenzione gestita.
-- Esempi: GPT-4o (OpenAI), Gemini 1.5 Pro (Google), Claude 3.5 Sonnet (Anthropic).
+- Esempi: GPT-5 (OpenAI), Gemini 3 (Google), Claude Opus / Sonnet (Anthropic), Grok (xAI).
 
 Open Weights / Open Models:
 
 - Definizione: I "pesi" del modello sono pubblici e scaricabili. Possono essere eseguiti in locale (on-premise) o su cloud privato.
 - Vantaggi: Privacy dei dati totale, nessuna dipendenza dal vendor, personalizzazione (Fine-tuning).
-- Esempi: Llama 3.1 (Meta), Mistral Large (Mistral AI), Qwen 2.5 (Alibaba).
+- Esempi: Llama 4 (Meta), Mistral (Mistral AI), Qwen (Alibaba), DeepSeek.
 
 ---
 
@@ -1029,7 +1163,7 @@ Spesso nel marketing (come fa Meta con Llama) si usa il termine "Open Source" in
 
 - Licenze: Spesso hanno restrizioni (es. "non uso militare", "non per aziende con >700M utenti").
 
-- Esempi: Llama 3.1 (Meta), Mistral (Mistral AI), Gemma (Google).
+- Esempi: Llama 4 (Meta), Mistral (Mistral AI), Gemma (Google), Qwen (Alibaba), DeepSeek.
 
 ---
 
@@ -1060,7 +1194,7 @@ Questa è la vera filosofia open source applicata all'AI. L'obiettivo è la ripr
 
 ## Quale scegliere?
 
-Se sei un'azienda, gli Open Weights vanno benissimo: ottieni un modello potente (come Llama 3) gratis da usare sui tuoi server. 
+Se sei un'azienda, gli Open Weights vanno benissimo: ottieni un modello potente (come Llama) gratis da usare sui tuoi server. 
 
 Se lavori in ambiti regolamentati (sanità, finanza) o accademici, potresti preferire Open Models per avere la garanzia assoluta di sapere su quali dati è stato addestrato il modello (evitando problemi di copyright o bias nascosti).
 
@@ -1080,4 +1214,4 @@ Il concetto di efficienza si è evoluto verso modelli più piccoli ma estremamen
 
    Non sono solo "modelli grandi tagliati" (pruned), ma addestrati specificamente su dati di altissima qualità per massimizzare l'efficienza.
 
-   Esempi: Microsoft Phi-3.5, Google Gemma 2, Llama 3.2 (versione edge)
+   Esempi: Microsoft Phi (ultime versioni), Google Gemma 3, Llama (versioni edge più recenti)
