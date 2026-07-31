@@ -1261,3 +1261,15 @@ I due strumenti più diffusi per farlo senza scrivere codice:
 
 - **Ollama**: scarica, quantizza e serve i modelli da riga di comando (o tramite una piccola API locale), con un comando semplice come `ollama run llama3`.
 - **LM Studio**: stessa filosofia, ma con un'interfaccia grafica pensata per chi vuole scaricare e provare modelli locali senza usare il terminale.
+
+---
+
+## Fin dove si può spingere il locale? Il caso Colibrì
+
+Un esempio estremo di quanto lontano si possa spingere questa logica: **Colibrì**, un motore di inferenza sperimentale scritto da un singolo sviluppatore, riesce a far girare **GLM-5.2** — un modello open weights da **753 miliardi di parametri** — su un normale portatile consumer.
+
+Come? Trattando VRAM, RAM e disco come un'unica gerarchia di memoria fluida: il grosso del modello resta su un SSD NVMe (370 GB in int4), i parametri condivisi in RAM, e gli "esperti" della sua architettura MoE vengono caricati dinamicamente solo quando servono (cache LRU).
+
+Il prezzo da pagare è la velocità: da 0,05-0,1 token/secondo su hardware modesto fino a 1-2 token/secondo su un Mac di fascia alta — utilizzabile, ma lontano dai tempi di risposta di un servizio cloud.
+
+<https://aitalk.it/it/colibri>

@@ -676,6 +676,18 @@ Come per FrontierMath, appena un benchmark viene "battuto" ne nasce uno nuovo pi
 
 ---
 
+## I benchmark sottostimano le capacità reali?
+
+Un report dell'**AI Security Institute** britannico (2 luglio 2026) solleva un problema metodologico: quasi tutte le valutazioni interrompono il ragionamento dell'agente a un budget di token fisso, per contenere i costi.
+
+"Il punteggio ottenuto non è il soffitto della capacità del modello, è solo il punto in cui qualcuno ha smesso di guardare."
+
+Tracciando una *capability curve* (aumentando progressivamente i token disponibili): +25% di prestazioni in ingegneria del software e +22% in matematica passando da 1 a 10 milioni di token. Le classifiche che vediamo potrebbero quindi sottostimare sistematicamente ciò che un modello sa davvero fare.
+
+<https://aitalk.it/it/aisi-benchmark.html>
+
+---
+
 ## Chatbot Arena
 
 A volte i test non bastano, per questa ragione esiste un portale: <https://lmarena.ai/> dove gli utenti possono testare i vari modelli di AI e votare per il migliore.
@@ -733,6 +745,18 @@ L'Intelligenza Artificiale ha un'ampia gamma di applicazioni in diversi settori,
 - **Produzione**: L'AI può essere utilizzata per ottimizzare le linee di produzione, prevedere la manutenzione e gestire la catena di approvvigionamento.
 
 - **Robotica**: L'AI può essere utilizzata per creare robot in grado di svolgere attività complesse e pericolose per gli esseri umani, come la pulizia di materiali pericolosi e l'esplorazione di ambienti estremi.
+
+---
+
+## L'AI ci ruberà il lavoro?
+
+Non è più solo una domanda da titolo clickbait. Secondo il rapporto Challenger, Gray & Christmas, a marzo 2026 negli Stati Uniti sono stati annunciati **60.620 licenziamenti** (+25% rispetto ai 48.307 di febbraio) — con l'intelligenza artificiale citata come causa principale per **15.341 di questi tagli**, il 25% del totale mensile.
+
+Il dato non è ancora un verdetto definitivo (i licenziamenti hanno sempre cause multiple), ma segna un cambio di scala rispetto agli anni precedenti.
+
+<https://aitalk.it/it/licenziamenti-ai-2026.html>
+
+**Approfondimento**: è il tema del talk di Matteo Baccan *"What's changing under our feet? Will AI steal our jobs?"* (Codemotion Milano, 2025).
 
 ---
 
@@ -857,10 +881,14 @@ Il mercato AI cinese si è consolidato rapidamente: pesa ormai per oltre il **45
 - **Alibaba (Qwen)**: ha trasformato i propri modelli open weights in un vero ecosistema, tra i più usati al mondo.
 - **DeepSeek**: laboratorio di Hangzhou, punta sull'efficienza open weights più che sulle app consumer.
 - **Moonshot AI (Kimi)**: spinge su contesto lunghissimo e capacità di coding.
-- **Zhipu AI (GLM)** e **Baidu (Ernie)**: centrali nell'uso enterprise e in lingua cinese.
+- **Zhipu AI / Z.ai (GLM)** e **Baidu (Ernie)**: centrali nell'uso enterprise e in lingua cinese.
 - **Huawei** (stack Ascend): chip AI domestici, l'alternativa cinese a NVIDIA sotto le restrizioni USA all'export.
 
 Segnale della maturità del settore: **Z.ai (Zhipu)** si è quotata alla Borsa di Hong Kong l'8 gennaio 2026, seguita da **MiniMax** nello stesso anno — i primi laboratori AI cinesi quotati in borsa.
+
+**Esempio concreto**: **GLM-5.2** di Z.ai (753B parametri, MoE, rilasciato il 13 giugno 2026, pesi aperti con licenza MIT) si avvicina a Claude Opus 4.8 sui benchmark di coding più complessi (FrontierSWE: 74.4 vs 75.1), a circa **un sesto del costo** di GPT-5.5.
+
+<https://aitalk.it/it/glm5.2>
 
 ---
 
@@ -1499,6 +1527,10 @@ Prosegue la corsa fra i grandi laboratori, con modelli sempre più capaci sul re
 - Prosegue la corsa agli investimenti in infrastrutture: i quattro grandi (Microsoft, Amazon, Google, Meta) prevedono di spendere insieme circa 725 miliardi di dollari nel 2026.
 - Non tutti i prodotti sopravvivono alla propria hype: **OpenAI Sora** viene dismesso nella prima metà del 2026 (vedi slide dedicata) e **Google Whisk** confluisce in Google Flow.
 
+**I numeri del settore** (AI Index Report 2026, Stanford HAI): adozione globale al **53% in tre anni** (più veloce di internet e del PC), **88%** delle organizzazioni dichiara di usare l'AI, il benchmark SWE-bench Verified passa dal 60% a quasi il 100% in dodici mesi, investimenti privati USA a **285,9 miliardi di dollari** (23 volte quelli cinesi).
+
+<https://aitalk.it/it/stanford-ai-index-2026.html>
+
 ---
 
 ## Servizi di supporto ai testi (aggiuntivi)
@@ -1565,6 +1597,10 @@ Le fonti principali includono dati aperti come Wikipedia, il Progetto Gutenberg 
 Questo approccio non solo garantisce trasparenza, ma rende anche Minerva 7B altamente adattabile al contesto culturale e linguistico italiano.
 
 <https://minerva-llm.org/>
+
+**Il quadro italiano**: secondo il rapporto **Fondazione Leonardo** "L'Italia nell'era dell'IA" (marzo 2026), l'Italia ha un mercato AI da 1,2 miliardi di euro, due supercomputer tra i primi cinque in Europa, modelli linguistici sovrani unici nel continente (come Minerva) — ed è il primo Paese UE ad avere una propria legge sull'intelligenza artificiale (si affianca all'AI Act europeo). Il nodo resta la dipendenza da hardware e cloud esteri.
+
+<https://aitalk.it/it/rapporto-leonardo-2026-parte1.html>
 
 ---
 
@@ -1752,6 +1788,10 @@ L'imbracatura gestisce i flussi per evitare **"cicli infiniti"** o blocchi.
 
 **Esempio**: un agente cerca dati, un altro li analizza, un terzo produce il report finale.
 
+**Attenzione al confronto ad armi pari**: un paper di Stanford (aprile 2026) mostra che, a **parità di budget di token totale**, un singolo agente batte i sistemi multi-agente (0,418 di accuratezza contro 0,333-0,379). Il vantaggio percepito del multi-agente spesso nasconde solo più token spesi in totale, non un'architettura migliore. L'orchestrazione conviene davvero quando servono operazioni strutturalmente diverse (ricerca, codice, verifica), non come moltiplicatore generico di potenza.
+
+<https://aitalk.it/it/agenti-multipli-stanford.html>
+
 ---
 
 ## Agenti: Costi e Rischi
@@ -1764,7 +1804,20 @@ L'imbracatura gestisce i flussi per evitare **"cicli infiniti"** o blocchi.
 - L'agente ha il potere di interagire con il mondo esterno (email, browser, file system)
 - Necessaria una gestione attenta di permessi e confini
 - Potenziale perdita di dati se non adeguatamente isolato
+
+**Caso reale — PocketOS**: un agente di coding (Cursor + Claude Opus), lasciato libero di risolvere da solo un problema di credenziali, ha cancellato in **9 secondi** l'intero database di produzione e i backup di una startup di noleggio auto, con una singola chiamata API. Lezione: principio del minimo privilegio, governance prima dell'adozione, e conferma umana obbligatoria per le operazioni distruttive.
+
+<https://aitalk.it/it/pocketos-disaster.html>
+
+---
+
+## Agenti: Prompt Injection
+
 - **Prompt Injection**: istruzioni malevole nascoste in una pagina web, un'email o un documento possono dirottare l'agente facendogli eseguire azioni non richieste dall'utente
+
+Una possibile difesa architetturale è **CaMeL** (Google DeepMind + ETH Zurigo, giugno 2025): separa il flusso di controllo (cosa fare) dal flusso dei dati (cosa viene letto), così i contenuti non fidati non possono più alterare le decisioni dell'agente. Nei test su AgentDojo azzera quasi del tutto gli attacchi riusciti, a fronte di un costo di ~2,8 volte più token.
+
+<https://aitalk.it/it/prompt-injection-camel>
 
 **Approfondimento**: Matteo Baccan tratta questo tema nel talk *"Oltre il Chatbot: Arginare la Prompt Injection a Livello Infrastrutturale e di Platform Engineering"* al **devsecopsday di Bologna** (ottobre 2026).
 
@@ -1777,6 +1830,10 @@ L'applicazione più concreta e diffusa dell'AI agentica è oggi la scrittura di 
 - **Claude Code** (Anthropic): agente da riga di comando che opera direttamente nel terminale/IDE, supporta MCP per collegarsi a database, API e altri strumenti.
 - **GitHub Copilot** (Microsoft/OpenAI): il più diffuso, integrato negli IDE, oggi disponibile anche in modalità agentica.
 - **Cursor**: editor di codice costruito da zero attorno all'AI, con modifica multi-file e comprensione del contesto dell'intero progetto.
+
+**Non è (solo) il modello**: in Claude Code, solo l'1,6% del codice è logica decisionale AI — il resto è infrastruttura operativa (permessi, compressione del contesto, routing degli strumenti, subagenti, gestione delle sessioni). La competenza chiave si sta spostando dal prompt engineering al **systems engineering**.
+
+<https://aitalk.it/it/claude-code.html>
 
 Questo modo di programmare "delegando" all'AI ha preso il nome informale di **vibecoding** — e ha già acceso un dibattito su quanto sia sostenibile senza una disciplina alle spalle. Matteo Baccan lo affronta nel talk *"Il Vibecoding è morto: viva lo Spec-Driven Development"* (A.I. Day Roma e MokaConference, 2026).
 
@@ -2544,6 +2601,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 - **Modelli statici**: terminato l'addestramento, i parametri sono congelati. L'IA non impara dalle tue correzioni quotidiane
 - **Nessuna neutralità**: ogni modello è allineato secondo i principi di chi lo ha creato; le risposte su temi sensibili riflettono scelte etiche o commerciali specifiche
 - **Dall'assistente all'agente**: l'integrazione di tool aumenta la produttività ma richiede una gestione attenta di privacy e sicurezza
+- **Il divario di governance**: secondo McKinsey (nov. 2025) l'88% delle aziende usa già l'AI, ma per World Economic Forum e Accenture meno dell'1% ha reso pienamente operativo un approccio di AI responsabile — quasi tutti usano l'AI, quasi nessuno la governa davvero
 
 ---
 
