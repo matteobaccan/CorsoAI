@@ -19,33 +19,43 @@ Cosa imparerai:
 
 Spero di aiutarti a comprendere meglio il mondo delle AI e di come introdurlo nel lavoro di tutti i giorni.
 
-__[Scarica gratuitamente le slide](https://raw.githubusercontent.com/matteobaccan/CorsoAI/main/slide/Corso_AI.pdf)__
+Il corso è diviso in due parti, ciascuna con le proprie slide scaricabili gratuitamente:
+
+- __[Corso AI - Teoria](https://raw.githubusercontent.com/matteobaccan/CorsoAI/main/slide/Corso_AI_Teoria.pdf)__ : le basi teoriche dell'Intelligenza Artificiale
+- __[Corso AI - Pratica](https://raw.githubusercontent.com/matteobaccan/CorsoAI/main/slide/Corso_AI_Pratica.pdf)__ : prompting, strumenti e casi d'uso pratici
 
 ## Argomenti
 
-- Introduzione
-- Come funziona l'AI
-- Terminologia di base
-- Classificazione delle AI
-- Evoluzione dell'Intelligenza Artificiale
-- Capacità di calcolo
-- Machine Learning e Deep Learning
-- Algoritmi generativi
-- Reti generative avversariali
-- Reti neurali ricorrenti e convoluzionali
-- Large Language Models (LLM)
-- AI OpenSource
-- Prompting e In-Context Learning
-- Reasoning negli LLM
-- Applicazioni della AI
-- Tecnologie di linguaggio a corredo delle AI
-- Natural Language Processing (NLP)
-- Natural Language Understanding (NLU)
-- Natural Language Generation (NLG)
-- Aziende che investono in AI
-- Alternative che stanno crescendo
+### Corso AI - Teoria
+
+- Cos'è l'Intelligenza Artificiale e le sue origini (Conferenza di Dartmouth)
+- Evoluzione storica dell'AI, dal 1948 a oggi
+- Dai Sistemi Esperti al Machine Learning
+- Tipologie e fasi del Machine Learning
+- Reti neurali e il problema dell'opacità
+- Deep Learning
+- Algoritmi generativi: GAN, reti neurali ricorrenti (RNN) e convoluzionali (CNN)
+- Large Language Models: token, embedding, meccanismo dell'attenzione
+- Il ciclo di vita di un modello (pre-training, fine-tuning, RLHF)
+- Mixture of Experts (MoE)
+- Classificazione dei LLM per architettura, dimensione e training
+- AI OpenSource: Open Weights vs Open Models
+
+### Corso AI - Pratica
+
+- Tecniche di prompting: anatomia di un prompt, JSON Prompting, In-Context Learning
+- Reasoning e Chain of Thought negli LLM
+- Deep research
+- Valutazione delle AI: Test di Turing, benchmark (FrontierMath, ARC), Chatbot Arena
+- Applicazioni della AI in sanità, finanza e medicina (AlphaFold, AlphaGenome)
+- Evoluzione dei principali prodotti AI (2023-2026): ChatGPT, GPT-4/4o/o1/o3, Copilot, SearchGPT, DeepSeek, Claude, Perplexity
+- AI Agentica: agenti, tool use e sistemi multi-agente
+- Strumenti pratici per testi, slide, video, immagini e audio generati dall'AI
+- Casi di studio ed esempi pratici di prompt
+- Letture di approfondimento
 
 ## Approfondimenti
 
 - [AI Generation](https://github.com/matteobaccan/AIGeneration) : Slide su un mio intervento in ambito AI
 - [Guida pratica all'uso delle AI](https://github.com/matteobaccan/CorsoAIBook) : Il libro di approfondimento sul mondo delle AI
+- [Eventi](https://github.com/matteobaccan/Eventi) : L'elenco di tutti gli eventi a cui ho partecipato parlando di tecnologia
