@@ -589,6 +589,18 @@ Esempi di architetture alla base dell'AI generativa:
 
 ---
 
+## Il rovescio della medaglia: AI Slop
+
+La stessa facilità con cui l'AI genera contenuti ha un lato oscuro: l'**AI Slop** (letteralmente "poltiglia AI").
+
+Il termine indica contenuti — testi, immagini, video — generati in massa, a bassissimo costo e senza revisione umana, con l'unico scopo di riempire il web (per SEO, engagement o pura quantità), non di essere davvero utili o accurati.
+
+Alcuni esempi tipici: articoli-farm che riscrivono notizie senza verifica, immagini "sensazionalistiche" virali sui social, video pubblicitari a basso sforzo, recensioni o commenti generati in blocco.
+
+Il rischio concreto è duplice: **inquinamento dell'informazione** (sempre più difficile distinguere contenuto umano da generato) e **collasso del modello** (model collapse), se i futuri LLM vengono addestrati sempre più su dati generati da altri LLM invece che su contenuti umani originali.
+
+---
+
 ## Reti Generative Avversariali
 
 Le Reti Generative Avversariali (GAN - Generative Adversarial Networks) sono un'architettura di apprendimento automatico introdotta da Ian Goodfellow nel 2014.
@@ -1200,6 +1212,27 @@ Se lavori in ambiti regolamentati (sanità, finanza) o accademici, potresti pref
 
 ---
 
+## L'AI Act europeo
+
+L'**AI Act** (Regolamento UE 2024/1689) è la prima legge organica al mondo sull'intelligenza artificiale: regola lo sviluppo e l'uso dei sistemi AI in base al **rischio** che comportano.
+
+Quattro livelli di rischio:
+
+- **Inaccettabile**: vietato (es. social scoring, manipolazione subliminale)
+- **Alto rischio**: obblighi stringenti (es. selezione del personale, credito, sanità, giustizia)
+- **Limitato**: obblighi di trasparenza (es. dichiarare che si sta parlando con un chatbot, o che un contenuto è generato da AI)
+- **Minimo**: nessun obbligo specifico (es. filtri antispam, videogiochi)
+
+---
+
+## AI Act - scadenze e sanzioni
+
+Il regolamento si applica in modo progressivo: alcuni obblighi erano già attivi dal 2025, mentre il **2 agosto 2026** segna la piena applicazione, inclusi gli obblighi di trasparenza sui contenuti generati da AI (l'obbligo di watermarking è stato invece rinviato al 2 dicembre 2026 dal successivo "Digital Omnibus" sull'AI).
+
+Le sanzioni per le violazioni più gravi possono arrivare fino a **35 milioni di euro o il 7% del fatturato globale annuo** dell'azienda: un impatto potenzialmente enorme per chi sviluppa o integra sistemi AI ad alto rischio.
+
+---
+
 ## Efficienza e Architettura
 
 Il concetto di efficienza si è evoluto verso modelli più piccoli ma estremamente capaci (SLM) e architetture intelligenti.
@@ -1215,3 +1248,16 @@ Il concetto di efficienza si è evoluto verso modelli più piccoli ma estremamen
    Non sono solo "modelli grandi tagliati" (pruned), ma addestrati specificamente su dati di altissima qualità per massimizzare l'efficienza.
 
    Esempi: Microsoft Phi (ultime versioni), Google Gemma 3, Llama (versioni edge più recenti)
+
+---
+
+## Eseguire un LLM in locale
+
+Avere a disposizione i pesi di un modello (Open Weights) non basta: serve anche uno strumento che lo faccia girare, e hardware sufficiente.
+
+La tecnica chiave è la **quantizzazione**: riduce la precisione numerica dei pesi (ad esempio da 16 a 4 bit), tagliando drasticamente i requisiti di RAM/VRAM a fronte di una perdita di qualità contenuta. È ciò che rende possibile eseguire un modello da alcuni miliardi di parametri anche su un normale laptop, senza GPU dedicate di fascia alta.
+
+I due strumenti più diffusi per farlo senza scrivere codice:
+
+- **Ollama**: scarica, quantizza e serve i modelli da riga di comando (o tramite una piccola API locale), con un comando semplice come `ollama run llama3`.
+- **LM Studio**: stessa filosofia, ma con un'interfaccia grafica pensata per chi vuole scaricare e provare modelli locali senza usare il terminale.

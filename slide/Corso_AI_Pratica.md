@@ -229,9 +229,45 @@ section.lead footer {
 
 ---
 
+## Come nascono queste slide
+
+In risposta alla rapida diffusione di prodotti basati sull'Intelligenza Artificiale, ho elaborato una presentazione che ripercorre l'evoluzione di questa tecnologia e illustra i termini chiave utilizzati nel settore.
+
+Nel corso della mia attività professionale, ho inoltre sperimentato diverse soluzioni AI che mi hanno permesso di ottimizzare i processi lavorativi, aumentando sia l'efficienza che la qualità dei risultati.
+
+Ho quindi arricchito la presentazione con una sezione pratica dedicata ai vari strumenti AI, specificando per ciascuno il campo di applicazione ideale.
+
+L'obiettivo di questo lavoro è duplice: da un lato, far conoscere i benefici concreti che l'Intelligenza Artificiale può apportare nella vita professionale, dall'altro, fornire una guida pratica per la scelta degli strumenti AI più adatti alle diverse esigenze lavorative quotidiane.
+
+---
+
+## Chi sono ?
+
+Matteo Baccan è un ingegnere del software e formatore professionista con oltre 30 anni di esperienza nel settore IT.
+Ha lavorato per diverse aziende e organizzazioni, occupandosi di progettazione, sviluppo, testing e gestione di applicazioni web e desktop, utilizzando vari linguaggi e tecnologie. È anche un appassionato divulgatore e insegnante di informatica, autore di numerosi articoli, libri e corsi online rivolti a tutti i livelli di competenza.
+Gestisce un sito internet e un canale YouTube dove condivide video tutorial, interviste, recensioni e consigli sulla programmazione.
+Attivo nelle community open source, partecipa regolarmente a eventi e concorsi di programmazione.
+Si definisce un "sognatore realista" che ama sperimentare, innovare e condividere le sue conoscenze e passioni, seguendo il motto: "Non smettere mai di imparare, perché la vita non smette mai di insegnare".
+
+---
+
+## Cosa è l'Intelligenza Artificiale?
+
+L'**Intelligenza Artificiale** (AI) è una branca dell'informatica che abbraccia diverse discipline, tra cui l'apprendimento automatico, la visione artificiale, l'elaborazione del linguaggio naturale e la robotica.
+
+Il suo scopo principale è sviluppare algoritmi che permettano ai computer di svolgere attività tradizionalmente eseguibili solo dall'intelletto umano. Si tratta di una scienza interdisciplinare che integra teoria, metodologia, analisi del linguaggio e ingegneria per creare sistemi intelligenti capaci di prendere decisioni articolate in scenari complessi.
+
+Nel contesto aziendale, l'Intelligenza Artificiale si rivela uno strumento prezioso per ottimizzare i processi lavorativi, incrementando sia la produttività che l'efficienza operativa.
+
+---
+
 ## Prompt
 
-Un prompt è un input testuale fornito a un LLM per guidare la sua risposta o generazione.
+Immagina di assumere oggi stesso un nuovo collaboratore bravissimo: ha letto praticamente tutto lo scibile umano, ma non conosce te, la tua azienda, né cosa hai davvero in mente.
+
+Se gli dici solo "fammi un report", improvviserà. Se gli spieghi obiettivo, formato atteso, vincoli e contesto, il risultato sarà tutta un'altra cosa.
+
+Con un LLM funziona allo stesso modo: il **prompt** è l'istruzione — il "brief" — con cui lo guidiamo verso la risposta che ci serve davvero.
 
 ---
 
@@ -279,6 +315,8 @@ Per contesto: io e la mia ragazza facciamo un sacco di escursioni! Abbiamo fatto
 ## JSON Prompting
 
 Il JSON Prompting è una tecnica che sfrutta la struttura JSON (JavaScript Object Notation) per inviare richieste più precise e strutturate ai Large Language Models (LLM) e per ricevere risposte formattate in modo prevedibile.
+
+**Una tecnica di un'epoca precisa (2023-2024)**: nata quando si cercava un modo per "istruire meglio" il modello irrigidendo il formato della richiesta. Con l'evoluzione dei modelli si è capito che a contare davvero non è la struttura del dato in ingresso, ma la sua **completezza** (lo vediamo a fine sezione) — vale comunque la pena conoscerla, perché resta utile per un motivo diverso: strutturare l'output.
 
 **Perché è utile?**
 
@@ -399,6 +437,18 @@ parameters: Un oggetto contenente vari parametri per guidare l'output, come:
 
 ---
 
+## JSON Prompting - la lezione imparata
+
+Con l'evoluzione dei modelli (soprattutto quelli con reasoning esteso) si è capito che il problema non era la struttura del prompt, ma la sua **completezza**.
+
+- Un prompt in linguaggio naturale ma ricco di contesto, obiettivo, vincoli ed esempi funziona quanto (spesso meglio di) un JSON altrettanto dettagliato.
+- Un JSON scarno non batte comunque un prompt naturale povero di dettagli: la struttura non supplisce alla mancanza di informazione.
+- Il JSON resta utile soprattutto per un motivo diverso: **strutturare l'output** quando la risposta deve essere elaborata da software. I modelli più recenti offrono anche modalità native di "structured output" per questo, senza doverlo scrivere a mano nel prompt.
+
+**In sintesi**: arricchisci il contesto, non il formato.
+
+---
+
 ## In-Context Learning
 
 La capacità degli LLM di adattarsi e apprendere direttamente dal contesto fornito nel prompt:
@@ -426,9 +476,9 @@ Implementato attraverso tecniche come chain-of-thought e modalità di pensiero e
 
 ## Hybrid Reasoning
 
-Anthropic ha introdotto, con Claude 3.7, un modello ibrido di reasoning.
+Anthropic ha introdotto, con Claude 3.7, il primo modello ibrido di reasoning: la stessa famiglia di modelli può rispondere subito oppure "pensare" più a lungo, a seconda della complessità del task.
 
-Questo approccio combina molteplici approcci di ragionamento per risolvere problemi complessi in modo più efficace.
+Questo approccio combina molteplici modalità di ragionamento per risolvere problemi complessi in modo più efficace, ed è diventato lo standard di settore: la lineup Anthropic attuale (Sonnet 5, Opus 5, Fable 5, Mythos 5) lo adotta su tutti i modelli, così come le famiglie GPT-5.x di OpenAI e Gemini 3 di Google.
 
 Se il problema non necessita reasoning, la risposta viene data subito, se ne necessita ha un tempo incrementale di reasoning in base alla complessità del problema.
 
@@ -477,6 +527,18 @@ Il "deep research" negli LLM è un processo avanzato che consente ai modelli di 
 Nei sistemi più avanzati, il deep research permette agli LLM di superare il limite del knowledge cutoff, accedendo a informazioni aggiornate e specifiche. Questo è particolarmente utile per query che richiedono dati recenti o molto specializzati.
 
 Questa funzionalità è implementata attraverso l'integrazione degli LLM con strumenti esterni (tool use) e architetture RAG (Retrieval-Augmented Generation) che permettono di combinare il ragionamento del modello con informazioni recuperate dinamicamente.
+
+---
+
+## Deep research - prodotti reali (2025)
+
+Nel corso del 2025 il concetto è diventato una feature concreta nei principali servizi:
+
+- **OpenAI Deep Research**: naviga decine di fonti web e produce report strutturati con citazioni.
+- **Gemini Deep Research** (Google): stessa logica, integrata in Gemini App e Workspace.
+- **Perplexity Deep Research**: specializzato nella sintesi multi-fonte con tracciabilità delle citazioni.
+
+Tutti condividono lo stesso pattern: pianificazione, ricerca iterativa, verifica incrociata delle fonti, sintesi finale.
 
 ---
 
@@ -603,9 +665,22 @@ L'ARC Benchmark mira a spingere i modelli AI verso una comprensione più umana d
 
 ---
 
+## Da ARC ad ARC-AGI
+
+Il benchmark ARC originale (2018) è stato ormai saturato dai modelli più recenti, così è nata la serie **ARC-AGI**, pensata apposta per resistere alla memorizzazione e misurare vero ragionamento astratto:
+
+- **ARC-AGI-2** (2024): Gemini 3 Deep Think lo risolve all'84,6%, contro il 68,8% di Claude Opus 4.6 e il 52,9% di GPT-5.2 — un salto enorme rispetto ai modelli di un anno prima.
+- **ARC-AGI-3** (2026): nuova generazione ancora molto più ostica, con i modelli migliori fermi sotto l'1% di problemi risolti.
+
+Come per FrontierMath, appena un benchmark viene "battuto" ne nasce uno nuovo più difficile: è la dinamica tipica della valutazione AI.
+
+---
+
 ## Chatbot Arena
 
 A volte i test non bastano, per questa ragione esiste un portale: <https://lmarena.ai/> dove gli utenti possono testare i vari modelli di AI e votare per il migliore.
+
+Da gennaio 2026 il progetto si è rinominato da "LMSYS Chatbot Arena" semplicemente in **Arena**, ed è gestito come azienda indipendente (i nomi LMArena e Chatbot Arena restano comunque in uso comune).
 
 ### Come funziona?
 
@@ -621,6 +696,16 @@ Su questa valutazione "umana", viene creata una classifica dei modelli di AI.
 
 Un altro modo per capire il valore di una AI è quello di guardare le classifiche dei modelli di AI.
 Le classifiche sono aggiornate in tempo reale e mostrano le performance dei modelli su vari benchmark e task.
+
+**I numeri di Arena** (metà 2026): oltre **6,8 milioni** di voti umani raccolti su più di **360 modelli** — con la classifica che cambia di continuo a ogni nuovo modello rilasciato.
+
+---
+
+## Leaderboard - la classifica in questo momento
+
+![center width:850px](img/corso-ai-lmarena-leaderboard.png)
+
+*Screenshot della classifica "Agent" su lmarena.ai — 31 luglio 2026*
 
 ---
 
@@ -713,15 +798,17 @@ La generazione del linguaggio naturale è un'altra area chiave dell'NLP che si o
 
 ## Aziende che investono in AI
 
-- **Meta**: Investimenti massicci per decine di miliardi per raggiungere la "superintelligenza". Prevede di spendere 60-65 miliardi di dollari in infrastrutture nel 2025.
+- **Meta**: Investimenti massicci per raggiungere la "superintelligenza". Dopo circa 72 miliardi di dollari di capex nel 2025, le stime per il 2026 sono salite a 125-145 miliardi.
 
-- **Google**: Ha investito miliardi in DeepMind e nell'infrastruttura AI, inclusi i TPU (Tensor Processing Unit), lanciando modelli come Bard/Gemini.
+- **Google**: Ha investito miliardi in DeepMind e nell'infrastruttura AI, inclusi i TPU (Tensor Processing Unit), con la famiglia di modelli Gemini (dopo il ritiro del brand Bard).
 
-- **Microsoft**: Oltre 40 miliardi investiti in AI, con piani per altri 80 miliardi nel 2025 per data center. Ha acquisito Nuance e Inflection AI.
+- **Microsoft**: Capex AI intorno ai 97 miliardi di dollari nel 2025, con proiezioni verso i 190 miliardi per il 2026. Ha acquisito Nuance e Inflection AI.
 
 - **Amazon**: AWS offre servizi AI. Ha investito in Anthropic e sviluppa propri chip AI (Trainium, Inferentia).
 
 - **Apple**: Investimenti mirati all'integrazione dell'AI nei propri dispositivi.
+
+Nel complesso, Microsoft, Amazon, Google e Meta insieme prevedono di spendere circa 725 miliardi di dollari in infrastrutture AI nel 2026, in crescita del 77% rispetto ai 410 miliardi del 2025: la corsa agli investimenti non accenna a rallentare.
 
 ---
 
@@ -735,15 +822,45 @@ La generazione del linguaggio naturale è un'altra area chiave dell'NLP che si o
 
 ---
 
-## Robotaxy
+## Robotaxi - da Johnny Cab a Tesla
 
-Azienda Italiana che sta investendo in robotica integrata con l'AI.
+Chi ha visto *Atto di forza* (Total Recall, 1990) ricorderà Johnny Cab, il tassista robotico che guida per Arnold Schwarzenegger.
+
+Oggi il "robotaxi" è realtà: **Tesla Robotaxi**, il servizio di taxi a guida autonoma basato sulla tecnologia Full Self-Driving di Elon Musk, è attivo dal 2025 partendo da Austin (Texas).
+
+![center width:500px](img/corso-ai-robotaxy.jpg)
+
+---
+
+## Robotaxi Tesla - espansione e sicurezza (2026)
+
+Dopo Austin, il servizio è arrivato anche a Dallas e Houston, con l'obiettivo di coprire altre città USA entro fine 2026: la flotta è ormai presente in 7 mercati, con una crescita superiore al 10% a settimana nei chilometri percorsi.
+
+Le criticità restano però centrali: Tesla ha registrato **17 incidenti** tra luglio 2025 e marzo 2026 (secondo i documenti NHTSA), attribuiti principalmente al sistema di assistenza remota di emergenza più che all'AI di guida vera e propria.
+
+Per questo motivo Tesla ha rallentato volutamente l'espansione, dando priorità a sicurezza, test sul nuovo Cybercab e conformità alle normative locali prima di accelerare ulteriormente.
+
+<https://insideevs.it/news/802786/tesla-robotaxi-espansione-crescita-sicurezza/>
 
 ---
 
 ## Aziende da tenere d'occhio
 
-- NVIDIA: è il principale fornitore di GPU che alimentano i sistemi di AI, sta consentendo il rapido avanzamento dell'AI in tutti i settori. La sua capitalizzazione di mercato è passata da $145 miliardi nel gennaio 2020 a $2,300 miliardi a maggio 2024, rendendola la terza azienda più grande al mondo.
+- NVIDIA: è il principale fornitore di GPU che alimentano i sistemi di AI, sta consentendo il rapido avanzamento dell'AI in tutti i settori. La sua capitalizzazione di mercato è passata da $145 miliardi nel gennaio 2020 a oltre $4.700 miliardi a luglio 2026, contendendosi con Apple il titolo di azienda più valutata al mondo.
+
+---
+
+## Aziende cinesi da tenere d'occhio
+
+Il mercato AI cinese si è consolidato rapidamente: pesa ormai per oltre il **45% del traffico di OpenRouter**, e i quattro laboratori indipendenti più importanti — **DeepSeek**, **Zhipu**, **MiniMax** e **Moonshot** — insieme superano i 1.000 miliardi di yuan (circa 140 miliardi di dollari) di valutazione a inizio 2026.
+
+- **Alibaba (Qwen)**: ha trasformato i propri modelli open weights in un vero ecosistema, tra i più usati al mondo.
+- **DeepSeek**: laboratorio di Hangzhou, punta sull'efficienza open weights più che sulle app consumer.
+- **Moonshot AI (Kimi)**: spinge su contesto lunghissimo e capacità di coding.
+- **Zhipu AI (GLM)** e **Baidu (Ernie)**: centrali nell'uso enterprise e in lingua cinese.
+- **Huawei** (stack Ascend): chip AI domestici, l'alternativa cinese a NVIDIA sotto le restrizioni USA all'export.
+
+Segnale della maturità del settore: **Z.ai (Zhipu)** si è quotata alla Borsa di Hong Kong l'8 gennaio 2026, seguita da **MiniMax** nello stesso anno — i primi laboratori AI cinesi quotati in borsa.
 
 ---
 
@@ -801,6 +918,10 @@ GPT-4 (Mar 2023): 1.76T parametri, capacità multimodali.
 GPT-4o (Mag 2024): Più veloce, economico e con capacità multimodali.
 o1 (Set 2024): Modello con "chain of thought" e deep thinking.
 o3 (Dic 2024): Massima capacità di ragionamento, top in benchmark.
+o3-mini (Gen 2025): Versione economica di o3, focalizzata su STEM.
+GPT-4.5 (Feb 2025): Ultimo modello non-reasoning della famiglia GPT-4, maggiore "conoscenza del mondo".
+GPT-5 (Ago 2025): Unifica le linee GPT e o-series in un solo modello, con routing automatico fra risposta rapida e reasoning esteso.
+GPT-5.x (2025-2026): Iterazioni successive (5.1, 5.2, 5.5, 5.6 "Sol"...) con miglioramenti su ragionamento, stile conversazionale e costi. I modelli precedenti (GPT-4o, o3, o4-mini) vengono progressivamente ritirati dall'uso in ChatGPT.
 
 ---
 
@@ -1089,15 +1210,13 @@ Con la memoria, ChatGPT sarà in grado di ricordare le informazioni condivise in
 
 ---
 
-## Quanto è istruito ChatGPT?
+## MBE - Multistate Bar Exam
 
-![center width:1000px](img/corso-ai-mbe-chatgpt.png)
+Cosa succede a mettere un'AI a sostenere l'esame di abilitazione forense americano? Un progetto indipendente ha confrontato oltre 40 modelli (OpenAI, Google, Meta, Anthropic, xAI) sulle stesse 210 domande a scelta multipla dell'MBE.
 
-## MBE
+![center width:600px](img/corso-ai-mbe-leaderboard.png)
 
-MBE sta per Massive Benchmarking Experiment, un'iniziativa per testare ChatGPT su molti argomenti e diversi livelli di difficoltà
-
-<https://github.com/kimberly-9/mbe>
+<https://github.com/HawaiiLawSchoolTechIncubator/AI-MBE-Benchmark>
 
 ---
 
@@ -1119,11 +1238,11 @@ MBE sta per Massive Benchmarking Experiment, un'iniziativa per testare ChatGPT s
 
 ## ChatGPT - perché NO
 
-- A causa dell'allenamento su dati statici: la sua conoscenza è ferma a **giugno 2024** per gpt-4o e **ottobre 2023** per o1.
+- A causa dell'allenamento su dati statici: ogni modello ha una data di cutoff fissa (varia da modello a modello, ed è sempre indicata nella documentazione ufficiale) oltre la quale non conosce eventi successivi.
 - Non è in grado di fare analisi di dati: capisce quanto viene chiesto, inizia a ragionare con una chain of prompt.
 - Quando produce codice deve poi essere analizzato e integrato
 - **Soffre di allucinazioni**
-- Non ha accesso a internet se non tramite plugin nella versione a pagamento o SearchGPT
+- L'accesso a internet in tempo reale è integrato direttamente in ChatGPT (funzione di ricerca web, ex "SearchGPT")
 - I testi che scrive al momento sono discreti, occorre estenderli ed adattarli
 - La troppa attenzione ai bias a volte tende a creare risposte errate o a non darle
 
@@ -1245,17 +1364,15 @@ Al momento (ottobre 2024) non sostituisce Google, anche grazie alle nuove evoluz
 
 ---
 
-## Luglio 2024 - SearchGPT
+## Luglio 2024 - da SearchGPT a ChatGPT Search
 
-SearchGPT è un motore di ricerca sviluppato da OpenAI che integra l'intelligenza artificiale per fornire risposte rapide e pertinenti, accompagnate da fonti chiare e affidabili.
-Lanciato nel luglio 2024, mira a competere con servizi come Google, offrendo un'esperienza di ricerca più interattiva e conversazionale.
-Da novembre 2024 è disponibile a tutti.
+SearchGPT era il nome del prototipo di ricerca AI lanciato da OpenAI a luglio 2024, e reso disponibile a tutti da novembre 2024.
+
+OpenAI ha poi **dismesso il brand separato**: oggi la funzione vive direttamente dentro ChatGPT come "ricerca web integrata" (ChatGPT Search), senza un prodotto a sé stante.
 
 ---
 
-## SearchGPT
-
-Non hanno sviluppato un motore di ricerca, ma integrano i risultati di **BING** con fonti affidabili:
+## ChatGPT Search - come funziona
 
 ```plaintext
 OpenAI usa principalmente Microsoft Bing per i risultati delle sue ricerche web integrate in ChatGPT,
@@ -1264,6 +1381,8 @@ Questa collaborazione è stata una parte fondamentale delle nuove funzionalità 
 a ChatGPT di fornire risposte aggiornate e accurate, migliorando così l'utilità dell'AI
 per domande basate su eventi e informazioni recenti.
 ```
+
+Aggiornamento 2026: ricerche indipendenti hanno rilevato che, oltre a Bing, ChatGPT attinge anche all'indice di ricerca di Google per gli utenti a pagamento — un dettaglio che OpenAI non ha reso pubblico.
 
 ---
 
@@ -1302,7 +1421,7 @@ Novara capitale dello sport piemontese: Sabato scorso si è tenuta al Teatro Coc
 
 ## OpenAI Sora
 
-Si tratta di un modello da testo a video, rilasciato a marzo 2024. Sora può generare video della durata massima di un minuto mantenendo la qualità visiva e l'aderenza alla richiesta dell'utente.
+Si tratta di un modello da testo a video, rilasciato a marzo 2024. Sora poteva generare video della durata massima di un minuto mantenendo la qualità visiva e l'aderenza alla richiesta dell'utente. A settembre 2025 è arrivato **Sora 2**, con audio sincronizzato, fisica più realistica e una app social dedicata (in stile TikTok).
 
 ```plaintext
 A movie trailer featuring the adventures of the 30 year old space man wearing a red wool
@@ -1311,7 +1430,15 @@ knitted motorcycle helmet, blue sky, salt desert, cinematic style, shot on 35mm 
 
 DEMO: img/Sora-mitten-astronaut.mp4
 
-<https://openai.com/sora>
+---
+
+## OpenAI Sora - un caso di studio sulla volatilità dei prodotti AI
+
+Nonostante il lancio in pompa magna (inclusa un'annunciata partnership da 1 miliardo di dollari con Disney, poi ritirata), **OpenAI ha chiuso Sora**: app e sito il 26 aprile 2026, API il 24 settembre 2026.
+
+Le cause dichiarate: costi GPU insostenibili, adozione in calo e ricavi minimi (circa 2,1 milioni di dollari lifetime), oltre a contenziosi sul copyright.
+
+**Lezione**: anche i prodotti AI più pubblicizzati possono sparire in pochi mesi — utile promemoria prima di costruire processi di lavoro attorno a un singolo strumento.
 
 ---
 
@@ -1353,7 +1480,24 @@ Se vi trovate a Lucerna passate alla "Chapel of St. Peter"
 
 ## Evoluzione 2026
 
-*Sezione dedicata ai nuovi prodotti e servizi AI del 2026. Inserisci qui i dati aggiornati.*
+Prosegue la corsa fra i grandi laboratori, con modelli sempre più capaci sul reasoning e sull'uso di strumenti (agenti).
+
+---
+
+## Evoluzione 2026 - i modelli
+
+- **Anthropic**: nuova lineup Claude — Sonnet 5 e Opus 5 (giu-lug 2026), oltre ai modelli di punta Fable 5 e Mythos 5, con context window fino a 1 milione di token.
+- **OpenAI**: serie **GPT-5.x** (5.1, 5.2, 5.5, fino a GPT-5.6 "Sol"), che unifica risposta rapida e reasoning esteso in un solo modello.
+- **Google**: **Gemini 3** e **Gemini 3.1 Pro**, con la modalità "Deep Think" che segna nuovi record sui benchmark di ragionamento (es. 84,6% su ARC-AGI-2).
+- **Black Forest Labs**: **FLUX 3**, nuova generazione di modelli per la generazione di immagini.
+
+---
+
+## Evoluzione 2026 - standard e infrastrutture
+
+- Il **Model Context Protocol (MCP)**, lo standard aperto per collegare LLM e agenti a tool esterni, viene donato da Anthropic alla neonata **Agentic AI Foundation** (sotto la Linux Foundation, dicembre 2025), con il supporto di OpenAI, Google, Microsoft, AWS e Cloudflare: un segnale forte di convergenza dell'industria verso un unico standard per l'AI agentica.
+- Prosegue la corsa agli investimenti in infrastrutture: i quattro grandi (Microsoft, Amazon, Google, Meta) prevedono di spendere insieme circa 725 miliardi di dollari nel 2026.
+- Non tutti i prodotti sopravvivono alla propria hype: **OpenAI Sora** viene dismesso nella prima metà del 2026 (vedi slide dedicata) e **Google Whisk** confluisce in Google Flow.
 
 ---
 
@@ -1400,7 +1544,7 @@ Problemi infrastrutturali: A Galliate, il sindaco ha risposto a critiche riguard
 
 ## Claude.ai
 
-Claude AI è un modello di intelligenza artificiale sviluppato da Anthropic, progettato per facilitare conversazioni naturali e svolgere una varietà di compiti complessi, come la scrittura di codice, la sintesi di testi e la risposta a domande. Claude si distingue per la sua capacità di gestire input testuali lunghi, fino a 100.000 token, e per il suo approccio etico e responsabile allo sviluppo dell'IA.
+Claude AI è un modello di intelligenza artificiale sviluppato da Anthropic, progettato per facilitare conversazioni naturali e svolgere una varietà di compiti complessi, come la scrittura di codice, la sintesi di testi e la risposta a domande. Claude si distingue per la sua capacità di gestire input testuali lunghi, fino a 1 milione di token nei modelli più recenti (200.000 token per gli altri), e per il suo approccio etico e responsabile allo sviluppo dell'IA.
 
 **Artifacts**: Una delle innovazioni più interessanti è la funzione Artifacts, che consente agli utenti di visualizzare e modificare in tempo reale i risultati generati da Claude. Questa funzionalità è utile per sviluppatori e designer, permettendo di creare prototipi interattivi e visualizzazioni direttamente all'interno dell'interfaccia
 
@@ -1421,6 +1565,34 @@ Le fonti principali includono dati aperti come Wikipedia, il Progetto Gutenberg 
 Questo approccio non solo garantisce trasparenza, ma rende anche Minerva 7B altamente adattabile al contesto culturale e linguistico italiano.
 
 <https://minerva-llm.org/>
+
+---
+
+## Ollama - eseguire LLM in locale
+
+Modelli open weights come Minerva, Llama o Mistral non vanno usati per forza via cloud: **Ollama** è lo strumento più diffuso per scaricarli ed eseguirli direttamente sul proprio computer, da riga di comando.
+
+Gestisce da solo download, quantizzazione ed esecuzione del modello, ed espone anche una piccola API locale: comoda per collegare script o applicazioni senza far uscire alcun dato dal proprio PC.
+
+```text
+ollama run llama3
+```
+
+![center width:180px](img/corso-ai-ollama.png)
+
+<https://ollama.com>
+
+---
+
+## LM Studio - la via grafica
+
+**LM Studio** offre la stessa possibilità di Ollama, ma con un'interfaccia grafica pensata per chi preferisce non usare il terminale.
+
+Permette di cercare modelli, confrontarne dimensioni e requisiti hardware, e chattare in locale col modello scelto, senza che i dati lascino mai il dispositivo.
+
+![center width:280px](img/corso-ai-lmstudio.png)
+
+<https://lmstudio.ai>
 
 ---
 
@@ -1560,6 +1732,18 @@ L'agente non si limita a rispondere:
 
 ---
 
+## MCP - Model Context Protocol
+
+Come fa un agente a collegarsi in modo standard a tool e sorgenti dati diverse (database, API interne, file system, ecc.), senza scrivere un'integrazione ad hoc per ognuna?
+
+Il **Model Context Protocol (MCP)** è lo standard aperto introdotto da Anthropic a novembre 2024 per risolvere proprio questo problema: un'architettura client-server che separa nettamente l'agente dagli strumenti che utilizza.
+
+Nel giro di un anno è stato adottato anche da OpenAI, Google, Microsoft e AWS, e a dicembre 2025 è stato donato alla **Agentic AI Foundation** (Linux Foundation): oggi è il modo più comune per collegare un LLM al mondo esterno.
+
+**Approfondimento**: su questo tema Matteo Baccan terrà il talk *"OpenSpec: Spec-Driven Development nell'era degli Agenti AI"* al **DevFest Modena** (ottobre 2026).
+
+---
+
 ## Sistemi Multi-Agente
 
 Un **orchestratore** coordina vari modelli specializzati per compiti complessi.
@@ -1580,6 +1764,21 @@ L'imbracatura gestisce i flussi per evitare **"cicli infiniti"** o blocchi.
 - L'agente ha il potere di interagire con il mondo esterno (email, browser, file system)
 - Necessaria una gestione attenta di permessi e confini
 - Potenziale perdita di dati se non adeguatamente isolato
+- **Prompt Injection**: istruzioni malevole nascoste in una pagina web, un'email o un documento possono dirottare l'agente facendogli eseguire azioni non richieste dall'utente
+
+**Approfondimento**: Matteo Baccan tratta questo tema nel talk *"Oltre il Chatbot: Arginare la Prompt Injection a Livello Infrastrutturale e di Platform Engineering"* al **devsecopsday di Bologna** (ottobre 2026).
+
+---
+
+## Assistenti di coding AI
+
+L'applicazione più concreta e diffusa dell'AI agentica è oggi la scrittura di codice: l'agente legge il progetto, pianifica le modifiche, scrive su più file, esegue i test e corregge gli errori in autonomia.
+
+- **Claude Code** (Anthropic): agente da riga di comando che opera direttamente nel terminale/IDE, supporta MCP per collegarsi a database, API e altri strumenti.
+- **GitHub Copilot** (Microsoft/OpenAI): il più diffuso, integrato negli IDE, oggi disponibile anche in modalità agentica.
+- **Cursor**: editor di codice costruito da zero attorno all'AI, con modifica multi-file e comprensione del contesto dell'intero progetto.
+
+Questo modo di programmare "delegando" all'AI ha preso il nome informale di **vibecoding** — e ha già acceso un dibattito su quanto sia sostenibile senza una disciplina alle spalle. Matteo Baccan lo affronta nel talk *"Il Vibecoding è morto: viva lo Spec-Driven Development"* (A.I. Day Roma e MokaConference, 2026).
 
 ---
 
@@ -2092,11 +2291,13 @@ Quanti designer devono creare giornalmente il package di un prodotto?
 
 ---
 
-## Whisk
+## Whisk (ora Google Flow)
 
-Whisk è uno strumento sperimentale di Google che genera nuove immagini basandosi su immagini di riferimento fornite dall'utente, senza richiedere competenze specifiche di prompting.
+Whisk era uno strumento sperimentale di Google che generava nuove immagini basandosi su immagini di riferimento fornite dall'utente, senza richiedere competenze specifiche di prompting.
 
-<https://labs.google/fx/tools/whisk/faq>
+**Aggiornamento 2026**: Whisk è stato chiuso il 30 aprile 2026. Le sue funzionalità, insieme a ImageFX, sono confluite nell'unico spazio di lavoro **Google Flow**.
+
+<https://flow.google>
 
 ---
 
