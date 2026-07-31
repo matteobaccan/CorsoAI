@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" font-family="Arial, Helvetica, sans-serif">
+  <circle cx="500" cy="480" r="470" fill="none" stroke="#14233d" stroke-width="4"/>
+  <circle cx="500" cy="560" r="390" fill="none" stroke="#14233d" stroke-width="4"/>
+  <circle cx="500" cy="640" r="310" fill="none" stroke="#14233d" stroke-width="4"/>
+  <circle cx="500" cy="720" r="230" fill="none" stroke="#14233d" stroke-width="4"/>
+
+  <text x="500" y="105" text-anchor="middle" font-size="54" fill="#14233d">Artificial Intelligence</text>
+  <text x="500" y="260" text-anchor="middle" font-size="54" fill="#14233d">Machine Learning</text>
+  <text x="500" y="420" text-anchor="middle" font-size="54" fill="#14233d">Neural Networks</text>
+  <text x="500" y="700" text-anchor="middle" font-size="54" fill="#14233d">Generative</text>
+  <text x="500" y="762" text-anchor="middle" font-size="54" fill="#14233d">Models</text>
+</svg>

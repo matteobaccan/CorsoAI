@@ -42,11 +42,11 @@ section {
   --phosphor: #33ff33;
   --warroom: #060f1c;
   font-family: 'Atkinson Hyperlegible', 'Segoe UI', Arial, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   color: var(--dark);
   background-color: var(--light);
-  line-height: 1.34;
-  padding: 40px 60px 60px 60px;
+  line-height: 1.28;
+  padding: 30px 60px 48px 60px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -55,7 +55,7 @@ section {
 h2 {
   color: var(--primary);
   font-family: 'Share Tech Mono', 'Consolas', monospace;
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.15;
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -80,13 +80,17 @@ h3 {
   margin-bottom: 0.3em;
 }
 
+p {
+  margin: 0.36em 0;
+}
+
 ul, ol {
   margin-top: 0.3em;
 }
 li {
-  margin-bottom: 0.34em;
+  margin-bottom: 0.28em;
   color: var(--dark);
-  line-height: 1.34;
+  line-height: 1.28;
 }
 li::marker {
   color: var(--secondary);
@@ -125,15 +129,15 @@ pre {
   background: var(--warroom);
   border: 1px solid rgba(51, 255, 51, 0.3);
   border-radius: 4px;
-  padding: 16px 20px;
-  margin: 0.65em 0;
+  padding: 12px 18px;
+  margin: 0.5em 0;
 }
 pre code, pre code * {
   color: var(--phosphor) !important;
   font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace !important;
   text-shadow: 0 0 5px rgba(51, 255, 51, 0.35);
-  font-size: 0.88em;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.3;
 }
 code {
   font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
@@ -366,9 +370,7 @@ L'AI è oggi parte della vita quotidiana, con applicazioni che vanno dal riconos
 
 ## AI  - Da cosa è composta
 
-![center w:450px](img/corso-ai-AI_relation_to_Generative_Models_subset,_venn_diagram.png)
-
-<https://en.m.wikipedia.org/wiki/File:AI_relation_to_Generative_Models_subset,_venn_diagram.png>
+![center w:450px](img/corso-ai-ai_ml_nn_genai_venn.svg)
 
 ---
 
@@ -593,7 +595,7 @@ Esempi di architetture alla base dell'AI generativa:
 
 La stessa facilità con cui l'AI genera contenuti ha un lato oscuro: l'**AI Slop** (letteralmente "poltiglia AI").
 
-Il termine indica contenuti — testi, immagini, video — generati in massa, a bassissimo costo e senza revisione umana, con l'unico scopo di riempire il web (per SEO, engagement o pura quantità), non di essere davvero utili o accurati.
+Il termine indica contenuti (testi, immagini, video) generati in massa, a bassissimo costo e senza revisione umana, con l'unico scopo di riempire il web (per SEO, engagement o pura quantità), non di essere davvero utili o accurati.
 
 Alcuni esempi tipici: articoli-farm che riscrivono notizie senza verifica, immagini "sensazionalistiche" virali sui social, video pubblicitari a basso sforzo, recensioni o commenti generati in blocco.
 
@@ -804,6 +806,8 @@ Per elaborare i concetti, l'IA trasforma il testo in numeri:
 1. **Frammentazione**: Il testo è diviso in **token** (parole o sotto-parole)
 2. **Embedding**: Ogni token viene convertito in un **vettore** (sequenza di numeri) e posizionato in uno spazio semantico multidimensionale
 3. Concetti simili (es. "cane" e "gatto") finiscono vicini nello spazio; "democrazia" finisce lontano
+
+![center w:340px](img/corso-ai-embedding_semantic_space.png)
 
 ---
 
@@ -1266,10 +1270,32 @@ I due strumenti più diffusi per farlo senza scrivere codice:
 
 ## Fin dove si può spingere il locale? Il caso Colibrì
 
-Un esempio estremo di quanto lontano si possa spingere questa logica: **Colibrì**, un motore di inferenza sperimentale scritto da un singolo sviluppatore, riesce a far girare **GLM-5.2** — un modello open weights da **753 miliardi di parametri** — su un normale portatile consumer.
+Un esempio estremo di quanto lontano si possa spingere questa logica: **Colibrì**, un motore di inferenza sperimentale scritto da un singolo sviluppatore, riesce a far girare **GLM-5.2** (un modello open weights da **753 miliardi di parametri**) su un normale portatile consumer.
 
 Come? Trattando VRAM, RAM e disco come un'unica gerarchia di memoria fluida: il grosso del modello resta su un SSD NVMe (370 GB in int4), i parametri condivisi in RAM, e gli "esperti" della sua architettura MoE vengono caricati dinamicamente solo quando servono (cache LRU).
 
-Il prezzo da pagare è la velocità: da 0,05-0,1 token/secondo su hardware modesto fino a 1-2 token/secondo su un Mac di fascia alta — utilizzabile, ma lontano dai tempi di risposta di un servizio cloud.
+Il prezzo da pagare è la velocità: da 0,05-0,1 token/secondo su hardware modesto fino a 1-2 token/secondo su un Mac di fascia alta, utilizzabile ma lontano dai tempi di risposta di un servizio cloud.
 
 <https://aitalk.it/it/colibri>
+
+---
+
+## Disclaimer
+
+Per la realizzazione di questo materiale sono stati utilizzati strumenti di intelligenza artificiale (tra cui **ChatGPT**, **Gemini** e **Claude**) per generare immagini, trovare spunti e idee, correggere le bozze, verificare i link e impaginare graficamente i contenuti.
+
+Ogni slide è stata comunque **rivista integralmente dall'autore**, che si assume la responsabilità di questa pubblicazione.
+
+Nonostante la revisione, in un materiale di queste dimensioni possono sfuggire errori o imprecisioni: se ne trovi, **segnalalo pure**, è un aiuto prezioso per migliorare il corso.
+
+---
+
+# Grazie
+
+<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
+
+## Domande?
+
+<https://github.com/matteobaccan/CorsoAI>

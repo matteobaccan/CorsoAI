@@ -7,7 +7,7 @@ marp: true
 footer: https://github.com/matteobaccan/CorsoAI ultimo aggiornamento del %date% %time%
 ---
 
-# Corso AI — Pratica
+# Corso AI: Pratica
 
 ## Guida all'utilizzo dell'AI
 
@@ -42,11 +42,11 @@ section {
   --phosphor: #33ff33;
   --warroom: #060f1c;
   font-family: 'Atkinson Hyperlegible', 'Segoe UI', Arial, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   color: var(--dark);
   background-color: var(--light);
-  line-height: 1.34;
-  padding: 40px 60px 60px 60px;
+  line-height: 1.28;
+  padding: 30px 60px 48px 60px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -55,7 +55,7 @@ section {
 h2 {
   color: var(--primary);
   font-family: 'Share Tech Mono', 'Consolas', monospace;
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.15;
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -80,13 +80,17 @@ h3 {
   margin-bottom: 0.3em;
 }
 
+p {
+  margin: 0.36em 0;
+}
+
 ul, ol {
   margin-top: 0.3em;
 }
 li {
-  margin-bottom: 0.34em;
+  margin-bottom: 0.28em;
   color: var(--dark);
-  line-height: 1.34;
+  line-height: 1.28;
 }
 li::marker {
   color: var(--secondary);
@@ -125,15 +129,15 @@ pre {
   background: var(--warroom);
   border: 1px solid rgba(51, 255, 51, 0.3);
   border-radius: 4px;
-  padding: 16px 20px;
-  margin: 0.65em 0;
+  padding: 12px 18px;
+  margin: 0.5em 0;
 }
 pre code, pre code * {
   color: var(--phosphor) !important;
   font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace !important;
   text-shadow: 0 0 5px rgba(51, 255, 51, 0.35);
-  font-size: 0.88em;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.3;
 }
 code {
   font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
@@ -261,13 +265,41 @@ Nel contesto aziendale, l'Intelligenza Artificiale si rivela uno strumento prezi
 
 ---
 
+## Tecnologie di linguaggio a corredo delle AI
+
+Oltre ai modelli generativi, esiste un intero ecosistema di discipline dedicate a far dialogare le macchine con il linguaggio umano: le basi su cui poggiano chatbot, assistenti vocali e strumenti di analisi testuale.
+
+- **NLP**: comprendere e generare il linguaggio umano in generale
+- **NLU**: capire il significato, il contesto e l'intenzione di un testo
+- **NLG**: produrre testo automaticamente a partire da dati strutturati
+
+---
+
+## Natural Language Processing (NLP)
+
+L'elaborazione del linguaggio naturale (NLP). Il NLP riguarda l'uso di algoritmi e modelli per comprendere, interpretare e generare il linguaggio umano in modo automatico. Le applicazioni includono chatbot, sistemi di analisi del testo, traduzione automatica e assistenti virtuali come Siri.
+
+---
+
+## Natural Language Understanding (NLU)
+
+La comprensione del linguaggio naturale è una branca dell'NLP che si concentra sul significato del linguaggio umano. NLU consente alle macchine di comprendere il contesto, l'intenzione e le emozioni in un testo o discorso.
+
+---
+
+## Natural Language Generation (NLG)
+
+La generazione del linguaggio naturale è un'altra area chiave dell'NLP che si occupa di produrre testo in modo automatico a partire da dati strutturati, come numeri, tabelle o grafici. Le applicazioni includono la creazione di report e la produzione di descrizioni per immagini e video.
+
+---
+
 ## Prompt
 
 Immagina di assumere oggi stesso un nuovo collaboratore bravissimo: ha letto praticamente tutto lo scibile umano, ma non conosce te, la tua azienda, né cosa hai davvero in mente.
 
 Se gli dici solo "fammi un report", improvviserà. Se gli spieghi obiettivo, formato atteso, vincoli e contesto, il risultato sarà tutta un'altra cosa.
 
-Con un LLM funziona allo stesso modo: il **prompt** è l'istruzione — il "brief" — con cui lo guidiamo verso la risposta che ci serve davvero.
+Con un LLM funziona allo stesso modo: il **prompt** è l'istruzione (il "brief") con cui lo guidiamo verso la risposta che ci serve davvero.
 
 ---
 
@@ -316,7 +348,7 @@ Per contesto: io e la mia ragazza facciamo un sacco di escursioni! Abbiamo fatto
 
 Il JSON Prompting è una tecnica che sfrutta la struttura JSON (JavaScript Object Notation) per inviare richieste più precise e strutturate ai Large Language Models (LLM) e per ricevere risposte formattate in modo prevedibile.
 
-**Una tecnica di un'epoca precisa (2023-2024)**: nata quando si cercava un modo per "istruire meglio" il modello irrigidendo il formato della richiesta. Con l'evoluzione dei modelli si è capito che a contare davvero non è la struttura del dato in ingresso, ma la sua **completezza** (lo vediamo a fine sezione) — vale comunque la pena conoscerla, perché resta utile per un motivo diverso: strutturare l'output.
+**Una tecnica di un'epoca precisa (2023-2024)**: nata quando si cercava un modo per "istruire meglio" il modello irrigidendo il formato della richiesta. Con l'evoluzione dei modelli si è capito che a contare davvero non è la struttura del dato in ingresso, ma la sua **completezza** (lo vediamo a fine sezione). Vale comunque la pena conoscerla, perché resta utile per un motivo diverso: strutturare l'output.
 
 **Perché è utile?**
 
@@ -669,7 +701,7 @@ L'ARC Benchmark mira a spingere i modelli AI verso una comprensione più umana d
 
 Il benchmark ARC originale (2018) è stato ormai saturato dai modelli più recenti, così è nata la serie **ARC-AGI**, pensata apposta per resistere alla memorizzazione e misurare vero ragionamento astratto:
 
-- **ARC-AGI-2** (2024): Gemini 3 Deep Think lo risolve all'84,6%, contro il 68,8% di Claude Opus 4.6 e il 52,9% di GPT-5.2 — un salto enorme rispetto ai modelli di un anno prima.
+- **ARC-AGI-2** (2024): Gemini 3 Deep Think lo risolve all'84,6%, contro il 68,8% di Claude Opus 4.6 e il 52,9% di GPT-5.2: un salto enorme rispetto ai modelli di un anno prima.
 - **ARC-AGI-3** (2026): nuova generazione ancora molto più ostica, con i modelli migliori fermi sotto l'1% di problemi risolti.
 
 Come per FrontierMath, appena un benchmark viene "battuto" ne nasce uno nuovo più difficile: è la dinamica tipica della valutazione AI.
@@ -709,15 +741,15 @@ Su questa valutazione "umana", viene creata una classifica dei modelli di AI.
 Un altro modo per capire il valore di una AI è quello di guardare le classifiche dei modelli di AI.
 Le classifiche sono aggiornate in tempo reale e mostrano le performance dei modelli su vari benchmark e task.
 
-**I numeri di Arena** (metà 2026): oltre **6,8 milioni** di voti umani raccolti su più di **360 modelli** — con la classifica che cambia di continuo a ogni nuovo modello rilasciato.
+**I numeri di Arena** (metà 2026): oltre **6,8 milioni** di voti umani raccolti su più di **360 modelli**, con la classifica che cambia di continuo a ogni nuovo modello rilasciato.
 
 ---
 
 ## Leaderboard - la classifica in questo momento
 
-![center width:850px](img/corso-ai-lmarena-leaderboard.png)
+![center width:750px](img/corso-ai-lmarena-leaderboard.png)
 
-*Screenshot della classifica "Agent" su lmarena.ai — 31 luglio 2026*
+*Screenshot della classifica "Agent" su lmarena.ai, 31 luglio 2026*
 
 ---
 
@@ -750,7 +782,7 @@ L'Intelligenza Artificiale ha un'ampia gamma di applicazioni in diversi settori,
 
 ## L'AI ci ruberà il lavoro?
 
-Non è più solo una domanda da titolo clickbait. Secondo il rapporto Challenger, Gray & Christmas, a marzo 2026 negli Stati Uniti sono stati annunciati **60.620 licenziamenti** (+25% rispetto ai 48.307 di febbraio) — con l'intelligenza artificiale citata come causa principale per **15.341 di questi tagli**, il 25% del totale mensile.
+Non è più solo una domanda da titolo clickbait. Secondo il rapporto Challenger, Gray & Christmas, a marzo 2026 negli Stati Uniti sono stati annunciati **60.620 licenziamenti** (+25% rispetto ai 48.307 di febbraio), con l'intelligenza artificiale citata come causa principale per **15.341 di questi tagli**, il 25% del totale mensile.
 
 Il dato non è ancora un verdetto definitivo (i licenziamenti hanno sempre cause multiple), ma segna un cambio di scala rispetto agli anni precedenti.
 
@@ -798,28 +830,6 @@ AlphaGenome, rispetto ad AlphaFold, estende il potere predittivo dell'AI dalla b
 
 ---
 
-## Tecnologie di linguaggio a corredo delle AI
-
----
-
-## Natural Language Processing (NLP)
-
-L'elaborazione del linguaggio naturale (NLP). Il NLP riguarda l'uso di algoritmi e modelli per comprendere, interpretare e generare il linguaggio umano in modo automatico. Le applicazioni includono chatbot, sistemi di analisi del testo, traduzione automatica e assistenti virtuali come Siri.
-
----
-
-## Natural Language Understanding (NLU)
-
-La comprensione del linguaggio naturale è una branca dell'NLP che si concentra sul significato del linguaggio umano. NLU consente alle macchine di comprendere il contesto, l'intenzione e le emozioni in un testo o discorso.
-
----
-
-## Natural Language Generation (NLG)
-
-La generazione del linguaggio naturale è un'altra area chiave dell'NLP che si occupa di produrre testo in modo automatico a partire da dati strutturati, come numeri, tabelle o grafici. Le applicazioni includono la creazione di report e la produzione di descrizioni per immagini e video.
-
----
-
 ## Aziende che investono in AI
 
 - **Meta**: Investimenti massicci per raggiungere la "superintelligenza". Dopo circa 72 miliardi di dollari di capex nel 2025, le stime per il 2026 sono salite a 125-145 miliardi.
@@ -846,6 +856,14 @@ Nel complesso, Microsoft, Amazon, Google e Meta insieme prevedono di spendere ci
 
 ---
 
+## Aziende USA da tenere d'occhio
+
+- **NVIDIA**: principale fornitore di GPU che alimentano i sistemi di AI. La sua capitalizzazione di mercato è passata da $145 miliardi nel gennaio 2020 a oltre $4.700 miliardi a luglio 2026, contendendosi con Apple il titolo di azienda più valutata al mondo.
+- **AMD**: principale sfidante di NVIDIA sulle GPU per data center (linea Instinct), punta su un ecosistema software open source (ROCm) alternativo a CUDA.
+- **Broadcom**: progetta i chip AI su misura (ASIC) per i grandi cloud provider (tra cui i TPU di Google) e fornisce i componenti di networking che collegano decine di migliaia di GPU nei data center.
+
+---
+
 ## Robotaxi - da Johnny Cab a Tesla
 
 Chi ha visto *Atto di forza* (Total Recall, 1990) ricorderà Johnny Cab, il tassista robotico che guida per Arnold Schwarzenegger.
@@ -868,15 +886,35 @@ Per questo motivo Tesla ha rallentato volutamente l'espansione, dando priorità 
 
 ---
 
-## Aziende da tenere d'occhio
+## Aziende indiane da tenere d'occhio
 
-- NVIDIA: è il principale fornitore di GPU che alimentano i sistemi di AI, sta consentendo il rapido avanzamento dell'AI in tutti i settori. La sua capitalizzazione di mercato è passata da $145 miliardi nel gennaio 2020 a oltre $4.700 miliardi a luglio 2026, contendendosi con Apple il titolo di azienda più valutata al mondo.
+- **Reliance Jio**: costruisce una delle maggiori infrastrutture di data center AI del Paese, in partnership con NVIDIA, a supporto del piano governativo di "AI sovrana".
+- **Krutrim** (Ola): primo "AI unicorn" indiano, sviluppa modelli linguistici nativi per le lingue del subcontinente.
+- **Tata Group / TCS** e **Infosys**: tra i maggiori fornitori mondiali di servizi di consulenza e integrazione AI per le aziende.
+
+---
+
+## Aziende giapponesi da tenere d'occhio
+
+- **SoftBank**: uno dei maggiori investitori mondiali in AI (Arm, OpenAI/Stargate), scommette sulla "superintelligenza artificiale" come prossima frontiera.
+- **Rapidus**: startup sostenuta dal governo giapponese per riportare in patria la produzione di chip di fascia avanzata (obiettivo 2nm), riducendo la dipendenza da Taiwan.
+- **Sony**: integra AI nei sensori di immagine, leader mondiale, e nell'intrattenimento, dai videogiochi alla robotica.
+- **Preferred Networks**: tra i laboratori di ricerca AI/deep learning più avanzati del Giappone, con hardware proprietario per il training.
+
+---
+
+## Aziende europee da tenere d'occhio
+
+- **ASML** (Paesi Bassi): quasi monopolio sulle macchine di litografia EUV, indispensabili per produrre i chip più avanzati al mondo: l'anello della catena AI da cui tutti dipendono.
+- **Mistral AI** (Francia): principale laboratorio europeo di modelli linguistici open weight, alfiere della "sovranità AI" del continente.
+- **SAP** (Germania): integra AI generativa nel software enterprise usato da migliaia di grandi aziende nel mondo.
+- **Aleph Alpha** (Germania): sviluppa modelli AI "sovrani" pensati per settore pubblico e difesa europea.
 
 ---
 
 ## Aziende cinesi da tenere d'occhio
 
-Il mercato AI cinese si è consolidato rapidamente: pesa ormai per oltre il **45% del traffico di OpenRouter**, e i quattro laboratori indipendenti più importanti — **DeepSeek**, **Zhipu**, **MiniMax** e **Moonshot** — insieme superano i 1.000 miliardi di yuan (circa 140 miliardi di dollari) di valutazione a inizio 2026.
+Il mercato AI cinese si è consolidato rapidamente: pesa ormai per oltre il **45% del traffico di OpenRouter**, e i quattro laboratori indipendenti più importanti (**DeepSeek**, **Zhipu**, **MiniMax** e **Moonshot**) insieme superano i 1.000 miliardi di yuan (circa 140 miliardi di dollari) di valutazione a inizio 2026.
 
 - **Alibaba (Qwen)**: ha trasformato i propri modelli open weights in un vero ecosistema, tra i più usati al mondo.
 - **DeepSeek**: laboratorio di Hangzhou, punta sull'efficienza open weights più che sulle app consumer.
@@ -884,11 +922,9 @@ Il mercato AI cinese si è consolidato rapidamente: pesa ormai per oltre il **45
 - **Zhipu AI / Z.ai (GLM)** e **Baidu (Ernie)**: centrali nell'uso enterprise e in lingua cinese.
 - **Huawei** (stack Ascend): chip AI domestici, l'alternativa cinese a NVIDIA sotto le restrizioni USA all'export.
 
-Segnale della maturità del settore: **Z.ai (Zhipu)** si è quotata alla Borsa di Hong Kong l'8 gennaio 2026, seguita da **MiniMax** nello stesso anno — i primi laboratori AI cinesi quotati in borsa.
+Segnale della maturità del settore: **Z.ai (Zhipu)** si è quotata alla Borsa di Hong Kong l'8 gennaio 2026, seguita da **MiniMax**: i primi laboratori AI cinesi quotati in borsa.
 
-**Esempio concreto**: **GLM-5.2** di Z.ai (753B parametri, MoE, rilasciato il 13 giugno 2026, pesi aperti con licenza MIT) si avvicina a Claude Opus 4.8 sui benchmark di coding più complessi (FrontierSWE: 74.4 vs 75.1), a circa **un sesto del costo** di GPT-5.5.
-
-<https://aitalk.it/it/glm5.2>
+**Esempio concreto**: **GLM-5.2** di Z.ai (753B parametri, MoE, pesi aperti MIT) si avvicina a Claude Opus 4.8 sui benchmark di coding, a circa **un sesto del costo** di GPT-5.5. <https://aitalk.it/it/glm5.2>
 
 ---
 
@@ -899,6 +935,8 @@ I prodotti AI si evolvono rapidamente. Ecco una timeline dei principali strument
 ---
 
 ## Evoluzione 2023
+
+<!-- _class: lead -->
 
 L'anno in cui l'AI generativa è esplosa, con il rilascio di ChatGPT 4 e la nascita di nuovi servizi.
 
@@ -911,6 +949,10 @@ Sono molti anni che vengono prodotti software in grado di dialogare con gli uten
 ---
 
 ## Servizi di supporto ai testi
+
+I servizi di AI per la scrittura, la conversazione e la generazione di testo sono oggi tra i più diffusi e conosciuti dal grande pubblico.
+
+Partiamo dal capostipite che ha reso questa tecnologia mainstream: **ChatGPT**, di OpenAI.
 
 ---
 
@@ -996,6 +1038,14 @@ console.log(response.data.choices[0].text);
 - **prompt**: Testo fornito come input.
 - **max_tokens**: Lunghezza massima risposta.
 - **temperature**: CASUALITÀ 0 .. 2 . Più è alta, più la risposta è creativa.
+
+---
+
+## GPT-4: il salto multimodale
+
+<!-- _class: lead -->
+
+Da qui in poi ChatGPT non è più "solo" testo: iniziano gli aggiornamenti su multimodalità, ragionamento e velocità.
 
 ---
 
@@ -1190,6 +1240,8 @@ Il suo motore di AI implementa sia la Chat testuale, che la ricerca Web che il D
 
 ## Evoluzione 2024
 
+<!-- _class: lead -->
+
 Il 2024 ha portato modelli multimodali, video generativi e una nuova generazione di LLM con capacità di ragionamento avanzato.
 
 ---
@@ -1248,14 +1300,6 @@ Cosa succede a mettere un'AI a sostenere l'esame di abilitazione forense america
 
 ---
 
-## Istruzione in ambito legale
-
-![center width:1000px](img/corso-ai-legal.png)
-
-<https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
-
----
-
 ## ChatGPT - perché SI
 
 - Traduzioni: conosce moltissime lingue compresi i dialetti
@@ -1273,6 +1317,14 @@ Cosa succede a mettere un'AI a sostenere l'esame di abilitazione forense america
 - L'accesso a internet in tempo reale è integrato direttamente in ChatGPT (funzione di ricerca web, ex "SearchGPT")
 - I testi che scrive al momento sono discreti, occorre estenderli ed adattarli
 - La troppa attenzione ai bias a volte tende a creare risposte errate o a non darle
+
+---
+
+## Un anno dopo, le stesse domande
+
+<!-- _class: lead -->
+
+Rifacciamo gli stessi identici prompt di inizio 2023 sul modello di fine 2024, per vedere quanto è cambiata la qualità delle risposte.
 
 ---
 
@@ -1382,13 +1434,21 @@ Se hai dubbi su un argomento specifico, possiamo discuterne e approfondirlo.
 
 ---
 
+## ChatGPT nell'ecosistema
+
+<!-- _class: lead -->
+
+Ricerca, Bing, Copilot, Sora: come ChatGPT si intreccia col resto dei prodotti Microsoft e Google.
+
+---
+
 ## ChatGPT sostituisce Google?
 
-Al momento (ottobre 2024) non sostituisce Google, anche grazie alle nuove evoluzioni di Google come l'introduzione di uno spazio dedicato alle AI nella ricerca
+Anche a luglio 2026 la risposta resta no: Google domina ancora con il **91,25%** di quota mondiale, sostanzialmente stabile dal 2024 a oggi, merito anche delle nuove evoluzioni di Google, come lo spazio dedicato alle AI Overview nella ricerca.
 
-![center width:1100px](img/corso-ai-search-engine.png)
+![center width:680px](img/corso-ai-search-engine.png)
 
-<https://gs.statcounter.com/search-engine-market-share#monthly-202101-202409>
+<https://gs.statcounter.com/search-engine-market-share#monthly-202401-202607>
 
 ---
 
@@ -1410,7 +1470,7 @@ a ChatGPT di fornire risposte aggiornate e accurate, migliorando così l'utilit�
 per domande basate su eventi e informazioni recenti.
 ```
 
-Aggiornamento 2026: ricerche indipendenti hanno rilevato che, oltre a Bing, ChatGPT attinge anche all'indice di ricerca di Google per gli utenti a pagamento — un dettaglio che OpenAI non ha reso pubblico.
+Aggiornamento 2026: ricerche indipendenti hanno rilevato che, oltre a Bing, ChatGPT attinge anche all'indice di ricerca di Google per gli utenti a pagamento, un dettaglio che OpenAI non ha reso pubblico.
 
 ---
 
@@ -1466,7 +1526,7 @@ Nonostante il lancio in pompa magna (inclusa un'annunciata partnership da 1 mili
 
 Le cause dichiarate: costi GPU insostenibili, adozione in calo e ricavi minimi (circa 2,1 milioni di dollari lifetime), oltre a contenziosi sul copyright.
 
-**Lezione**: anche i prodotti AI più pubblicizzati possono sparire in pochi mesi — utile promemoria prima di costruire processi di lavoro attorno a un singolo strumento.
+**Lezione**: anche i prodotti AI più pubblicizzati possono sparire in pochi mesi: utile promemoria prima di costruire processi di lavoro attorno a un singolo strumento.
 
 ---
 
@@ -1483,6 +1543,8 @@ Lo scopo è quello di **"esplorare e illuminare la sua filosofia e trasmetterla 
 ---
 
 ## Evoluzione 2025
+
+<!-- _class: lead -->
 
 Lo sviluppo dell'AI prosegue con investimenti massicci e nuovi modelli sempre più capaci.
 
@@ -1508,15 +1570,17 @@ Se vi trovate a Lucerna passate alla "Chapel of St. Peter"
 
 ## Evoluzione 2026
 
+<!-- _class: lead -->
+
 Prosegue la corsa fra i grandi laboratori, con modelli sempre più capaci sul reasoning e sull'uso di strumenti (agenti).
 
 ---
 
 ## Evoluzione 2026 - i modelli
 
-- **Anthropic**: nuova lineup Claude — Sonnet 5 e Opus 5 (giu-lug 2026), oltre ai modelli di punta Fable 5 e Mythos 5, con context window fino a 1 milione di token.
+- **Anthropic**: nuova lineup Claude, Sonnet 5 e Opus 5 (giu-lug 2026), oltre ai modelli di punta Fable 5 e Mythos 5, con context window fino a 1 milione di token.
 - **OpenAI**: serie **GPT-5.x** (5.1, 5.2, 5.5, fino a GPT-5.6 "Sol"), che unifica risposta rapida e reasoning esteso in un solo modello.
-- **Google**: **Gemini 3** e **Gemini 3.1 Pro**, con la modalità "Deep Think" che segna nuovi record sui benchmark di ragionamento (es. 84,6% su ARC-AGI-2).
+- **Google**: **Gemini 3** e **Gemini 3.1 Pro**, con la modalità "Deep Think" che segna nuovi record sui benchmark di ragionamento (es. 84,6% su ARC-AGI-2); a luglio 2026 arrivano anche **Gemini 3.6 Flash** e **3.5 Flash-Lite** (modelli veloci ed economici, 1M di contesto), mentre **Gemini 4** viene già annunciato in arrivo.
 - **Black Forest Labs**: **FLUX 3**, nuova generazione di modelli per la generazione di immagini.
 
 ---
@@ -1534,6 +1598,13 @@ Prosegue la corsa fra i grandi laboratori, con modelli sempre più capaci sul re
 ---
 
 ## Servizi di supporto ai testi (aggiuntivi)
+
+Oltre a ChatGPT, l'ecosistema dei servizi di AI testuale è ormai ampio: ogni strumento ha un proprio punto di forza.
+
+- **Perplexity**: motore di ricerca conversazionale con fonti verificabili
+- **Claude.ai** (Anthropic): conversazione, scrittura e coding con contesto molto lungo
+- **Minerva**: il primo LLM open source italiano
+- **Ollama** e **LM Studio**: eseguire modelli AI in locale, senza cloud
 
 ---
 
@@ -1586,49 +1657,37 @@ Claude AI è un modello di intelligenza artificiale sviluppato da Anthropic, pro
 
 ## Minerva
 
-Anche se poco conosciuto anche in Italia esiste un LLM OpenSource: Minerva.
+Anche se poco conosciuto, esiste un LLM open source addestrato da zero interamente su testo italiano: **Minerva**, creato dal gruppo di ricerca **Sapienza NLP** (La Sapienza, Roma), guidato da Roberto Navigli, nell'ambito del progetto **FAIR** (PNRR) con CINECA.
 
-Minerva nasce dal gruppo di ricerca NLP della Sapienza ha creato Minerva.
-
-Il modello è stato addestrato su un dataset di oltre 2 trilioni di token, che corrispondono a circa 1,5 trilioni di parole.
-
-Le fonti principali includono dati aperti come Wikipedia, il Progetto Gutenberg e altre risorse pubblicamente accessibili.
-
-Questo approccio non solo garantisce trasparenza, ma rende anche Minerva 7B altamente adattabile al contesto culturale e linguistico italiano.
+- **Minerva 7B**: 7 miliardi di parametri, addestrato su 2,48 trilioni di token (circa 1,5 trilioni di parole)
+- Fonti aperte (Wikipedia, Progetto Gutenberg e altre risorse pubbliche) per massima trasparenza
+- In arrivo **ChatMinerva**: versione multimodale e multilingue da 20 miliardi di parametri, contesto fino a 32.000 token
 
 <https://minerva-llm.org/>
 
-**Il quadro italiano**: secondo il rapporto **Fondazione Leonardo** "L'Italia nell'era dell'IA" (marzo 2026), l'Italia ha un mercato AI da 1,2 miliardi di euro, due supercomputer tra i primi cinque in Europa, modelli linguistici sovrani unici nel continente (come Minerva) — ed è il primo Paese UE ad avere una propria legge sull'intelligenza artificiale (si affianca all'AI Act europeo). Il nodo resta la dipendenza da hardware e cloud esteri.
+---
+
+## Il panorama dei modelli italiani
+
+Minerva non è l'unico tentativo di "sovranità AI" italiana: i progetti in campo hanno scale molto diverse tra loro.
+
+| Modello | Parametri | Contesto | Sviluppato da |
+|---|---|---|---|
+| **Minerva 7B** | 7B | 32K (ChatMinerva) | Sapienza NLP, progetto FAIR/PNRR |
+| **Modello Italia** | 9B | 4K | iGenius, su supercomputer Leonardo (CINECA) |
+| **Emma-5** | 550M | 2K | Egomnia |
+
+Emma-5, promossa come progetto di sovranità tecnologica, ha una scala nettamente più piccola degli altri due. Ha anche raccolto critiche pubbliche per errori anche banali (es. calcoli semplici).
+
+---
+
+## Il quadro italiano
+
+Secondo il rapporto **Fondazione Leonardo** "L'Italia nell'era dell'IA" (marzo 2026), l'Italia ha un mercato AI da 1,2 miliardi di euro, due supercomputer tra i primi cinque in Europa, e modelli linguistici sovrani unici nel continente (come Minerva), ed è il primo Paese UE ad avere una propria legge sull'intelligenza artificiale (si affianca all'AI Act europeo).
+
+Il nodo resta la dipendenza da hardware e cloud esteri.
 
 <https://aitalk.it/it/rapporto-leonardo-2026-parte1.html>
-
----
-
-## Ollama - eseguire LLM in locale
-
-Modelli open weights come Minerva, Llama o Mistral non vanno usati per forza via cloud: **Ollama** è lo strumento più diffuso per scaricarli ed eseguirli direttamente sul proprio computer, da riga di comando.
-
-Gestisce da solo download, quantizzazione ed esecuzione del modello, ed espone anche una piccola API locale: comoda per collegare script o applicazioni senza far uscire alcun dato dal proprio PC.
-
-```text
-ollama run llama3
-```
-
-![center width:180px](img/corso-ai-ollama.png)
-
-<https://ollama.com>
-
----
-
-## LM Studio - la via grafica
-
-**LM Studio** offre la stessa possibilità di Ollama, ma con un'interfaccia grafica pensata per chi preferisce non usare il terminale.
-
-Permette di cercare modelli, confrontarne dimensioni e requisiti hardware, e chattare in locale col modello scelto, senza che i dati lascino mai il dispositivo.
-
-![center width:280px](img/corso-ai-lmstudio.png)
-
-<https://lmstudio.ai>
 
 ---
 
@@ -1691,7 +1750,40 @@ Si puo' chattare con Heypi, ma non è in grado di scrivere codice o di dare info
 
 ---
 
+## Ollama - eseguire LLM in locale
+
+Modelli open weights come Minerva, Llama o Mistral non vanno usati per forza via cloud: **Ollama** è lo strumento più diffuso per scaricarli ed eseguirli direttamente sul proprio computer, da riga di comando.
+
+Gestisce da solo download, quantizzazione ed esecuzione del modello, ed espone anche una piccola API locale: comoda per collegare script o applicazioni senza far uscire alcun dato dal proprio PC.
+
+```text
+ollama run llama3
+```
+
+![center width:180px](img/corso-ai-ollama.png)
+
+<https://ollama.com>
+
+---
+
+## LM Studio - la via grafica
+
+**LM Studio** offre la stessa possibilità di Ollama, ma con un'interfaccia grafica pensata per chi preferisce non usare il terminale.
+
+Permette di cercare modelli, confrontarne dimensioni e requisiti hardware, e chattare in locale col modello scelto, senza che i dati lascino mai il dispositivo.
+
+![center width:280px](img/corso-ai-lmstudio.png)
+
+<https://lmstudio.ai>
+
+---
+
 ## Servizi di supporto alla creazione di slide
+
+Anche la produzione di presentazioni può essere delegata all'AI: da un testo o un'idea grezza a slide già impaginate.
+
+- **Gamma**: genera intere presentazioni da un testo, con layout e immagini
+- **Napkin**: trasforma frasi e concetti in diagrammi e visual accattivanti
 
 ---
 
@@ -1805,7 +1897,7 @@ L'imbracatura gestisce i flussi per evitare **"cicli infiniti"** o blocchi.
 - Necessaria una gestione attenta di permessi e confini
 - Potenziale perdita di dati se non adeguatamente isolato
 
-**Caso reale — PocketOS**: un agente di coding (Cursor + Claude Opus), lasciato libero di risolvere da solo un problema di credenziali, ha cancellato in **9 secondi** l'intero database di produzione e i backup di una startup di noleggio auto, con una singola chiamata API. Lezione: principio del minimo privilegio, governance prima dell'adozione, e conferma umana obbligatoria per le operazioni distruttive.
+**Caso reale (PocketOS)**: un agente di coding (Cursor + Claude Opus), lasciato libero di risolvere da solo un problema di credenziali, ha cancellato in **9 secondi** l'intero database di produzione e i backup di una startup di noleggio auto, con una singola chiamata API. Lezione: principio del minimo privilegio, governance prima dell'adozione, e conferma umana obbligatoria per le operazioni distruttive.
 
 <https://aitalk.it/it/pocketos-disaster.html>
 
@@ -1831,11 +1923,11 @@ L'applicazione più concreta e diffusa dell'AI agentica è oggi la scrittura di 
 - **GitHub Copilot** (Microsoft/OpenAI): il più diffuso, integrato negli IDE, oggi disponibile anche in modalità agentica.
 - **Cursor**: editor di codice costruito da zero attorno all'AI, con modifica multi-file e comprensione del contesto dell'intero progetto.
 
-**Non è (solo) il modello**: in Claude Code, solo l'1,6% del codice è logica decisionale AI — il resto è infrastruttura operativa (permessi, compressione del contesto, routing degli strumenti, subagenti, gestione delle sessioni). La competenza chiave si sta spostando dal prompt engineering al **systems engineering**.
+**Non è (solo) il modello**: in Claude Code, solo l'1,6% del codice è logica decisionale AI: il resto è infrastruttura operativa (permessi, compressione del contesto, routing degli strumenti, subagenti, gestione delle sessioni). La competenza chiave si sta spostando dal prompt engineering al **systems engineering**.
 
 <https://aitalk.it/it/claude-code.html>
 
-Questo modo di programmare "delegando" all'AI ha preso il nome informale di **vibecoding** — e ha già acceso un dibattito su quanto sia sostenibile senza una disciplina alle spalle. Matteo Baccan lo affronta nel talk *"Il Vibecoding è morto: viva lo Spec-Driven Development"* (A.I. Day Roma e MokaConference, 2026).
+Questo modo di programmare "delegando" all'AI ha preso il nome informale di **vibecoding**, e ha già acceso un dibattito su quanto sia sostenibile senza una disciplina alle spalle. Matteo Baccan lo affronta nel talk *"Il Vibecoding è morto: viva lo Spec-Driven Development"* (A.I. Day Roma e MokaConference, 2026).
 
 ---
 
@@ -1930,6 +2022,12 @@ Prospettive multiple dell'intelligenza artificiale in un'unica interfaccia
 ---
 
 ## Servizi di supporto alla creazione di video
+
+L'AI generativa è arrivata anche al video: bastano un testo o poche foto per ottenere un filmato con avatar parlante.
+
+- **Synthesia**: video con avatar in 120 lingue diverse, partendo da un testo
+- **HeyGen**: doppiaggio multilingua e avatar virtuali personalizzati
+- **Alternative**: Runway, Luma, Kling
 
 ---
 
@@ -2601,7 +2699,7 @@ Una guida dettagliata su come l'intelligenza artificiale, la biologia sintetica,
 - **Modelli statici**: terminato l'addestramento, i parametri sono congelati. L'IA non impara dalle tue correzioni quotidiane
 - **Nessuna neutralità**: ogni modello è allineato secondo i principi di chi lo ha creato; le risposte su temi sensibili riflettono scelte etiche o commerciali specifiche
 - **Dall'assistente all'agente**: l'integrazione di tool aumenta la produttività ma richiede una gestione attenta di privacy e sicurezza
-- **Il divario di governance**: secondo McKinsey (nov. 2025) l'88% delle aziende usa già l'AI, ma per World Economic Forum e Accenture meno dell'1% ha reso pienamente operativo un approccio di AI responsabile — quasi tutti usano l'AI, quasi nessuno la governa davvero
+- **Il divario di governance**: secondo McKinsey (nov. 2025) l'88% delle aziende usa già l'AI, ma per World Economic Forum e Accenture meno dell'1% ha reso pienamente operativo un approccio di AI responsabile: quasi tutti usano l'AI, quasi nessuno la governa davvero
 
 ---
 
@@ -2632,8 +2730,22 @@ Ogni immagine inserita in queste slide riporta la fonte
 
 ## Disclaimer
 
-L'autore ha generato questo testo in parte con GPT, il modello di generazione del linguaggio su larga scala di OpenAI.
+Per la realizzazione di questo materiale sono stati utilizzati strumenti di intelligenza artificiale (tra cui **ChatGPT**, **Gemini** e **Claude**) per generare immagini, trovare spunti e idee, correggere le bozze, verificare i link e impaginare graficamente i contenuti.
 
-Dopo aver generato la bozza del testo, l'autore ha modificato e rivisto il contenuto e si assume la responsabilità di questa pubblicazione.
+Ogni slide è stata comunque **rivista integralmente dall'autore**, che si assume la responsabilità di questa pubblicazione.
+
+Nonostante la revisione, in un materiale di queste dimensioni possono sfuggire errori o imprecisioni: se ne trovi, **segnalalo pure**, è un aiuto prezioso per migliorare il corso.
 
 L'immagine di sfondo è stata generata con <https://app.haikei.app>
+
+---
+
+# Grazie
+
+<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
+
+## Domande?
+
+<https://github.com/matteobaccan/CorsoAI>
